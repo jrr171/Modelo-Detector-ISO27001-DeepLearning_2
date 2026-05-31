@@ -1,0 +1,601 @@
+TimeGenerated,EventID,EventType,Source,Message,User,ComputerName,SourceIP
+Mar 01 05:20:00,4672,Information,Security,Special privileges assigned to new logon: root,readonly_user,web-srv-01,10.0.2.5
+Mar 23 21:52:21,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=readonly_user,root,proxy-srv-04,91.108.4.12
+Jan 29 07:05:10,4740,Information,Security,A user account was locked out after failed attempts: readonly_user account_locked=true,backup_svc,siem-srv-06,91.108.4.12
+Mar 29 03:48:00,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,root,db-srv-02,77.88.8.8
+Jan 10 20:52:11,4625,FailureAudit,Security,An account failed to log on. Account Name: dbadmin Failure Reason: bad password,root,siem-srv-06,172.16.0.25
+Jan 05 09:01:24,4625,FailureAudit,Security,An account failed to log on. Account Name: dbadmin Failure Reason: bad password,dbadmin,siem-srv-06,104.21.8.9
+Mar 21 20:52:25,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=aruiz,backup_svc,proxy-srv-04,192.168.1.100
+Mar 21 17:19:17,4672,Information,Security,Special privileges assigned to new logon: admin,api_svc,db-srv-02,172.16.0.25
+Mar 22 15:40:12,4624,Information,Security,An account was successfully logged on. Subject: readonly_user,mlopez,web-srv-01,192.168.1.100
+Jan 28 21:17:19,4720,Information,Security,A user account was created: root account_provisioned=true,admin,siem-srv-06,192.168.1.100
+Mar 15 03:03:31,4648,Information,Security,A logon was attempted using explicit credentials: jgarcia,backup_svc,dlp-agent-08,192.168.1.50
+Jan 18 15:19:20,4673,SuccessAudit,Security,A privileged service was called by root,api_svc,proxy-srv-04,172.16.0.25
+Feb 18 09:59:05,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=scanner,dbadmin,db-srv-02,192.168.1.50
+Jan 09 23:22:55,4673,SuccessAudit,Security,A privileged service was called by admin,devops,cloud-gw-05,10.0.1.10
+Jan 19 12:16:34,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,root,auth-srv-03,10.0.1.10
+Jan 26 18:36:03,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=devops file=financial_data.xlsx classification=C3,jgarcia,db-srv-02,192.168.1.100
+Jan 23 10:46:40,4625,FailureAudit,Security,An account failed to log on. Account Name: aruiz Failure Reason: bad password,devops,auth-srv-03,10.0.1.20
+Jan 10 03:27:24,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=readonly_user file=financial_data.xlsx classification=C3,sysadmin,dlp-agent-08,10.0.1.20
+Feb 18 12:54:01,4624,Information,Security,An account was successfully logged on. Subject: mlopez,mlopez,cloud-gw-05,192.168.1.50
+Jan 16 13:20:57,4672,Information,Security,Special privileges assigned to new logon: mlopez,devops,dlp-agent-08,10.0.2.5
+Mar 08 09:34:38,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,proxy-srv-04,-
+Feb 24 23:56:28,4625,FailureAudit,Security,An account failed to log on. Account Name: root Failure Reason: bad password,admin,cloud-gw-05,185.220.101.5
+Mar 13 10:32:25,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,web-srv-01,-
+Jan 03 13:17:26,4625,FailureAudit,Security,An account failed to log on. Account Name: aruiz Failure Reason: bad password,scanner,cloud-gw-05,1.1.1.1
+Jan 28 17:28:42,4648,Information,Security,A logon was attempted using explicit credentials: api_svc,scanner,siem-srv-06,172.16.0.25
+Jan 28 04:18:35,4720,Information,Security,A user account was created: aruiz account_provisioned=true,admin,cloud-gw-05,10.0.1.10
+Feb 10 00:35:19,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=devops file=financial_data.xlsx classification=C3,api_svc,dlp-agent-08,172.16.0.25
+Jan 15 08:52:14,4624,Information,Security,An account was successfully logged on. Subject: root,sysadmin,cloud-gw-05,10.0.1.20
+Feb 28 23:13:48,4720,Information,Security,A user account was created: backup_svc account_provisioned=true,admin,backup-srv-07,192.168.1.50
+Jan 12 00:40:07,4625,FailureAudit,Security,An account failed to log on. Account Name: mlopez Failure Reason: bad password,api_svc,dlp-agent-08,45.33.32.156
+Jan 21 16:14:29,4720,Information,Security,A user account was created: mlopez account_provisioned=true,admin,cloud-gw-05,172.16.0.25
+Feb 24 20:20:39,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=mlopez file=financial_data.xlsx classification=C3,mlopez,auth-srv-03,10.0.1.10
+Mar 24 05:55:31,4624,Information,Security,An account was successfully logged on. Subject: api_svc,devops,cloud-gw-05,192.168.1.50
+Mar 26 08:15:45,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=readonly_user file=financial_data.xlsx classification=C3,devops,proxy-srv-04,172.16.0.25
+Jan 03 13:13:26,4672,Information,Security,Special privileges assigned to new logon: readonly_user,backup_svc,siem-srv-06,172.16.0.25
+Feb 12 03:05:38,4624,Information,Security,An account was successfully logged on. Subject: readonly_user,backup_svc,siem-srv-06,10.0.2.5
+Jan 06 20:43:55,4625,FailureAudit,Security,An account failed to log on. Account Name: scanner Failure Reason: bad password,api_svc,auth-srv-03,77.88.8.8
+Mar 08 02:42:44,4625,FailureAudit,Security,An account failed to log on. Account Name: api_svc Failure Reason: bad password,mlopez,proxy-srv-04,104.21.8.9
+Jan 26 16:24:05,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,proxy-srv-04,-
+Feb 10 23:09:36,4624,Information,Security,An account was successfully logged on. Subject: api_svc,devops,cloud-gw-05,192.168.1.100
+Feb 24 23:03:10,4624,Information,Security,An account was successfully logged on. Subject: aruiz,jgarcia,cloud-gw-05,45.33.32.156
+Jan 05 16:26:20,4624,Information,Security,An account was successfully logged on. Subject: admin,admin,web-srv-01,10.0.2.5
+Feb 11 04:19:17,4648,Information,Security,A logon was attempted using explicit credentials: admin,mlopez,backup-srv-07,192.168.1.100
+Feb 18 18:50:10,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,siem-srv-06,-
+Feb 10 02:03:03,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,backup_svc,web-srv-01,192.168.1.50
+Mar 17 20:46:40,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,auth-srv-03,-
+Jan 14 13:24:58,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=mlopez,dbadmin,dlp-agent-08,10.0.1.20
+Jan 04 07:59:50,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,siem-srv-06,-
+Jan 12 02:17:44,4648,Information,Security,A logon was attempted using explicit credentials: admin,backup_svc,dlp-agent-08,10.0.1.10
+Jan 21 05:28:48,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=sysadmin,root,web-srv-01,192.168.1.100
+Feb 21 23:21:09,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,proxy-srv-04,-
+Feb 01 05:54:51,4625,FailureAudit,Security,An account failed to log on. Account Name: jgarcia Failure Reason: bad password,devops,proxy-srv-04,203.0.113.50
+Feb 13 19:01:29,4672,Information,Security,Special privileges assigned to new logon: sysadmin,aruiz,siem-srv-06,192.168.1.100
+Mar 11 16:03:16,4673,SuccessAudit,Security,A privileged service was called by backup_svc,sysadmin,backup-srv-07,10.0.1.10
+Feb 22 11:14:34,4624,Information,Security,An account was successfully logged on. Subject: aruiz,root,siem-srv-06,192.168.1.50
+Mar 20 00:30:35,4740,Information,Security,A user account was locked out after failed attempts: backup_svc account_locked=true,sysadmin,siem-srv-06,91.108.4.12
+Mar 27 12:40:04,4720,Information,Security,A user account was created: scanner account_provisioned=true,admin,web-srv-01,10.0.2.5
+Feb 22 02:23:07,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=admin file=financial_data.xlsx classification=C3,dbadmin,siem-srv-06,10.0.1.20
+Jan 02 19:04:38,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,proxy-srv-04,-
+Jan 11 11:57:55,4648,Information,Security,A logon was attempted using explicit credentials: api_svc,scanner,web-srv-01,10.0.2.5
+Feb 15 15:43:05,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,cloud-gw-05,-
+Jan 12 03:43:25,4625,FailureAudit,Security,An account failed to log on. Account Name: aruiz Failure Reason: bad password,devops,cloud-gw-05,77.88.8.8
+Feb 19 15:50:40,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,db-srv-02,-
+Jan 18 01:37:42,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,backup-srv-07,-
+Jan 29 05:19:09,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=devops file=financial_data.xlsx classification=C3,readonly_user,auth-srv-03,91.108.4.12
+Feb 28 20:15:11,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,cloud-gw-05,-
+Feb 29 22:56:53,1102,Information,Security,The audit log was cleared by mlopez - audit_trail_broken=true,devops,siem-srv-06,77.88.8.8
+Jan 23 23:19:08,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,root,web-srv-01,45.33.32.156
+Jan 17 14:36:31,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,readonly_user,auth-srv-03,45.33.32.156
+Mar 11 12:02:10,4672,Information,Security,Special privileges assigned to new logon: root,devops,cloud-gw-05,10.0.2.5
+Mar 16 21:14:57,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=aruiz,root,proxy-srv-04,192.168.1.50
+Jan 05 15:49:28,4720,Information,Security,A user account was created: root account_provisioned=true,admin,siem-srv-06,10.0.1.10
+Jan 23 21:51:50,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,readonly_user,cloud-gw-05,10.0.2.5
+Jan 04 20:47:09,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,dlp-agent-08,-
+Mar 10 12:09:38,4625,FailureAudit,Security,An account failed to log on. Account Name: jgarcia Failure Reason: bad password,devops,proxy-srv-04,91.108.4.12
+Feb 08 11:32:40,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=sysadmin file=financial_data.xlsx classification=C3,devops,backup-srv-07,10.0.1.10
+Jan 11 02:15:06,4720,Information,Security,A user account was created: root account_provisioned=true,admin,auth-srv-03,192.168.1.100
+Feb 22 05:07:19,4624,Information,Security,An account was successfully logged on. Subject: mlopez,admin,backup-srv-07,192.168.1.100
+Feb 18 09:02:26,4672,Information,Security,Special privileges assigned to new logon: root,jgarcia,cloud-gw-05,10.0.1.10
+Feb 06 13:22:53,4740,Information,Security,A user account was locked out after failed attempts: admin account_locked=true,sysadmin,siem-srv-06,172.16.0.25
+Jan 30 06:23:14,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=admin,jgarcia,dlp-agent-08,185.220.101.5
+Jan 01 18:07:52,4720,Information,Security,A user account was created: readonly_user account_provisioned=true,admin,siem-srv-06,10.0.2.5
+Feb 15 13:19:44,4624,Information,Security,An account was successfully logged on. Subject: devops,devops,proxy-srv-04,172.16.0.25
+Feb 14 11:58:05,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,backup-srv-07,-
+Jan 13 07:22:30,4648,Information,Security,A logon was attempted using explicit credentials: admin,jgarcia,auth-srv-03,203.0.113.50
+Feb 06 04:36:24,4720,Information,Security,A user account was created: sysadmin account_provisioned=true,admin,siem-srv-06,172.16.0.25
+Jan 04 05:08:12,4648,Information,Security,A logon was attempted using explicit credentials: aruiz,api_svc,auth-srv-03,203.0.113.50
+Feb 03 14:45:23,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,aruiz,web-srv-01,203.0.113.50
+Mar 28 09:17:58,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,dlp-agent-08,-
+Mar 14 14:06:51,4624,Information,Security,An account was successfully logged on. Subject: admin,sysadmin,dlp-agent-08,192.168.1.100
+Feb 05 15:26:35,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=mlopez,backup_svc,siem-srv-06,198.51.100.20
+Mar 09 01:41:02,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,siem-srv-06,-
+Jan 26 12:24:43,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,siem-srv-06,-
+Mar 27 17:09:07,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,cloud-gw-05,-
+Jan 02 18:38:26,4625,FailureAudit,Security,An account failed to log on. Account Name: admin Failure Reason: bad password,api_svc,auth-srv-03,91.108.4.12
+Jan 31 03:20:47,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=mlopez file=financial_data.xlsx classification=C3,dbadmin,backup-srv-07,192.168.1.100
+Mar 14 01:20:43,4672,Information,Security,Special privileges assigned to new logon: scanner,dbadmin,backup-srv-07,10.0.1.20
+Jan 22 19:50:21,4673,SuccessAudit,Security,A privileged service was called by jgarcia,dbadmin,auth-srv-03,192.168.1.100
+Feb 04 00:58:47,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,db-srv-02,-
+Jan 23 15:06:03,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=jgarcia file=financial_data.xlsx classification=C3,dbadmin,web-srv-01,192.168.1.100
+Feb 29 11:54:37,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=scanner file=financial_data.xlsx classification=C3,mlopez,dlp-agent-08,104.21.8.9
+Jan 16 07:13:30,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=devops file=financial_data.xlsx classification=C3,backup_svc,auth-srv-03,192.168.1.100
+Mar 31 02:12:01,4672,Information,Security,Special privileges assigned to new logon: sysadmin,scanner,cloud-gw-05,192.168.1.50
+Jan 22 18:18:37,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,dbadmin,cloud-gw-05,10.0.2.5
+Mar 13 00:14:21,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=jgarcia file=financial_data.xlsx classification=C3,admin,siem-srv-06,192.168.1.50
+Feb 25 21:56:25,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,api_svc,cloud-gw-05,91.108.4.12
+Mar 11 05:45:38,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,sysadmin,web-srv-01,10.0.2.5
+Feb 28 02:02:14,4648,Information,Security,A logon was attempted using explicit credentials: scanner,admin,backup-srv-07,172.16.0.25
+Feb 29 08:17:12,1102,Information,Security,The audit log was cleared by readonly_user - audit_trail_broken=true,jgarcia,backup-srv-07,192.168.1.100
+Jan 15 23:49:53,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,mlopez,web-srv-01,45.33.32.156
+Feb 09 05:39:50,4625,FailureAudit,Security,An account failed to log on. Account Name: devops Failure Reason: bad password,admin,backup-srv-07,1.1.1.1
+Feb 28 14:31:15,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=scanner,backup_svc,dlp-agent-08,104.21.8.9
+Jan 22 06:53:36,4672,Information,Security,Special privileges assigned to new logon: jgarcia,scanner,proxy-srv-04,10.0.2.5
+Mar 15 14:30:32,4672,Information,Security,Special privileges assigned to new logon: devops,mlopez,web-srv-01,10.0.1.20
+Jan 05 07:53:35,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,siem-srv-06,-
+Feb 08 13:49:31,4624,Information,Security,An account was successfully logged on. Subject: root,admin,siem-srv-06,192.168.1.50
+Mar 05 05:17:39,4648,Information,Security,A logon was attempted using explicit credentials: dbadmin,admin,proxy-srv-04,1.1.1.1
+Jan 23 14:25:09,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=aruiz,readonly_user,dlp-agent-08,10.0.1.10
+Jan 29 06:58:58,4672,Information,Security,Special privileges assigned to new logon: aruiz,backup_svc,db-srv-02,45.33.32.156
+Feb 05 18:46:35,4624,Information,Security,An account was successfully logged on. Subject: mlopez,admin,db-srv-02,10.0.2.5
+Mar 28 18:57:17,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=readonly_user file=financial_data.xlsx classification=C3,readonly_user,web-srv-01,10.0.1.20
+Jan 02 19:10:21,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,scanner,dlp-agent-08,77.88.8.8
+Feb 11 17:19:04,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,proxy-srv-04,-
+Mar 30 20:38:30,4673,SuccessAudit,Security,A privileged service was called by jgarcia,scanner,dlp-agent-08,10.0.1.10
+Feb 29 06:56:13,4625,FailureAudit,Security,An account failed to log on. Account Name: dbadmin Failure Reason: bad password,scanner,dlp-agent-08,172.16.0.25
+Mar 13 00:06:00,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=root,dbadmin,db-srv-02,1.1.1.1
+Jan 21 23:55:15,4720,Information,Security,A user account was created: mlopez account_provisioned=true,admin,auth-srv-03,172.16.0.25
+Mar 19 17:38:30,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,backup_svc,auth-srv-03,10.0.1.10
+Jan 16 05:11:59,4673,SuccessAudit,Security,A privileged service was called by scanner,sysadmin,auth-srv-03,10.0.1.20
+Mar 27 20:21:19,4625,FailureAudit,Security,An account failed to log on. Account Name: api_svc Failure Reason: bad password,dbadmin,db-srv-02,192.168.1.100
+Mar 10 20:30:14,4624,Information,Security,An account was successfully logged on. Subject: scanner,jgarcia,dlp-agent-08,185.220.101.5
+Feb 01 22:28:53,4648,Information,Security,A logon was attempted using explicit credentials: mlopez,aruiz,web-srv-01,1.1.1.1
+Feb 26 08:08:45,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=readonly_user file=financial_data.xlsx classification=C3,readonly_user,db-srv-02,172.16.0.25
+Feb 17 03:43:34,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,cloud-gw-05,-
+Feb 20 03:07:00,4673,SuccessAudit,Security,A privileged service was called by aruiz,backup_svc,db-srv-02,192.168.1.100
+Mar 01 16:32:18,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,cloud-gw-05,-
+Mar 26 22:32:33,4625,FailureAudit,Security,An account failed to log on. Account Name: admin Failure Reason: bad password,mlopez,dlp-agent-08,1.1.1.1
+Jan 02 17:10:02,4648,Information,Security,A logon was attempted using explicit credentials: backup_svc,mlopez,dlp-agent-08,10.0.1.10
+Jan 03 16:27:14,4624,Information,Security,An account was successfully logged on. Subject: scanner,mlopez,web-srv-01,192.168.1.50
+Feb 15 08:58:12,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,auth-srv-03,-
+Feb 29 20:57:06,4648,Information,Security,A logon was attempted using explicit credentials: api_svc,aruiz,siem-srv-06,198.51.100.20
+Jan 02 22:54:35,4624,Information,Security,An account was successfully logged on. Subject: readonly_user,sysadmin,backup-srv-07,192.168.1.100
+Mar 06 18:01:06,4625,FailureAudit,Security,An account failed to log on. Account Name: admin Failure Reason: bad password,readonly_user,siem-srv-06,77.88.8.8
+Mar 27 03:25:19,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=scanner file=financial_data.xlsx classification=C3,jgarcia,cloud-gw-05,104.21.8.9
+Feb 26 01:22:04,4625,FailureAudit,Security,An account failed to log on. Account Name: aruiz Failure Reason: bad password,sysadmin,proxy-srv-04,45.33.32.156
+Jan 28 23:53:56,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,backup-srv-07,-
+Jan 29 12:58:04,4624,Information,Security,An account was successfully logged on. Subject: admin,backup_svc,siem-srv-06,77.88.8.8
+Mar 06 23:52:35,4672,Information,Security,Special privileges assigned to new logon: backup_svc,api_svc,backup-srv-07,192.168.1.50
+Feb 11 15:27:51,4624,Information,Security,An account was successfully logged on. Subject: root,scanner,auth-srv-03,10.0.1.20
+Jan 24 22:44:08,4672,Information,Security,Special privileges assigned to new logon: backup_svc,admin,proxy-srv-04,172.16.0.25
+Jan 19 02:00:23,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,sysadmin,cloud-gw-05,10.0.1.10
+Feb 14 06:34:07,4720,Information,Security,A user account was created: backup_svc account_provisioned=true,admin,siem-srv-06,192.168.1.50
+Jan 14 18:24:17,4673,SuccessAudit,Security,A privileged service was called by dbadmin,aruiz,db-srv-02,192.168.1.50
+Feb 03 00:35:46,4624,Information,Security,An account was successfully logged on. Subject: devops,dbadmin,dlp-agent-08,192.168.1.50
+Mar 29 07:00:43,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,backup-srv-07,-
+Feb 26 00:59:46,4720,Information,Security,A user account was created: sysadmin account_provisioned=true,admin,web-srv-01,192.168.1.100
+Mar 11 15:01:03,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,admin,backup-srv-07,77.88.8.8
+Feb 18 17:19:01,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,mlopez,dlp-agent-08,77.88.8.8
+Jan 19 18:27:51,4625,FailureAudit,Security,An account failed to log on. Account Name: backup_svc Failure Reason: bad password,sysadmin,db-srv-02,10.0.2.5
+Mar 16 10:55:51,4672,Information,Security,Special privileges assigned to new logon: devops,sysadmin,db-srv-02,185.220.101.5
+Mar 01 13:16:09,4625,FailureAudit,Security,An account failed to log on. Account Name: aruiz Failure Reason: bad password,api_svc,web-srv-01,192.168.1.100
+Jan 16 00:32:32,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,cloud-gw-05,-
+Feb 06 10:08:06,4625,FailureAudit,Security,An account failed to log on. Account Name: admin Failure Reason: bad password,admin,db-srv-02,172.16.0.25
+Feb 03 21:48:37,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,auth-srv-03,-
+Jan 03 05:11:11,4624,Information,Security,An account was successfully logged on. Subject: mlopez,aruiz,dlp-agent-08,192.168.1.50
+Feb 04 08:12:04,4740,Information,Security,A user account was locked out after failed attempts: scanner account_locked=true,scanner,backup-srv-07,104.21.8.9
+Mar 21 03:48:11,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=api_svc,scanner,auth-srv-03,10.0.2.5
+Mar 27 10:07:54,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,cloud-gw-05,-
+Jan 05 19:31:12,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,backup_svc,auth-srv-03,192.168.1.100
+Mar 13 06:30:17,4740,Information,Security,A user account was locked out after failed attempts: root account_locked=true,api_svc,auth-srv-03,172.16.0.25
+Feb 26 22:03:30,4648,Information,Security,A logon was attempted using explicit credentials: aruiz,backup_svc,backup-srv-07,192.168.1.50
+Jan 25 10:46:04,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=dbadmin file=financial_data.xlsx classification=C3,devops,db-srv-02,192.168.1.50
+Mar 07 14:26:17,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,backup-srv-07,-
+Jan 26 18:46:43,4624,Information,Security,An account was successfully logged on. Subject: mlopez,admin,backup-srv-07,192.168.1.100
+Jan 28 22:11:59,4624,Information,Security,An account was successfully logged on. Subject: root,backup_svc,web-srv-01,10.0.1.20
+Jan 06 14:17:40,4673,SuccessAudit,Security,A privileged service was called by sysadmin,api_svc,siem-srv-06,10.0.1.20
+Feb 28 02:47:52,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=scanner,devops,proxy-srv-04,10.0.1.20
+Jan 15 06:39:52,4624,Information,Security,An account was successfully logged on. Subject: admin,mlopez,dlp-agent-08,172.16.0.25
+Mar 09 11:14:40,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,db-srv-02,-
+Mar 17 07:05:39,4672,Information,Security,Special privileges assigned to new logon: dbadmin,api_svc,web-srv-01,192.168.1.100
+Jan 11 11:17:56,4672,Information,Security,Special privileges assigned to new logon: api_svc,backup_svc,proxy-srv-04,192.168.1.100
+Mar 07 15:48:56,4740,Information,Security,A user account was locked out after failed attempts: scanner account_locked=true,readonly_user,cloud-gw-05,45.33.32.156
+Feb 15 21:57:27,4720,Information,Security,A user account was created: backup_svc account_provisioned=true,admin,siem-srv-06,192.168.1.50
+Jan 07 03:13:14,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,cloud-gw-05,-
+Mar 21 11:17:27,4740,Information,Security,A user account was locked out after failed attempts: devops account_locked=true,devops,backup-srv-07,45.33.32.156
+Jan 27 02:12:41,4625,FailureAudit,Security,An account failed to log on. Account Name: jgarcia Failure Reason: bad password,api_svc,db-srv-02,91.108.4.12
+Mar 10 09:45:31,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,mlopez,auth-srv-03,172.16.0.25
+Feb 07 14:13:12,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,cloud-gw-05,-
+Jan 22 09:19:21,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,cloud-gw-05,-
+Mar 06 12:41:02,4672,Information,Security,Special privileges assigned to new logon: root,admin,backup-srv-07,172.16.0.25
+Jan 30 18:20:16,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=root file=financial_data.xlsx classification=C3,admin,cloud-gw-05,192.168.1.100
+Mar 05 09:32:20,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,scanner,cloud-gw-05,192.168.1.100
+Jan 22 15:48:44,4673,SuccessAudit,Security,A privileged service was called by root,backup_svc,db-srv-02,10.0.1.20
+Jan 02 18:51:21,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=aruiz,mlopez,web-srv-01,172.16.0.25
+Mar 07 00:49:39,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=dbadmin,api_svc,backup-srv-07,192.168.1.100
+Mar 24 16:21:25,4625,FailureAudit,Security,An account failed to log on. Account Name: jgarcia Failure Reason: bad password,devops,backup-srv-07,10.0.2.5
+Feb 27 06:04:19,4672,Information,Security,Special privileges assigned to new logon: jgarcia,aruiz,backup-srv-07,172.16.0.25
+Jan 07 22:24:30,4740,Information,Security,A user account was locked out after failed attempts: sysadmin account_locked=true,jgarcia,siem-srv-06,198.51.100.20
+Feb 13 18:30:52,4624,Information,Security,An account was successfully logged on. Subject: admin,scanner,auth-srv-03,10.0.1.20
+Jan 06 09:43:03,4624,Information,Security,An account was successfully logged on. Subject: root,root,auth-srv-03,192.168.1.100
+Feb 26 15:42:05,4648,Information,Security,A logon was attempted using explicit credentials: admin,admin,cloud-gw-05,198.51.100.20
+Jan 16 19:44:42,4648,Information,Security,A logon was attempted using explicit credentials: root,devops,proxy-srv-04,192.168.1.50
+Feb 29 05:18:00,4740,Information,Security,A user account was locked out after failed attempts: jgarcia account_locked=true,root,cloud-gw-05,203.0.113.50
+Feb 25 13:45:42,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,db-srv-02,-
+Jan 13 10:08:13,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,root,web-srv-01,192.168.1.100
+Mar 16 16:04:40,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,auth-srv-03,-
+Feb 13 02:44:35,4672,Information,Security,Special privileges assigned to new logon: jgarcia,readonly_user,siem-srv-06,10.0.1.20
+Mar 17 04:15:46,4720,Information,Security,A user account was created: jgarcia account_provisioned=true,admin,cloud-gw-05,172.16.0.25
+Jan 05 11:53:35,4624,Information,Security,An account was successfully logged on. Subject: api_svc,dbadmin,cloud-gw-05,10.0.1.10
+Feb 25 10:21:24,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=dbadmin file=financial_data.xlsx classification=C3,root,db-srv-02,172.16.0.25
+Feb 21 18:09:57,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,db-srv-02,-
+Jan 05 20:36:45,4673,SuccessAudit,Security,A privileged service was called by mlopez,root,cloud-gw-05,10.0.1.10
+Feb 12 00:57:36,4720,Information,Security,A user account was created: api_svc account_provisioned=true,admin,backup-srv-07,10.0.1.20
+Feb 23 11:15:36,1102,Information,Security,The audit log was cleared by devops - audit_trail_broken=true,sysadmin,db-srv-02,104.21.8.9
+Jan 28 06:41:35,4648,Information,Security,A logon was attempted using explicit credentials: sysadmin,jgarcia,web-srv-01,192.168.1.50
+Jan 24 23:09:00,4648,Information,Security,A logon was attempted using explicit credentials: scanner,scanner,cloud-gw-05,10.0.2.5
+Feb 03 09:21:04,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,auth-srv-03,-
+Feb 28 22:21:22,4625,FailureAudit,Security,An account failed to log on. Account Name: jgarcia Failure Reason: bad password,readonly_user,backup-srv-07,91.108.4.12
+Mar 22 15:57:04,4673,SuccessAudit,Security,A privileged service was called by sysadmin,devops,cloud-gw-05,203.0.113.50
+Jan 31 06:19:59,4648,Information,Security,A logon was attempted using explicit credentials: api_svc,root,backup-srv-07,185.220.101.5
+Mar 28 21:17:36,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,siem-srv-06,-
+Feb 22 16:13:51,4672,Information,Security,Special privileges assigned to new logon: readonly_user,api_svc,web-srv-01,10.0.1.20
+Jan 01 21:35:26,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,db-srv-02,-
+Mar 02 03:42:58,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,db-srv-02,-
+Mar 07 00:11:08,1102,Information,Security,The audit log was cleared by admin - audit_trail_broken=true,dbadmin,web-srv-01,203.0.113.50
+Feb 27 22:02:36,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=admin file=financial_data.xlsx classification=C3,root,proxy-srv-04,192.168.1.50
+Jan 07 05:47:26,4625,FailureAudit,Security,An account failed to log on. Account Name: jgarcia Failure Reason: bad password,admin,dlp-agent-08,104.21.8.9
+Feb 22 02:49:22,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,siem-srv-06,-
+Jan 20 01:22:58,4624,Information,Security,An account was successfully logged on. Subject: sysadmin,aruiz,proxy-srv-04,104.21.8.9
+Feb 12 13:45:43,1102,Information,Security,The audit log was cleared by jgarcia - audit_trail_broken=true,api_svc,db-srv-02,192.168.1.50
+Mar 25 05:28:41,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=readonly_user,scanner,cloud-gw-05,172.16.0.25
+Mar 20 00:01:06,4720,Information,Security,A user account was created: aruiz account_provisioned=true,admin,backup-srv-07,10.0.2.5
+Mar 09 12:41:09,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,dlp-agent-08,-
+Mar 28 06:47:57,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,dlp-agent-08,-
+Mar 09 16:26:17,4648,Information,Security,A logon was attempted using explicit credentials: mlopez,sysadmin,siem-srv-06,10.0.2.5
+Mar 20 19:36:31,4624,Information,Security,An account was successfully logged on. Subject: readonly_user,backup_svc,proxy-srv-04,10.0.1.10
+Mar 11 17:22:14,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,web-srv-01,-
+Jan 12 16:19:47,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,backup-srv-07,-
+Feb 23 07:04:24,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,dlp-agent-08,-
+Mar 19 22:54:39,4624,Information,Security,An account was successfully logged on. Subject: scanner,jgarcia,backup-srv-07,192.168.1.100
+Jan 11 14:14:01,4648,Information,Security,A logon was attempted using explicit credentials: sysadmin,aruiz,web-srv-01,192.168.1.100
+Feb 11 14:49:52,4672,Information,Security,Special privileges assigned to new logon: scanner,jgarcia,db-srv-02,192.168.1.50
+Feb 25 23:25:30,4648,Information,Security,A logon was attempted using explicit credentials: readonly_user,root,auth-srv-03,172.16.0.25
+Mar 13 02:45:41,4624,Information,Security,An account was successfully logged on. Subject: aruiz,aruiz,proxy-srv-04,10.0.2.5
+Jan 23 20:49:37,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,siem-srv-06,-
+Mar 03 05:35:13,4624,Information,Security,An account was successfully logged on. Subject: scanner,sysadmin,web-srv-01,192.168.1.50
+Mar 06 04:54:46,4648,Information,Security,A logon was attempted using explicit credentials: mlopez,dbadmin,siem-srv-06,10.0.2.5
+Feb 11 15:02:50,4648,Information,Security,A logon was attempted using explicit credentials: backup_svc,devops,db-srv-02,77.88.8.8
+Feb 06 14:17:32,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=jgarcia,backup_svc,backup-srv-07,10.0.1.10
+Mar 03 05:44:38,4648,Information,Security,A logon was attempted using explicit credentials: readonly_user,devops,proxy-srv-04,10.0.1.10
+Jan 22 10:26:02,4624,Information,Security,An account was successfully logged on. Subject: admin,readonly_user,db-srv-02,10.0.1.20
+Jan 01 19:22:16,4648,Information,Security,A logon was attempted using explicit credentials: admin,scanner,cloud-gw-05,10.0.1.20
+Mar 07 11:49:52,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,root,backup-srv-07,192.168.1.50
+Jan 29 03:57:26,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,cloud-gw-05,-
+Mar 17 23:29:02,4648,Information,Security,A logon was attempted using explicit credentials: backup_svc,sysadmin,db-srv-02,203.0.113.50
+Jan 21 16:09:15,4648,Information,Security,A logon was attempted using explicit credentials: backup_svc,admin,cloud-gw-05,172.16.0.25
+Mar 06 07:48:25,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,siem-srv-06,-
+Jan 09 05:38:23,4625,FailureAudit,Security,An account failed to log on. Account Name: dbadmin Failure Reason: bad password,readonly_user,dlp-agent-08,45.33.32.156
+Feb 22 13:28:06,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,backup-srv-07,-
+Mar 18 16:01:14,4673,SuccessAudit,Security,A privileged service was called by api_svc,scanner,siem-srv-06,192.168.1.100
+Jan 05 18:51:15,4672,Information,Security,Special privileges assigned to new logon: mlopez,devops,cloud-gw-05,10.0.2.5
+Feb 28 17:35:27,4720,Information,Security,A user account was created: mlopez account_provisioned=true,admin,proxy-srv-04,192.168.1.100
+Feb 26 07:19:16,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=backup_svc,root,db-srv-02,10.0.1.10
+Jan 14 09:26:51,4624,Information,Security,An account was successfully logged on. Subject: mlopez,scanner,proxy-srv-04,192.168.1.100
+Mar 27 12:50:15,4625,FailureAudit,Security,An account failed to log on. Account Name: mlopez Failure Reason: bad password,readonly_user,siem-srv-06,198.51.100.20
+Feb 21 06:35:39,4624,Information,Security,An account was successfully logged on. Subject: root,admin,dlp-agent-08,10.0.2.5
+Feb 28 04:56:58,4648,Information,Security,A logon was attempted using explicit credentials: scanner,dbadmin,siem-srv-06,10.0.1.20
+Feb 16 17:58:43,4672,Information,Security,Special privileges assigned to new logon: jgarcia,sysadmin,dlp-agent-08,10.0.2.5
+Jan 05 05:28:05,4625,FailureAudit,Security,An account failed to log on. Account Name: devops Failure Reason: bad password,aruiz,auth-srv-03,91.108.4.12
+Jan 02 09:42:38,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,siem-srv-06,-
+Jan 13 01:01:39,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,db-srv-02,-
+Jan 26 19:58:12,4625,FailureAudit,Security,An account failed to log on. Account Name: api_svc Failure Reason: bad password,backup_svc,proxy-srv-04,172.16.0.25
+Feb 28 19:24:50,4648,Information,Security,A logon was attempted using explicit credentials: devops,devops,backup-srv-07,91.108.4.12
+Mar 30 15:59:13,4720,Information,Security,A user account was created: devops account_provisioned=true,admin,db-srv-02,10.0.2.5
+Jan 08 10:17:28,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=root,dbadmin,backup-srv-07,10.0.1.20
+Jan 15 05:35:41,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,auth-srv-03,-
+Feb 25 20:25:36,4625,FailureAudit,Security,An account failed to log on. Account Name: dbadmin Failure Reason: bad password,sysadmin,web-srv-01,198.51.100.20
+Jan 10 00:45:34,4624,Information,Security,An account was successfully logged on. Subject: readonly_user,sysadmin,cloud-gw-05,192.168.1.100
+Jan 21 07:45:59,4624,Information,Security,An account was successfully logged on. Subject: readonly_user,jgarcia,dlp-agent-08,192.168.1.100
+Mar 20 13:51:37,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=admin,backup_svc,auth-srv-03,10.0.1.10
+Jan 29 09:22:58,4625,FailureAudit,Security,An account failed to log on. Account Name: dbadmin Failure Reason: bad password,backup_svc,web-srv-01,198.51.100.20
+Mar 02 01:29:38,4673,SuccessAudit,Security,A privileged service was called by aruiz,devops,db-srv-02,10.0.1.20
+Jan 11 12:30:33,4673,SuccessAudit,Security,A privileged service was called by readonly_user,root,auth-srv-03,192.168.1.50
+Jan 12 11:08:23,4648,Information,Security,A logon was attempted using explicit credentials: readonly_user,jgarcia,cloud-gw-05,172.16.0.25
+Feb 23 09:01:50,1102,Information,Security,The audit log was cleared by root - audit_trail_broken=true,readonly_user,siem-srv-06,192.168.1.100
+Feb 24 07:53:00,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,db-srv-02,-
+Mar 13 20:10:29,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,cloud-gw-05,-
+Jan 29 18:13:07,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=sysadmin file=financial_data.xlsx classification=C3,admin,auth-srv-03,91.108.4.12
+Jan 29 14:46:41,4625,FailureAudit,Security,An account failed to log on. Account Name: backup_svc Failure Reason: bad password,root,web-srv-01,198.51.100.20
+Mar 11 05:03:39,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=scanner file=financial_data.xlsx classification=C3,aruiz,cloud-gw-05,192.168.1.50
+Mar 18 02:38:54,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,readonly_user,cloud-gw-05,10.0.1.10
+Jan 12 04:16:44,4648,Information,Security,A logon was attempted using explicit credentials: root,jgarcia,auth-srv-03,10.0.2.5
+Jan 15 16:53:17,4648,Information,Security,A logon was attempted using explicit credentials: root,sysadmin,web-srv-01,10.0.1.10
+Feb 11 23:42:19,4624,Information,Security,An account was successfully logged on. Subject: root,admin,backup-srv-07,10.0.1.20
+Feb 24 07:22:33,4672,Information,Security,Special privileges assigned to new logon: mlopez,sysadmin,cloud-gw-05,10.0.2.5
+Mar 03 23:48:45,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,api_svc,proxy-srv-04,45.33.32.156
+Jan 07 04:12:38,4625,FailureAudit,Security,An account failed to log on. Account Name: readonly_user Failure Reason: bad password,backup_svc,auth-srv-03,185.220.101.5
+Mar 24 09:13:18,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,backup-srv-07,-
+Mar 30 16:38:01,4673,SuccessAudit,Security,A privileged service was called by sysadmin,scanner,web-srv-01,192.168.1.50
+Feb 08 13:31:13,4624,Information,Security,An account was successfully logged on. Subject: sysadmin,mlopez,siem-srv-06,172.16.0.25
+Jan 18 03:50:25,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,api_svc,cloud-gw-05,192.168.1.50
+Feb 05 04:54:14,1102,Information,Security,The audit log was cleared by jgarcia - audit_trail_broken=true,mlopez,siem-srv-06,192.168.1.100
+Mar 21 23:51:02,4673,SuccessAudit,Security,A privileged service was called by readonly_user,root,dlp-agent-08,172.16.0.25
+Mar 02 01:05:14,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=sysadmin,mlopez,siem-srv-06,10.0.1.10
+Feb 27 21:52:31,4625,FailureAudit,Security,An account failed to log on. Account Name: backup_svc Failure Reason: bad password,api_svc,cloud-gw-05,77.88.8.8
+Mar 11 20:04:20,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,cloud-gw-05,-
+Feb 04 02:57:32,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=dbadmin file=financial_data.xlsx classification=C3,jgarcia,proxy-srv-04,10.0.1.20
+Feb 06 13:10:40,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,siem-srv-06,-
+Mar 22 23:54:11,4648,Information,Security,A logon was attempted using explicit credentials: aruiz,mlopez,siem-srv-06,172.16.0.25
+Feb 10 22:41:02,4624,Information,Security,An account was successfully logged on. Subject: mlopez,jgarcia,proxy-srv-04,77.88.8.8
+Feb 27 14:27:56,1102,Information,Security,The audit log was cleared by root - audit_trail_broken=true,readonly_user,backup-srv-07,104.21.8.9
+Feb 17 13:42:10,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,backup-srv-07,-
+Mar 01 13:38:42,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=mlopez,backup_svc,proxy-srv-04,185.220.101.5
+Jan 24 00:33:44,4672,Information,Security,Special privileges assigned to new logon: scanner,root,web-srv-01,77.88.8.8
+Feb 29 15:34:32,4625,FailureAudit,Security,An account failed to log on. Account Name: readonly_user Failure Reason: bad password,mlopez,dlp-agent-08,91.108.4.12
+Feb 09 16:11:01,4648,Information,Security,A logon was attempted using explicit credentials: scanner,admin,web-srv-01,192.168.1.50
+Feb 20 01:56:48,4625,FailureAudit,Security,An account failed to log on. Account Name: scanner Failure Reason: bad password,sysadmin,db-srv-02,10.0.1.10
+Feb 22 20:58:46,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=admin,jgarcia,web-srv-01,192.168.1.100
+Jan 12 18:48:20,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=api_svc file=financial_data.xlsx classification=C3,readonly_user,siem-srv-06,192.168.1.100
+Feb 13 19:30:30,4672,Information,Security,Special privileges assigned to new logon: root,dbadmin,siem-srv-06,10.0.2.5
+Feb 17 14:16:18,4720,Information,Security,A user account was created: readonly_user account_provisioned=true,admin,auth-srv-03,10.0.2.5
+Mar 12 04:50:33,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=admin,readonly_user,proxy-srv-04,10.0.1.10
+Mar 07 09:54:37,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,dlp-agent-08,-
+Feb 15 01:29:20,4672,Information,Security,Special privileges assigned to new logon: scanner,backup_svc,web-srv-01,10.0.1.20
+Feb 05 15:43:29,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,readonly_user,web-srv-01,104.21.8.9
+Jan 27 21:01:49,4624,Information,Security,An account was successfully logged on. Subject: sysadmin,api_svc,db-srv-02,104.21.8.9
+Jan 07 20:27:14,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=mlopez,admin,cloud-gw-05,203.0.113.50
+Jan 07 15:22:37,4648,Information,Security,A logon was attempted using explicit credentials: aruiz,backup_svc,cloud-gw-05,10.0.2.5
+Mar 11 00:00:28,1102,Information,Security,The audit log was cleared by readonly_user - audit_trail_broken=true,mlopez,siem-srv-06,192.168.1.50
+Jan 02 04:31:07,4625,FailureAudit,Security,An account failed to log on. Account Name: backup_svc Failure Reason: bad password,root,auth-srv-03,10.0.2.5
+Feb 03 13:35:36,4672,Information,Security,Special privileges assigned to new logon: readonly_user,mlopez,cloud-gw-05,10.0.1.20
+Jan 28 09:16:48,4648,Information,Security,A logon was attempted using explicit credentials: dbadmin,backup_svc,siem-srv-06,185.220.101.5
+Jan 25 09:16:22,4673,SuccessAudit,Security,A privileged service was called by readonly_user,jgarcia,backup-srv-07,10.0.1.10
+Feb 21 10:22:19,4672,Information,Security,Special privileges assigned to new logon: mlopez,api_svc,siem-srv-06,10.0.1.10
+Feb 18 02:19:34,4624,Information,Security,An account was successfully logged on. Subject: mlopez,aruiz,cloud-gw-05,91.108.4.12
+Jan 02 01:42:01,4625,FailureAudit,Security,An account failed to log on. Account Name: readonly_user Failure Reason: bad password,devops,backup-srv-07,10.0.1.20
+Mar 06 03:11:00,4648,Information,Security,A logon was attempted using explicit credentials: backup_svc,mlopez,siem-srv-06,192.168.1.50
+Feb 08 12:33:03,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=devops,devops,backup-srv-07,104.21.8.9
+Feb 25 19:37:02,4720,Information,Security,A user account was created: readonly_user account_provisioned=true,admin,proxy-srv-04,10.0.1.20
+Jan 21 14:41:38,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,dlp-agent-08,-
+Mar 26 22:18:13,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,admin,dlp-agent-08,192.168.1.50
+Jan 17 20:12:47,4673,SuccessAudit,Security,A privileged service was called by backup_svc,api_svc,auth-srv-03,10.0.1.10
+Mar 27 07:25:37,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=aruiz,backup_svc,dlp-agent-08,77.88.8.8
+Feb 13 08:07:48,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,siem-srv-06,-
+Mar 28 19:27:25,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,siem-srv-06,-
+Jan 25 18:10:51,4740,Information,Security,A user account was locked out after failed attempts: scanner account_locked=true,sysadmin,backup-srv-07,203.0.113.50
+Mar 10 13:16:27,4673,SuccessAudit,Security,A privileged service was called by jgarcia,admin,proxy-srv-04,10.0.1.10
+Jan 23 21:21:22,4624,Information,Security,An account was successfully logged on. Subject: devops,aruiz,auth-srv-03,10.0.1.20
+Mar 03 03:07:53,4624,Information,Security,An account was successfully logged on. Subject: api_svc,dbadmin,web-srv-01,192.168.1.50
+Mar 10 01:38:29,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,jgarcia,db-srv-02,10.0.1.20
+Feb 14 18:16:37,4624,Information,Security,An account was successfully logged on. Subject: admin,admin,backup-srv-07,10.0.1.20
+Jan 28 00:10:32,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,dlp-agent-08,-
+Jan 26 22:25:40,4673,SuccessAudit,Security,A privileged service was called by devops,mlopez,cloud-gw-05,10.0.1.20
+Jan 03 08:13:51,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,web-srv-01,-
+Jan 04 14:32:46,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=readonly_user file=financial_data.xlsx classification=C3,readonly_user,db-srv-02,10.0.2.5
+Jan 06 15:04:59,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=backup_svc file=financial_data.xlsx classification=C3,devops,dlp-agent-08,10.0.1.10
+Feb 26 15:27:27,4740,Information,Security,A user account was locked out after failed attempts: sysadmin account_locked=true,jgarcia,web-srv-01,203.0.113.50
+Feb 19 08:55:49,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,proxy-srv-04,-
+Jan 03 19:59:02,4624,Information,Security,An account was successfully logged on. Subject: readonly_user,devops,siem-srv-06,1.1.1.1
+Feb 22 10:43:07,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=admin file=financial_data.xlsx classification=C3,scanner,dlp-agent-08,192.168.1.100
+Feb 03 00:14:56,4672,Information,Security,Special privileges assigned to new logon: aruiz,scanner,backup-srv-07,10.0.1.10
+Mar 13 11:33:36,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,devops,dlp-agent-08,10.0.1.20
+Jan 11 17:03:03,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,dlp-agent-08,-
+Jan 21 13:36:08,4720,Information,Security,A user account was created: backup_svc account_provisioned=true,admin,db-srv-02,10.0.1.10
+Feb 12 23:56:57,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=readonly_user,scanner,siem-srv-06,192.168.1.50
+Jan 10 13:38:49,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,backup-srv-07,-
+Mar 28 14:04:56,4740,Information,Security,A user account was locked out after failed attempts: aruiz account_locked=true,dbadmin,dlp-agent-08,10.0.1.10
+Jan 16 00:46:37,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,dlp-agent-08,-
+Feb 26 00:43:52,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,backup-srv-07,-
+Mar 29 10:33:51,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,dbadmin,cloud-gw-05,192.168.1.100
+Feb 13 11:25:51,4624,Information,Security,An account was successfully logged on. Subject: aruiz,scanner,auth-srv-03,192.168.1.100
+Jan 15 17:10:19,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=readonly_user file=financial_data.xlsx classification=C3,api_svc,auth-srv-03,192.168.1.100
+Jan 13 10:24:06,4740,Information,Security,A user account was locked out after failed attempts: devops account_locked=true,admin,dlp-agent-08,172.16.0.25
+Feb 13 23:24:51,4720,Information,Security,A user account was created: admin account_provisioned=true,admin,backup-srv-07,172.16.0.25
+Feb 25 06:37:06,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,readonly_user,proxy-srv-04,10.0.1.20
+Feb 24 06:48:04,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,backup-srv-07,-
+Mar 15 03:58:00,4625,FailureAudit,Security,An account failed to log on. Account Name: api_svc Failure Reason: bad password,backup_svc,auth-srv-03,192.168.1.50
+Feb 10 16:39:59,4648,Information,Security,A logon was attempted using explicit credentials: scanner,scanner,auth-srv-03,10.0.2.5
+Feb 27 19:31:52,1102,Information,Security,The audit log was cleared by devops - audit_trail_broken=true,sysadmin,siem-srv-06,203.0.113.50
+Mar 06 09:06:25,4625,FailureAudit,Security,An account failed to log on. Account Name: jgarcia Failure Reason: bad password,sysadmin,web-srv-01,10.0.1.20
+Feb 29 15:32:55,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=devops file=financial_data.xlsx classification=C3,readonly_user,dlp-agent-08,10.0.1.20
+Jan 30 05:43:45,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,cloud-gw-05,-
+Jan 31 12:05:08,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=devops,readonly_user,auth-srv-03,192.168.1.50
+Feb 25 14:13:53,4648,Information,Security,A logon was attempted using explicit credentials: jgarcia,devops,dlp-agent-08,104.21.8.9
+Feb 02 12:00:02,4648,Information,Security,A logon was attempted using explicit credentials: readonly_user,admin,auth-srv-03,10.0.2.5
+Jan 15 11:44:08,4672,Information,Security,Special privileges assigned to new logon: admin,jgarcia,siem-srv-06,192.168.1.50
+Jan 11 08:22:38,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,web-srv-01,-
+Jan 09 00:58:52,4673,SuccessAudit,Security,A privileged service was called by readonly_user,mlopez,cloud-gw-05,192.168.1.50
+Feb 03 23:46:26,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,proxy-srv-04,-
+Feb 15 04:00:58,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,auth-srv-03,-
+Mar 18 04:56:52,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=admin file=financial_data.xlsx classification=C3,devops,auth-srv-03,10.0.2.5
+Feb 11 01:23:41,4740,Information,Security,A user account was locked out after failed attempts: dbadmin account_locked=true,scanner,backup-srv-07,1.1.1.1
+Feb 11 05:03:06,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=api_svc,backup_svc,auth-srv-03,1.1.1.1
+Jan 30 07:43:05,4720,Information,Security,A user account was created: dbadmin account_provisioned=true,admin,db-srv-02,10.0.2.5
+Feb 29 06:22:47,4624,Information,Security,An account was successfully logged on. Subject: aruiz,readonly_user,siem-srv-06,172.16.0.25
+Jan 14 20:55:50,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=aruiz,readonly_user,dlp-agent-08,192.168.1.100
+Jan 28 19:56:40,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,dlp-agent-08,-
+Feb 22 08:06:00,4648,Information,Security,A logon was attempted using explicit credentials: aruiz,dbadmin,cloud-gw-05,91.108.4.12
+Jan 19 02:53:45,4624,Information,Security,An account was successfully logged on. Subject: scanner,readonly_user,backup-srv-07,10.0.1.20
+Jan 27 20:12:23,4648,Information,Security,A logon was attempted using explicit credentials: readonly_user,backup_svc,siem-srv-06,192.168.1.100
+Feb 06 17:09:14,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=api_svc file=financial_data.xlsx classification=C3,dbadmin,db-srv-02,10.0.1.20
+Mar 14 19:05:09,4672,Information,Security,Special privileges assigned to new logon: readonly_user,devops,backup-srv-07,192.168.1.50
+Mar 10 15:38:32,4625,FailureAudit,Security,An account failed to log on. Account Name: mlopez Failure Reason: bad password,api_svc,backup-srv-07,185.220.101.5
+Feb 16 13:23:40,4624,Information,Security,An account was successfully logged on. Subject: readonly_user,readonly_user,db-srv-02,1.1.1.1
+Jan 18 05:21:12,4625,FailureAudit,Security,An account failed to log on. Account Name: readonly_user Failure Reason: bad password,sysadmin,siem-srv-06,104.21.8.9
+Feb 26 19:41:43,4720,Information,Security,A user account was created: jgarcia account_provisioned=true,admin,siem-srv-06,192.168.1.50
+Feb 23 11:11:54,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,siem-srv-06,-
+Mar 12 23:24:19,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,siem-srv-06,-
+Feb 17 13:59:12,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,api_svc,auth-srv-03,1.1.1.1
+Mar 14 21:21:42,4673,SuccessAudit,Security,A privileged service was called by sysadmin,dbadmin,dlp-agent-08,10.0.1.20
+Feb 27 23:34:05,4625,FailureAudit,Security,An account failed to log on. Account Name: api_svc Failure Reason: bad password,aruiz,dlp-agent-08,10.0.1.10
+Mar 17 15:56:51,4624,Information,Security,An account was successfully logged on. Subject: mlopez,readonly_user,cloud-gw-05,203.0.113.50
+Mar 30 05:47:24,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,api_svc,backup-srv-07,104.21.8.9
+Feb 03 10:19:32,4672,Information,Security,Special privileges assigned to new logon: backup_svc,mlopez,backup-srv-07,10.0.1.10
+Jan 02 20:00:46,4672,Information,Security,Special privileges assigned to new logon: root,aruiz,web-srv-01,192.168.1.100
+Jan 31 07:00:56,4648,Information,Security,A logon was attempted using explicit credentials: dbadmin,aruiz,auth-srv-03,104.21.8.9
+Jan 04 10:41:21,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,backup-srv-07,-
+Feb 17 05:21:21,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=sysadmin,aruiz,dlp-agent-08,192.168.1.50
+Feb 07 23:02:24,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,siem-srv-06,-
+Mar 16 08:15:37,4624,Information,Security,An account was successfully logged on. Subject: mlopez,dbadmin,dlp-agent-08,192.168.1.50
+Jan 24 09:58:40,4648,Information,Security,A logon was attempted using explicit credentials: sysadmin,scanner,auth-srv-03,192.168.1.50
+Jan 09 11:38:47,4625,FailureAudit,Security,An account failed to log on. Account Name: dbadmin Failure Reason: bad password,root,cloud-gw-05,198.51.100.20
+Mar 04 00:16:40,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,mlopez,siem-srv-06,192.168.1.100
+Feb 27 11:45:31,4625,FailureAudit,Security,An account failed to log on. Account Name: admin Failure Reason: bad password,root,auth-srv-03,192.168.1.50
+Jan 04 02:32:40,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,jgarcia,auth-srv-03,10.0.1.10
+Feb 16 01:30:38,4624,Information,Security,An account was successfully logged on. Subject: scanner,jgarcia,dlp-agent-08,192.168.1.50
+Mar 23 00:14:03,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,dlp-agent-08,-
+Mar 12 15:28:32,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=api_svc,sysadmin,backup-srv-07,10.0.1.20
+Mar 08 03:23:31,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,proxy-srv-04,-
+Feb 07 18:03:59,4648,Information,Security,A logon was attempted using explicit credentials: readonly_user,backup_svc,web-srv-01,192.168.1.50
+Feb 25 03:29:07,4673,SuccessAudit,Security,A privileged service was called by readonly_user,api_svc,proxy-srv-04,10.0.1.10
+Feb 19 23:11:14,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,web-srv-01,-
+Feb 21 08:37:43,4624,Information,Security,An account was successfully logged on. Subject: devops,aruiz,siem-srv-06,192.168.1.50
+Feb 03 14:23:13,4672,Information,Security,Special privileges assigned to new logon: mlopez,root,db-srv-02,172.16.0.25
+Jan 29 07:33:33,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,cloud-gw-05,-
+Mar 20 14:37:33,4625,FailureAudit,Security,An account failed to log on. Account Name: mlopez Failure Reason: bad password,jgarcia,siem-srv-06,192.168.1.100
+Jan 01 13:59:00,4720,Information,Security,A user account was created: scanner account_provisioned=true,admin,web-srv-01,172.16.0.25
+Feb 05 23:02:51,4625,FailureAudit,Security,An account failed to log on. Account Name: api_svc Failure Reason: bad password,aruiz,siem-srv-06,10.0.1.10
+Mar 10 02:52:07,4672,Information,Security,Special privileges assigned to new logon: backup_svc,admin,dlp-agent-08,10.0.1.20
+Jan 09 22:57:43,4740,Information,Security,A user account was locked out after failed attempts: mlopez account_locked=true,scanner,siem-srv-06,77.88.8.8
+Feb 10 23:07:40,4625,FailureAudit,Security,An account failed to log on. Account Name: api_svc Failure Reason: bad password,admin,dlp-agent-08,203.0.113.50
+Jan 29 20:39:37,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,api_svc,siem-srv-06,10.0.1.20
+Mar 12 15:12:54,4624,Information,Security,An account was successfully logged on. Subject: scanner,devops,web-srv-01,192.168.1.100
+Jan 05 22:59:21,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,proxy-srv-04,-
+Jan 10 13:54:48,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,siem-srv-06,-
+Mar 21 05:39:54,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,mlopez,dlp-agent-08,172.16.0.25
+Feb 27 05:34:22,4624,Information,Security,An account was successfully logged on. Subject: root,devops,proxy-srv-04,10.0.2.5
+Mar 15 19:53:31,4625,FailureAudit,Security,An account failed to log on. Account Name: jgarcia Failure Reason: bad password,sysadmin,proxy-srv-04,185.220.101.5
+Feb 18 08:18:39,4624,Information,Security,An account was successfully logged on. Subject: api_svc,aruiz,backup-srv-07,192.168.1.50
+Feb 23 17:55:06,4625,FailureAudit,Security,An account failed to log on. Account Name: root Failure Reason: bad password,dbadmin,db-srv-02,91.108.4.12
+Jan 15 18:54:25,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=backup_svc,sysadmin,backup-srv-07,198.51.100.20
+Jan 20 07:24:35,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=backup_svc file=financial_data.xlsx classification=C3,admin,web-srv-01,10.0.2.5
+Mar 29 06:03:17,4624,Information,Security,An account was successfully logged on. Subject: admin,sysadmin,db-srv-02,10.0.2.5
+Jan 19 05:09:28,4624,Information,Security,An account was successfully logged on. Subject: mlopez,scanner,backup-srv-07,172.16.0.25
+Jan 09 08:09:31,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,sysadmin,backup-srv-07,45.33.32.156
+Jan 24 14:25:47,4624,Information,Security,An account was successfully logged on. Subject: root,dbadmin,proxy-srv-04,192.168.1.50
+Feb 03 04:13:02,4648,Information,Security,A logon was attempted using explicit credentials: devops,api_svc,siem-srv-06,192.168.1.100
+Jan 05 23:32:27,4648,Information,Security,A logon was attempted using explicit credentials: jgarcia,api_svc,proxy-srv-04,10.0.1.20
+Feb 25 05:55:28,4624,Information,Security,An account was successfully logged on. Subject: api_svc,api_svc,auth-srv-03,10.0.2.5
+Feb 27 01:21:35,4625,FailureAudit,Security,An account failed to log on. Account Name: mlopez Failure Reason: bad password,devops,dlp-agent-08,10.0.2.5
+Jan 11 08:56:11,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=jgarcia file=financial_data.xlsx classification=C3,aruiz,web-srv-01,198.51.100.20
+Jan 19 15:51:27,4672,Information,Security,Special privileges assigned to new logon: aruiz,api_svc,web-srv-01,10.0.2.5
+Mar 04 12:55:42,4672,Information,Security,Special privileges assigned to new logon: dbadmin,api_svc,dlp-agent-08,10.0.1.10
+Feb 23 21:37:31,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,db-srv-02,-
+Feb 18 10:43:05,4625,FailureAudit,Security,An account failed to log on. Account Name: root Failure Reason: bad password,mlopez,db-srv-02,198.51.100.20
+Mar 26 20:48:54,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=aruiz,scanner,auth-srv-03,192.168.1.50
+Jan 22 21:03:08,4624,Information,Security,An account was successfully logged on. Subject: scanner,jgarcia,backup-srv-07,192.168.1.50
+Mar 24 20:22:13,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,backup-srv-07,-
+Mar 01 18:43:51,4673,SuccessAudit,Security,A privileged service was called by readonly_user,devops,dlp-agent-08,10.0.1.10
+Feb 23 07:08:59,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,auth-srv-03,-
+Mar 25 04:33:01,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,siem-srv-06,-
+Mar 16 11:08:21,4625,FailureAudit,Security,An account failed to log on. Account Name: backup_svc Failure Reason: bad password,jgarcia,auth-srv-03,104.21.8.9
+Mar 07 08:24:41,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=backup_svc,backup_svc,dlp-agent-08,192.168.1.50
+Jan 12 03:14:54,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,dbadmin,backup-srv-07,45.33.32.156
+Jan 19 20:51:25,4720,Information,Security,A user account was created: root account_provisioned=true,admin,auth-srv-03,10.0.2.5
+Feb 06 16:50:13,4624,Information,Security,An account was successfully logged on. Subject: scanner,dbadmin,cloud-gw-05,10.0.2.5
+Feb 14 17:05:10,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,backup-srv-07,-
+Jan 18 09:47:06,4672,Information,Security,Special privileges assigned to new logon: mlopez,root,dlp-agent-08,172.16.0.25
+Jan 23 21:05:19,4624,Information,Security,An account was successfully logged on. Subject: devops,api_svc,db-srv-02,192.168.1.50
+Mar 11 06:02:11,4624,Information,Security,An account was successfully logged on. Subject: devops,admin,db-srv-02,172.16.0.25
+Jan 20 14:44:59,4648,Information,Security,A logon was attempted using explicit credentials: root,readonly_user,dlp-agent-08,77.88.8.8
+Mar 01 10:11:28,4625,FailureAudit,Security,An account failed to log on. Account Name: root Failure Reason: bad password,mlopez,siem-srv-06,45.33.32.156
+Jan 23 23:50:45,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,dbadmin,cloud-gw-05,192.168.1.100
+Jan 11 14:54:15,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,scanner,dlp-agent-08,104.21.8.9
+Mar 14 09:50:40,4720,Information,Security,A user account was created: readonly_user account_provisioned=true,admin,auth-srv-03,10.0.2.5
+Mar 22 13:44:42,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,db-srv-02,-
+Feb 19 22:07:25,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=mlopez,admin,db-srv-02,10.0.1.20
+Feb 21 12:33:37,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,db-srv-02,-
+Jan 19 06:13:40,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,api_svc,proxy-srv-04,10.0.1.20
+Jan 22 14:53:06,4624,Information,Security,An account was successfully logged on. Subject: root,jgarcia,siem-srv-06,10.0.1.10
+Feb 10 08:04:15,4672,Information,Security,Special privileges assigned to new logon: sysadmin,jgarcia,web-srv-01,192.168.1.100
+Mar 05 04:53:50,4720,Information,Security,A user account was created: root account_provisioned=true,admin,web-srv-01,192.168.1.50
+Jan 24 14:19:01,4625,FailureAudit,Security,An account failed to log on. Account Name: api_svc Failure Reason: bad password,dbadmin,siem-srv-06,203.0.113.50
+Mar 22 18:29:34,4672,Information,Security,Special privileges assigned to new logon: root,devops,auth-srv-03,192.168.1.100
+Jan 04 18:11:16,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,jgarcia,db-srv-02,192.168.1.100
+Mar 01 19:34:14,4624,Information,Security,An account was successfully logged on. Subject: mlopez,jgarcia,backup-srv-07,10.0.1.20
+Mar 11 08:12:14,4624,Information,Security,An account was successfully logged on. Subject: sysadmin,api_svc,auth-srv-03,45.33.32.156
+Mar 05 05:28:41,4625,FailureAudit,Security,An account failed to log on. Account Name: dbadmin Failure Reason: bad password,backup_svc,cloud-gw-05,1.1.1.1
+Feb 13 14:29:14,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,auth-srv-03,-
+Mar 16 20:21:39,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,cloud-gw-05,-
+Jan 21 00:05:05,4720,Information,Security,A user account was created: aruiz account_provisioned=true,admin,dlp-agent-08,192.168.1.50
+Mar 26 11:27:08,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,scanner,backup-srv-07,104.21.8.9
+Jan 27 19:30:03,4672,Information,Security,Special privileges assigned to new logon: api_svc,jgarcia,proxy-srv-04,10.0.1.10
+Mar 17 00:36:47,4625,FailureAudit,Security,An account failed to log on. Account Name: dbadmin Failure Reason: bad password,api_svc,cloud-gw-05,104.21.8.9
+Feb 29 00:53:30,4648,Information,Security,A logon was attempted using explicit credentials: mlopez,api_svc,auth-srv-03,192.168.1.100
+Feb 03 01:43:58,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,proxy-srv-04,-
+Feb 27 21:21:09,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,sysadmin,dlp-agent-08,192.168.1.50
+Mar 28 11:17:07,4673,SuccessAudit,Security,A privileged service was called by api_svc,backup_svc,cloud-gw-05,104.21.8.9
+Jan 25 05:05:01,4673,SuccessAudit,Security,A privileged service was called by api_svc,admin,db-srv-02,172.16.0.25
+Mar 23 17:49:37,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,auth-srv-03,-
+Feb 02 02:36:27,4672,Information,Security,Special privileges assigned to new logon: jgarcia,aruiz,db-srv-02,10.0.2.5
+Jan 31 03:59:46,4624,Information,Security,An account was successfully logged on. Subject: api_svc,sysadmin,dlp-agent-08,192.168.1.50
+Mar 15 00:03:08,4740,Information,Security,A user account was locked out after failed attempts: devops account_locked=true,backup_svc,auth-srv-03,10.0.1.10
+Mar 03 22:36:29,4624,Information,Security,An account was successfully logged on. Subject: aruiz,scanner,siem-srv-06,10.0.1.10
+Jan 27 16:47:06,4624,Information,Security,An account was successfully logged on. Subject: root,sysadmin,cloud-gw-05,10.0.1.20
+Feb 26 12:37:09,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,web-srv-01,-
+Jan 19 15:44:50,4624,Information,Security,An account was successfully logged on. Subject: admin,sysadmin,web-srv-01,192.168.1.50
+Jan 28 14:10:56,4624,Information,Security,An account was successfully logged on. Subject: scanner,backup_svc,proxy-srv-04,192.168.1.100
+Feb 04 11:05:36,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,cloud-gw-05,-
+Feb 08 19:37:12,4624,Information,Security,An account was successfully logged on. Subject: sysadmin,backup_svc,db-srv-02,10.0.1.10
+Mar 19 11:08:07,4740,Information,Security,A user account was locked out after failed attempts: readonly_user account_locked=true,aruiz,db-srv-02,192.168.1.50
+Feb 12 10:54:51,4648,Information,Security,A logon was attempted using explicit credentials: backup_svc,jgarcia,proxy-srv-04,10.0.1.10
+Feb 13 01:08:55,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,siem-srv-06,-
+Jan 06 16:30:34,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=aruiz,dbadmin,auth-srv-03,10.0.1.10
+Mar 18 16:09:11,4625,FailureAudit,Security,An account failed to log on. Account Name: mlopez Failure Reason: bad password,dbadmin,web-srv-01,77.88.8.8
+Mar 25 19:17:22,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,dlp-agent-08,-
+Mar 30 09:03:14,4672,Information,Security,Special privileges assigned to new logon: backup_svc,dbadmin,cloud-gw-05,10.0.1.10
+Jan 02 13:06:54,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=scanner file=financial_data.xlsx classification=C3,readonly_user,auth-srv-03,192.168.1.50
+Mar 13 17:46:30,4624,Information,Security,An account was successfully logged on. Subject: jgarcia,dbadmin,siem-srv-06,77.88.8.8
+Jan 13 07:27:56,4624,Information,Security,An account was successfully logged on. Subject: api_svc,readonly_user,proxy-srv-04,192.168.1.50
+Jan 30 17:15:41,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=dbadmin file=financial_data.xlsx classification=C3,root,web-srv-01,10.0.1.10
+Mar 07 10:57:18,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,auth-srv-03,-
+Feb 02 08:54:30,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,web-srv-01,-
+Jan 09 00:33:18,4673,SuccessAudit,Security,A privileged service was called by jgarcia,aruiz,db-srv-02,192.168.1.50
+Feb 09 23:11:09,4672,Information,Security,Special privileges assigned to new logon: dbadmin,sysadmin,dlp-agent-08,10.0.1.20
+Mar 20 21:31:03,4624,Information,Security,An account was successfully logged on. Subject: mlopez,readonly_user,proxy-srv-04,10.0.1.20
+Jan 21 16:37:14,4625,FailureAudit,Security,An account failed to log on. Account Name: scanner Failure Reason: bad password,admin,cloud-gw-05,198.51.100.20
+Mar 16 19:48:43,4648,Information,Security,A logon was attempted using explicit credentials: root,scanner,dlp-agent-08,45.33.32.156
+Mar 26 13:51:08,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,web-srv-01,-
+Feb 09 04:22:02,4624,Information,Security,An account was successfully logged on. Subject: backup_svc,readonly_user,siem-srv-06,10.0.1.20
+Jan 10 18:33:28,4625,FailureAudit,Security,An account failed to log on. Account Name: mlopez Failure Reason: bad password,root,auth-srv-03,1.1.1.1
+Jan 24 01:23:19,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=api_svc file=financial_data.xlsx classification=C3,dbadmin,siem-srv-06,192.168.1.50
+Mar 29 21:21:53,1102,Information,Security,The audit log was cleared by root - audit_trail_broken=true,readonly_user,backup-srv-07,203.0.113.50
+Jan 11 05:04:07,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,db-srv-02,-
+Jan 13 23:47:50,4625,FailureAudit,Security,An account failed to log on. Account Name: devops Failure Reason: bad password,mlopez,web-srv-01,91.108.4.12
+Mar 20 08:28:12,4625,FailureAudit,Security,An account failed to log on. Account Name: root Failure Reason: bad password,sysadmin,web-srv-01,192.168.1.100
+Feb 22 11:46:55,4740,Information,Security,A user account was locked out after failed attempts: dbadmin account_locked=true,mlopez,auth-srv-03,192.168.1.100
+Jan 20 16:47:24,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,auth-srv-03,-
+Feb 14 13:59:22,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=api_svc,backup_svc,db-srv-02,10.0.1.20
+Feb 15 23:07:40,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,backup-srv-07,-
+Mar 24 23:24:00,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=jgarcia,scanner,auth-srv-03,172.16.0.25
+Feb 18 15:32:55,8001,Warning,DLP-Agent,dlp_block: sensitive_leak attempt blocked user=admin file=financial_data.xlsx classification=C3,admin,siem-srv-06,192.168.1.100
+Jan 30 06:20:59,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,web-srv-01,-
+Mar 03 06:39:47,4624,Information,Security,An account was successfully logged on. Subject: root,aruiz,backup-srv-07,172.16.0.25
+Feb 29 13:46:37,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,dlp-agent-08,-
+Jan 28 09:31:00,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,cloud-gw-05,-
+Mar 06 23:33:57,4624,Information,Security,An account was successfully logged on. Subject: mlopez,admin,proxy-srv-04,10.0.2.5
+Feb 13 05:28:30,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,db-srv-02,-
+Jan 27 04:18:46,4720,Information,Security,A user account was created: backup_svc account_provisioned=true,admin,proxy-srv-04,192.168.1.50
+Jan 24 13:10:07,4673,SuccessAudit,Security,A privileged service was called by devops,admin,auth-srv-03,10.0.2.5
+Jan 27 22:27:56,4624,Information,Security,An account was successfully logged on. Subject: sysadmin,aruiz,proxy-srv-04,10.0.2.5
+Jan 04 16:53:55,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,db-srv-02,-
+Feb 07 23:47:46,4624,Information,Security,An account was successfully logged on. Subject: devops,aruiz,siem-srv-06,10.0.1.20
+Jan 15 02:19:25,4826,Information,Security,config_compliant: Boot configuration changed authorized_change=true baseline_check=passed,SYSTEM,proxy-srv-04,-
+Feb 18 01:00:06,4673,SuccessAudit,Security,A privileged service was called by jgarcia,dbadmin,db-srv-02,192.168.1.50
+Mar 09 10:06:01,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=sysadmin,jgarcia,auth-srv-03,1.1.1.1
+Mar 30 12:43:43,4720,Information,Security,A user account was created: scanner account_provisioned=true,admin,proxy-srv-04,172.16.0.25
+Feb 20 03:39:32,4624,Information,Security,An account was successfully logged on. Subject: sysadmin,jgarcia,proxy-srv-04,10.0.1.20
+Mar 05 21:34:05,4740,Information,Security,A user account was locked out after failed attempts: root account_locked=true,jgarcia,proxy-srv-04,10.0.1.10
+Jan 19 17:55:23,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=dbadmin,api_svc,dlp-agent-08,192.168.1.50
+Feb 05 10:14:55,4648,Information,Security,A logon was attempted using explicit credentials: dbadmin,aruiz,proxy-srv-04,192.168.1.100
+Mar 31 02:16:29,4648,Information,Security,A logon was attempted using explicit credentials: mlopez,scanner,siem-srv-06,172.16.0.25
+Jan 23 16:12:38,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=sysadmin,sysadmin,cloud-gw-05,10.0.1.20
+Mar 28 09:22:36,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,db-srv-02,-
+Jan 08 04:43:21,4672,Information,Security,Special privileges assigned to new logon: mlopez,mlopez,auth-srv-03,192.168.1.50
+Mar 21 06:59:14,1102,Information,Security,The audit log was cleared by backup_svc - audit_trail_broken=true,mlopez,siem-srv-06,10.0.1.10
+Mar 09 07:16:30,4673,SuccessAudit,Security,A privileged service was called by backup_svc,api_svc,db-srv-02,192.168.1.100
+Mar 15 13:30:08,4672,Information,Security,Special privileges assigned to new logon: mlopez,root,auth-srv-03,192.168.1.100
+Feb 26 11:39:20,4625,FailureAudit,Security,An account failed to log on. Account Name: devops Failure Reason: bad password,root,cloud-gw-05,91.108.4.12
+Jan 02 18:43:15,4739,Information,Security,Domain policy compliance_check was changed. compliance_scan=passed,System,backup-srv-07,-
+Feb 08 15:40:02,4625,FailureAudit,Security,An account failed to log on. Account Name: api_svc Failure Reason: bad password,api_svc,cloud-gw-05,77.88.8.8
+Jan 30 22:24:11,4672,Information,Security,Special privileges assigned to new logon: devops,sysadmin,cloud-gw-05,192.168.1.100
+Mar 14 09:04:16,4673,SuccessAudit,Security,A privileged service was called by scanner,jgarcia,web-srv-01,192.168.1.50
+Feb 17 23:02:48,4648,Information,Security,A logon was attempted using explicit credentials: dbadmin,api_svc,cloud-gw-05,91.108.4.12
+Jan 23 06:08:31,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=jgarcia,readonly_user,dlp-agent-08,10.0.2.5
+Feb 27 19:06:34,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=admin,devops,cloud-gw-05,45.33.32.156
+Feb 06 09:39:12,4625,FailureAudit,Security,An account failed to log on. Account Name: sysadmin Failure Reason: bad password,mlopez,web-srv-01,10.0.1.10
+Jan 11 05:19:12,4720,Information,Security,A user account was created: root account_provisioned=true,admin,backup-srv-07,172.16.0.25
+Jan 26 02:30:06,4624,Information,Security,An account was successfully logged on. Subject: root,readonly_user,backup-srv-07,192.168.1.50
+Jan 09 13:35:54,4648,Information,Security,A logon was attempted using explicit credentials: devops,dbadmin,siem-srv-06,172.16.0.25
+Jan 09 20:00:34,7036,Information,Service Control Manager,endpoint_registered: Device compliance check passed mdm_enrolled=true,SYSTEM,backup-srv-07,-
+Mar 23 15:20:50,4648,Information,Security,A logon was attempted using explicit credentials: mlopez,devops,siem-srv-06,192.168.1.50
+Mar 22 05:12:16,4673,SuccessAudit,Security,A privileged service was called by dbadmin,backup_svc,dlp-agent-08,192.168.1.50
+Mar 29 02:13:44,4624,Information,Security,An account was successfully logged on. Subject: dbadmin,readonly_user,siem-srv-06,10.0.2.5
+Jan 15 22:19:07,4624,Information,Security,An account was successfully logged on. Subject: devops,aruiz,siem-srv-06,192.168.1.100
+Feb 22 18:27:04,4673,SuccessAudit,Security,A privileged service was called by scanner,jgarcia,auth-srv-03,172.16.0.25
+Jan 14 22:39:49,4688,Information,Security,A new process has been created: siem_alert triggered process=cmd.exe parent=explorer.exe User=admin,jgarcia,siem-srv-06,10.0.1.20
+Mar 16 00:15:54,4673,SuccessAudit,Security,A privileged service was called by mlopez,devops,db-srv-02,10.0.1.20
+Jan 11 21:03:50,4673,SuccessAudit,Security,A privileged service was called by root,devops,dlp-agent-08,10.0.1.20
+Jan 01 14:02:43,4673,SuccessAudit,Security,A privileged service was called by root,api_svc,siem-srv-06,172.16.0.25

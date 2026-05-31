@@ -1,0 +1,900 @@
+198.51.100.20 - - [Feb 07 07:44:28] "GET /.env HTTP/1.1" 403 512 "-" "sqlmap/1.7"
+192.168.1.100 - root [Mar 09 15:18:40] "OPTIONS /api/v2/users HTTP/2.0" 200 5480 "https://portal.empresa.com" "PostmanRuntime/7.36"
+203.0.113.50 - dbadmin [Feb 27 06:59:40] "GET /api/v2/cloud-status HTTP/2.0" 200 2872 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - scanner [Jan 03 10:13:55] "GET /reports HTTP/2.0" 200 4682 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+77.88.8.8 - backup_svc [Mar 27 22:15:45] "DELETE /api/v2/users HTTP/2.0" 200 2117 "https://portal.empresa.com" "PostmanRuntime/7.36"
+10.0.1.10 - dbadmin [Jan 19 17:41:32] "GET /login HTTP/2.0" 200 2754 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Jan 22 23:11:26] URL categorized=phishing blocked user=sysadmin dst=1.1.1.1 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.1.20 - scanner [Mar 07 00:37:42] "GET /health HTTP/2.0" 200 3706 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+dlp_monitor [Mar 23 08:40:29] DLP monitor: data_loss_prevent triggered user=readonly_user dst=10.0.2.5 bytes=45230 policy=DLP-Email-Outbound
+172.16.0.25 - root [Mar 08 16:34:17] "PUT /reports HTTP/2.0" 200 5526 "https://erp.local" "PostmanRuntime/7.36"
+203.0.113.50 - - [Jan 20 10:56:57] "GET /phpmyadmin/ HTTP/1.1" 500 512 "-" "nikto/2.1.6"
+192.168.1.50 - backup_svc [Feb 12 12:51:34] "GET /login HTTP/2.0" 200 4765 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - sysadmin [Jan 13 15:28:00] "GET /api/v2/cloud-status HTTP/2.0" 200 2882 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+91.108.4.12 - - [Mar 23 06:28:36] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+192.168.1.100 - readonly_user [Jan 10 06:31:46] "POST /api/v2/assets HTTP/2.0" 200 6151 "https://portal.empresa.com" "curl/7.88"
+172.16.0.25 - backup_svc [Jan 08 11:31:18] "DELETE /reports HTTP/2.0" 200 4042 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.1.10 - scanner [Jan 12 12:18:22] "OPTIONS /login HTTP/2.0" 200 3434 "-" "curl/7.88"
+91.108.4.12 - - [Jan 08 22:10:18] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+dlp_monitor [Mar 01 03:38:17] DLP monitor: data_loss_prevent triggered user=aruiz dst=198.51.100.20 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.100 - scanner [Feb 29 06:03:24] "GET /health HTTP/2.0" 200 2294 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+[Feb 29 05:29:45] [ssl:error] [pid 7963] AH02042: ssl_error certificate_expired for 172.16.0.25 (check certificate renewal)
+185.220.101.5 - jgarcia [Jan 02 06:53:41] "OPTIONS /dashboard HTTP/2.0" 200 1138 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.50 - sysadmin [Mar 20 12:22:02] "GET /api/v2/users HTTP/2.0" 200 776 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - root [Jan 06 07:33:49] "GET /login HTTP/2.0" 200 651 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+77.88.8.8 - api_svc [Feb 08 13:22:48] "GET /api/v2/cloud-status HTTP/2.0" 200 1132 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - backup_svc [Mar 14 17:42:47] "DELETE /dashboard HTTP/2.0" 200 845 "https://portal.empresa.com" "curl/7.88"
+dlp_detect [Feb 17 06:00:23] sensitive_data_detect: user=admin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+dlp_monitor [Mar 19 23:05:24] DLP monitor: data_loss_prevent triggered user=admin dst=10.0.1.10 bytes=45230 policy=DLP-Email-Outbound
+1.1.1.1 - - [Jan 31 15:28:42] "GET /api/internal/secrets HTTP/1.1" 404 512 "-" "sqlmap/1.7"
+91.108.4.12 - - [Feb 11 23:09:30] "GET /debug/console HTTP/1.1" 500 512 "-" "sqlmap/1.7"
+[Jan 02 04:45:48] [ssl:error] [pid 4610] AH02042: ssl_error certificate_expired for 192.168.1.50 (check certificate renewal)
+185.220.101.5 - - [Feb 11 07:29:57] "GET /debug/console HTTP/1.1" 500 512 "-" "nikto/2.1.6"
+web_filter_block [Jan 01 17:20:48] URL categorized=phishing blocked user=aruiz dst=185.220.101.5 url=http://phishing-site.net proxy=proxy-srv-04
+web_filter_block [Feb 27 20:20:28] URL categorized=phishing blocked user=admin dst=203.0.113.50 url=http://phishing-site.net proxy=proxy-srv-04
+172.16.0.25 - api_svc [Mar 20 01:34:55] "DELETE /api/v2/users HTTP/2.0" 200 902 "-" "curl/7.88"
+10.0.1.20 - readonly_user [Feb 11 18:26:36] "PUT /login HTTP/2.0" 200 1359 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Feb 27 02:15:57] sensitive_data_detect: user=scanner file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=web-srv-01
+web_filter_block [Mar 10 14:15:15] URL categorized=phishing blocked user=backup_svc dst=1.1.1.1 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.2.5 - dbadmin [Jan 17 11:55:33] "GET /api/v2/cloud-status HTTP/2.0" 200 7281 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+77.88.8.8 - - [Feb 03 17:20:04] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+45.33.32.156 - - [Jan 11 03:21:52] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+198.51.100.20 - - [Feb 21 15:23:04] "GET /wp-admin/ HTTP/1.1" 404 512 "-" "nikto/2.1.6"
+172.16.0.25 - admin [Feb 25 23:31:17] "GET /reports HTTP/2.0" 200 3264 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - readonly_user [Mar 07 06:00:23] "GET /static/app.js HTTP/2.0" 200 3760 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - - [Jan 11 23:50:19] "GET /phpmyadmin/ HTTP/1.1" 404 512 "-" "sqlmap/1.7"
+77.88.8.8 - - [Feb 14 11:54:01] "GET /api/internal/secrets HTTP/1.1" 400 512 "-" "python-requests/2.31"
+10.0.1.10 - dbadmin [Jan 27 05:29:59] "PUT /health HTTP/2.0" 200 2336 "https://erp.local" "PostmanRuntime/7.36"
+185.220.101.5 - scanner [Mar 27 08:24:42] "PUT /reports HTTP/2.0" 200 2147 "https://portal.empresa.com" "PostmanRuntime/7.36"
+10.0.1.10 - devops [Mar 31 03:17:52] "GET /dashboard HTTP/2.0" 200 4232 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+104.21.8.9 - root [Feb 14 04:59:40] "GET /dashboard HTTP/2.0" 200 4191 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - scanner [Jan 07 13:31:14] "PUT /dashboard HTTP/2.0" 200 3202 "https://portal.empresa.com" "PostmanRuntime/7.36"
+dlp_detect [Feb 18 08:01:59] sensitive_data_detect: user=api_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+dlp_monitor [Jan 05 22:34:45] DLP monitor: data_loss_prevent triggered user=readonly_user dst=203.0.113.50 bytes=45230 policy=DLP-Email-Outbound
+10.0.2.5 - jgarcia [Feb 20 16:36:09] "GET /health HTTP/2.0" 200 4924 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.100 - root [Jan 15 00:53:33] "DELETE /api/v2/assets HTTP/2.0" 200 1392 "https://portal.empresa.com" "PostmanRuntime/7.36"
+dlp_monitor [Jan 14 13:04:40] DLP monitor: data_loss_prevent triggered user=devops dst=91.108.4.12 bytes=45230 policy=DLP-Email-Outbound
+104.21.8.9 - backup_svc [Jan 11 12:18:36] "OPTIONS /api/v2/users HTTP/2.0" 200 975 "-" "PostmanRuntime/7.36"
+77.88.8.8 - - [Jan 08 11:19:04] "GET /admin/../etc/passwd HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+web_filter_block [Mar 14 11:05:32] URL categorized=phishing blocked user=admin dst=45.33.32.156 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_monitor [Feb 11 07:35:16] DLP monitor: data_loss_prevent triggered user=devops dst=172.16.0.25 bytes=45230 policy=DLP-Email-Outbound
+[Jan 07 03:40:26] [ssl:error] [pid 8993] AH02042: ssl_error certificate_expired for 1.1.1.1 (check certificate renewal)
+198.51.100.20 - - [Jan 04 21:24:23] "GET /../../../etc/passwd HTTP/1.1" 403 512 "-" "zgrab/0.x"
+web_filter_block [Jan 23 17:21:38] URL categorized=phishing blocked user=aruiz dst=104.21.8.9 url=http://phishing-site.net proxy=proxy-srv-04
+104.21.8.9 - root [Mar 10 08:35:15] "GET /health HTTP/2.0" 200 2042 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - readonly_user [Feb 15 09:29:19] "POST /reports HTTP/2.0" 200 4955 "https://portal.empresa.com" "PostmanRuntime/7.36"
+192.168.1.50 - devops [Mar 09 02:01:29] "OPTIONS /dashboard HTTP/2.0" 200 4386 "https://portal.empresa.com" "curl/7.88"
+91.108.4.12 - aruiz [Jan 08 15:59:00] "DELETE /api/v2/cloud-status HTTP/2.0" 200 326 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+203.0.113.50 - - [Feb 06 22:10:43] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+web_filter_block [Mar 01 20:52:18] URL categorized=phishing blocked user=backup_svc dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+203.0.113.50 - scanner [Feb 27 07:30:56] "GET /api/v2/users HTTP/2.0" 200 4130 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - dbadmin [Jan 12 01:41:47] "POST /static/app.js HTTP/2.0" 200 7146 "https://erp.local" "curl/7.88"
+dlp_detect [Mar 26 16:06:24] sensitive_data_detect: user=dbadmin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=backup-srv-07
+10.0.2.5 - api_svc [Feb 15 14:46:57] "PUT /reports HTTP/2.0" 200 4696 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+1.1.1.1 - - [Feb 27 13:25:03] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+185.220.101.5 - readonly_user [Jan 03 21:02:03] "DELETE /health HTTP/2.0" 200 226 "https://erp.local" "curl/7.88"
+10.0.1.10 - root [Mar 24 23:11:54] "GET /login HTTP/2.0" 200 4560 "https://portal.empresa.com" "curl/7.88"
+dlp_detect [Feb 21 05:49:30] sensitive_data_detect: user=sysadmin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=proxy-srv-04
+dlp_monitor [Feb 10 08:42:42] DLP monitor: data_loss_prevent triggered user=jgarcia dst=192.168.1.100 bytes=45230 policy=DLP-Email-Outbound
+91.108.4.12 - - [Feb 04 04:19:45] "GET /cgi-bin/test.sh HTTP/1.1" 403 512 "-" "nikto/2.1.6"
+dlp_detect [Mar 17 15:06:39] sensitive_data_detect: user=sysadmin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=db-srv-02
+198.51.100.20 - root [Jan 11 01:12:52] "GET /api/v2/cloud-status HTTP/2.0" 200 4373 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Mar 30 04:12:07] URL categorized=phishing blocked user=devops dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_monitor [Feb 12 10:59:56] DLP monitor: data_loss_prevent triggered user=backup_svc dst=10.0.2.5 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.50 - - [Mar 14 19:05:29] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+45.33.32.156 - - [Feb 10 04:10:58] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+192.168.1.50 - jgarcia [Mar 21 01:35:39] "DELETE /login HTTP/2.0" 200 2364 "-" "PostmanRuntime/7.36"
+10.0.1.10 - devops [Feb 07 03:49:12] "DELETE /api/v2/cloud-status HTTP/2.0" 200 6622 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Jan 03 16:50:49] DLP monitor: data_loss_prevent triggered user=mlopez dst=91.108.4.12 bytes=45230 policy=DLP-Email-Outbound
+10.0.2.5 - api_svc [Mar 03 02:41:00] "GET /api/v2/cloud-status HTTP/2.0" 200 658 "-" "PostmanRuntime/7.36"
+10.0.1.10 - aruiz [Jan 16 08:35:38] "OPTIONS /api/v2/cloud-status HTTP/2.0" 200 3130 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+203.0.113.50 - - [Feb 25 08:46:16] "GET /phpmyadmin/ HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+10.0.2.5 - admin [Jan 12 20:22:13] "OPTIONS /dashboard HTTP/2.0" 200 2052 "https://erp.local" "PostmanRuntime/7.36"
+172.16.0.25 - jgarcia [Jan 10 04:05:06] "GET /reports HTTP/2.0" 200 3597 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Jan 13 16:25:22] URL categorized=phishing blocked user=backup_svc dst=185.220.101.5 url=http://phishing-site.net proxy=proxy-srv-04
+172.16.0.25 - devops [Jan 17 07:57:55] "PUT /static/app.js HTTP/2.0" 200 2803 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+[Feb 14 12:10:43] [ssl:error] [pid 1982] AH02042: ssl_error certificate_expired for 203.0.113.50 (check certificate renewal)
+[Jan 20 16:49:59] [ssl:error] [pid 4536] AH02042: ssl_error certificate_expired for 77.88.8.8 (check certificate renewal)
+192.168.1.50 - mlopez [Jan 03 10:49:55] "GET /health HTTP/2.0" 200 5281 "-" "curl/7.88"
+10.0.1.20 - admin [Feb 07 04:01:12] "GET /reports HTTP/2.0" 200 3472 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+91.108.4.12 - root [Jan 27 10:37:17] "POST /login HTTP/2.0" 200 7680 "https://erp.local" "curl/7.88"
+198.51.100.20 - dbadmin [Jan 17 03:14:32] "DELETE /static/app.js HTTP/2.0" 200 5955 "https://erp.local" "PostmanRuntime/7.36"
+[Feb 20 18:46:03] [ssl:error] [pid 1687] AH02042: ssl_error certificate_expired for 45.33.32.156 (check certificate renewal)
+10.0.1.20 - sysadmin [Mar 23 02:27:54] "GET /api/v2/cloud-status HTTP/2.0" 200 4555 "https://portal.empresa.com" "curl/7.88"
+web_filter_block [Jan 21 15:51:53] URL categorized=phishing blocked user=jgarcia dst=1.1.1.1 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_monitor [Feb 22 03:21:18] DLP monitor: data_loss_prevent triggered user=readonly_user dst=1.1.1.1 bytes=45230 policy=DLP-Email-Outbound
+104.21.8.9 - - [Feb 16 19:42:34] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+web_filter_block [Mar 01 15:37:17] URL categorized=phishing blocked user=jgarcia dst=104.21.8.9 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_monitor [Feb 02 15:12:58] DLP monitor: data_loss_prevent triggered user=sysadmin dst=45.33.32.156 bytes=45230 policy=DLP-Email-Outbound
+203.0.113.50 - admin [Mar 19 07:54:06] "GET /api/v2/assets HTTP/2.0" 200 2829 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - - [Jan 14 01:52:53] "GET /.git/config HTTP/1.1" 403 512 "-" "python-requests/2.31"
+91.108.4.12 - aruiz [Jan 19 04:49:09] "POST /dashboard HTTP/2.0" 200 1813 "https://erp.local" "curl/7.88"
+172.16.0.25 - jgarcia [Mar 20 07:16:20] "GET /static/app.js HTTP/2.0" 200 970 "https://portal.empresa.com" "PostmanRuntime/7.36"
+dlp_monitor [Feb 16 14:23:24] DLP monitor: data_loss_prevent triggered user=devops dst=198.51.100.20 bytes=45230 policy=DLP-Email-Outbound
+web_filter_block [Jan 21 21:57:04] URL categorized=phishing blocked user=jgarcia dst=104.21.8.9 url=http://phishing-site.net proxy=proxy-srv-04
+91.108.4.12 - admin [Mar 09 23:52:01] "GET /api/v2/users HTTP/2.0" 200 1202 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - admin [Mar 10 10:24:15] "DELETE /api/v2/cloud-status HTTP/2.0" 200 4972 "https://portal.empresa.com" "PostmanRuntime/7.36"
+1.1.1.1 - - [Jan 18 08:49:44] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+10.0.1.10 - sysadmin [Jan 03 13:31:58] "GET /health HTTP/2.0" 200 4770 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+dlp_monitor [Mar 06 12:18:43] DLP monitor: data_loss_prevent triggered user=root dst=91.108.4.12 bytes=45230 policy=DLP-Email-Outbound
+198.51.100.20 - - [Mar 18 03:49:40] "GET /.env HTTP/1.1" 404 512 "-" "nikto/2.1.6"
+203.0.113.50 - - [Feb 19 10:44:24] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+1.1.1.1 - - [Mar 18 13:53:05] "GET /.git/config HTTP/1.1" 403 512 "-" "masscan/1.3"
+45.33.32.156 - admin [Feb 23 17:03:26] "POST /login HTTP/2.0" 200 3829 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+203.0.113.50 - backup_svc [Jan 27 04:44:32] "DELETE /dashboard HTTP/2.0" 200 293 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+web_filter_block [Feb 17 13:29:22] URL categorized=phishing blocked user=backup_svc dst=1.1.1.1 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_detect [Mar 05 06:47:06] sensitive_data_detect: user=sysadmin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=siem-srv-06
+10.0.1.20 - backup_svc [Mar 07 02:26:05] "PUT /api/v2/users HTTP/2.0" 200 979 "-" "curl/7.88"
+172.16.0.25 - mlopez [Feb 28 03:35:28] "PUT /api/v2/cloud-status HTTP/2.0" 200 3346 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.50 - dbadmin [Mar 01 15:18:37] "GET /login HTTP/2.0" 200 3121 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+[Jan 15 14:54:09] [ssl:error] [pid 2864] AH02042: ssl_error certificate_expired for 192.168.1.50 (check certificate renewal)
+web_filter_block [Feb 22 20:24:02] URL categorized=phishing blocked user=api_svc dst=198.51.100.20 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_detect [Mar 08 08:17:29] sensitive_data_detect: user=backup_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=web-srv-01
+10.0.1.20 - backup_svc [Mar 03 17:40:50] "GET /api/v2/assets HTTP/2.0" 200 2594 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Jan 24 08:06:38] DLP monitor: data_loss_prevent triggered user=mlopez dst=1.1.1.1 bytes=45230 policy=DLP-Email-Outbound
+10.0.1.20 - devops [Feb 22 01:01:28] "PUT /login HTTP/2.0" 200 2479 "https://portal.empresa.com" "PostmanRuntime/7.36"
+104.21.8.9 - - [Jan 21 14:44:52] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+185.220.101.5 - - [Mar 27 22:05:05] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+192.168.1.50 - - [Jan 05 16:52:03] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+198.51.100.20 - - [Jan 12 08:15:49] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+45.33.32.156 - - [Mar 17 19:25:14] "GET /.git/config HTTP/1.1" 500 512 "-" "masscan/1.3"
+192.168.1.100 - root [Mar 01 21:00:26] "GET /api/v2/users HTTP/2.0" 200 4354 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - scanner [Feb 17 10:36:43] "DELETE /api/v2/assets HTTP/2.0" 200 6199 "https://portal.empresa.com" "curl/7.88"
+91.108.4.12 - - [Mar 06 20:04:18] "GET /admin/../etc/passwd HTTP/1.1" 400 512 "-" "zgrab/0.x"
+45.33.32.156 - - [Feb 22 10:44:23] "GET /phpmyadmin/ HTTP/1.1" 404 512 "-" "nikto/2.1.6"
+45.33.32.156 - - [Jan 24 10:42:00] "GET /admin/../etc/passwd HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+172.16.0.25 - readonly_user [Jan 19 16:47:56] "PUT /health HTTP/2.0" 200 6921 "-" "curl/7.88"
+45.33.32.156 - - [Jan 27 07:39:51] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+10.0.1.10 - readonly_user [Mar 12 07:57:02] "GET /api/v2/assets HTTP/2.0" 200 2621 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - - [Feb 29 11:06:19] "GET /../../../etc/passwd HTTP/1.1" 400 512 "-" "zgrab/0.x"
+dlp_monitor [Jan 22 05:48:42] DLP monitor: data_loss_prevent triggered user=devops dst=198.51.100.20 bytes=45230 policy=DLP-Email-Outbound
+91.108.4.12 - scanner [Feb 27 14:22:45] "GET /dashboard HTTP/2.0" 200 4099 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+91.108.4.12 - - [Jan 02 10:15:46] "GET /admin/../etc/passwd HTTP/1.1" 403 512 "-" "sqlmap/1.7"
+10.0.1.10 - readonly_user [Feb 05 09:28:30] "GET /reports HTTP/2.0" 200 3240 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - backup_svc [Feb 14 20:16:10] "DELETE /login HTTP/2.0" 200 5544 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+web_filter_block [Mar 30 08:30:49] URL categorized=phishing blocked user=devops dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+77.88.8.8 - scanner [Jan 10 06:48:59] "OPTIONS /login HTTP/2.0" 200 4613 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+web_filter_block [Jan 29 01:47:21] URL categorized=phishing blocked user=dbadmin dst=198.51.100.20 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_monitor [Feb 20 06:42:13] DLP monitor: data_loss_prevent triggered user=admin dst=198.51.100.20 bytes=45230 policy=DLP-Email-Outbound
+45.33.32.156 - - [Mar 07 15:53:56] "GET /admin/../etc/passwd HTTP/1.1" 403 512 "-" "python-requests/2.31"
+203.0.113.50 - - [Feb 20 20:42:31] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+185.220.101.5 - - [Jan 17 21:51:53] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+192.168.1.100 - scanner [Jan 03 21:37:02] "GET /api/v2/cloud-status HTTP/2.0" 200 1112 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - dbadmin [Mar 15 00:08:06] "POST /login HTTP/2.0" 200 5112 "https://portal.empresa.com" "curl/7.88"
+45.33.32.156 - - [Mar 15 14:09:27] "GET /.env HTTP/1.1" 404 512 "-" "zgrab/0.x"
+192.168.1.50 - mlopez [Jan 13 23:31:48] "POST /api/v2/assets HTTP/2.0" 200 3490 "https://portal.empresa.com" "PostmanRuntime/7.36"
+198.51.100.20 - - [Feb 15 20:29:45] "GET /debug/console HTTP/1.1" 404 512 "-" "nikto/2.1.6"
+104.21.8.9 - - [Feb 08 02:05:32] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+1.1.1.1 - - [Feb 23 19:21:30] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+dlp_detect [Feb 19 02:47:43] sensitive_data_detect: user=root file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=siem-srv-06
+10.0.1.20 - - [Feb 05 17:51:45] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+10.0.1.10 - api_svc [Feb 26 20:01:09] "GET /dashboard HTTP/2.0" 200 2124 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+dlp_detect [Jan 31 22:41:58] sensitive_data_detect: user=scanner file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=siem-srv-06
+1.1.1.1 - - [Jan 23 15:30:41] "GET /api/internal/secrets HTTP/1.1" 500 512 "-" "python-requests/2.31"
+dlp_detect [Jan 30 05:11:21] sensitive_data_detect: user=api_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+10.0.2.5 - admin [Feb 09 17:44:07] "GET /api/v2/cloud-status HTTP/2.0" 200 3679 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+dlp_monitor [Jan 21 12:02:56] DLP monitor: data_loss_prevent triggered user=sysadmin dst=10.0.2.5 bytes=45230 policy=DLP-Email-Outbound
+[Jan 15 13:14:26] [ssl:error] [pid 3473] AH02042: ssl_error certificate_expired for 91.108.4.12 (check certificate renewal)
+dlp_detect [Jan 28 13:57:22] sensitive_data_detect: user=aruiz file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+10.0.1.10 - mlopez [Jan 13 19:24:44] "PUT /api/v2/cloud-status HTTP/2.0" 200 7856 "https://portal.empresa.com" "curl/7.88"
+192.168.1.100 - sysadmin [Mar 23 05:37:37] "DELETE /reports HTTP/2.0" 200 7749 "https://erp.local" "PostmanRuntime/7.36"
+185.220.101.5 - - [Mar 25 19:18:50] "GET /../../../etc/passwd HTTP/1.1" 500 512 "-" "masscan/1.3"
+45.33.32.156 - - [Jan 03 23:28:08] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+185.220.101.5 - devops [Feb 28 22:22:33] "OPTIONS /login HTTP/2.0" 200 5090 "https://portal.empresa.com" "PostmanRuntime/7.36"
+45.33.32.156 - - [Mar 18 07:53:20] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+1.1.1.1 - - [Feb 13 23:54:23] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+185.220.101.5 - - [Feb 15 00:25:39] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+192.168.1.100 - admin [Jan 11 06:24:36] "GET /api/v2/assets HTTP/2.0" 200 3148 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - jgarcia [Feb 05 00:49:12] "GET /static/app.js HTTP/2.0" 200 1450 "https://erp.local" "curl/7.88"
+10.0.1.20 - backup_svc [Jan 02 18:29:11] "PUT /health HTTP/2.0" 200 2147 "https://portal.empresa.com" "PostmanRuntime/7.36"
+web_filter_block [Jan 17 07:04:33] URL categorized=phishing blocked user=scanner dst=91.108.4.12 url=http://phishing-site.net proxy=proxy-srv-04
+45.33.32.156 - - [Jan 24 22:46:47] "GET /wp-admin/ HTTP/1.1" 400 512 "-" "masscan/1.3"
+192.168.1.50 - - [Feb 11 05:23:19] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+dlp_detect [Feb 06 15:14:51] sensitive_data_detect: user=jgarcia file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=dlp-agent-08
+dlp_monitor [Mar 03 15:29:14] DLP monitor: data_loss_prevent triggered user=admin dst=185.220.101.5 bytes=45230 policy=DLP-Email-Outbound
+45.33.32.156 - - [Mar 23 10:41:21] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+45.33.32.156 - admin [Feb 10 15:15:13] "DELETE /static/app.js HTTP/2.0" 200 4561 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+77.88.8.8 - - [Feb 14 10:34:45] "GET /../../../etc/passwd HTTP/1.1" 400 512 "-" "sqlmap/1.7"
+1.1.1.1 - - [Jan 13 20:56:11] "GET /phpmyadmin/ HTTP/1.1" 500 512 "-" "sqlmap/1.7"
+203.0.113.50 - devops [Feb 23 16:27:21] "PUT /login HTTP/2.0" 200 6357 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+web_filter_block [Feb 06 02:24:07] URL categorized=phishing blocked user=scanner dst=198.51.100.20 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_detect [Jan 18 23:57:06] sensitive_data_detect: user=aruiz file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=dlp-agent-08
+192.168.1.100 - devops [Mar 21 22:34:40] "GET /api/v2/assets HTTP/2.0" 200 2338 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+104.21.8.9 - root [Mar 07 20:21:37] "PUT /api/v2/cloud-status HTTP/2.0" 200 7729 "-" "curl/7.88"
+10.0.2.5 - mlopez [Jan 28 01:48:44] "POST /api/v2/assets HTTP/2.0" 200 7720 "https://erp.local" "curl/7.88"
+dlp_detect [Jan 16 11:42:13] sensitive_data_detect: user=root file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=backup-srv-07
+10.0.1.20 - devops [Mar 24 20:15:41] "GET /api/v2/assets HTTP/2.0" 200 994 "https://portal.empresa.com" "PostmanRuntime/7.36"
+10.0.2.5 - admin [Feb 03 21:18:14] "GET /api/v2/cloud-status HTTP/2.0" 200 1082 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Mar 07 01:29:11] sensitive_data_detect: user=readonly_user file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=siem-srv-06
+10.0.2.5 - mlopez [Feb 07 05:29:47] "GET /login HTTP/2.0" 200 1211 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+91.108.4.12 - backup_svc [Feb 29 21:18:23] "OPTIONS /reports HTTP/2.0" 200 5259 "https://portal.empresa.com" "PostmanRuntime/7.36"
+192.168.1.100 - sysadmin [Feb 24 09:24:51] "GET /static/app.js HTTP/2.0" 200 565 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Feb 29 17:49:53] URL categorized=phishing blocked user=aruiz dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+1.1.1.1 - - [Feb 21 07:49:32] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+203.0.113.50 - api_svc [Jan 09 13:59:09] "PUT /api/v2/assets HTTP/2.0" 200 6524 "https://erp.local" "curl/7.88"
+91.108.4.12 - - [Mar 12 08:40:16] "GET /admin/../etc/passwd HTTP/1.1" 404 512 "-" "zgrab/0.x"
+dlp_monitor [Feb 11 08:25:54] DLP monitor: data_loss_prevent triggered user=aruiz dst=185.220.101.5 bytes=45230 policy=DLP-Email-Outbound
+185.220.101.5 - - [Jan 09 05:01:09] "GET /phpmyadmin/ HTTP/1.1" 403 512 "-" "sqlmap/1.7"
+185.220.101.5 - - [Mar 23 05:41:08] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+172.16.0.25 - scanner [Feb 06 18:47:06] "DELETE /health HTTP/2.0" 200 5355 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+185.220.101.5 - - [Jan 30 13:23:28] "GET /xmlrpc.php HTTP/1.1" 404 512 "-" "masscan/1.3"
+104.21.8.9 - - [Mar 25 21:12:17] "GET /cgi-bin/test.sh HTTP/1.1" 500 512 "-" "masscan/1.3"
+203.0.113.50 - - [Mar 23 23:49:42] "GET /api/internal/secrets HTTP/1.1" 500 512 "-" "zgrab/0.x"
+77.88.8.8 - admin [Feb 21 00:10:59] "DELETE /login HTTP/2.0" 200 4158 "https://portal.empresa.com" "PostmanRuntime/7.36"
+192.168.1.100 - scanner [Feb 09 23:39:23] "GET /dashboard HTTP/2.0" 200 3958 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+104.21.8.9 - - [Feb 25 16:47:24] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+10.0.2.5 - jgarcia [Jan 17 06:45:34] "OPTIONS /health HTTP/2.0" 200 999 "https://portal.empresa.com" "PostmanRuntime/7.36"
+91.108.4.12 - - [Mar 09 01:36:35] "GET /debug/console HTTP/1.1" 404 512 "-" "sqlmap/1.7"
+10.0.1.20 - jgarcia [Mar 02 15:07:12] "DELETE /api/v2/users HTTP/2.0" 200 2597 "-" "curl/7.88"
+10.0.1.10 - aruiz [Feb 19 16:39:32] "OPTIONS /static/app.js HTTP/2.0" 200 4664 "https://erp.local" "PostmanRuntime/7.36"
+1.1.1.1 - - [Feb 17 00:32:12] "GET /xmlrpc.php HTTP/1.1" 404 512 "-" "python-requests/2.31"
+192.168.1.50 - api_svc [Feb 08 08:37:25] "POST /reports HTTP/2.0" 200 7742 "-" "curl/7.88"
+web_filter_block [Jan 28 09:49:05] URL categorized=phishing blocked user=devops dst=91.108.4.12 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.1.20 - - [Mar 20 06:26:00] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+dlp_monitor [Jan 29 10:45:21] DLP monitor: data_loss_prevent triggered user=backup_svc dst=10.0.1.20 bytes=45230 policy=DLP-Email-Outbound
+1.1.1.1 - - [Jan 07 14:20:54] "GET /.env HTTP/1.1" 500 512 "-" "sqlmap/1.7"
+91.108.4.12 - - [Mar 12 09:24:17] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+192.168.1.100 - sysadmin [Jan 28 18:24:08] "GET /api/v2/cloud-status HTTP/2.0" 200 4457 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+203.0.113.50 - - [Feb 26 01:30:38] "GET /admin/../etc/passwd HTTP/1.1" 403 512 "-" "sqlmap/1.7"
+198.51.100.20 - backup_svc [Jan 25 03:52:28] "DELETE /static/app.js HTTP/2.0" 200 1430 "https://erp.local" "curl/7.88"
+192.168.1.100 - scanner [Feb 21 09:24:57] "GET /api/v2/users HTTP/2.0" 200 2512 "https://portal.empresa.com" "PostmanRuntime/7.36"
+192.168.1.100 - dbadmin [Feb 22 08:19:37] "GET /static/app.js HTTP/2.0" 200 4075 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - - [Feb 15 07:31:15] "GET /admin/../etc/passwd HTTP/1.1" 403 512 "-" "nikto/2.1.6"
+1.1.1.1 - - [Feb 12 11:18:52] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+45.33.32.156 - - [Mar 05 11:58:14] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+45.33.32.156 - - [Mar 27 17:01:18] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+10.0.2.5 - devops [Jan 07 00:25:43] "OPTIONS /reports HTTP/2.0" 200 7512 "https://erp.local" "PostmanRuntime/7.36"
+dlp_detect [Feb 10 07:14:44] sensitive_data_detect: user=admin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=db-srv-02
+[Feb 29 06:29:51] [ssl:error] [pid 9852] AH02042: ssl_error certificate_expired for 10.0.1.10 (check certificate renewal)
+104.21.8.9 - - [Mar 19 09:01:52] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+77.88.8.8 - - [Feb 16 22:16:06] "GET /api/internal/secrets HTTP/1.1" 404 512 "-" "sqlmap/1.7"
+185.220.101.5 - - [Jan 08 05:12:42] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+dlp_monitor [Jan 01 22:04:14] DLP monitor: data_loss_prevent triggered user=scanner dst=77.88.8.8 bytes=45230 policy=DLP-Email-Outbound
+10.0.2.5 - jgarcia [Feb 03 19:52:05] "GET /dashboard HTTP/2.0" 200 5450 "-" "PostmanRuntime/7.36"
+[Mar 11 19:22:56] [ssl:error] [pid 1105] AH02042: ssl_error certificate_expired for 192.168.1.100 (check certificate renewal)
+172.16.0.25 - aruiz [Mar 24 03:59:51] "PUT /dashboard HTTP/2.0" 200 6565 "-" "curl/7.88"
+192.168.1.100 - root [Feb 17 04:53:17] "OPTIONS /api/v2/cloud-status HTTP/2.0" 200 3538 "https://erp.local" "PostmanRuntime/7.36"
+192.168.1.50 - backup_svc [Mar 29 14:12:22] "DELETE /api/v2/users HTTP/2.0" 200 4252 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+198.51.100.20 - api_svc [Jan 14 08:26:21] "PUT /reports HTTP/2.0" 200 5301 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.100 - root [Jan 29 08:27:25] "GET /api/v2/users HTTP/2.0" 200 3229 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+77.88.8.8 - readonly_user [Mar 21 20:49:13] "GET /health HTTP/2.0" 200 1674 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - api_svc [Mar 14 13:03:16] "GET /login HTTP/2.0" 200 2037 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Feb 08 01:21:31] URL categorized=phishing blocked user=api_svc dst=45.33.32.156 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_monitor [Mar 03 23:49:36] DLP monitor: data_loss_prevent triggered user=jgarcia dst=10.0.1.10 bytes=45230 policy=DLP-Email-Outbound
+172.16.0.25 - dbadmin [Feb 11 23:16:40] "DELETE /reports HTTP/2.0" 200 6766 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+104.21.8.9 - - [Jan 11 11:32:32] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+web_filter_block [Jan 15 05:10:22] URL categorized=phishing blocked user=scanner dst=91.108.4.12 url=http://phishing-site.net proxy=proxy-srv-04
+45.33.32.156 - root [Jan 17 05:50:01] "POST /api/v2/cloud-status HTTP/2.0" 200 6007 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Feb 04 19:46:08] sensitive_data_detect: user=mlopez file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=backup-srv-07
+dlp_detect [Jan 03 20:36:52] sensitive_data_detect: user=sysadmin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=web-srv-01
+web_filter_block [Jan 28 11:32:31] URL categorized=phishing blocked user=jgarcia dst=192.168.1.50 url=http://phishing-site.net proxy=proxy-srv-04
+185.220.101.5 - - [Mar 05 21:46:21] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+dlp_monitor [Mar 16 05:45:58] DLP monitor: data_loss_prevent triggered user=backup_svc dst=10.0.2.5 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.100 - root [Mar 20 10:48:33] "GET /api/v2/assets HTTP/2.0" 200 4503 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+[Feb 16 03:48:11] [ssl:error] [pid 7854] AH02042: ssl_error certificate_expired for 104.21.8.9 (check certificate renewal)
+104.21.8.9 - mlopez [Jan 18 11:53:57] "OPTIONS /login HTTP/2.0" 200 1467 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+45.33.32.156 - - [Feb 04 15:04:43] "GET /api/v2/../../../../etc/shadow HTTP/1.1" 403 512 "-" "masscan/1.3"
+203.0.113.50 - admin [Jan 03 20:58:32] "OPTIONS /api/v2/assets HTTP/2.0" 200 7446 "-" "curl/7.88"
+192.168.1.50 - root [Mar 25 14:45:30] "DELETE /reports HTTP/2.0" 200 7269 "https://erp.local" "curl/7.88"
+185.220.101.5 - sysadmin [Mar 30 03:49:43] "GET /static/app.js HTTP/2.0" 200 4306 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+91.108.4.12 - admin [Feb 26 16:04:28] "DELETE /api/v2/cloud-status HTTP/2.0" 200 5638 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Mar 27 10:34:42] DLP monitor: data_loss_prevent triggered user=mlopez dst=45.33.32.156 bytes=45230 policy=DLP-Email-Outbound
+dlp_monitor [Feb 15 03:12:54] DLP monitor: data_loss_prevent triggered user=sysadmin dst=77.88.8.8 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.100 - api_svc [Mar 30 23:02:44] "POST /api/v2/users HTTP/2.0" 200 7356 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+203.0.113.50 - dbadmin [Feb 20 04:42:39] "GET /api/v2/assets HTTP/2.0" 200 5292 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Feb 19 12:59:28] sensitive_data_detect: user=mlopez file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=proxy-srv-04
+198.51.100.20 - backup_svc [Feb 10 09:51:11] "GET /api/v2/assets HTTP/2.0" 200 310 "https://portal.empresa.com" "curl/7.88"
+185.220.101.5 - - [Feb 06 06:16:15] "GET /wp-admin/ HTTP/1.1" 500 512 "-" "nikto/2.1.6"
+203.0.113.50 - - [Mar 08 19:46:36] "GET /wp-admin/ HTTP/1.1" 500 512 "-" "masscan/1.3"
+192.168.1.100 - jgarcia [Mar 14 06:20:35] "GET /login HTTP/2.0" 200 507 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - mlopez [Feb 05 15:24:33] "POST /login HTTP/2.0" 200 6003 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+91.108.4.12 - - [Feb 01 21:45:56] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+dlp_monitor [Feb 08 11:04:49] DLP monitor: data_loss_prevent triggered user=admin dst=45.33.32.156 bytes=45230 policy=DLP-Email-Outbound
+10.0.2.5 - root [Jan 07 06:28:10] "GET /static/app.js HTTP/2.0" 200 1812 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+dlp_monitor [Mar 19 23:06:59] DLP monitor: data_loss_prevent triggered user=sysadmin dst=203.0.113.50 bytes=45230 policy=DLP-Email-Outbound
+198.51.100.20 - - [Mar 01 10:12:33] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+[Jan 21 04:49:37] [ssl:error] [pid 7080] AH02042: ssl_error certificate_expired for 1.1.1.1 (check certificate renewal)
+45.33.32.156 - - [Feb 24 12:12:02] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+10.0.2.5 - devops [Jan 20 19:02:15] "OPTIONS /api/v2/users HTTP/2.0" 200 2526 "https://portal.empresa.com" "curl/7.88"
+203.0.113.50 - - [Feb 10 02:25:46] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+10.0.1.20 - mlopez [Jan 11 00:25:33] "GET /health HTTP/2.0" 200 2643 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+104.21.8.9 - - [Jan 14 13:58:56] "GET /api/v2/../../../../etc/shadow HTTP/1.1" 500 512 "-" "zgrab/0.x"
+77.88.8.8 - aruiz [Feb 27 13:02:26] "POST /health HTTP/2.0" 200 4292 "https://erp.local" "PostmanRuntime/7.36"
+104.21.8.9 - - [Feb 29 17:23:31] "GET /phpmyadmin/ HTTP/1.1" 403 512 "-" "zgrab/0.x"
+[Jan 26 23:48:51] [ssl:error] [pid 2855] AH02042: ssl_error certificate_expired for 192.168.1.50 (check certificate renewal)
+185.220.101.5 - - [Mar 01 06:42:34] "GET /phpmyadmin/ HTTP/1.1" 500 512 "-" "masscan/1.3"
+91.108.4.12 - - [Feb 25 11:01:33] "GET /phpmyadmin/ HTTP/1.1" 400 512 "-" "masscan/1.3"
+dlp_detect [Jan 08 18:27:11] sensitive_data_detect: user=root file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=backup-srv-07
+10.0.2.5 - mlopez [Jan 03 03:19:15] "GET /api/v2/users HTTP/2.0" 200 4375 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+185.220.101.5 - - [Jan 19 15:18:47] "GET /.env HTTP/1.1" 404 512 "-" "nikto/2.1.6"
+10.0.1.10 - aruiz [Jan 30 19:04:19] "GET /health HTTP/2.0" 200 1972 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Jan 28 22:03:39] sensitive_data_detect: user=jgarcia file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=siem-srv-06
+192.168.1.50 - scanner [Feb 27 05:30:35] "GET /api/v2/cloud-status HTTP/2.0" 200 3307 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - dbadmin [Jan 22 19:28:35] "DELETE /api/v2/cloud-status HTTP/2.0" 200 6090 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+77.88.8.8 - - [Mar 10 19:47:39] "GET /phpmyadmin/ HTTP/1.1" 400 512 "-" "masscan/1.3"
+91.108.4.12 - - [Jan 01 21:15:05] "GET /.git/config HTTP/1.1" 500 512 "-" "sqlmap/1.7"
+[Mar 29 18:39:22] [ssl:error] [pid 3391] AH02042: ssl_error certificate_expired for 10.0.1.20 (check certificate renewal)
+10.0.1.20 - api_svc [Mar 18 17:16:33] "POST /login HTTP/2.0" 200 5718 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+104.21.8.9 - - [Feb 20 16:18:19] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+203.0.113.50 - admin [Feb 09 20:10:24] "GET /api/v2/users HTTP/2.0" 200 3884 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - api_svc [Mar 22 20:52:02] "OPTIONS /api/v2/cloud-status HTTP/2.0" 200 2288 "https://erp.local" "curl/7.88"
+192.168.1.100 - root [Mar 25 16:16:50] "GET /api/v2/assets HTTP/2.0" 200 440 "-" "PostmanRuntime/7.36"
+77.88.8.8 - readonly_user [Feb 28 16:50:27] "PUT /api/v2/cloud-status HTTP/2.0" 200 4121 "https://portal.empresa.com" "PostmanRuntime/7.36"
+web_filter_block [Jan 16 16:15:52] URL categorized=phishing blocked user=scanner dst=1.1.1.1 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.1.10 - devops [Mar 26 19:29:41] "POST /reports HTTP/2.0" 200 7337 "https://erp.local" "PostmanRuntime/7.36"
+104.21.8.9 - - [Mar 02 22:12:11] "GET /api/v2/../../../../etc/shadow HTTP/1.1" 500 512 "-" "python-requests/2.31"
+10.0.2.5 - admin [Feb 23 01:14:43] "OPTIONS /reports HTTP/2.0" 200 2079 "https://erp.local" "PostmanRuntime/7.36"
+45.33.32.156 - - [Mar 15 18:15:34] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+192.168.1.50 - scanner [Mar 23 06:52:11] "GET /dashboard HTTP/2.0" 200 6003 "https://erp.local" "curl/7.88"
+web_filter_block [Feb 28 22:45:13] URL categorized=phishing blocked user=mlopez dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_monitor [Jan 19 03:37:46] DLP monitor: data_loss_prevent triggered user=devops dst=203.0.113.50 bytes=45230 policy=DLP-Email-Outbound
+10.0.2.5 - dbadmin [Mar 21 11:12:27] "PUT /reports HTTP/2.0" 200 1553 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+91.108.4.12 - sysadmin [Mar 30 19:34:16] "GET /dashboard HTTP/2.0" 200 1601 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.50 - readonly_user [Feb 03 22:19:24] "GET /health HTTP/2.0" 200 1903 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+203.0.113.50 - devops [Feb 19 08:42:18] "POST /health HTTP/2.0" 200 3592 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+185.220.101.5 - - [Feb 05 02:16:03] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+[Jan 20 06:50:30] [ssl:error] [pid 2003] AH02042: ssl_error certificate_expired for 172.16.0.25 (check certificate renewal)
+10.0.1.10 - api_svc [Mar 31 07:14:01] "GET /static/app.js HTTP/2.0" 200 5720 "https://portal.empresa.com" "curl/7.88"
+192.168.1.50 - sysadmin [Jan 09 23:30:12] "GET /health HTTP/2.0" 200 2673 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.1.10 - - [Jan 02 17:30:36] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+web_filter_block [Jan 04 23:17:31] URL categorized=phishing blocked user=backup_svc dst=185.220.101.5 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.1.20 - readonly_user [Feb 29 20:44:01] "GET /api/v2/users HTTP/2.0" 200 2341 "https://erp.local" "PostmanRuntime/7.36"
+10.0.1.20 - backup_svc [Mar 17 22:50:49] "PUT /health HTTP/2.0" 200 3811 "https://portal.empresa.com" "PostmanRuntime/7.36"
+[Jan 22 11:36:36] [ssl:error] [pid 7368] AH02042: ssl_error certificate_expired for 185.220.101.5 (check certificate renewal)
+10.0.2.5 - api_svc [Feb 03 12:52:28] "GET /api/v2/assets HTTP/2.0" 200 3578 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+77.88.8.8 - - [Feb 27 19:45:59] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+77.88.8.8 - - [Feb 19 13:31:25] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+dlp_detect [Jan 01 19:21:39] sensitive_data_detect: user=sysadmin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=backup-srv-07
+203.0.113.50 - - [Mar 09 07:04:26] "GET /api/v2/../../../../etc/shadow HTTP/1.1" 500 512 "-" "zgrab/0.x"
+192.168.1.50 - admin [Mar 15 00:51:56] "GET /reports HTTP/2.0" 200 1989 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - dbadmin [Jan 07 16:18:22] "GET /dashboard HTTP/2.0" 200 1500 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - aruiz [Feb 17 02:44:56] "GET /login HTTP/2.0" 200 4326 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+dlp_detect [Mar 12 02:22:25] sensitive_data_detect: user=backup_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=auth-srv-03
+172.16.0.25 - devops [Mar 30 15:46:59] "PUT /dashboard HTTP/2.0" 200 1519 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+203.0.113.50 - - [Feb 07 14:19:19] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+dlp_monitor [Jan 29 09:09:43] DLP monitor: data_loss_prevent triggered user=aruiz dst=91.108.4.12 bytes=45230 policy=DLP-Email-Outbound
+10.0.1.10 - devops [Jan 07 19:08:28] "DELETE /api/v2/assets HTTP/2.0" 200 4895 "-" "curl/7.88"
+web_filter_block [Jan 20 04:28:29] URL categorized=phishing blocked user=sysadmin dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+104.21.8.9 - - [Mar 28 10:22:27] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+91.108.4.12 - aruiz [Jan 08 00:29:11] "PUT /static/app.js HTTP/2.0" 200 3325 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Feb 19 19:48:48] sensitive_data_detect: user=jgarcia file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=db-srv-02
+dlp_monitor [Mar 08 13:25:23] DLP monitor: data_loss_prevent triggered user=readonly_user dst=91.108.4.12 bytes=45230 policy=DLP-Email-Outbound
+172.16.0.25 - devops [Feb 13 06:46:51] "GET /static/app.js HTTP/2.0" 200 4753 "https://erp.local" "PostmanRuntime/7.36"
+10.0.1.20 - devops [Jan 04 22:03:23] "POST /api/v2/users HTTP/2.0" 200 2600 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+203.0.113.50 - readonly_user [Feb 14 04:50:29] "OPTIONS /dashboard HTTP/2.0" 200 1163 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+203.0.113.50 - dbadmin [Feb 19 16:08:18] "PUT /static/app.js HTTP/2.0" 200 1143 "-" "curl/7.88"
+91.108.4.12 - sysadmin [Mar 17 07:24:27] "POST /api/v2/assets HTTP/2.0" 200 4104 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Mar 15 04:29:22] sensitive_data_detect: user=scanner file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=auth-srv-03
+172.16.0.25 - scanner [Jan 03 11:17:13] "GET /api/v2/users HTTP/2.0" 200 2668 "https://erp.local" "curl/7.88"
+[Jan 14 16:01:02] [ssl:error] [pid 9434] AH02042: ssl_error certificate_expired for 192.168.1.50 (check certificate renewal)
+[Feb 05 02:40:46] [ssl:error] [pid 2786] AH02042: ssl_error certificate_expired for 192.168.1.100 (check certificate renewal)
+dlp_detect [Jan 24 08:23:11] sensitive_data_detect: user=mlopez file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=dlp-agent-08
+dlp_monitor [Jan 05 05:24:25] DLP monitor: data_loss_prevent triggered user=dbadmin dst=203.0.113.50 bytes=45230 policy=DLP-Email-Outbound
+1.1.1.1 - - [Feb 23 22:33:06] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+192.168.1.50 - dbadmin [Mar 06 03:57:17] "OPTIONS /static/app.js HTTP/2.0" 200 2632 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.50 - dbadmin [Jan 09 18:18:39] "DELETE /api/v2/assets HTTP/2.0" 200 1352 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.2.5 - devops [Feb 09 07:39:17] "GET /reports HTTP/2.0" 200 2339 "-" "PostmanRuntime/7.36"
+dlp_detect [Mar 26 15:43:33] sensitive_data_detect: user=root file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=auth-srv-03
+192.168.1.100 - dbadmin [Jan 30 11:33:24] "GET /health HTTP/2.0" 200 2357 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - scanner [Feb 15 13:18:18] "OPTIONS /api/v2/cloud-status HTTP/2.0" 200 7708 "https://portal.empresa.com" "curl/7.88"
+web_filter_block [Mar 21 08:47:33] URL categorized=phishing blocked user=scanner dst=45.33.32.156 url=http://phishing-site.net proxy=proxy-srv-04
+203.0.113.50 - scanner [Feb 24 18:06:29] "GET /api/v2/users HTTP/2.0" 200 3964 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+185.220.101.5 - - [Feb 12 11:00:51] "GET /xmlrpc.php HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+10.0.1.10 - jgarcia [Feb 23 22:33:48] "DELETE /api/v2/users HTTP/2.0" 200 3219 "https://erp.local" "curl/7.88"
+10.0.1.10 - devops [Jan 04 10:18:55] "DELETE /api/v2/cloud-status HTTP/2.0" 200 3034 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+104.21.8.9 - sysadmin [Mar 11 18:27:07] "GET /api/v2/users HTTP/2.0" 200 1140 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+dlp_detect [Jan 09 03:47:55] sensitive_data_detect: user=aruiz file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=auth-srv-03
+198.51.100.20 - - [Jan 11 09:40:12] "GET /cgi-bin/test.sh HTTP/1.1" 500 512 "-" "masscan/1.3"
+45.33.32.156 - - [Jan 25 14:48:31] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+91.108.4.12 - - [Mar 21 02:43:18] "GET /wp-admin/ HTTP/1.1" 500 512 "-" "sqlmap/1.7"
+172.16.0.25 - sysadmin [Jan 03 05:13:10] "DELETE /static/app.js HTTP/2.0" 200 6907 "-" "curl/7.88"
+185.220.101.5 - api_svc [Feb 10 21:03:19] "POST /login HTTP/2.0" 200 7018 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Jan 18 09:45:07] sensitive_data_detect: user=aruiz file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+104.21.8.9 - - [Mar 01 22:20:50] "GET /xmlrpc.php HTTP/1.1" 403 512 "-" "python-requests/2.31"
+45.33.32.156 - - [Jan 12 06:32:08] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+45.33.32.156 - dbadmin [Feb 05 00:23:45] "GET /reports HTTP/2.0" 200 4120 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - sysadmin [Mar 01 05:57:57] "GET /api/v2/cloud-status HTTP/2.0" 200 1390 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+185.220.101.5 - devops [Jan 22 21:14:37] "GET /api/v2/assets HTTP/2.0" 200 4558 "-" "PostmanRuntime/7.36"
+172.16.0.25 - - [Feb 25 04:03:10] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+1.1.1.1 - - [Feb 03 14:00:29] "GET /xmlrpc.php HTTP/1.1" 500 512 "-" "python-requests/2.31"
+192.168.1.50 - jgarcia [Mar 20 00:16:01] "GET /static/app.js HTTP/2.0" 200 6394 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+45.33.32.156 - - [Mar 04 22:04:26] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+77.88.8.8 - - [Mar 02 17:59:53] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+1.1.1.1 - - [Mar 10 21:04:47] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+10.0.2.5 - readonly_user [Feb 08 16:08:18] "GET /api/v2/cloud-status HTTP/2.0" 200 2277 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+77.88.8.8 - sysadmin [Mar 31 04:20:24] "POST /static/app.js HTTP/2.0" 200 3060 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.50 - backup_svc [Mar 30 13:35:56] "PUT /static/app.js HTTP/2.0" 200 2502 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+172.16.0.25 - admin [Mar 16 07:04:14] "OPTIONS /reports HTTP/2.0" 200 460 "https://portal.empresa.com" "curl/7.88"
+1.1.1.1 - mlopez [Feb 24 00:55:46] "OPTIONS /health HTTP/2.0" 200 4712 "https://erp.local" "curl/7.88"
+10.0.2.5 - aruiz [Feb 24 22:10:48] "POST /api/v2/assets HTTP/2.0" 200 445 "https://erp.local" "curl/7.88"
+172.16.0.25 - api_svc [Jan 12 06:47:35] "PUT /api/v2/cloud-status HTTP/2.0" 200 5783 "https://portal.empresa.com" "curl/7.88"
+10.0.2.5 - sysadmin [Jan 28 13:27:10] "PUT /api/v2/users HTTP/2.0" 200 2316 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.2.5 - jgarcia [Mar 03 21:15:26] "GET /login HTTP/2.0" 200 5288 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.1.20 - devops [Feb 26 23:19:23] "GET /login HTTP/2.0" 200 1869 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - scanner [Feb 27 01:59:01] "GET /login HTTP/2.0" 200 3371 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - readonly_user [Feb 08 06:32:24] "DELETE /api/v2/cloud-status HTTP/2.0" 200 4816 "https://erp.local" "curl/7.88"
+172.16.0.25 - dbadmin [Mar 07 13:00:11] "PUT /api/v2/assets HTTP/2.0" 200 2247 "https://erp.local" "PostmanRuntime/7.36"
+104.21.8.9 - - [Feb 21 07:57:09] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+1.1.1.1 - - [Mar 25 12:00:53] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+dlp_detect [Feb 17 16:44:47] sensitive_data_detect: user=readonly_user file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+10.0.1.10 - devops [Jan 10 01:51:53] "POST /static/app.js HTTP/2.0" 200 4475 "https://portal.empresa.com" "curl/7.88"
+172.16.0.25 - - [Mar 25 14:41:42] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+45.33.32.156 - dbadmin [Mar 18 19:13:50] "POST /health HTTP/2.0" 200 1452 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+198.51.100.20 - - [Mar 19 04:57:01] "GET /api/v2/../../../../etc/shadow HTTP/1.1" 404 512 "-" "masscan/1.3"
+10.0.1.10 - api_svc [Feb 07 21:14:40] "DELETE /login HTTP/2.0" 200 1111 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Jan 13 09:21:49] sensitive_data_detect: user=mlopez file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=web-srv-01
+185.220.101.5 - - [Mar 14 00:45:47] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+185.220.101.5 - - [Mar 05 04:13:26] "GET /xmlrpc.php HTTP/1.1" 400 512 "-" "sqlmap/1.7"
+web_filter_block [Feb 04 12:35:32] URL categorized=phishing blocked user=aruiz dst=104.21.8.9 url=http://phishing-site.net proxy=proxy-srv-04
+web_filter_block [Feb 13 12:03:09] URL categorized=phishing blocked user=readonly_user dst=198.51.100.20 url=http://phishing-site.net proxy=proxy-srv-04
+185.220.101.5 - - [Feb 16 10:39:45] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+185.220.101.5 - - [Feb 22 08:52:51] "GET /.git/config HTTP/1.1" 403 512 "-" "zgrab/0.x"
+192.168.1.100 - aruiz [Feb 20 01:11:31] "GET /login HTTP/2.0" 200 733 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - dbadmin [Jan 02 21:44:19] "OPTIONS /static/app.js HTTP/2.0" 200 3038 "https://erp.local" "PostmanRuntime/7.36"
+192.168.1.50 - dbadmin [Mar 18 01:27:33] "GET /static/app.js HTTP/2.0" 200 4298 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - root [Jan 23 17:23:31] "POST /api/v2/assets HTTP/2.0" 200 2777 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Mar 14 11:56:24] sensitive_data_detect: user=scanner file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=siem-srv-06
+192.168.1.100 - scanner [Feb 10 14:19:17] "GET /login HTTP/2.0" 200 7340 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+104.21.8.9 - - [Jan 14 20:30:07] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+91.108.4.12 - - [Jan 03 11:32:00] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+45.33.32.156 - - [Feb 18 10:32:36] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+104.21.8.9 - scanner [Feb 22 14:16:23] "PUT /api/v2/users HTTP/2.0" 200 6993 "-" "curl/7.88"
+104.21.8.9 - dbadmin [Jan 04 06:06:26] "OPTIONS /api/v2/cloud-status HTTP/2.0" 200 6455 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.2.5 - dbadmin [Feb 06 07:23:01] "GET /static/app.js HTTP/2.0" 200 3463 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - - [Jan 01 14:43:26] "GET /wp-admin/ HTTP/1.1" 403 512 "-" "masscan/1.3"
+10.0.1.10 - root [Feb 20 10:08:45] "POST /api/v2/cloud-status HTTP/2.0" 200 954 "https://portal.empresa.com" "PostmanRuntime/7.36"
+104.21.8.9 - - [Jan 19 01:15:00] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+10.0.1.20 - mlopez [Feb 26 10:07:23] "GET /health HTTP/2.0" 200 2702 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - devops [Mar 29 03:21:30] "GET /api/v2/cloud-status HTTP/2.0" 200 2973 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - - [Mar 29 14:37:04] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+10.0.1.20 - sysadmin [Jan 05 20:37:49] "DELETE /login HTTP/2.0" 200 6545 "https://erp.local" "PostmanRuntime/7.36"
+10.0.1.10 - dbadmin [Jan 30 10:04:03] "DELETE /api/v2/users HTTP/2.0" 200 1716 "https://portal.empresa.com" "curl/7.88"
+web_filter_block [Mar 15 22:05:49] URL categorized=phishing blocked user=sysadmin dst=45.33.32.156 url=http://phishing-site.net proxy=proxy-srv-04
+104.21.8.9 - - [Jan 24 12:29:54] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+185.220.101.5 - backup_svc [Feb 06 15:06:57] "PUT /api/v2/cloud-status HTTP/2.0" 200 1916 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+172.16.0.25 - sysadmin [Mar 28 03:30:35] "GET /api/v2/users HTTP/2.0" 200 1319 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+dlp_detect [Mar 27 07:45:06] sensitive_data_detect: user=api_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=auth-srv-03
+185.220.101.5 - - [Feb 17 04:34:07] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+dlp_detect [Feb 04 06:39:15] sensitive_data_detect: user=backup_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+45.33.32.156 - jgarcia [Jan 08 04:11:22] "PUT /static/app.js HTTP/2.0" 200 349 "-" "PostmanRuntime/7.36"
+dlp_monitor [Mar 19 17:39:48] DLP monitor: data_loss_prevent triggered user=scanner dst=192.168.1.100 bytes=45230 policy=DLP-Email-Outbound
+10.0.1.10 - scanner [Mar 16 04:51:06] "GET /reports HTTP/2.0" 200 6460 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Feb 13 15:29:55] sensitive_data_detect: user=root file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=db-srv-02
+[Mar 17 19:31:37] [ssl:error] [pid 6841] AH02042: ssl_error certificate_expired for 192.168.1.100 (check certificate renewal)
+10.0.1.10 - mlopez [Mar 15 18:25:56] "GET /health HTTP/2.0" 200 2621 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+77.88.8.8 - - [Jan 06 16:42:39] "GET /../../../etc/passwd HTTP/1.1" 404 512 "-" "sqlmap/1.7"
+192.168.1.100 - jgarcia [Feb 28 11:47:05] "GET /health HTTP/2.0" 200 4587 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.100 - scanner [Feb 02 20:39:15] "GET /health HTTP/2.0" 200 4054 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - sysadmin [Feb 18 07:37:43] "POST /login HTTP/2.0" 200 4574 "https://portal.empresa.com" "curl/7.88"
+10.0.1.20 - mlopez [Feb 22 23:01:37] "POST /api/v2/cloud-status HTTP/2.0" 200 5039 "https://erp.local" "curl/7.88"
+172.16.0.25 - sysadmin [Mar 23 15:10:10] "GET /api/v2/assets HTTP/2.0" 200 2126 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+[Mar 08 06:25:05] [ssl:error] [pid 9039] AH02042: ssl_error certificate_expired for 10.0.1.10 (check certificate renewal)
+web_filter_block [Mar 30 10:27:25] URL categorized=phishing blocked user=api_svc dst=185.220.101.5 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_monitor [Feb 20 23:45:27] DLP monitor: data_loss_prevent triggered user=jgarcia dst=10.0.2.5 bytes=45230 policy=DLP-Email-Outbound
+91.108.4.12 - mlopez [Jan 15 22:37:56] "OPTIONS /health HTTP/2.0" 200 3639 "https://erp.local" "curl/7.88"
+192.168.1.50 - api_svc [Jan 17 13:27:50] "GET /reports HTTP/2.0" 200 4219 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.100 - sysadmin [Jan 09 17:38:29] "GET /dashboard HTTP/2.0" 200 5413 "-" "PostmanRuntime/7.36"
+dlp_monitor [Jan 03 08:34:47] DLP monitor: data_loss_prevent triggered user=sysadmin dst=185.220.101.5 bytes=45230 policy=DLP-Email-Outbound
+185.220.101.5 - - [Mar 13 11:46:09] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+192.168.1.100 - aruiz [Jan 19 07:12:17] "POST /api/v2/cloud-status HTTP/2.0" 200 4704 "https://portal.empresa.com" "PostmanRuntime/7.36"
+91.108.4.12 - - [Jan 06 04:55:08] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+172.16.0.25 - aruiz [Mar 25 04:51:41] "POST /api/v2/users HTTP/2.0" 200 7582 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.100 - aruiz [Feb 06 19:41:49] "DELETE /api/v2/assets HTTP/2.0" 200 7245 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+web_filter_block [Jan 21 00:56:04] URL categorized=phishing blocked user=sysadmin dst=203.0.113.50 url=http://phishing-site.net proxy=proxy-srv-04
+web_filter_block [Feb 29 13:26:39] URL categorized=phishing blocked user=backup_svc dst=1.1.1.1 url=http://phishing-site.net proxy=proxy-srv-04
+[Jan 04 17:28:18] [ssl:error] [pid 2610] AH02042: ssl_error certificate_expired for 45.33.32.156 (check certificate renewal)
+dlp_monitor [Mar 14 12:03:12] DLP monitor: data_loss_prevent triggered user=admin dst=192.168.1.100 bytes=45230 policy=DLP-Email-Outbound
+77.88.8.8 - - [Mar 16 07:31:54] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+10.0.2.5 - admin [Feb 28 05:48:19] "POST /health HTTP/2.0" 200 1946 "-" "curl/7.88"
+198.51.100.20 - - [Feb 10 06:38:15] "GET /cgi-bin/test.sh HTTP/1.1" 500 512 "-" "nikto/2.1.6"
+dlp_monitor [Feb 20 03:42:50] DLP monitor: data_loss_prevent triggered user=root dst=91.108.4.12 bytes=45230 policy=DLP-Email-Outbound
+dlp_detect [Mar 09 21:33:12] sensitive_data_detect: user=api_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=backup-srv-07
+77.88.8.8 - sysadmin [Feb 07 21:18:38] "POST /login HTTP/2.0" 200 7094 "-" "PostmanRuntime/7.36"
+10.0.1.20 - devops [Jan 02 20:20:59] "GET /api/v2/assets HTTP/2.0" 200 4084 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - - [Mar 25 19:42:13] "GET /admin/../etc/passwd HTTP/1.1" 404 512 "-" "masscan/1.3"
+web_filter_block [Mar 18 18:40:55] URL categorized=phishing blocked user=admin dst=203.0.113.50 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.2.5 - api_svc [Jan 18 13:28:59] "POST /api/v2/assets HTTP/2.0" 200 1252 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_detect [Jan 06 21:56:25] sensitive_data_detect: user=jgarcia file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=siem-srv-06
+192.168.1.100 - dbadmin [Jan 18 08:04:56] "GET /dashboard HTTP/2.0" 200 2095 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+185.220.101.5 - mlopez [Mar 10 10:26:49] "OPTIONS /dashboard HTTP/2.0" 200 2497 "https://portal.empresa.com" "PostmanRuntime/7.36"
+192.168.1.100 - api_svc [Feb 04 21:27:08] "GET /api/v2/cloud-status HTTP/2.0" 200 1239 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Feb 24 03:16:14] URL categorized=phishing blocked user=jgarcia dst=1.1.1.1 url=http://phishing-site.net proxy=proxy-srv-04
+[Jan 22 01:32:07] [ssl:error] [pid 4393] AH02042: ssl_error certificate_expired for 203.0.113.50 (check certificate renewal)
+172.16.0.25 - devops [Mar 24 03:01:22] "POST /reports HTTP/2.0" 200 1287 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.1.20 - devops [Jan 28 06:34:32] "OPTIONS /api/v2/assets HTTP/2.0" 200 7589 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Feb 21 15:48:02] DLP monitor: data_loss_prevent triggered user=api_svc dst=1.1.1.1 bytes=45230 policy=DLP-Email-Outbound
+web_filter_block [Feb 19 03:46:41] URL categorized=phishing blocked user=root dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.2.5 - sysadmin [Feb 03 00:53:33] "GET /dashboard HTTP/2.0" 200 3313 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+45.33.32.156 - backup_svc [Feb 24 01:22:56] "OPTIONS /login HTTP/2.0" 200 3404 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Jan 15 19:52:42] DLP monitor: data_loss_prevent triggered user=backup_svc dst=91.108.4.12 bytes=45230 policy=DLP-Email-Outbound
+10.0.1.20 - sysadmin [Jan 06 07:40:22] "PUT /login HTTP/2.0" 200 4808 "https://portal.empresa.com" "PostmanRuntime/7.36"
+10.0.1.10 - backup_svc [Feb 17 08:46:18] "POST /dashboard HTTP/2.0" 200 1689 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Feb 04 19:34:57] DLP monitor: data_loss_prevent triggered user=api_svc dst=203.0.113.50 bytes=45230 policy=DLP-Email-Outbound
+45.33.32.156 - - [Feb 21 06:54:41] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+dlp_detect [Mar 28 18:02:46] sensitive_data_detect: user=admin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=proxy-srv-04
+192.168.1.50 - - [Jan 09 00:36:07] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+dlp_detect [Feb 03 01:57:10] sensitive_data_detect: user=scanner file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=web-srv-01
+web_filter_block [Feb 08 10:09:07] URL categorized=phishing blocked user=sysadmin dst=198.51.100.20 url=http://phishing-site.net proxy=proxy-srv-04
+198.51.100.20 - root [Feb 23 07:30:40] "PUT /api/v2/assets HTTP/2.0" 200 6244 "-" "PostmanRuntime/7.36"
+91.108.4.12 - - [Jan 23 12:49:30] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+192.168.1.50 - jgarcia [Mar 02 21:52:15] "GET /dashboard HTTP/2.0" 200 3608 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - admin [Mar 24 22:30:00] "PUT /health HTTP/2.0" 200 973 "-" "PostmanRuntime/7.36"
+dlp_detect [Mar 06 15:40:30] sensitive_data_detect: user=admin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=web-srv-01
+dlp_detect [Jan 27 10:38:25] sensitive_data_detect: user=jgarcia file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=proxy-srv-04
+10.0.1.10 - - [Mar 19 01:47:56] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+203.0.113.50 - - [Jan 14 12:51:09] "GET /phpmyadmin/ HTTP/1.1" 404 512 "-" "python-requests/2.31"
+172.16.0.25 - sysadmin [Jan 06 22:55:13] "OPTIONS /api/v2/users HTTP/2.0" 200 3298 "https://erp.local" "curl/7.88"
+192.168.1.100 - devops [Feb 21 19:41:31] "DELETE /api/v2/assets HTTP/2.0" 200 7009 "https://erp.local" "PostmanRuntime/7.36"
+[Mar 06 09:14:17] [ssl:error] [pid 9013] AH02042: ssl_error certificate_expired for 172.16.0.25 (check certificate renewal)
+172.16.0.25 - readonly_user [Feb 05 02:22:39] "GET /login HTTP/2.0" 200 1287 "https://portal.empresa.com" "curl/7.88"
+[Mar 18 07:38:26] [ssl:error] [pid 7866] AH02042: ssl_error certificate_expired for 192.168.1.50 (check certificate renewal)
+104.21.8.9 - - [Mar 16 12:24:01] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+45.33.32.156 - - [Jan 19 16:42:53] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+dlp_monitor [Mar 29 23:15:43] DLP monitor: data_loss_prevent triggered user=backup_svc dst=77.88.8.8 bytes=45230 policy=DLP-Email-Outbound
+10.0.1.10 - api_svc [Mar 07 10:17:13] "GET /api/v2/cloud-status HTTP/2.0" 200 2011 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+[Feb 06 23:41:09] [ssl:error] [pid 4723] AH02042: ssl_error certificate_expired for 10.0.1.20 (check certificate renewal)
+203.0.113.50 - readonly_user [Jan 16 08:13:50] "OPTIONS /dashboard HTTP/2.0" 200 3459 "-" "PostmanRuntime/7.36"
+[Mar 15 04:46:51] [ssl:error] [pid 2043] AH02042: ssl_error certificate_expired for 203.0.113.50 (check certificate renewal)
+104.21.8.9 - - [Jan 15 21:47:48] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+77.88.8.8 - root [Feb 12 09:09:49] "GET /api/v2/cloud-status HTTP/2.0" 200 1755 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+104.21.8.9 - - [Jan 13 01:03:37] "GET /phpmyadmin/ HTTP/1.1" 403 512 "-" "zgrab/0.x"
+dlp_monitor [Mar 31 00:15:04] DLP monitor: data_loss_prevent triggered user=admin dst=198.51.100.20 bytes=45230 policy=DLP-Email-Outbound
+1.1.1.1 - scanner [Feb 08 09:44:14] "POST /api/v2/cloud-status HTTP/2.0" 200 1457 "https://erp.local" "PostmanRuntime/7.36"
+77.88.8.8 - - [Feb 16 20:06:57] "GET /phpmyadmin/ HTTP/1.1" 500 512 "-" "sqlmap/1.7"
+185.220.101.5 - - [Feb 16 08:20:30] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+45.33.32.156 - - [Jan 22 18:45:08] "GET /../../../etc/passwd HTTP/1.1" 404 512 "-" "python-requests/2.31"
+104.21.8.9 - - [Feb 01 08:38:37] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+45.33.32.156 - sysadmin [Feb 29 04:44:46] "GET /api/v2/users HTTP/2.0" 200 2039 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - aruiz [Feb 03 06:55:22] "DELETE /static/app.js HTTP/2.0" 200 1544 "https://portal.empresa.com" "curl/7.88"
+192.168.1.50 - dbadmin [Jan 08 19:10:28] "OPTIONS /reports HTTP/2.0" 200 3180 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+web_filter_block [Jan 02 17:17:22] URL categorized=phishing blocked user=scanner dst=203.0.113.50 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.2.5 - admin [Jan 05 06:51:23] "PUT /health HTTP/2.0" 200 6913 "-" "curl/7.88"
+198.51.100.20 - scanner [Jan 29 14:09:22] "DELETE /dashboard HTTP/2.0" 200 1236 "https://erp.local" "PostmanRuntime/7.36"
+203.0.113.50 - - [Jan 18 20:35:24] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+web_filter_block [Mar 02 09:07:23] URL categorized=phishing blocked user=api_svc dst=104.21.8.9 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.1.10 - root [Jan 09 14:41:18] "GET /static/app.js HTTP/2.0" 200 2447 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Jan 26 14:51:09] URL categorized=phishing blocked user=backup_svc dst=192.168.1.100 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.1.10 - sysadmin [Jan 14 19:03:46] "GET /dashboard HTTP/2.0" 200 1684 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - jgarcia [Feb 14 18:25:09] "OPTIONS /api/v2/users HTTP/2.0" 200 6133 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Jan 23 14:30:22] DLP monitor: data_loss_prevent triggered user=admin dst=172.16.0.25 bytes=45230 policy=DLP-Email-Outbound
+91.108.4.12 - jgarcia [Jan 04 20:24:15] "GET /api/v2/users HTTP/2.0" 200 5819 "https://portal.empresa.com" "PostmanRuntime/7.36"
+104.21.8.9 - api_svc [Feb 28 23:12:15] "GET /health HTTP/2.0" 200 4111 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+dlp_detect [Jan 31 15:36:13] sensitive_data_detect: user=mlopez file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=proxy-srv-04
+10.0.2.5 - jgarcia [Jan 03 23:04:57] "GET /api/v2/assets HTTP/2.0" 200 3121 "https://portal.empresa.com" "PostmanRuntime/7.36"
+198.51.100.20 - scanner [Mar 23 06:05:14] "POST /dashboard HTTP/2.0" 200 208 "https://portal.empresa.com" "curl/7.88"
+192.168.1.100 - sysadmin [Feb 26 06:27:06] "POST /dashboard HTTP/2.0" 200 5342 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.50 - api_svc [Mar 11 09:01:51] "GET /dashboard HTTP/2.0" 200 1935 "https://erp.local" "PostmanRuntime/7.36"
+198.51.100.20 - backup_svc [Jan 07 22:56:20] "DELETE /dashboard HTTP/2.0" 200 7357 "https://erp.local" "curl/7.88"
+web_filter_block [Feb 28 02:38:58] URL categorized=phishing blocked user=scanner dst=185.220.101.5 url=http://phishing-site.net proxy=proxy-srv-04
+172.16.0.25 - backup_svc [Feb 07 20:53:46] "GET /api/v2/assets HTTP/2.0" 200 1372 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+dlp_detect [Feb 06 07:19:57] sensitive_data_detect: user=readonly_user file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=web-srv-01
+dlp_detect [Mar 23 18:52:14] sensitive_data_detect: user=readonly_user file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=db-srv-02
+104.21.8.9 - dbadmin [Feb 17 19:20:56] "DELETE /api/v2/assets HTTP/2.0" 200 3306 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+172.16.0.25 - scanner [Feb 18 08:58:06] "DELETE /login HTTP/2.0" 200 5790 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+77.88.8.8 - dbadmin [Mar 07 09:37:58] "DELETE /health HTTP/2.0" 200 2984 "https://portal.empresa.com" "PostmanRuntime/7.36"
+91.108.4.12 - - [Mar 05 04:30:14] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+198.51.100.20 - - [Feb 10 00:52:02] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+[Feb 08 09:22:34] [ssl:error] [pid 4105] AH02042: ssl_error certificate_expired for 10.0.2.5 (check certificate renewal)
+10.0.1.20 - - [Mar 29 11:28:39] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+172.16.0.25 - admin [Feb 22 00:10:16] "GET /static/app.js HTTP/2.0" 200 3345 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+dlp_detect [Feb 09 06:13:16] sensitive_data_detect: user=mlopez file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=auth-srv-03
+104.21.8.9 - - [Feb 01 19:54:53] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+192.168.1.100 - jgarcia [Mar 20 13:27:50] "POST /dashboard HTTP/2.0" 200 1245 "https://portal.empresa.com" "curl/7.88"
+[Jan 16 11:14:05] [ssl:error] [pid 5411] AH02042: ssl_error certificate_expired for 10.0.2.5 (check certificate renewal)
+45.33.32.156 - - [Jan 16 07:42:00] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+10.0.2.5 - mlopez [Feb 05 00:55:09] "GET /api/v2/cloud-status HTTP/2.0" 200 4373 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - jgarcia [Feb 06 15:14:56] "OPTIONS /api/v2/cloud-status HTTP/2.0" 200 7587 "-" "PostmanRuntime/7.36"
+203.0.113.50 - - [Feb 29 05:56:09] "GET /api/internal/secrets HTTP/1.1" 404 512 "-" "masscan/1.3"
+198.51.100.20 - - [Feb 06 09:15:24] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+[Jan 13 13:00:09] [ssl:error] [pid 3287] AH02042: ssl_error certificate_expired for 77.88.8.8 (check certificate renewal)
+dlp_detect [Jan 12 14:17:43] sensitive_data_detect: user=backup_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=auth-srv-03
+192.168.1.50 - devops [Feb 02 04:18:19] "DELETE /login HTTP/2.0" 200 5694 "-" "PostmanRuntime/7.36"
+web_filter_block [Jan 31 20:11:52] URL categorized=phishing blocked user=sysadmin dst=185.220.101.5 url=http://phishing-site.net proxy=proxy-srv-04
+172.16.0.25 - devops [Mar 20 23:25:52] "GET /api/v2/users HTTP/2.0" 200 4098 "https://erp.local" "PostmanRuntime/7.36"
+198.51.100.20 - - [Mar 02 13:53:38] "GET /debug/console HTTP/1.1" 404 512 "-" "masscan/1.3"
+91.108.4.12 - - [Feb 12 21:49:27] "GET /cgi-bin/test.sh HTTP/1.1" 500 512 "-" "nikto/2.1.6"
+203.0.113.50 - - [Mar 11 04:39:05] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+10.0.1.10 - readonly_user [Jan 10 20:07:41] "GET /static/app.js HTTP/2.0" 200 2904 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+45.33.32.156 - - [Feb 01 14:48:55] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+10.0.2.5 - aruiz [Jan 08 07:05:01] "OPTIONS /api/v2/cloud-status HTTP/2.0" 200 4636 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.1.10 - mlopez [Feb 07 09:23:29] "GET /login HTTP/2.0" 200 2367 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.1.20 - devops [Jan 16 11:57:38] "POST /api/v2/users HTTP/2.0" 200 317 "https://erp.local" "curl/7.88"
+10.0.1.10 - backup_svc [Jan 11 17:30:03] "GET /dashboard HTTP/2.0" 200 935 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.100 - admin [Jan 09 23:40:16] "DELETE /health HTTP/2.0" 200 1237 "-" "curl/7.88"
+192.168.1.100 - scanner [Mar 20 20:50:44] "POST /reports HTTP/2.0" 200 3949 "-" "PostmanRuntime/7.36"
+192.168.1.100 - dbadmin [Jan 26 11:17:20] "PUT /dashboard HTTP/2.0" 200 5261 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.2.5 - admin [Mar 31 01:42:08] "GET /login HTTP/2.0" 200 1088 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+dlp_monitor [Jan 22 06:12:59] DLP monitor: data_loss_prevent triggered user=aruiz dst=45.33.32.156 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.100 - root [Feb 22 21:35:29] "POST /api/v2/users HTTP/2.0" 200 1625 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+[Mar 05 01:31:47] [ssl:error] [pid 4150] AH02042: ssl_error certificate_expired for 1.1.1.1 (check certificate renewal)
+45.33.32.156 - - [Mar 19 20:48:18] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+185.220.101.5 - - [Jan 16 02:59:25] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+web_filter_block [Feb 26 16:28:02] URL categorized=phishing blocked user=devops dst=203.0.113.50 url=http://phishing-site.net proxy=proxy-srv-04
+172.16.0.25 - api_svc [Mar 31 18:32:51] "GET /dashboard HTTP/2.0" 200 4732 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+45.33.32.156 - - [Mar 19 19:46:32] "GET /../../../etc/passwd HTTP/1.1" 403 512 "-" "zgrab/0.x"
+172.16.0.25 - sysadmin [Jan 13 23:25:44] "GET /reports HTTP/2.0" 200 3324 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - readonly_user [Jan 24 04:50:46] "GET /static/app.js HTTP/2.0" 200 3407 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.1.10 - scanner [Jan 25 12:41:42] "GET /static/app.js HTTP/2.0" 200 4375 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - scanner [Feb 06 12:40:10] "GET /api/v2/cloud-status HTTP/2.0" 200 831 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - devops [Jan 23 01:40:38] "POST /login HTTP/2.0" 200 4088 "https://erp.local" "curl/7.88"
+91.108.4.12 - aruiz [Jan 27 05:16:38] "OPTIONS /reports HTTP/2.0" 200 7291 "-" "PostmanRuntime/7.36"
+10.0.2.5 - dbadmin [Jan 23 20:37:34] "GET /api/v2/cloud-status HTTP/2.0" 200 4057 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - sysadmin [Jan 30 21:23:21] "DELETE /api/v2/cloud-status HTTP/2.0" 200 5003 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.50 - api_svc [Feb 14 19:50:04] "PUT /dashboard HTTP/2.0" 200 7495 "https://erp.local" "curl/7.88"
+[Jan 10 19:52:30] [ssl:error] [pid 9097] AH02042: ssl_error certificate_expired for 172.16.0.25 (check certificate renewal)
+172.16.0.25 - sysadmin [Mar 24 18:14:46] "PUT /api/v2/assets HTTP/2.0" 200 4170 "-" "curl/7.88"
+192.168.1.50 - devops [Feb 24 21:33:35] "DELETE /api/v2/assets HTTP/2.0" 200 604 "https://portal.empresa.com" "curl/7.88"
+104.21.8.9 - - [Mar 24 12:20:00] "GET /debug/console HTTP/1.1" 404 512 "-" "nikto/2.1.6"
+10.0.1.10 - - [Feb 04 14:59:53] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+172.16.0.25 - scanner [Feb 25 22:46:48] "GET /health HTTP/2.0" 200 4201 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - root [Jan 16 04:33:57] "GET /health HTTP/2.0" 200 4363 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - dbadmin [Mar 01 05:31:49] "POST /static/app.js HTTP/2.0" 200 5098 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+91.108.4.12 - - [Jan 23 23:10:33] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+web_filter_block [Mar 19 08:01:24] URL categorized=phishing blocked user=mlopez dst=203.0.113.50 url=http://phishing-site.net proxy=proxy-srv-04
+172.16.0.25 - root [Jan 01 16:27:24] "POST /static/app.js HTTP/2.0" 200 6761 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Mar 11 03:18:41] DLP monitor: data_loss_prevent triggered user=mlopez dst=104.21.8.9 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.100 - sysadmin [Mar 10 05:24:52] "GET /reports HTTP/2.0" 200 4950 "-" "PostmanRuntime/7.36"
+45.33.32.156 - - [Jan 26 07:40:57] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+10.0.1.20 - sysadmin [Mar 22 21:15:19] "DELETE /login HTTP/2.0" 200 545 "https://erp.local" "PostmanRuntime/7.36"
+104.21.8.9 - - [Jan 13 18:23:08] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+172.16.0.25 - mlopez [Feb 10 02:50:42] "GET /dashboard HTTP/2.0" 200 1057 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - - [Feb 23 00:03:13] "GET /.git/config HTTP/1.1" 500 512 "-" "python-requests/2.31"
+91.108.4.12 - devops [Feb 22 02:05:50] "GET /api/v2/users HTTP/2.0" 200 4319 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+[Mar 06 15:53:53] [ssl:error] [pid 1418] AH02042: ssl_error certificate_expired for 10.0.2.5 (check certificate renewal)
+web_filter_block [Mar 29 16:23:26] URL categorized=phishing blocked user=sysadmin dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+1.1.1.1 - readonly_user [Feb 20 20:32:33] "GET /api/v2/users HTTP/2.0" 200 4654 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Feb 15 14:09:43] URL categorized=phishing blocked user=aruiz dst=198.51.100.20 url=http://phishing-site.net proxy=proxy-srv-04
+185.220.101.5 - - [Mar 17 06:38:50] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+198.51.100.20 - - [Feb 29 14:53:06] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+10.0.1.10 - api_svc [Mar 06 17:29:30] "GET /static/app.js HTTP/2.0" 200 3137 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - scanner [Mar 22 09:02:10] "POST /api/v2/users HTTP/2.0" 200 1850 "https://erp.local" "curl/7.88"
+203.0.113.50 - - [Mar 06 14:08:49] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+10.0.1.10 - api_svc [Mar 14 17:25:48] "DELETE /health HTTP/2.0" 200 5970 "https://portal.empresa.com" "PostmanRuntime/7.36"
+[Jan 11 06:57:56] [ssl:error] [pid 7997] AH02042: ssl_error certificate_expired for 10.0.1.10 (check certificate renewal)
+[Feb 25 22:12:07] [ssl:error] [pid 3409] AH02042: ssl_error certificate_expired for 192.168.1.50 (check certificate renewal)
+185.220.101.5 - - [Jan 08 15:10:46] "GET /api/internal/secrets HTTP/1.1" 404 512 "-" "masscan/1.3"
+198.51.100.20 - - [Mar 06 17:35:11] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+91.108.4.12 - - [Feb 10 14:43:48] "GET /../../../etc/passwd HTTP/1.1" 500 512 "-" "zgrab/0.x"
+dlp_monitor [Jan 23 15:10:06] DLP monitor: data_loss_prevent triggered user=backup_svc dst=91.108.4.12 bytes=45230 policy=DLP-Email-Outbound
+172.16.0.25 - admin [Feb 06 05:29:35] "DELETE /login HTTP/2.0" 200 3560 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+[Jan 11 21:18:21] [ssl:error] [pid 1206] AH02042: ssl_error certificate_expired for 91.108.4.12 (check certificate renewal)
+104.21.8.9 - - [Mar 13 02:14:15] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+185.220.101.5 - - [Mar 29 11:08:38] "GET /wp-admin/ HTTP/1.1" 400 512 "-" "sqlmap/1.7"
+45.33.32.156 - - [Jan 14 18:12:16] "GET /../../../etc/passwd HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+77.88.8.8 - - [Feb 24 20:52:17] "GET /wp-admin/ HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+172.16.0.25 - backup_svc [Feb 07 08:28:21] "POST /login HTTP/2.0" 200 6579 "-" "PostmanRuntime/7.36"
+dlp_monitor [Mar 27 12:20:43] DLP monitor: data_loss_prevent triggered user=admin dst=91.108.4.12 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.50 - sysadmin [Mar 05 05:05:34] "GET /login HTTP/2.0" 200 1643 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+185.220.101.5 - - [Jan 08 20:12:18] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+dlp_monitor [Mar 16 13:57:23] DLP monitor: data_loss_prevent triggered user=jgarcia dst=192.168.1.100 bytes=45230 policy=DLP-Email-Outbound
+77.88.8.8 - - [Jan 14 17:02:34] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+192.168.1.50 - admin [Feb 03 08:05:04] "OPTIONS /reports HTTP/2.0" 200 1868 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+web_filter_block [Feb 16 12:42:34] URL categorized=phishing blocked user=readonly_user dst=1.1.1.1 url=http://phishing-site.net proxy=proxy-srv-04
+dlp_monitor [Mar 23 07:24:00] DLP monitor: data_loss_prevent triggered user=mlopez dst=1.1.1.1 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.50 - aruiz [Jan 13 00:01:21] "POST /api/v2/users HTTP/2.0" 200 7894 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.2.5 - - [Mar 02 21:43:51] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+91.108.4.12 - dbadmin [Mar 16 07:23:36] "PUT /api/v2/users HTTP/2.0" 200 2303 "https://erp.local" "PostmanRuntime/7.36"
+203.0.113.50 - - [Jan 06 17:47:37] "GET /admin/../etc/passwd HTTP/1.1" 500 512 "-" "sqlmap/1.7"
+web_filter_block [Mar 29 19:34:23] URL categorized=phishing blocked user=aruiz dst=185.220.101.5 url=http://phishing-site.net proxy=proxy-srv-04
+web_filter_block [Feb 02 15:36:09] URL categorized=phishing blocked user=scanner dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+198.51.100.20 - devops [Feb 22 17:54:08] "PUT /health HTTP/2.0" 200 2600 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+172.16.0.25 - - [Mar 06 14:59:33] "GET /debug/console HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+1.1.1.1 - devops [Jan 04 04:07:46] "DELETE /dashboard HTTP/2.0" 200 1412 "-" "PostmanRuntime/7.36"
+203.0.113.50 - devops [Feb 16 20:49:25] "DELETE /api/v2/assets HTTP/2.0" 200 2736 "https://portal.empresa.com" "curl/7.88"
+10.0.1.10 - sysadmin [Jan 07 16:20:18] "OPTIONS /api/v2/users HTTP/2.0" 200 7508 "https://erp.local" "curl/7.88"
+185.220.101.5 - - [Mar 28 23:12:00] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+185.220.101.5 - aruiz [Feb 13 17:49:47] "PUT /login HTTP/2.0" 200 2823 "https://portal.empresa.com" "curl/7.88"
+10.0.1.10 - aruiz [Feb 28 12:43:03] "POST /health HTTP/2.0" 200 7380 "https://portal.empresa.com" "PostmanRuntime/7.36"
+dlp_monitor [Jan 13 12:16:09] DLP monitor: data_loss_prevent triggered user=readonly_user dst=198.51.100.20 bytes=45230 policy=DLP-Email-Outbound
+10.0.1.10 - api_svc [Jan 03 21:22:20] "DELETE /health HTTP/2.0" 200 442 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+198.51.100.20 - - [Jan 14 08:07:51] "GET /../../../etc/passwd HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+192.168.1.100 - - [Jan 13 19:01:36] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+104.21.8.9 - - [Feb 25 18:42:05] "GET /.env HTTP/1.1" 403 512 "-" "sqlmap/1.7"
+172.16.0.25 - backup_svc [Mar 16 21:12:01] "PUT /reports HTTP/2.0" 200 230 "https://erp.local" "curl/7.88"
+192.168.1.50 - scanner [Jan 04 17:31:49] "GET /health HTTP/2.0" 200 4008 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - - [Mar 10 08:51:54] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+172.16.0.25 - devops [Feb 13 04:25:44] "GET /static/app.js HTTP/2.0" 200 4094 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+dlp_monitor [Feb 12 07:57:06] DLP monitor: data_loss_prevent triggered user=readonly_user dst=45.33.32.156 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.50 - root [Jan 19 23:27:37] "GET /health HTTP/2.0" 200 3934 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - - [Mar 09 11:00:14] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+dlp_monitor [Feb 11 17:13:44] DLP monitor: data_loss_prevent triggered user=sysadmin dst=198.51.100.20 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.50 - backup_svc [Mar 21 22:27:12] "GET /login HTTP/2.0" 200 960 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - - [Mar 30 04:34:13] "GET /wp-admin/ HTTP/1.1" 404 512 "-" "python-requests/2.31"
+192.168.1.100 - sysadmin [Feb 07 20:46:34] "GET /health HTTP/2.0" 200 2140 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.100 - aruiz [Mar 01 14:02:20] "DELETE /login HTTP/2.0" 200 4058 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Feb 26 18:16:49] DLP monitor: data_loss_prevent triggered user=devops dst=104.21.8.9 bytes=45230 policy=DLP-Email-Outbound
+104.21.8.9 - - [Jan 08 12:42:08] "GET /admin/../etc/passwd HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+dlp_monitor [Feb 12 08:41:43] DLP monitor: data_loss_prevent triggered user=readonly_user dst=10.0.1.10 bytes=45230 policy=DLP-Email-Outbound
+172.16.0.25 - dbadmin [Mar 14 01:28:15] "PUT /dashboard HTTP/2.0" 200 346 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Mar 08 01:11:06] DLP monitor: data_loss_prevent triggered user=admin dst=203.0.113.50 bytes=45230 policy=DLP-Email-Outbound
+1.1.1.1 - - [Feb 26 06:37:56] "GET /wp-admin/ HTTP/1.1" 400 512 "-" "python-requests/2.31"
+192.168.1.50 - backup_svc [Feb 03 04:16:47] "POST /api/v2/cloud-status HTTP/2.0" 200 2636 "https://portal.empresa.com" "curl/7.88"
+10.0.1.20 - api_svc [Jan 09 18:15:16] "OPTIONS /health HTTP/2.0" 200 7403 "https://portal.empresa.com" "curl/7.88"
+45.33.32.156 - - [Feb 27 08:33:20] "GET /api/v2/../../../../etc/shadow HTTP/1.1" 403 512 "-" "masscan/1.3"
+192.168.1.50 - dbadmin [Jan 23 07:27:09] "GET /api/v2/assets HTTP/2.0" 200 1412 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+dlp_detect [Jan 29 03:10:03] sensitive_data_detect: user=backup_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=proxy-srv-04
+[Jan 31 03:52:24] [ssl:error] [pid 3154] AH02042: ssl_error certificate_expired for 172.16.0.25 (check certificate renewal)
+203.0.113.50 - aruiz [Feb 02 23:33:29] "GET /login HTTP/2.0" 200 3590 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+45.33.32.156 - - [Feb 04 03:41:59] "GET /admin/../etc/passwd HTTP/1.1" 500 512 "-" "nikto/2.1.6"
+192.168.1.50 - mlopez [Jan 20 10:35:00] "PUT /static/app.js HTTP/2.0" 200 5998 "-" "curl/7.88"
+185.220.101.5 - - [Feb 19 17:33:30] "GET /.env HTTP/1.1" 500 512 "-" "python-requests/2.31"
+45.33.32.156 - devops [Mar 06 16:29:15] "POST /reports HTTP/2.0" 200 6776 "-" "PostmanRuntime/7.36"
+203.0.113.50 - - [Mar 18 17:06:01] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+dlp_monitor [Mar 12 09:10:56] DLP monitor: data_loss_prevent triggered user=dbadmin dst=185.220.101.5 bytes=45230 policy=DLP-Email-Outbound
+172.16.0.25 - scanner [Mar 14 19:51:04] "DELETE /api/v2/assets HTTP/2.0" 200 754 "https://erp.local" "curl/7.88"
+198.51.100.20 - - [Jan 06 02:37:11] "GET /api/internal/secrets HTTP/1.1" 400 512 "-" "python-requests/2.31"
+10.0.2.5 - root [Jan 22 17:45:39] "POST /static/app.js HTTP/2.0" 200 5704 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+77.88.8.8 - - [Mar 09 13:43:47] "POST /api/login HTTP/1.1" 401 350 "-" "nikto/2.1.6" X-Scan: port_scan
+91.108.4.12 - - [Mar 02 00:01:16] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+dlp_monitor [Jan 29 05:32:25] DLP monitor: data_loss_prevent triggered user=root dst=1.1.1.1 bytes=45230 policy=DLP-Email-Outbound
+104.21.8.9 - api_svc [Jan 29 00:30:56] "PUT /login HTTP/2.0" 200 2533 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.1.10 - dbadmin [Jan 18 21:45:18] "POST /health HTTP/2.0" 200 710 "https://erp.local" "PostmanRuntime/7.36"
+10.0.1.10 - dbadmin [Jan 22 22:59:30] "GET /api/v2/assets HTTP/2.0" 200 4006 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - jgarcia [Feb 16 17:03:58] "DELETE /login HTTP/2.0" 200 1078 "https://erp.local" "PostmanRuntime/7.36"
+10.0.1.20 - mlopez [Feb 25 08:20:46] "GET /static/app.js HTTP/2.0" 200 2602 "-" "curl/7.88"
+10.0.1.10 - backup_svc [Mar 08 00:28:44] "GET /reports HTTP/2.0" 200 2975 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+185.220.101.5 - dbadmin [Jan 04 13:08:44] "DELETE /login HTTP/2.0" 200 2285 "-" "PostmanRuntime/7.36"
+172.16.0.25 - scanner [Feb 06 19:07:41] "GET /api/v2/users HTTP/2.0" 200 3614 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - - [Feb 12 20:48:39] "GET /.env HTTP/1.1" 400 512 "-" "sqlmap/1.7"
+10.0.1.10 - api_svc [Feb 24 17:32:11] "GET /login HTTP/2.0" 200 1293 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - admin [Mar 27 01:48:11] "GET /api/v2/cloud-status HTTP/2.0" 200 1967 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - api_svc [Feb 05 13:12:09] "OPTIONS /reports HTTP/2.0" 200 6104 "-" "curl/7.88"
+198.51.100.20 - - [Mar 02 09:06:51] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+192.168.1.50 - root [Jan 09 22:10:43] "GET /dashboard HTTP/2.0" 200 1094 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - dbadmin [Feb 02 18:15:22] "GET /api/v2/assets HTTP/2.0" 200 4901 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.100 - admin [Feb 23 21:07:01] "POST /api/v2/cloud-status HTTP/2.0" 200 5676 "https://erp.local" "PostmanRuntime/7.36"
+203.0.113.50 - - [Mar 24 03:35:04] "GET /../../../etc/passwd HTTP/1.1" 500 512 "-" "python-requests/2.31"
+10.0.1.20 - sysadmin [Jan 10 10:14:56] "GET /dashboard HTTP/2.0" 200 1426 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+dlp_monitor [Feb 28 21:13:43] DLP monitor: data_loss_prevent triggered user=mlopez dst=185.220.101.5 bytes=45230 policy=DLP-Email-Outbound
+185.220.101.5 - jgarcia [Jan 10 16:55:07] "POST /health HTTP/2.0" 200 3126 "https://erp.local" "curl/7.88"
+192.168.1.50 - root [Mar 10 13:37:23] "GET /login HTTP/2.0" 200 2184 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+203.0.113.50 - - [Feb 02 02:14:47] "GET /wp-admin/ HTTP/1.1" 500 512 "-" "nikto/2.1.6"
+77.88.8.8 - admin [Feb 22 19:13:36] "DELETE /reports HTTP/2.0" 200 3181 "https://erp.local" "curl/7.88"
+45.33.32.156 - - [Jan 05 07:05:04] "GET /xmlrpc.php HTTP/1.1" 404 512 "-" "zgrab/0.x"
+10.0.2.5 - aruiz [Jan 05 23:58:17] "GET /api/v2/assets HTTP/2.0" 200 2691 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - jgarcia [Mar 02 01:23:59] "POST /reports HTTP/2.0" 200 1065 "-" "PostmanRuntime/7.36"
+10.0.1.20 - api_svc [Feb 28 21:56:26] "GET /api/v2/cloud-status HTTP/2.0" 200 2108 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - scanner [Mar 13 23:06:51] "DELETE /static/app.js HTTP/2.0" 200 2558 "-" "PostmanRuntime/7.36"
+dlp_monitor [Jan 14 18:05:53] DLP monitor: data_loss_prevent triggered user=backup_svc dst=198.51.100.20 bytes=45230 policy=DLP-Email-Outbound
+web_filter_block [Mar 14 14:27:19] URL categorized=phishing blocked user=scanner dst=198.51.100.20 url=http://phishing-site.net proxy=proxy-srv-04
+[Feb 18 23:28:52] [ssl:error] [pid 4640] AH02042: ssl_error certificate_expired for 192.168.1.50 (check certificate renewal)
+1.1.1.1 - - [Mar 24 21:41:19] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+192.168.1.50 - root [Feb 24 17:49:17] "DELETE /reports HTTP/2.0" 200 2016 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.2.5 - aruiz [Feb 12 05:00:15] "DELETE /login HTTP/2.0" 200 1201 "https://erp.local" "curl/7.88"
+dlp_detect [Mar 06 15:35:18] sensitive_data_detect: user=root file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+104.21.8.9 - - [Mar 29 19:29:41] "GET /api/internal/secrets HTTP/1.1" 404 512 "-" "zgrab/0.x"
+10.0.1.10 - backup_svc [Jan 26 00:48:55] "DELETE /api/v2/cloud-status HTTP/2.0" 200 6455 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+198.51.100.20 - - [Jan 11 11:34:31] "GET /.env HTTP/1.1" 400 512 "-" "masscan/1.3"
+198.51.100.20 - - [Mar 16 10:10:07] "GET /../../../etc/passwd HTTP/1.1" 403 512 "-" "zgrab/0.x"
+172.16.0.25 - backup_svc [Jan 06 16:10:03] "GET /health HTTP/2.0" 200 2810 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+[Mar 03 23:04:04] [ssl:error] [pid 8114] AH02042: ssl_error certificate_expired for 10.0.1.20 (check certificate renewal)
+198.51.100.20 - admin [Mar 06 13:46:43] "GET /health HTTP/2.0" 200 3646 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+dlp_monitor [Jan 08 02:11:35] DLP monitor: data_loss_prevent triggered user=root dst=198.51.100.20 bytes=45230 policy=DLP-Email-Outbound
+dlp_monitor [Jan 12 14:19:55] DLP monitor: data_loss_prevent triggered user=jgarcia dst=185.220.101.5 bytes=45230 policy=DLP-Email-Outbound
+45.33.32.156 - - [Feb 07 12:57:36] "GET /api/v2/../../../../etc/shadow HTTP/1.1" 500 512 "-" "sqlmap/1.7"
+10.0.2.5 - api_svc [Jan 04 21:07:16] "GET /login HTTP/2.0" 200 1360 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.100 - devops [Mar 17 18:46:48] "GET /reports HTTP/2.0" 200 1854 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - aruiz [Feb 13 01:11:49] "GET /login HTTP/2.0" 200 4381 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+dlp_monitor [Feb 24 14:44:08] DLP monitor: data_loss_prevent triggered user=root dst=185.220.101.5 bytes=45230 policy=DLP-Email-Outbound
+192.168.1.100 - - [Mar 08 10:15:06] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+203.0.113.50 - - [Mar 21 05:19:00] "GET /admin/../etc/passwd HTTP/1.1" 500 512 "-" "python-requests/2.31"
+web_filter_block [Feb 29 05:55:43] URL categorized=phishing blocked user=api_svc dst=185.220.101.5 url=http://phishing-site.net proxy=proxy-srv-04
+10.0.1.20 - admin [Jan 11 02:50:08] "GET /health HTTP/2.0" 200 2468 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Feb 15 02:33:40] URL categorized=phishing blocked user=backup_svc dst=45.33.32.156 url=http://phishing-site.net proxy=proxy-srv-04
+web_filter_block [Mar 28 12:44:01] URL categorized=phishing blocked user=sysadmin dst=91.108.4.12 url=http://phishing-site.net proxy=proxy-srv-04
+45.33.32.156 - mlopez [Jan 15 15:47:02] "GET /static/app.js HTTP/2.0" 200 7203 "-" "curl/7.88"
+dlp_detect [Feb 26 13:19:36] sensitive_data_detect: user=root file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=backup-srv-07
+dlp_monitor [Jan 07 18:36:08] DLP monitor: data_loss_prevent triggered user=root dst=10.0.1.10 bytes=45230 policy=DLP-Email-Outbound
+1.1.1.1 - - [Jan 20 07:33:31] "GET /.env HTTP/1.1" 403 512 "-" "masscan/1.3"
+10.0.2.5 - sysadmin [Jan 08 10:43:10] "GET /api/v2/users HTTP/2.0" 200 2328 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - scanner [Feb 13 16:56:44] "GET /reports HTTP/2.0" 200 2780 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - aruiz [Mar 03 04:07:13] "GET /dashboard HTTP/2.0" 200 724 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+77.88.8.8 - dbadmin [Mar 18 08:19:29] "PUT /api/v2/assets HTTP/2.0" 200 989 "https://portal.empresa.com" "PostmanRuntime/7.36"
+web_filter_block [Mar 14 09:41:45] URL categorized=phishing blocked user=backup_svc dst=91.108.4.12 url=http://phishing-site.net proxy=proxy-srv-04
+77.88.8.8 - - [Feb 19 18:58:16] "GET /api/internal/secrets HTTP/1.1" 400 512 "-" "sqlmap/1.7"
+198.51.100.20 - root [Mar 11 15:04:41] "GET /health HTTP/2.0" 200 3672 "-" "curl/7.88"
+10.0.1.10 - - [Feb 01 01:25:24] "GET /admin/../etc/passwd HTTP/1.1" 403 512 "-" "python-requests/2.31"
+203.0.113.50 - - [Mar 31 04:24:37] "POST /api/login HTTP/1.1" 401 350 "-" "zgrab/0.x" X-Scan: port_scan
+172.16.0.25 - jgarcia [Mar 18 09:48:35] "POST /static/app.js HTTP/2.0" 200 5628 "https://erp.local" "PostmanRuntime/7.36"
+192.168.1.50 - sysadmin [Jan 16 20:46:12] "GET /api/v2/users HTTP/2.0" 200 1147 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+172.16.0.25 - api_svc [Mar 03 11:36:53] "POST /login HTTP/2.0" 200 2792 "https://portal.empresa.com" "curl/7.88"
+192.168.1.100 - mlopez [Mar 12 19:39:29] "DELETE /dashboard HTTP/2.0" 200 2786 "https://portal.empresa.com" "PostmanRuntime/7.36"
+1.1.1.1 - mlopez [Mar 14 12:37:07] "DELETE /api/v2/cloud-status HTTP/2.0" 200 3770 "https://portal.empresa.com" "curl/7.88"
+10.0.2.5 - dbadmin [Mar 01 20:14:05] "DELETE /health HTTP/2.0" 200 2390 "https://erp.local" "PostmanRuntime/7.36"
+172.16.0.25 - scanner [Feb 02 03:31:34] "OPTIONS /api/v2/assets HTTP/2.0" 200 3705 "https://erp.local" "PostmanRuntime/7.36"
+172.16.0.25 - readonly_user [Mar 04 16:20:16] "GET /api/v2/cloud-status HTTP/2.0" 200 6152 "-" "PostmanRuntime/7.36"
+10.0.2.5 - dbadmin [Mar 05 06:22:20] "PUT /reports HTTP/2.0" 200 7589 "https://portal.empresa.com" "curl/7.88"
+10.0.2.5 - aruiz [Mar 15 00:42:22] "GET /api/v2/users HTTP/2.0" 200 1123 "https://portal.empresa.com" "curl/7.88"
+web_filter_block [Jan 02 01:14:14] URL categorized=phishing blocked user=mlopez dst=203.0.113.50 url=http://phishing-site.net proxy=proxy-srv-04
+172.16.0.25 - - [Mar 27 02:42:11] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+dlp_detect [Jan 12 18:31:50] sensitive_data_detect: user=api_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=backup-srv-07
+192.168.1.100 - devops [Feb 19 23:43:02] "GET /api/v2/users HTTP/2.0" 200 7371 "https://portal.empresa.com" "PostmanRuntime/7.36"
+10.0.2.5 - admin [Feb 14 23:58:54] "GET /api/v2/cloud-status HTTP/2.0" 200 2064 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - devops [Feb 08 15:35:13] "GET /static/app.js HTTP/2.0" 200 3548 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.100 - sysadmin [Mar 08 23:25:00] "OPTIONS /health HTTP/2.0" 200 6272 "-" "curl/7.88"
+dlp_detect [Jan 30 14:29:39] sensitive_data_detect: user=aruiz file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=db-srv-02
+104.21.8.9 - sysadmin [Mar 17 00:23:19] "DELETE /static/app.js HTTP/2.0" 200 3693 "https://portal.empresa.com" "PostmanRuntime/7.36"
+192.168.1.100 - backup_svc [Jan 22 11:09:00] "DELETE /dashboard HTTP/2.0" 200 6048 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.100 - root [Mar 22 00:37:49] "GET /dashboard HTTP/2.0" 200 2471 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+web_filter_block [Mar 22 00:18:34] URL categorized=phishing blocked user=admin dst=198.51.100.20 url=http://phishing-site.net proxy=proxy-srv-04
+[Jan 28 06:29:19] [ssl:error] [pid 1161] AH02042: ssl_error certificate_expired for 203.0.113.50 (check certificate renewal)
+10.0.1.20 - dbadmin [Mar 08 23:31:28] "GET /health HTTP/2.0" 200 3293 "https://erp.local" "curl/7.88"
+10.0.1.10 - api_svc [Jan 11 05:53:18] "PUT /api/v2/users HTTP/2.0" 200 6909 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.1.10 - sysadmin [Jan 04 17:21:17] "PUT /reports HTTP/2.0" 200 2315 "-" "PostmanRuntime/7.36"
+104.21.8.9 - - [Feb 05 15:29:28] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+77.88.8.8 - jgarcia [Jan 14 23:15:16] "GET /reports HTTP/2.0" 200 2090 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - jgarcia [Mar 08 21:16:53] "GET /login HTTP/2.0" 200 5406 "-" "PostmanRuntime/7.36"
+10.0.1.10 - jgarcia [Jan 24 19:04:15] "POST /api/v2/users HTTP/2.0" 200 2766 "https://erp.local" "PostmanRuntime/7.36"
+104.21.8.9 - - [Feb 18 00:50:01] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+172.16.0.25 - - [Feb 05 05:12:58] "GET /admin/../etc/passwd HTTP/1.1" 400 512 "-" "sqlmap/1.7"
+45.33.32.156 - devops [Feb 19 04:18:59] "GET /static/app.js HTTP/2.0" 200 5585 "-" "curl/7.88"
+web_filter_block [Feb 13 03:48:30] URL categorized=phishing blocked user=scanner dst=77.88.8.8 url=http://phishing-site.net proxy=proxy-srv-04
+45.33.32.156 - dbadmin [Mar 30 10:34:52] "POST /api/v2/users HTTP/2.0" 200 3299 "-" "PostmanRuntime/7.36"
+198.51.100.20 - jgarcia [Mar 20 23:32:21] "DELETE /api/v2/cloud-status HTTP/2.0" 200 5240 "https://portal.empresa.com" "curl/7.88"
+1.1.1.1 - - [Jan 29 15:07:44] "GET /api/internal/secrets HTTP/1.1" 400 512 "-" "masscan/1.3"
+10.0.1.10 - mlopez [Feb 16 04:06:05] "GET /reports HTTP/2.0" 200 269 "https://portal.empresa.com" "PostmanRuntime/7.36"
+dlp_monitor [Mar 17 01:45:25] DLP monitor: data_loss_prevent triggered user=backup_svc dst=172.16.0.25 bytes=45230 policy=DLP-Email-Outbound
+10.0.1.20 - readonly_user [Jan 27 14:08:47] "OPTIONS /reports HTTP/2.0" 200 3464 "-" "curl/7.88"
+104.21.8.9 - - [Mar 16 18:05:36] "GET /debug/console HTTP/1.1" 403 512 "-" "masscan/1.3"
+10.0.1.10 - aruiz [Feb 20 00:41:05] "DELETE /health HTTP/2.0" 200 1960 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+185.220.101.5 - dbadmin [Mar 14 15:49:28] "GET /static/app.js HTTP/2.0" 200 3620 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+10.0.2.5 - root [Mar 05 07:55:27] "GET /api/v2/assets HTTP/2.0" 200 7958 "https://erp.local" "PostmanRuntime/7.36"
+web_filter_block [Mar 10 07:08:21] URL categorized=phishing blocked user=jgarcia dst=104.21.8.9 url=http://phishing-site.net proxy=proxy-srv-04
+[Jan 27 14:16:07] [ssl:error] [pid 9780] AH02042: ssl_error certificate_expired for 10.0.1.20 (check certificate renewal)
+104.21.8.9 - - [Jan 05 19:26:32] "GET /../../../etc/passwd HTTP/1.1" 403 512 "-" "sqlmap/1.7"
+1.1.1.1 - backup_svc [Feb 01 19:31:15] "PUT /reports HTTP/2.0" 200 2903 "https://erp.local" "PostmanRuntime/7.36"
+172.16.0.25 - scanner [Feb 11 11:20:43] "GET /dashboard HTTP/2.0" 200 4945 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+45.33.32.156 - - [Feb 02 15:24:46] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+web_filter_block [Feb 14 19:34:17] URL categorized=phishing blocked user=root dst=198.51.100.20 url=http://phishing-site.net proxy=proxy-srv-04
+77.88.8.8 - - [Mar 15 18:34:59] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+185.220.101.5 - - [Feb 03 12:37:24] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+dlp_detect [Feb 13 05:44:59] sensitive_data_detect: user=jgarcia file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=dlp-agent-08
+web_filter_block [Feb 28 08:39:48] URL categorized=phishing blocked user=jgarcia dst=104.21.8.9 url=http://phishing-site.net proxy=proxy-srv-04
+1.1.1.1 - dbadmin [Mar 17 02:33:55] "GET /health HTTP/2.0" 200 7248 "https://portal.empresa.com" "curl/7.88"
+192.168.1.50 - readonly_user [Feb 29 20:52:36] "GET /api/v2/cloud-status HTTP/2.0" 200 2938 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+45.33.32.156 - - [Feb 07 05:54:50] "POST /api/login HTTP/1.1" 401 350 "-" "python-requests/2.31" X-Scan: port_scan
+172.16.0.25 - admin [Mar 11 12:11:16] "POST /health HTTP/2.0" 200 7107 "https://erp.local" "PostmanRuntime/7.36"
+172.16.0.25 - backup_svc [Mar 29 04:58:22] "GET /health HTTP/2.0" 200 4690 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.10 - backup_svc [Jan 19 14:25:50] "POST /static/app.js HTTP/2.0" 200 2723 "-" "PostmanRuntime/7.36"
+10.0.2.5 - - [Jan 30 12:43:49] "GET /.git/config HTTP/1.1" 500 512 "-" "zgrab/0.x"
+104.21.8.9 - - [Jan 28 14:45:12] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+172.16.0.25 - api_svc [Jan 02 14:08:30] "GET /api/v2/users HTTP/2.0" 200 692 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+104.21.8.9 - - [Jan 12 18:33:06] "GET /phpmyadmin/ HTTP/1.1" 404 512 "-" "python-requests/2.31"
+10.0.2.5 - scanner [Mar 07 12:05:32] "GET /api/v2/users HTTP/2.0" 200 1562 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+dlp_detect [Mar 25 21:25:55] sensitive_data_detect: user=mlopez file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=db-srv-02
+172.16.0.25 - scanner [Jan 28 14:38:42] "DELETE /reports HTTP/2.0" 200 1877 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+203.0.113.50 - - [Jan 17 07:49:23] "GET /debug/console HTTP/1.1" 400 512 "-" "nikto/2.1.6"
+dlp_detect [Feb 10 05:32:32] sensitive_data_detect: user=backup_svc file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+203.0.113.50 - jgarcia [Mar 18 15:43:06] "OPTIONS /login HTTP/2.0" 200 6565 "-" "curl/7.88"
+1.1.1.1 - - [Mar 22 14:38:46] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+dlp_detect [Mar 05 15:05:19] sensitive_data_detect: user=jgarcia file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=web-srv-01
+198.51.100.20 - dbadmin [Jan 14 21:15:45] "DELETE /dashboard HTTP/2.0" 200 4145 "https://erp.local" "curl/7.88"
+dlp_detect [Feb 12 10:05:20] sensitive_data_detect: user=devops file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=dlp-agent-08
+1.1.1.1 - - [Feb 21 15:58:13] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+172.16.0.25 - backup_svc [Mar 16 08:23:06] "GET /health HTTP/2.0" 200 743 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM
+192.168.1.50 - jgarcia [Mar 07 05:18:48] "GET /dashboard HTTP/2.0" 200 1362 "https://erp.local" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+192.168.1.100 - aruiz [Mar 04 21:14:02] "PUT /api/v2/users HTTP/2.0" 200 4362 "https://portal.empresa.com" "PostmanRuntime/7.36"
+185.220.101.5 - - [Mar 19 07:52:12] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+77.88.8.8 - - [Feb 19 09:28:54] "POST /api/login HTTP/1.1" 401 350 "-" "masscan/1.3" X-Scan: port_scan
+104.21.8.9 - - [Mar 28 11:57:58] "GET /phpmyadmin/ HTTP/1.1" 500 512 "-" "python-requests/2.31"
+10.0.1.20 - backup_svc [Feb 29 03:17:58] "GET /api/v2/cloud-status HTTP/2.0" 200 2956 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+1.1.1.1 - - [Feb 06 14:55:47] "POST /api/login HTTP/1.1" 401 350 "-" "sqlmap/1.7" X-Scan: port_scan
+dlp_monitor [Feb 07 02:47:21] DLP monitor: data_loss_prevent triggered user=scanner dst=45.33.32.156 bytes=45230 policy=DLP-Email-Outbound
+10.0.1.10 - scanner [Jan 22 21:37:50] "GET /login HTTP/2.0" 200 4570 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+185.220.101.5 - readonly_user [Feb 28 17:43:33] "PUT /login HTTP/2.0" 200 3159 "https://erp.local" "curl/7.88"
+45.33.32.156 - - [Jan 08 22:47:30] "GET /api/phishing-redirect?url=http://malicious-url.tk HTTP/1.1" 403 512 "-" "curl/7.88" web_filter_block=malicious_url
+172.16.0.25 - admin [Jan 23 08:38:59] "GET /reports HTTP/2.0" 200 4677 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.1.20 - jgarcia [Mar 15 12:13:37] "PUT /api/v2/assets HTTP/2.0" 200 2863 "https://erp.local" "PostmanRuntime/7.36"
+192.168.1.50 - scanner [Mar 08 21:21:28] "OPTIONS /api/v2/assets HTTP/2.0" 200 1685 "-" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Jan 27 12:28:53] DLP monitor: data_loss_prevent triggered user=api_svc dst=10.0.1.20 bytes=45230 policy=DLP-Email-Outbound
+dlp_detect [Mar 08 08:01:31] sensitive_data_detect: user=dbadmin file=confidential_report.pdf action=blocked classification=C3-Confidential endpoint=cloud-gw-05
+192.168.1.100 - devops [Mar 19 03:33:22] "DELETE /health HTTP/2.0" 200 4076 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)"
+dlp_monitor [Mar 29 11:18:51] DLP monitor: data_loss_prevent triggered user=backup_svc dst=10.0.2.5 bytes=45230 policy=DLP-Email-Outbound
+10.0.2.5 - scanner [Jan 13 03:58:59] "GET /api/v2/users HTTP/2.0" 200 5879 "https://erp.local" "PostmanRuntime/7.36"
+192.168.1.50 - - [Feb 14 10:05:00] "GET /phpmyadmin/ HTTP/1.1" 404 512 "-" "python-requests/2.31"
+192.168.1.50 - devops [Jan 24 13:52:19] "GET /login HTTP/2.0" 200 535 "https://portal.empresa.com" "curl/7.88" ssl=TLS1.3 cipher=AES256-GCM
+10.0.2.5 - api_svc [Jan 22 08:33:12] "GET /api/v2/users HTTP/2.0" 200 1454 "https://portal.empresa.com" "Mozilla/5.0 (Windows NT 10.0; Win64)" ssl=TLS1.3 cipher=AES256-GCM
+185.220.101.5 - - [Feb 23 16:33:38] "GET /cgi-bin/test.sh HTTP/1.1" 500 512 "-" "sqlmap/1.7"
+104.21.8.9 - admin [Jan 12 15:41:50] "DELETE /login HTTP/2.0" 200 1938 "https://erp.local" "PostmanRuntime/7.36"
+1.1.1.1 - mlopez [Feb 11 09:37:04] "PUT /static/app.js HTTP/2.0" 200 7987 "https://erp.local" "PostmanRuntime/7.36"
+10.0.1.20 - aruiz [Feb 21 05:23:49] "GET /health HTTP/2.0" 200 3467 "https://portal.empresa.com" "PostmanRuntime/7.36" ssl=TLS1.3 cipher=AES256-GCM

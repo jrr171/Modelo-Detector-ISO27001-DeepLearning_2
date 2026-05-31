@@ -1,0 +1,800 @@
+Feb 13 12:57:50 backup-srv-07 sudo[6132]: privilege_assign: admin granted admin role by IAM
+Mar 15 09:57:16 dlp-agent-08 sshd[9512]: Disconnecting invalid user api_svc 203.0.113.50 port 3620: Too many authentication failures
+Mar 26 18:56:52 db-srv-02 sshd[7832]: session opened for user sysadmin by (uid=0)
+Jan 02 14:18:11 backup-srv-07 sudo[2149]: privilege_assign: scanner : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 25 00:07:49 web-srv-01 vpnd[9826]: remote_access_vpn: User scanner connected via VPN from 203.0.113.50 (telework session)
+Jan 01 20:17:02 web-srv-01 sshd[7904]: session opened for user scanner by (uid=0)
+Mar 12 20:51:13 db-srv-02 pam_unix[2745]: authentication failure: brute_force detected from 91.108.4.12
+Mar 16 04:43:32 auth-srv-03 sudo[5427]: privilege_assign: api_svc : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 11 10:35:19 dlp-agent-08 sshd[3080]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.88.8.8 user=readonly_user
+Mar 01 13:06:11 auth-srv-03 vpnd[6942]: remote_access_vpn: User aruiz connected via VPN from 198.51.100.20 (telework session)
+Mar 03 16:22:58 dlp-agent-08 sshd[7545]: Failed password for dbadmin from 172.16.0.25 port 15076 ssh2
+Feb 13 12:55:57 auth-srv-03 sudo[8573]: privilege_assign: dbadmin granted admin role by IAM
+Jan 24 18:17:44 cloud-gw-05 sshd[4050]: Failed password for sysadmin from 172.16.0.25 port 5163 ssh2
+Jan 19 04:54:40 cloud-gw-05 sshd[4206]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.20 user=admin
+Mar 08 03:06:55 backup-srv-07 usermod[1919]: role_assigned: user api_svc added to group security-admins
+Mar 22 18:00:30 auth-srv-03 sshd[3498]: Accepted publickey for sysadmin from 192.168.1.50 port 56744 ssh2
+Mar 19 23:16:41 proxy-srv-04 sshd[9155]: session opened for user scanner by (uid=0)
+Jan 25 09:55:52 web-srv-01 sshd[8846]: Failed password for backup_svc from 10.0.1.20 port 14252 ssh2
+Jan 30 07:33:39 cloud-gw-05 sshd[6200]: mfa_fail: MFA invalid OTP for user devops from 172.16.0.25 port 22851
+Jan 14 22:17:08 web-srv-01 vpnd[9496]: remote_access_vpn: User readonly_user connected via VPN from 185.220.101.5 (telework session)
+Mar 19 06:11:48 siem-srv-06 sshd[1980]: session opened for user aruiz by (uid=0)
+Jan 22 23:00:28 web-srv-01 vpnd[1143]: remote_access_vpn: User scanner connected via VPN from 192.168.1.50 (telework session)
+Mar 16 10:28:15 dlp-agent-08 sshd[2426]: session opened for user scanner by (uid=0)
+Jan 18 23:08:35 backup-srv-07 sshd[1856]: Accepted publickey for sysadmin from 10.0.1.20 port 64921 ssh2
+Jan 13 16:13:17 cloud-gw-05 pam_unix[6510]: authentication failure: brute_force detected from 185.220.101.5
+Jan 07 02:54:21 cloud-gw-05 sshd[8481]: Accepted publickey for readonly_user from 172.16.0.25 port 27711 ssh2
+Mar 01 21:05:27 db-srv-02 vpnd[8624]: remote_access_vpn: User backup_svc connected via VPN from 104.21.8.9 (telework session)
+Feb 04 18:35:16 dlp-agent-08 sudo[9685]: privilege_assign: mlopez granted admin role by IAM
+Jan 14 16:22:59 siem-srv-06 sshd[5705]: Failed password for admin from 91.108.4.12 port 36001 ssh2
+Mar 09 22:44:01 cloud-gw-05 sshd[1896]: Accepted publickey for admin from 192.168.1.50 port 61889 ssh2
+Jan 14 20:37:40 cloud-gw-05 usermod[9743]: role_assigned: user api_svc added to group security-admins
+Feb 25 16:01:09 db-srv-02 sshd[8114]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.33.32.156 user=admin
+Jan 19 15:47:33 proxy-srv-04 sshd[8429]: Accepted publickey for aruiz from 45.33.32.156 port 5326 ssh2
+Mar 02 09:24:20 dlp-agent-08 sshd[8161]: Failed password for invalid user postgres from 1.1.1.1 port 39767 ssh2
+Feb 04 11:38:48 siem-srv-06 sshd[4613]: mfa_success: MFA verified for user aruiz from 192.168.1.50 port 26267 ssh2
+Jan 17 10:00:58 web-srv-01 sshd[3855]: Failed password for mlopez from 91.108.4.12 port 39625 ssh2
+Mar 21 06:39:52 auth-srv-03 sshd[6683]: Failed password for backup_svc from 185.220.101.5 port 30648 ssh2
+Jan 27 18:30:58 siem-srv-06 sshd[3163]: session opened for user root by (uid=0)
+Feb 08 18:47:31 siem-srv-06 sshd[3797]: session opened for user backup_svc by (uid=0)
+Jan 20 22:40:40 web-srv-01 vpnd[7072]: remote_access_vpn: User dbadmin connected via VPN from 185.220.101.5 (telework session)
+Jan 04 20:10:41 backup-srv-07 usermod[9269]: role_assigned: user api_svc added to group security-admins
+Jan 09 16:51:39 dlp-agent-08 vpnd[7354]: remote_access_vpn: User api_svc connected via VPN from 91.108.4.12 (telework session)
+Mar 30 09:36:07 proxy-srv-04 sshd[2011]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.20 user=dbadmin
+Feb 03 02:16:45 siem-srv-06 sshd[7358]: Accepted publickey for api_svc from 10.0.2.5 port 5114 ssh2
+Feb 24 09:44:11 db-srv-02 sshd[9373]: session opened for user sysadmin by (uid=0)
+Mar 22 10:08:54 auth-srv-03 sudo[3465]: privilege_assign: api_svc : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 16 02:53:08 siem-srv-06 sshd[8396]: mfa_fail: MFA invalid OTP for user sysadmin from 104.21.8.9 port 14601
+Mar 20 22:04:09 siem-srv-06 sshd[8072]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=mlopez
+Feb 08 23:55:01 cloud-gw-05 sshd[3831]: Accepted publickey for jgarcia from 172.16.0.25 port 55314 ssh2
+Jan 28 17:26:28 db-srv-02 sudo[1493]: privilege_assign: backup_svc : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 13 04:10:26 proxy-srv-04 sshd[5278]: mfa_success: MFA verified for user api_svc from 192.168.1.100 port 39237 ssh2
+Mar 01 18:24:49 db-srv-02 sshd[2840]: Failed password for sysadmin from 10.0.1.10 port 34860 ssh2
+Jan 25 02:15:12 backup-srv-07 sshd[8175]: Failed password for jgarcia from 104.21.8.9 port 11497 ssh2
+Jan 29 14:12:43 dlp-agent-08 sshd[1178]: Failed password for invalid user oracle from 77.88.8.8 port 26972 ssh2
+Feb 20 21:58:38 auth-srv-03 sshd[3294]: session opened for user backup_svc by (uid=0)
+Jan 23 21:24:01 web-srv-01 useradd[6398]: account_created: new user account readonly_user provisioned by admin
+Feb 18 19:55:32 auth-srv-03 sshd[1513]: mfa_fail: MFA invalid OTP for user dbadmin from 45.33.32.156 port 17495
+Feb 02 17:26:46 web-srv-01 sudo[6573]: privilege_assign: devops : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 16 20:24:25 auth-srv-03 sshd[7132]: session opened for user dbadmin by (uid=0)
+Jan 22 22:08:33 cloud-gw-05 sshd[8185]: session opened for user aruiz by (uid=0)
+Feb 10 12:35:33 dlp-agent-08 sshd[8086]: Failed password for devops from 10.0.1.10 port 37704 ssh2
+Feb 02 04:29:28 web-srv-01 sudo[7033]: privilege_assign: readonly_user : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 23 16:33:35 dlp-agent-08 sudo[3007]: privilege_assign: readonly_user : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 26 18:27:21 dlp-agent-08 sshd[5581]: Accepted publickey for scanner from 10.0.1.10 port 9641 ssh2
+Feb 28 02:27:13 proxy-srv-04 useradd[6036]: account_created: new user account root provisioned by admin
+Mar 19 21:44:58 dlp-agent-08 sshd[1030]: Failed password for scanner from 185.220.101.5 port 33162 ssh2
+Feb 17 03:34:34 proxy-srv-04 sshd[8760]: Accepted publickey for dbadmin from 10.0.1.10 port 32465 ssh2
+Feb 17 12:43:54 cloud-gw-05 sshd[5555]: Accepted publickey for api_svc from 77.88.8.8 port 62234 ssh2
+Feb 17 02:34:20 proxy-srv-04 sudo[1240]: privilege_assign: dbadmin : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 12 00:57:46 dlp-agent-08 vpnd[5137]: remote_access_vpn: User root connected via VPN from 45.33.32.156 (telework session)
+Mar 07 10:26:29 proxy-srv-04 sshd[3840]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.21.8.9 user=backup_svc
+Feb 23 01:28:15 web-srv-01 sudo[6068]: privilege_assign: admin granted admin role by IAM
+Feb 20 18:46:22 cloud-gw-05 sshd[3087]: Accepted publickey for dbadmin from 10.0.1.10 port 5248 ssh2
+Jan 23 20:07:35 db-srv-02 sshd[3371]: session opened for user mlopez by (uid=0)
+Feb 11 22:28:19 web-srv-01 sshd[6271]: Accepted publickey for backup_svc from 192.168.1.100 port 13448 ssh2
+Jan 23 10:01:45 web-srv-01 useradd[6753]: account_created: new user account root provisioned by admin
+Mar 09 09:17:13 backup-srv-07 usermod[6586]: role_assigned: user devops added to group security-admins
+Jan 21 17:08:44 cloud-gw-05 sudo[6134]: privilege_assign: readonly_user : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 15 13:43:18 db-srv-02 sshd[9226]: session opened for user devops by (uid=0)
+Feb 14 22:12:46 cloud-gw-05 sshd[4300]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.108.4.12 user=admin
+Mar 14 01:20:32 auth-srv-03 sshd[2945]: mfa_fail: MFA invalid OTP for user api_svc from 172.16.0.25 port 64552
+Mar 26 12:20:50 siem-srv-06 vpnd[5756]: remote_access_vpn: User api_svc connected via VPN from 91.108.4.12 (telework session)
+Feb 08 06:49:56 dlp-agent-08 usermod[5590]: role_assigned: user jgarcia added to group security-admins
+Mar 25 16:50:34 siem-srv-06 sshd[5114]: Accepted publickey for api_svc from 45.33.32.156 port 22587 ssh2
+Mar 22 22:47:20 siem-srv-06 sshd[3928]: Accepted publickey for aruiz from 192.168.1.100 port 2729 ssh2
+Feb 17 01:02:35 web-srv-01 pam_unix[7285]: authentication failure: brute_force detected from 91.108.4.12
+Mar 03 04:04:02 web-srv-01 sshd[8907]: Failed password for jgarcia from 203.0.113.50 port 47840 ssh2
+Jan 20 21:56:39 db-srv-02 sshd[1880]: session opened for user readonly_user by (uid=0)
+Jan 22 19:30:40 web-srv-01 sshd[7597]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.21.8.9 user=readonly_user
+Jan 05 07:41:45 auth-srv-03 sshd[7285]: Disconnecting invalid user dbadmin 91.108.4.12 port 19247: Too many authentication failures
+Mar 26 04:30:44 proxy-srv-04 sudo[6238]: privilege_assign: api_svc granted admin role by IAM
+Jan 03 15:57:09 auth-srv-03 sshd[7273]: Failed password for dbadmin from 104.21.8.9 port 60224 ssh2
+Feb 15 22:41:44 web-srv-01 sshd[2116]: session opened for user devops by (uid=0)
+Mar 25 23:03:01 auth-srv-03 sshd[3471]: Accepted publickey for jgarcia from 192.168.1.100 port 37427 ssh2
+Feb 22 16:02:40 backup-srv-07 sshd[7579]: session opened for user readonly_user by (uid=0)
+Jan 12 05:09:17 backup-srv-07 sshd[2382]: session opened for user devops by (uid=0)
+Mar 29 18:32:34 siem-srv-06 sshd[3712]: session opened for user dbadmin by (uid=0)
+Jan 17 00:41:26 web-srv-01 sshd[5791]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.1.1.1 user=readonly_user
+Jan 11 18:13:00 backup-srv-07 pam_unix[8997]: authentication failure: brute_force detected from 77.88.8.8
+Feb 08 16:42:40 cloud-gw-05 sshd[2335]: Accepted publickey for admin from 91.108.4.12 port 19695 ssh2
+Jan 20 22:40:40 dlp-agent-08 sshd[4464]: session opened for user api_svc by (uid=0)
+Mar 01 17:29:40 auth-srv-03 useradd[2635]: account_created: new user account dbadmin provisioned by admin
+Mar 09 12:51:41 cloud-gw-05 sshd[8253]: mfa_success: MFA verified for user api_svc from 172.16.0.25 port 37162 ssh2
+Mar 07 01:32:32 siem-srv-06 sudo[4119]: privilege_assign: aruiz : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 27 04:19:39 cloud-gw-05 pam_unix[3069]: authentication failure: brute_force detected from 198.51.100.20
+Feb 01 11:27:26 dlp-agent-08 sshd[4269]: Accepted publickey for dbadmin from 185.220.101.5 port 27105 ssh2
+Mar 02 10:43:30 proxy-srv-04 sshd[5820]: mfa_fail: MFA invalid OTP for user root from 203.0.113.50 port 61670
+Feb 13 17:35:45 auth-srv-03 pam_unix[4445]: authentication failure: brute_force detected from 203.0.113.50
+Jan 07 06:47:16 web-srv-01 sshd[7240]: Accepted publickey for root from 192.168.1.50 port 28580 ssh2
+Jan 02 09:36:26 siem-srv-06 sshd[1470]: Disconnecting invalid user api_svc 203.0.113.50 port 23321: Too many authentication failures
+Jan 15 20:51:31 dlp-agent-08 sudo[1620]: privilege_assign: admin granted admin role by IAM
+Feb 23 13:35:00 db-srv-02 sshd[4766]: mfa_fail: MFA invalid OTP for user aruiz from 91.108.4.12 port 38026
+Jan 18 13:55:14 db-srv-02 sshd[1782]: Accepted publickey for scanner from 10.0.1.10 port 59222 ssh2
+Jan 27 10:45:17 proxy-srv-04 sudo[9699]: privilege_assign: dbadmin granted admin role by IAM
+Mar 13 13:48:42 web-srv-01 vpnd[4944]: remote_access_vpn: User backup_svc connected via VPN from 45.33.32.156 (telework session)
+Mar 19 19:26:28 db-srv-02 sudo[9657]: privilege_assign: devops : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 04 07:09:28 backup-srv-07 sshd[4372]: Accepted publickey for mlopez from 91.108.4.12 port 21886 ssh2
+Mar 15 23:47:44 web-srv-01 sudo[9752]: privilege_assign: devops granted admin role by IAM
+Mar 01 06:11:22 auth-srv-03 sshd[8353]: Failed password for invalid user postgres from 198.51.100.20 port 19542 ssh2
+Jan 10 16:08:29 cloud-gw-05 pam_unix[5672]: authentication failure: brute_force detected from 1.1.1.1
+Jan 28 15:29:23 siem-srv-06 sudo[5064]: privilege_assign: dbadmin : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 27 04:46:29 proxy-srv-04 sshd[3713]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.33.32.156 user=api_svc
+Feb 22 04:16:24 backup-srv-07 sshd[7246]: session opened for user mlopez by (uid=0)
+Mar 09 09:18:04 siem-srv-06 sshd[5188]: Accepted publickey for devops from 172.16.0.25 port 53468 ssh2
+Feb 29 12:53:27 db-srv-02 sshd[5735]: Failed password for devops from 10.0.2.5 port 31886 ssh2
+Mar 14 16:38:34 db-srv-02 vpnd[5281]: remote_access_vpn: User mlopez connected via VPN from 1.1.1.1 (telework session)
+Jan 08 00:52:47 backup-srv-07 sshd[3184]: Accepted publickey for admin from 91.108.4.12 port 5819 ssh2
+Feb 13 12:32:41 dlp-agent-08 sshd[9730]: Failed password for backup_svc from 198.51.100.20 port 22108 ssh2
+Jan 20 02:36:46 auth-srv-03 sshd[6754]: Failed password for admin from 77.88.8.8 port 31253 ssh2
+Jan 10 07:35:22 web-srv-01 sshd[6071]: Failed password for mlopez from 1.1.1.1 port 44006 ssh2
+Mar 05 20:52:48 dlp-agent-08 sshd[3000]: mfa_fail: MFA invalid OTP for user api_svc from 45.33.32.156 port 4135
+Feb 29 07:34:31 siem-srv-06 sshd[7564]: mfa_fail: MFA invalid OTP for user scanner from 45.33.32.156 port 14512
+Mar 24 02:40:23 backup-srv-07 sshd[6340]: Accepted publickey for root from 192.168.1.100 port 30747 ssh2
+Feb 17 01:51:30 web-srv-01 sshd[5645]: Accepted publickey for readonly_user from 10.0.1.20 port 23654 ssh2
+Jan 21 09:46:03 siem-srv-06 sudo[4986]: sudo_unauthorized: admin : command not allowed ; COMMAND=/bin/passwd root
+Feb 11 05:12:46 web-srv-01 pam_unix[1744]: authentication failure: brute_force detected from 1.1.1.1
+Feb 20 03:34:43 web-srv-01 sshd[3883]: session opened for user root by (uid=0)
+Mar 20 04:26:27 web-srv-01 sudo[8718]: privilege_assign: jgarcia granted admin role by IAM
+Feb 19 08:52:59 cloud-gw-05 sshd[7864]: Disconnecting invalid user root 1.1.1.1 port 10978: Too many authentication failures
+Jan 06 09:19:50 cloud-gw-05 sshd[1580]: Accepted publickey for backup_svc from 10.0.1.10 port 64738 ssh2
+Jan 17 10:18:38 db-srv-02 useradd[4323]: account_created: new user account backup_svc provisioned by admin
+Jan 27 10:10:53 proxy-srv-04 sshd[1597]: session opened for user backup_svc by (uid=0)
+Jan 19 11:55:19 proxy-srv-04 usermod[2922]: role_assigned: user root added to group security-admins
+Jan 29 14:32:07 db-srv-02 sudo[8641]: privilege_assign: aruiz : TTY=pts/4 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 08 01:11:41 auth-srv-03 usermod[6474]: role_assigned: user api_svc added to group security-admins
+Jan 09 13:06:28 web-srv-01 pam_unix[4100]: authentication failure: brute_force detected from 203.0.113.50
+Feb 22 06:38:41 web-srv-01 sshd[8086]: mfa_success: MFA verified for user aruiz from 10.0.1.10 port 41236 ssh2
+Jan 09 07:39:31 siem-srv-06 sshd[7553]: Failed password for invalid user admin123 from 1.1.1.1 port 61681 ssh2
+Mar 28 14:00:58 web-srv-01 sshd[2596]: Failed password for mlopez from 45.33.32.156 port 64763 ssh2
+Mar 23 21:37:57 proxy-srv-04 sshd[3674]: Failed password for invalid user oracle from 172.16.0.25 port 43482 ssh2
+Feb 24 09:37:50 auth-srv-03 sshd[5594]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.1.1.1 user=root
+Feb 21 08:49:50 dlp-agent-08 sshd[2349]: Accepted publickey for dbadmin from 1.1.1.1 port 6438 ssh2
+Jan 17 14:32:29 cloud-gw-05 sshd[1848]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.88.8.8 user=devops
+Feb 20 08:46:50 proxy-srv-04 sshd[5671]: Failed password for dbadmin from 198.51.100.20 port 55297 ssh2
+Mar 20 03:08:13 proxy-srv-04 sshd[5944]: mfa_fail: MFA invalid OTP for user aruiz from 91.108.4.12 port 5482
+Mar 03 08:52:07 db-srv-02 vpnd[7230]: remote_access_vpn: User api_svc connected via VPN from 172.16.0.25 (telework session)
+Feb 20 02:53:54 cloud-gw-05 sshd[2517]: session opened for user api_svc by (uid=0)
+Jan 16 21:11:00 cloud-gw-05 sshd[8316]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.5 user=api_svc
+Jan 02 01:21:38 auth-srv-03 sshd[2246]: Accepted publickey for dbadmin from 10.0.1.10 port 4308 ssh2
+Mar 05 02:01:54 auth-srv-03 sshd[9970]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.5 user=backup_svc
+Feb 24 18:47:44 dlp-agent-08 sshd[3688]: Failed password for invalid user admin123 from 203.0.113.50 port 22556 ssh2
+Mar 08 00:01:57 dlp-agent-08 sshd[1584]: Accepted publickey for sysadmin from 192.168.1.50 port 36753 ssh2
+Jan 02 00:19:05 cloud-gw-05 sshd[8357]: mfa_success: MFA verified for user jgarcia from 77.88.8.8 port 17264 ssh2
+Feb 27 13:22:52 cloud-gw-05 usermod[1638]: role_assigned: user jgarcia added to group security-admins
+Jan 21 05:05:49 cloud-gw-05 sshd[1147]: Disconnecting invalid user readonly_user 1.1.1.1 port 4873: Too many authentication failures
+Mar 29 21:06:37 db-srv-02 sudo[5824]: privilege_assign: dbadmin granted admin role by IAM
+Feb 15 15:25:49 cloud-gw-05 sshd[8451]: Failed password for invalid user oracle from 185.220.101.5 port 3800 ssh2
+Mar 30 01:41:46 dlp-agent-08 sudo[9306]: privilege_assign: admin : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 31 00:14:29 proxy-srv-04 sshd[7221]: Accepted publickey for root from 192.168.1.100 port 53027 ssh2
+Feb 19 10:55:32 auth-srv-03 sshd[6818]: Disconnecting invalid user backup_svc 104.21.8.9 port 33353: Too many authentication failures
+Mar 01 07:13:35 backup-srv-07 sshd[9553]: mfa_success: MFA verified for user scanner from 1.1.1.1 port 55981 ssh2
+Feb 10 06:28:47 db-srv-02 useradd[6920]: account_created: new user account devops provisioned by admin
+Mar 23 17:40:36 cloud-gw-05 sshd[4708]: Failed password for api_svc from 91.108.4.12 port 14489 ssh2
+Feb 15 06:32:55 proxy-srv-04 sshd[2390]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.21.8.9 user=sysadmin
+Feb 21 18:28:29 cloud-gw-05 sshd[3290]: Accepted publickey for root from 192.168.1.50 port 45089 ssh2
+Feb 05 09:28:08 db-srv-02 sshd[5399]: mfa_success: MFA verified for user readonly_user from 10.0.2.5 port 39972 ssh2
+Feb 20 22:38:43 dlp-agent-08 sudo[1180]: privilege_assign: devops granted admin role by IAM
+Mar 12 14:37:52 dlp-agent-08 sshd[8399]: mfa_success: MFA verified for user mlopez from 192.168.1.100 port 28450 ssh2
+Jan 10 17:42:22 auth-srv-03 sshd[8030]: session opened for user aruiz by (uid=0)
+Feb 02 05:47:59 web-srv-01 sshd[7850]: session opened for user api_svc by (uid=0)
+Jan 07 12:55:52 cloud-gw-05 sshd[7542]: Failed password for invalid user admin123 from 203.0.113.50 port 30697 ssh2
+Jan 29 07:55:30 auth-srv-03 sshd[5020]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.21.8.9 user=mlopez
+Mar 22 07:14:44 dlp-agent-08 sshd[2017]: Accepted publickey for aruiz from 10.0.2.5 port 26062 ssh2
+Jan 15 06:34:08 auth-srv-03 useradd[7066]: account_created: new user account dbadmin provisioned by admin
+Jan 12 11:33:57 auth-srv-03 sudo[3484]: privilege_assign: aruiz : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 08 18:58:30 web-srv-01 sudo[5302]: privilege_assign: dbadmin granted admin role by IAM
+Feb 19 15:44:29 auth-srv-03 vpnd[8707]: remote_access_vpn: User aruiz connected via VPN from 192.168.1.50 (telework session)
+Jan 17 02:48:13 dlp-agent-08 sshd[9096]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=172.16.0.25 user=mlopez
+Mar 07 23:33:45 proxy-srv-04 sshd[7627]: mfa_success: MFA verified for user admin from 10.0.2.5 port 11005 ssh2
+Jan 26 00:10:34 web-srv-01 sshd[2042]: session opened for user devops by (uid=0)
+Feb 08 09:00:15 proxy-srv-04 sudo[3603]: privilege_assign: scanner granted admin role by IAM
+Feb 19 05:24:01 dlp-agent-08 sshd[5211]: Failed password for invalid user postgres from 198.51.100.20 port 43643 ssh2
+Feb 15 12:09:01 cloud-gw-05 sudo[3716]: privilege_assign: admin : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 25 18:51:24 proxy-srv-04 sshd[6007]: session opened for user mlopez by (uid=0)
+Feb 22 09:51:32 web-srv-01 sshd[6774]: account locked: too many failed attempts for user mlopez
+Mar 07 14:55:26 dlp-agent-08 usermod[7273]: role_assigned: user jgarcia added to group security-admins
+Jan 17 08:16:38 dlp-agent-08 sshd[1339]: Failed password for sysadmin from 45.33.32.156 port 55944 ssh2
+Jan 05 07:42:02 cloud-gw-05 sshd[1192]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.5 user=admin
+Mar 20 23:52:01 web-srv-01 sudo[9318]: privilege_assign: readonly_user granted admin role by IAM
+Mar 14 06:52:09 backup-srv-07 sudo[2023]: privilege_assign: root : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 20 08:06:43 web-srv-01 sshd[1757]: Failed password for invalid user postgres from 91.108.4.12 port 60015 ssh2
+Feb 08 12:34:08 db-srv-02 sudo[5492]: privilege_assign: api_svc : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 24 21:57:27 proxy-srv-04 sshd[8436]: Failed password for dbadmin from 198.51.100.20 port 24552 ssh2
+Mar 24 19:39:49 cloud-gw-05 sshd[8310]: Failed password for scanner from 185.220.101.5 port 31410 ssh2
+Feb 29 19:18:12 auth-srv-03 useradd[7558]: account_created: new user account devops provisioned by admin
+Feb 09 18:09:50 auth-srv-03 sshd[2393]: Accepted publickey for dbadmin from 192.168.1.100 port 10697 ssh2
+Jan 18 18:25:11 web-srv-01 sudo[3174]: privilege_assign: devops : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 13 10:17:26 cloud-gw-05 pam_unix[9196]: authentication failure: brute_force detected from 203.0.113.50
+Jan 06 21:06:06 auth-srv-03 sudo[8228]: privilege_assign: dbadmin granted admin role by IAM
+Jan 16 10:43:09 backup-srv-07 sshd[5186]: Accepted publickey for devops from 192.168.1.50 port 7902 ssh2
+Jan 11 07:41:55 siem-srv-06 sudo[2227]: privilege_assign: mlopez granted admin role by IAM
+Mar 10 08:42:53 db-srv-02 sshd[7788]: mfa_success: MFA verified for user aruiz from 192.168.1.100 port 4603 ssh2
+Mar 27 10:05:38 db-srv-02 sshd[3006]: mfa_fail: MFA invalid OTP for user aruiz from 203.0.113.50 port 29783
+Feb 22 18:51:33 cloud-gw-05 sshd[2736]: session opened for user mlopez by (uid=0)
+Jan 10 02:58:59 siem-srv-06 sshd[7490]: Failed password for mlopez from 203.0.113.50 port 12768 ssh2
+Jan 31 14:55:15 backup-srv-07 sshd[4997]: Failed password for backup_svc from 203.0.113.50 port 9145 ssh2
+Jan 23 09:43:39 backup-srv-07 sshd[1312]: mfa_success: MFA verified for user dbadmin from 192.168.1.50 port 56514 ssh2
+Jan 30 15:32:27 dlp-agent-08 sshd[8276]: mfa_fail: MFA invalid OTP for user scanner from 10.0.1.10 port 41690
+Mar 27 05:44:46 db-srv-02 sudo[5368]: privilege_assign: scanner : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 31 20:36:29 web-srv-01 vpnd[1778]: remote_access_vpn: User mlopez connected via VPN from 203.0.113.50 (telework session)
+Jan 19 02:09:53 backup-srv-07 sshd[4051]: mfa_success: MFA verified for user jgarcia from 172.16.0.25 port 29404 ssh2
+Feb 28 07:07:33 siem-srv-06 usermod[3364]: role_assigned: user mlopez added to group security-admins
+Feb 26 15:45:04 web-srv-01 vpnd[9915]: remote_access_vpn: User jgarcia connected via VPN from 203.0.113.50 (telework session)
+Mar 28 00:56:50 db-srv-02 sudo[5099]: privilege_assign: api_svc granted admin role by IAM
+Mar 09 11:36:03 cloud-gw-05 sshd[8927]: Failed password for sysadmin from 1.1.1.1 port 17467 ssh2
+Mar 21 11:05:44 proxy-srv-04 vpnd[7684]: remote_access_vpn: User scanner connected via VPN from 185.220.101.5 (telework session)
+Feb 21 20:54:08 proxy-srv-04 sshd[3205]: Failed password for invalid user admin123 from 45.33.32.156 port 44268 ssh2
+Feb 14 04:40:12 web-srv-01 sudo[9695]: privilege_assign: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 19 07:06:52 siem-srv-06 sshd[6849]: Failed password for invalid user admin123 from 198.51.100.20 port 2527 ssh2
+Feb 25 06:15:50 dlp-agent-08 sshd[1052]: Accepted publickey for scanner from 172.16.0.25 port 34411 ssh2
+Feb 14 18:20:13 backup-srv-07 sshd[3510]: Disconnecting invalid user dbadmin 1.1.1.1 port 54361: Too many authentication failures
+Feb 26 03:59:26 web-srv-01 sshd[2596]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=scanner
+Jan 20 18:23:29 auth-srv-03 sudo[4949]: privilege_assign: devops granted admin role by IAM
+Jan 02 03:31:24 backup-srv-07 sshd[7940]: Failed password for readonly_user from 185.220.101.5 port 17050 ssh2
+Jan 13 19:11:44 auth-srv-03 sudo[3900]: privilege_assign: jgarcia granted admin role by IAM
+Jan 22 19:31:22 siem-srv-06 sshd[6616]: Accepted publickey for sysadmin from 10.0.1.10 port 62176 ssh2
+Mar 07 09:59:07 auth-srv-03 sudo[3097]: privilege_assign: sysadmin granted admin role by IAM
+Jan 23 05:05:36 dlp-agent-08 sshd[4200]: mfa_success: MFA verified for user jgarcia from 10.0.2.5 port 20066 ssh2
+Feb 05 15:53:03 dlp-agent-08 usermod[6023]: role_assigned: user api_svc added to group security-admins
+Mar 09 03:24:05 backup-srv-07 sshd[1651]: session opened for user root by (uid=0)
+Feb 27 23:45:51 web-srv-01 sshd[1061]: account locked: too many failed attempts for user aruiz
+Feb 15 11:43:23 proxy-srv-04 sshd[4929]: mfa_fail: MFA invalid OTP for user sysadmin from 172.16.0.25 port 56368
+Feb 10 20:06:49 db-srv-02 sshd[1595]: mfa_success: MFA verified for user dbadmin from 10.0.1.20 port 30924 ssh2
+Feb 06 07:47:19 auth-srv-03 sshd[1021]: Failed password for invalid user test from 185.220.101.5 port 5656 ssh2
+Mar 20 06:57:24 web-srv-01 sshd[6168]: Failed password for jgarcia from 91.108.4.12 port 20999 ssh2
+Jan 03 06:21:29 proxy-srv-04 sshd[6843]: Disconnecting invalid user mlopez 91.108.4.12 port 62874: Too many authentication failures
+Feb 01 19:47:11 web-srv-01 sshd[3409]: Disconnecting invalid user readonly_user 192.168.1.100 port 60882: Too many authentication failures
+Mar 05 17:25:09 auth-srv-03 sshd[6589]: Accepted publickey for scanner from 10.0.1.10 port 15892 ssh2
+Jan 15 19:38:12 cloud-gw-05 sshd[5112]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.2.5 user=dbadmin
+Mar 01 05:11:05 db-srv-02 sshd[9111]: Accepted publickey for sysadmin from 198.51.100.20 port 52081 ssh2
+Jan 08 22:50:19 db-srv-02 sshd[8856]: Failed password for invalid user oracle from 203.0.113.50 port 30037 ssh2
+Feb 28 11:19:00 siem-srv-06 sshd[4916]: Failed password for admin from 10.0.1.10 port 9743 ssh2
+Feb 27 03:59:51 db-srv-02 useradd[5064]: account_created: new user account devops provisioned by admin
+Feb 21 17:41:42 auth-srv-03 usermod[5275]: role_assigned: user dbadmin added to group security-admins
+Feb 02 10:46:32 auth-srv-03 sshd[9500]: session opened for user mlopez by (uid=0)
+Mar 22 12:36:06 auth-srv-03 sshd[6204]: Accepted publickey for readonly_user from 10.0.1.10 port 10558 ssh2
+Jan 29 05:32:23 dlp-agent-08 sshd[8704]: mfa_success: MFA verified for user dbadmin from 198.51.100.20 port 57248 ssh2
+Feb 11 15:33:37 web-srv-01 usermod[7352]: role_assigned: user readonly_user added to group security-admins
+Mar 21 18:03:03 web-srv-01 vpnd[3416]: remote_access_vpn: User scanner connected via VPN from 203.0.113.50 (telework session)
+Feb 28 01:30:03 auth-srv-03 sshd[6260]: Accepted publickey for aruiz from 192.168.1.100 port 19281 ssh2
+Feb 18 19:05:10 cloud-gw-05 sshd[2878]: account locked: too many failed attempts for user api_svc
+Jan 14 05:36:35 cloud-gw-05 vpnd[2619]: remote_access_vpn: User backup_svc connected via VPN from 192.168.1.100 (telework session)
+Jan 21 12:34:18 db-srv-02 usermod[7884]: role_assigned: user mlopez added to group security-admins
+Mar 06 00:14:18 cloud-gw-05 sudo[8714]: privilege_assign: readonly_user granted admin role by IAM
+Mar 05 17:29:28 siem-srv-06 sshd[6671]: Disconnecting invalid user dbadmin 45.33.32.156 port 10205: Too many authentication failures
+Jan 03 03:50:25 db-srv-02 sshd[9467]: Accepted publickey for sysadmin from 172.16.0.25 port 3562 ssh2
+Feb 14 21:32:14 auth-srv-03 sshd[5196]: Failed password for readonly_user from 45.33.32.156 port 36501 ssh2
+Feb 14 08:00:38 auth-srv-03 sshd[7244]: mfa_fail: MFA invalid OTP for user backup_svc from 104.21.8.9 port 20747
+Feb 22 17:20:11 backup-srv-07 sudo[2476]: sudo_unauthorized: dbadmin : command not allowed ; COMMAND=/bin/passwd root
+Jan 30 03:46:58 cloud-gw-05 sshd[7589]: session opened for user dbadmin by (uid=0)
+Jan 17 18:18:50 backup-srv-07 usermod[8798]: role_assigned: user sysadmin added to group security-admins
+Mar 14 07:22:50 cloud-gw-05 sshd[2542]: mfa_fail: MFA invalid OTP for user admin from 10.0.1.20 port 61571
+Jan 31 10:14:20 db-srv-02 sudo[5739]: privilege_assign: jgarcia granted admin role by IAM
+Jan 29 03:53:37 siem-srv-06 sshd[1584]: session opened for user admin by (uid=0)
+Mar 15 17:20:16 cloud-gw-05 sshd[8881]: Accepted publickey for jgarcia from 192.168.1.100 port 26435 ssh2
+Jan 20 15:26:16 dlp-agent-08 sshd[2409]: account locked: too many failed attempts for user admin
+Feb 29 15:01:18 auth-srv-03 sshd[2547]: Disconnecting invalid user root 91.108.4.12 port 4687: Too many authentication failures
+Jan 06 09:34:20 web-srv-01 sshd[1336]: Failed password for jgarcia from 45.33.32.156 port 12576 ssh2
+Feb 28 11:46:46 web-srv-01 sshd[4451]: Accepted publickey for dbadmin from 10.0.2.5 port 54091 ssh2
+Jan 20 14:11:11 web-srv-01 sshd[2310]: mfa_success: MFA verified for user sysadmin from 91.108.4.12 port 61551 ssh2
+Feb 16 23:39:45 siem-srv-06 vpnd[2956]: remote_access_vpn: User devops connected via VPN from 45.33.32.156 (telework session)
+Jan 14 11:50:00 web-srv-01 sudo[3615]: privilege_assign: devops : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 22 06:37:31 proxy-srv-04 sshd[6208]: session opened for user devops by (uid=0)
+Mar 29 04:50:59 auth-srv-03 sshd[8299]: session opened for user admin by (uid=0)
+Mar 19 09:37:51 web-srv-01 sshd[3555]: session opened for user aruiz by (uid=0)
+Jan 02 14:06:09 proxy-srv-04 usermod[7705]: role_assigned: user devops added to group security-admins
+Feb 02 12:05:30 web-srv-01 sshd[5407]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.5 user=root
+Feb 27 18:02:49 backup-srv-07 sshd[4793]: Failed password for devops from 198.51.100.20 port 31721 ssh2
+Feb 13 12:16:17 db-srv-02 vpnd[7441]: remote_access_vpn: User aruiz connected via VPN from 203.0.113.50 (telework session)
+Jan 09 01:45:28 proxy-srv-04 sshd[9730]: Accepted publickey for devops from 203.0.113.50 port 16813 ssh2
+Jan 06 22:47:27 web-srv-01 sshd[1420]: Accepted publickey for devops from 77.88.8.8 port 13273 ssh2
+Jan 06 02:52:13 dlp-agent-08 sshd[9076]: Failed password for invalid user postgres from 104.21.8.9 port 17054 ssh2
+Feb 23 01:31:53 backup-srv-07 sshd[5971]: Accepted publickey for jgarcia from 172.16.0.25 port 63743 ssh2
+Jan 10 10:07:33 proxy-srv-04 usermod[5161]: role_assigned: user backup_svc added to group security-admins
+Feb 08 14:19:08 cloud-gw-05 sshd[2766]: Failed password for invalid user postgres from 77.88.8.8 port 17638 ssh2
+Mar 05 08:22:11 auth-srv-03 sshd[5386]: mfa_fail: MFA invalid OTP for user devops from 10.0.1.10 port 31348
+Jan 26 09:49:10 backup-srv-07 sudo[2991]: sudo_unauthorized: scanner : command not allowed ; COMMAND=/bin/passwd root
+Feb 13 16:29:30 auth-srv-03 sshd[5017]: session opened for user scanner by (uid=0)
+Jan 03 13:18:35 dlp-agent-08 sshd[6822]: Failed password for sysadmin from 10.0.1.20 port 62140 ssh2
+Mar 19 03:40:12 cloud-gw-05 useradd[8661]: account_created: new user account readonly_user provisioned by admin
+Mar 21 18:55:59 auth-srv-03 sshd[4187]: Accepted publickey for admin from 192.168.1.100 port 34273 ssh2
+Jan 15 01:18:28 siem-srv-06 sshd[5844]: Disconnecting invalid user api_svc 198.51.100.20 port 34006: Too many authentication failures
+Jan 12 05:19:39 siem-srv-06 vpnd[4282]: remote_access_vpn: User admin connected via VPN from 198.51.100.20 (telework session)
+Jan 17 00:51:13 proxy-srv-04 sudo[3357]: privilege_assign: dbadmin granted admin role by IAM
+Mar 03 23:21:24 backup-srv-07 sudo[1945]: privilege_assign: aruiz granted admin role by IAM
+Jan 03 23:39:41 cloud-gw-05 sshd[5495]: Accepted publickey for api_svc from 172.16.0.25 port 59245 ssh2
+Mar 04 15:38:26 backup-srv-07 sshd[5861]: Failed password for scanner from 10.0.1.20 port 29277 ssh2
+Jan 11 18:42:38 backup-srv-07 sshd[1955]: session opened for user sysadmin by (uid=0)
+Feb 05 07:42:12 web-srv-01 sudo[7506]: privilege_assign: api_svc : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 14 19:19:51 cloud-gw-05 sudo[2289]: privilege_assign: devops granted admin role by IAM
+Mar 12 13:49:17 auth-srv-03 sshd[7358]: Accepted publickey for root from 10.0.1.20 port 55851 ssh2
+Mar 25 10:08:14 dlp-agent-08 sshd[4892]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=dbadmin
+Jan 02 06:50:42 cloud-gw-05 sudo[1715]: privilege_assign: scanner granted admin role by IAM
+Jan 25 09:58:09 proxy-srv-04 sshd[7590]: Accepted publickey for sysadmin from 192.168.1.100 port 21166 ssh2
+Jan 12 16:13:14 proxy-srv-04 sshd[9648]: account locked: too many failed attempts for user readonly_user
+Jan 03 08:06:53 dlp-agent-08 vpnd[6886]: remote_access_vpn: User devops connected via VPN from 10.0.1.10 (telework session)
+Jan 24 16:41:52 cloud-gw-05 vpnd[2491]: remote_access_vpn: User jgarcia connected via VPN from 192.168.1.50 (telework session)
+Mar 01 15:50:32 db-srv-02 vpnd[7903]: remote_access_vpn: User root connected via VPN from 45.33.32.156 (telework session)
+Feb 08 20:27:46 proxy-srv-04 sshd[6957]: session opened for user root by (uid=0)
+Feb 02 23:08:25 dlp-agent-08 sshd[5138]: session opened for user sysadmin by (uid=0)
+Jan 28 06:25:57 siem-srv-06 sshd[4634]: Failed password for api_svc from 77.88.8.8 port 52719 ssh2
+Jan 22 11:40:16 backup-srv-07 sshd[1354]: mfa_fail: MFA invalid OTP for user admin from 10.0.1.20 port 59649
+Feb 01 05:05:03 web-srv-01 sshd[9919]: Failed password for admin from 104.21.8.9 port 43807 ssh2
+Jan 07 02:55:09 siem-srv-06 vpnd[9855]: remote_access_vpn: User dbadmin connected via VPN from 185.220.101.5 (telework session)
+Mar 21 05:24:49 dlp-agent-08 sshd[3612]: Accepted publickey for admin from 172.16.0.25 port 35792 ssh2
+Mar 01 13:36:41 dlp-agent-08 sudo[1743]: privilege_assign: api_svc : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 03 23:52:39 dlp-agent-08 sudo[3429]: privilege_assign: aruiz granted admin role by IAM
+Mar 22 04:08:37 proxy-srv-04 vpnd[7536]: remote_access_vpn: User aruiz connected via VPN from 185.220.101.5 (telework session)
+Feb 13 18:35:51 dlp-agent-08 sshd[9785]: Failed password for invalid user oracle from 203.0.113.50 port 2839 ssh2
+Feb 15 07:49:28 cloud-gw-05 sshd[4728]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.88.8.8 user=dbadmin
+Jan 02 05:09:20 auth-srv-03 sshd[6042]: Accepted publickey for mlopez from 192.168.1.50 port 34959 ssh2
+Mar 13 22:10:47 cloud-gw-05 sudo[5477]: privilege_assign: sysadmin granted admin role by IAM
+Feb 20 20:28:16 siem-srv-06 sshd[6649]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.5 user=mlopez
+Mar 21 16:36:21 cloud-gw-05 sshd[5869]: mfa_success: MFA verified for user dbadmin from 1.1.1.1 port 7948 ssh2
+Feb 03 17:34:04 backup-srv-07 sudo[1474]: sudo_unauthorized: dbadmin : command not allowed ; COMMAND=/bin/passwd root
+Feb 19 18:43:36 db-srv-02 sudo[1712]: privilege_assign: sysadmin granted admin role by IAM
+Feb 15 10:31:25 db-srv-02 vpnd[4393]: remote_access_vpn: User devops connected via VPN from 10.0.1.20 (telework session)
+Feb 13 22:21:19 proxy-srv-04 sshd[9921]: Failed password for invalid user postgres from 172.16.0.25 port 13027 ssh2
+Feb 17 07:21:38 dlp-agent-08 sudo[5522]: privilege_assign: jgarcia : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 24 21:56:01 proxy-srv-04 vpnd[5678]: remote_access_vpn: User mlopez connected via VPN from 104.21.8.9 (telework session)
+Jan 07 14:41:19 cloud-gw-05 sshd[1336]: Failed password for jgarcia from 104.21.8.9 port 42249 ssh2
+Jan 18 07:28:56 db-srv-02 pam_unix[4680]: authentication failure: brute_force detected from 198.51.100.20
+Jan 25 11:27:02 auth-srv-03 sshd[4440]: Failed password for invalid user oracle from 185.220.101.5 port 9764 ssh2
+Jan 12 00:12:30 backup-srv-07 sshd[5415]: Accepted publickey for backup_svc from 10.0.2.5 port 7097 ssh2
+Mar 25 06:32:41 auth-srv-03 sshd[8797]: Failed password for invalid user admin123 from 91.108.4.12 port 22352 ssh2
+Mar 25 15:17:29 dlp-agent-08 sshd[5177]: Failed password for invalid user postgres from 203.0.113.50 port 17065 ssh2
+Feb 07 11:00:33 auth-srv-03 sshd[1257]: mfa_success: MFA verified for user aruiz from 10.0.1.20 port 32519 ssh2
+Mar 02 20:31:29 auth-srv-03 sudo[6305]: sudo_unauthorized: devops : command not allowed ; COMMAND=/bin/passwd root
+Jan 06 20:14:33 cloud-gw-05 sshd[1454]: Accepted publickey for mlopez from 1.1.1.1 port 49311 ssh2
+Jan 29 02:16:29 backup-srv-07 sshd[8627]: session opened for user aruiz by (uid=0)
+Mar 19 05:35:32 web-srv-01 useradd[5535]: account_created: new user account sysadmin provisioned by admin
+Feb 08 13:28:32 web-srv-01 sshd[6719]: session opened for user backup_svc by (uid=0)
+Feb 12 13:54:09 backup-srv-07 pam_unix[3128]: authentication failure: brute_force detected from 203.0.113.50
+Jan 23 17:50:03 web-srv-01 sudo[4953]: privilege_assign: sysadmin granted admin role by IAM
+Feb 07 19:16:13 cloud-gw-05 sudo[1548]: privilege_assign: admin : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 20 04:33:29 cloud-gw-05 sshd[6504]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.88.8.8 user=admin
+Feb 05 00:59:50 cloud-gw-05 sshd[9096]: mfa_fail: MFA invalid OTP for user aruiz from 198.51.100.20 port 51635
+Feb 19 12:07:24 auth-srv-03 sshd[2667]: session opened for user jgarcia by (uid=0)
+Feb 15 21:35:59 auth-srv-03 sshd[9951]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.21.8.9 user=sysadmin
+Jan 10 22:58:00 siem-srv-06 sshd[9081]: session opened for user admin by (uid=0)
+Mar 24 14:12:37 db-srv-02 sshd[7139]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.21.8.9 user=api_svc
+Jan 23 18:54:22 siem-srv-06 sshd[1233]: Accepted publickey for admin from 192.168.1.100 port 53834 ssh2
+Mar 10 02:29:10 auth-srv-03 vpnd[7415]: remote_access_vpn: User sysadmin connected via VPN from 10.0.1.10 (telework session)
+Feb 16 08:42:09 siem-srv-06 sudo[6166]: privilege_assign: aruiz : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 03 02:13:41 backup-srv-07 sshd[9609]: Accepted publickey for scanner from 10.0.2.5 port 27612 ssh2
+Jan 05 14:21:12 dlp-agent-08 sudo[8618]: privilege_assign: sysadmin granted admin role by IAM
+Feb 12 06:27:46 proxy-srv-04 vpnd[3456]: remote_access_vpn: User scanner connected via VPN from 185.220.101.5 (telework session)
+Feb 25 06:08:45 dlp-agent-08 sshd[3091]: Accepted publickey for root from 172.16.0.25 port 23112 ssh2
+Feb 20 04:26:35 cloud-gw-05 sshd[1602]: Failed password for admin from 203.0.113.50 port 44427 ssh2
+Jan 30 08:43:24 cloud-gw-05 pam_unix[8593]: authentication failure: brute_force detected from 10.0.2.5
+Jan 30 17:25:38 proxy-srv-04 sshd[7792]: session opened for user admin by (uid=0)
+Jan 10 20:38:45 siem-srv-06 sshd[4988]: mfa_success: MFA verified for user api_svc from 192.168.1.100 port 32165 ssh2
+Mar 10 03:41:50 web-srv-01 sshd[3772]: Failed password for api_svc from 198.51.100.20 port 45917 ssh2
+Feb 27 22:07:59 siem-srv-06 pam_unix[7095]: authentication failure: brute_force detected from 198.51.100.20
+Feb 11 23:48:19 dlp-agent-08 sudo[4486]: privilege_assign: api_svc granted admin role by IAM
+Feb 01 12:04:41 cloud-gw-05 sudo[9241]: sudo_unauthorized: sysadmin : command not allowed ; COMMAND=/bin/passwd root
+Mar 23 08:49:28 proxy-srv-04 vpnd[2439]: remote_access_vpn: User readonly_user connected via VPN from 185.220.101.5 (telework session)
+Feb 01 15:33:41 backup-srv-07 sudo[4609]: privilege_assign: dbadmin : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 12 03:12:28 cloud-gw-05 vpnd[4200]: remote_access_vpn: User api_svc connected via VPN from 192.168.1.100 (telework session)
+Jan 30 01:10:32 backup-srv-07 sshd[3979]: Accepted publickey for api_svc from 198.51.100.20 port 38192 ssh2
+Mar 18 05:46:30 web-srv-01 sshd[2432]: Accepted publickey for dbadmin from 10.0.1.20 port 59097 ssh2
+Mar 16 15:59:41 backup-srv-07 sshd[6054]: mfa_success: MFA verified for user jgarcia from 10.0.1.10 port 37483 ssh2
+Mar 28 19:47:52 auth-srv-03 sshd[4503]: Failed password for invalid user test from 172.16.0.25 port 48506 ssh2
+Jan 02 00:36:29 web-srv-01 sshd[6939]: Accepted publickey for admin from 172.16.0.25 port 53983 ssh2
+Mar 17 11:35:30 siem-srv-06 sshd[7490]: Failed password for invalid user oracle from 77.88.8.8 port 46984 ssh2
+Feb 20 06:21:39 web-srv-01 sshd[2211]: Disconnecting invalid user aruiz 77.88.8.8 port 58005: Too many authentication failures
+Jan 19 19:34:20 cloud-gw-05 vpnd[3570]: remote_access_vpn: User backup_svc connected via VPN from 91.108.4.12 (telework session)
+Feb 27 08:12:22 backup-srv-07 sshd[6577]: Accepted publickey for backup_svc from 192.168.1.100 port 9437 ssh2
+Feb 06 14:24:47 db-srv-02 sshd[9800]: session opened for user aruiz by (uid=0)
+Mar 12 15:13:27 cloud-gw-05 sshd[8112]: Accepted publickey for admin from 192.168.1.100 port 43847 ssh2
+Jan 15 11:59:47 backup-srv-07 sshd[2906]: mfa_success: MFA verified for user dbadmin from 10.0.2.5 port 9226 ssh2
+Mar 27 12:06:32 siem-srv-06 sshd[5734]: Failed password for dbadmin from 192.168.1.100 port 59407 ssh2
+Mar 28 05:13:38 auth-srv-03 useradd[7080]: account_created: new user account dbadmin provisioned by admin
+Jan 24 17:57:25 auth-srv-03 sshd[5152]: Accepted publickey for admin from 10.0.1.10 port 58856 ssh2
+Feb 13 10:00:24 backup-srv-07 sshd[1182]: mfa_success: MFA verified for user api_svc from 192.168.1.100 port 12420 ssh2
+Feb 10 03:24:16 backup-srv-07 useradd[2587]: account_created: new user account admin provisioned by admin
+Mar 05 07:22:58 db-srv-02 sshd[8335]: Failed password for admin from 192.168.1.100 port 1079 ssh2
+Feb 01 14:14:54 web-srv-01 sshd[1465]: Failed password for invalid user admin123 from 192.168.1.50 port 4312 ssh2
+Mar 04 12:11:48 siem-srv-06 sshd[9150]: Failed password for api_svc from 198.51.100.20 port 59117 ssh2
+Mar 19 00:41:07 db-srv-02 sshd[4798]: mfa_success: MFA verified for user mlopez from 45.33.32.156 port 48865 ssh2
+Feb 15 12:56:55 proxy-srv-04 sshd[6411]: Disconnecting invalid user devops 91.108.4.12 port 59511: Too many authentication failures
+Mar 13 19:40:34 web-srv-01 sshd[2537]: Failed password for dbadmin from 10.0.2.5 port 15692 ssh2
+Mar 17 07:45:47 proxy-srv-04 sshd[3825]: Failed password for invalid user oracle from 77.88.8.8 port 41237 ssh2
+Feb 25 07:16:08 backup-srv-07 sshd[7844]: session opened for user sysadmin by (uid=0)
+Jan 19 04:25:00 db-srv-02 sudo[2578]: privilege_assign: jgarcia granted admin role by IAM
+Mar 21 18:32:44 auth-srv-03 sshd[2661]: account locked: too many failed attempts for user mlopez
+Jan 22 20:29:39 backup-srv-07 sshd[6484]: Failed password for invalid user postgres from 77.88.8.8 port 6074 ssh2
+Jan 31 10:57:48 web-srv-01 sshd[5139]: session opened for user dbadmin by (uid=0)
+Jan 12 23:26:34 cloud-gw-05 sshd[4759]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.20 user=admin
+Mar 23 05:11:24 backup-srv-07 sshd[9617]: session opened for user devops by (uid=0)
+Mar 22 15:20:29 siem-srv-06 sshd[8688]: session opened for user backup_svc by (uid=0)
+Feb 01 09:52:01 siem-srv-06 sshd[2172]: Failed password for jgarcia from 91.108.4.12 port 30694 ssh2
+Mar 10 07:27:07 web-srv-01 sudo[8889]: privilege_assign: devops : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 30 22:36:25 siem-srv-06 sudo[8421]: privilege_assign: mlopez granted admin role by IAM
+Feb 25 04:11:34 proxy-srv-04 sshd[3485]: mfa_success: MFA verified for user mlopez from 192.168.1.100 port 48453 ssh2
+Feb 10 13:36:22 backup-srv-07 pam_unix[3024]: authentication failure: brute_force detected from 1.1.1.1
+Feb 04 02:23:54 cloud-gw-05 sshd[7880]: mfa_success: MFA verified for user readonly_user from 10.0.2.5 port 36535 ssh2
+Jan 02 04:43:20 proxy-srv-04 sudo[1040]: privilege_assign: sysadmin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 21 10:43:21 db-srv-02 sshd[2254]: mfa_fail: MFA invalid OTP for user api_svc from 203.0.113.50 port 46787
+Feb 21 09:03:55 dlp-agent-08 sshd[9701]: Failed password for invalid user oracle from 203.0.113.50 port 55456 ssh2
+Feb 18 16:43:58 dlp-agent-08 pam_unix[9734]: authentication failure: brute_force detected from 198.51.100.20
+Mar 29 15:00:19 dlp-agent-08 sshd[4347]: account locked: too many failed attempts for user mlopez
+Jan 04 19:48:47 siem-srv-06 sudo[1300]: privilege_assign: api_svc : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 08 09:20:01 siem-srv-06 sshd[7729]: mfa_fail: MFA invalid OTP for user dbadmin from 91.108.4.12 port 61874
+Jan 08 15:37:33 auth-srv-03 sshd[9288]: Failed password for invalid user oracle from 1.1.1.1 port 49930 ssh2
+Jan 21 06:20:22 web-srv-01 sshd[6873]: Disconnecting invalid user admin 185.220.101.5 port 5490: Too many authentication failures
+Mar 14 00:20:33 db-srv-02 sshd[7346]: mfa_success: MFA verified for user jgarcia from 192.168.1.100 port 3577 ssh2
+Mar 26 10:25:22 dlp-agent-08 sudo[8178]: sudo_unauthorized: sysadmin : command not allowed ; COMMAND=/bin/passwd root
+Jan 12 01:32:20 cloud-gw-05 sshd[4898]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.1.10 user=sysadmin
+Feb 19 07:20:03 cloud-gw-05 pam_unix[1376]: authentication failure: brute_force detected from 10.0.1.20
+Feb 21 08:54:33 siem-srv-06 sshd[6672]: session opened for user devops by (uid=0)
+Mar 08 22:12:06 cloud-gw-05 sshd[1551]: Accepted publickey for devops from 104.21.8.9 port 30533 ssh2
+Mar 29 17:01:41 backup-srv-07 sshd[1163]: Failed password for invalid user postgres from 203.0.113.50 port 43069 ssh2
+Mar 12 07:21:01 web-srv-01 useradd[3127]: account_created: new user account aruiz provisioned by admin
+Jan 26 11:10:00 cloud-gw-05 sshd[1746]: Accepted publickey for api_svc from 10.0.1.10 port 21853 ssh2
+Jan 24 06:13:08 dlp-agent-08 sshd[1382]: session opened for user aruiz by (uid=0)
+Jan 27 19:17:46 proxy-srv-04 sshd[5131]: mfa_success: MFA verified for user mlopez from 172.16.0.25 port 9100 ssh2
+Mar 20 05:57:58 cloud-gw-05 sudo[9188]: privilege_assign: jgarcia : TTY=pts/4 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 06 17:13:20 dlp-agent-08 sshd[3027]: mfa_success: MFA verified for user mlopez from 45.33.32.156 port 52869 ssh2
+Feb 23 17:23:17 backup-srv-07 sshd[1507]: Failed password for readonly_user from 45.33.32.156 port 23560 ssh2
+Mar 14 23:44:16 proxy-srv-04 usermod[4689]: role_assigned: user dbadmin added to group security-admins
+Feb 15 17:29:19 backup-srv-07 sshd[2880]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.1.1.1 user=api_svc
+Mar 17 15:41:44 db-srv-02 usermod[8042]: role_assigned: user readonly_user added to group security-admins
+Feb 13 16:41:42 db-srv-02 sudo[8355]: privilege_assign: readonly_user : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 05 10:22:21 backup-srv-07 sshd[2096]: Failed password for api_svc from 10.0.1.10 port 41416 ssh2
+Jan 25 14:44:20 auth-srv-03 sshd[8073]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.108.4.12 user=sysadmin
+Feb 21 03:36:09 proxy-srv-04 sshd[5599]: Failed password for sysadmin from 77.88.8.8 port 39711 ssh2
+Jan 20 20:53:53 backup-srv-07 usermod[9421]: role_assigned: user backup_svc added to group security-admins
+Mar 05 16:42:49 auth-srv-03 sshd[1349]: session opened for user scanner by (uid=0)
+Mar 01 15:28:06 web-srv-01 sudo[9076]: sudo_unauthorized: mlopez : command not allowed ; COMMAND=/bin/passwd root
+Feb 10 05:17:28 web-srv-01 sshd[5388]: Disconnecting invalid user jgarcia 1.1.1.1 port 10902: Too many authentication failures
+Feb 25 11:45:42 siem-srv-06 sudo[1379]: privilege_assign: jgarcia : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 03 15:42:37 proxy-srv-04 sshd[1546]: Disconnecting invalid user dbadmin 1.1.1.1 port 38209: Too many authentication failures
+Jan 16 16:21:12 cloud-gw-05 sshd[3747]: account locked: too many failed attempts for user scanner
+Jan 28 14:44:05 auth-srv-03 sshd[4848]: account locked: too many failed attempts for user root
+Feb 13 13:58:45 backup-srv-07 sshd[2521]: Failed password for jgarcia from 198.51.100.20 port 4027 ssh2
+Jan 20 16:07:53 dlp-agent-08 sudo[4177]: privilege_assign: jgarcia granted admin role by IAM
+Feb 22 18:54:12 dlp-agent-08 sudo[4192]: privilege_assign: mlopez : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 27 03:37:18 backup-srv-07 sshd[4673]: Failed password for root from 198.51.100.20 port 34245 ssh2
+Jan 17 21:46:19 cloud-gw-05 sshd[7837]: Failed password for invalid user admin123 from 91.108.4.12 port 55757 ssh2
+Jan 24 22:35:16 db-srv-02 sshd[4604]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.21.8.9 user=root
+Jan 05 23:54:13 web-srv-01 sshd[4752]: Failed password for dbadmin from 192.168.1.100 port 51302 ssh2
+Feb 01 13:57:00 siem-srv-06 vpnd[2407]: remote_access_vpn: User readonly_user connected via VPN from 203.0.113.50 (telework session)
+Jan 17 08:46:55 cloud-gw-05 sudo[6369]: privilege_assign: sysadmin : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 01 12:14:20 backup-srv-07 sshd[7173]: session opened for user root by (uid=0)
+Jan 06 15:06:18 proxy-srv-04 sshd[5691]: session opened for user root by (uid=0)
+Feb 22 10:19:25 cloud-gw-05 sshd[1726]: Accepted publickey for root from 10.0.2.5 port 44841 ssh2
+Mar 31 00:30:23 web-srv-01 sshd[6685]: Accepted publickey for backup_svc from 172.16.0.25 port 47501 ssh2
+Jan 04 17:11:26 dlp-agent-08 sshd[1947]: Failed password for scanner from 192.168.1.50 port 24911 ssh2
+Feb 24 12:08:16 cloud-gw-05 useradd[7788]: account_created: new user account sysadmin provisioned by admin
+Mar 08 10:32:48 backup-srv-07 sshd[1541]: Accepted publickey for backup_svc from 192.168.1.100 port 49037 ssh2
+Mar 11 06:03:27 siem-srv-06 sudo[7956]: privilege_assign: devops granted admin role by IAM
+Feb 06 06:35:13 db-srv-02 sshd[4652]: Failed password for jgarcia from 1.1.1.1 port 62071 ssh2
+Jan 13 17:09:06 dlp-agent-08 sshd[8153]: Accepted publickey for aruiz from 192.168.1.100 port 41792 ssh2
+Jan 02 04:58:03 backup-srv-07 sshd[5313]: Accepted publickey for scanner from 172.16.0.25 port 55266 ssh2
+Jan 11 06:19:21 auth-srv-03 sshd[1601]: mfa_fail: MFA invalid OTP for user devops from 10.0.2.5 port 49553
+Feb 07 04:26:49 web-srv-01 sshd[4777]: Failed password for invalid user test from 104.21.8.9 port 9202 ssh2
+Jan 09 20:37:13 cloud-gw-05 vpnd[9101]: remote_access_vpn: User sysadmin connected via VPN from 104.21.8.9 (telework session)
+Feb 26 08:49:00 siem-srv-06 sudo[9607]: privilege_assign: aruiz : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 25 11:16:44 auth-srv-03 sshd[4153]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.20 user=scanner
+Feb 05 12:41:09 dlp-agent-08 sudo[1674]: privilege_assign: backup_svc granted admin role by IAM
+Feb 08 09:15:49 proxy-srv-04 sshd[7736]: account locked: too many failed attempts for user devops
+Feb 15 00:53:20 backup-srv-07 sshd[2058]: session opened for user aruiz by (uid=0)
+Jan 17 16:12:39 cloud-gw-05 sshd[9215]: Failed password for invalid user oracle from 198.51.100.20 port 29722 ssh2
+Feb 19 20:01:24 siem-srv-06 sshd[6481]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.1.1.1 user=dbadmin
+Jan 23 22:10:47 cloud-gw-05 sshd[5823]: mfa_success: MFA verified for user root from 10.0.1.20 port 47881 ssh2
+Feb 14 06:05:15 db-srv-02 sshd[3980]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=45.33.32.156 user=api_svc
+Mar 28 19:09:15 proxy-srv-04 vpnd[2664]: remote_access_vpn: User dbadmin connected via VPN from 77.88.8.8 (telework session)
+Jan 13 00:30:47 auth-srv-03 sshd[9214]: Failed password for dbadmin from 203.0.113.50 port 41473 ssh2
+Feb 02 04:52:15 dlp-agent-08 vpnd[3217]: remote_access_vpn: User mlopez connected via VPN from 45.33.32.156 (telework session)
+Feb 26 05:53:44 proxy-srv-04 sudo[9339]: privilege_assign: api_svc granted admin role by IAM
+Jan 24 00:25:56 db-srv-02 sshd[4606]: session opened for user aruiz by (uid=0)
+Feb 13 12:41:17 db-srv-02 pam_unix[8203]: authentication failure: brute_force detected from 198.51.100.20
+Mar 17 14:53:54 dlp-agent-08 sudo[2155]: privilege_assign: backup_svc : TTY=pts/4 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 19 18:55:09 siem-srv-06 sshd[2092]: Accepted publickey for jgarcia from 91.108.4.12 port 56912 ssh2
+Jan 09 04:43:32 cloud-gw-05 usermod[6302]: role_assigned: user backup_svc added to group security-admins
+Mar 11 06:00:36 backup-srv-07 sshd[2716]: account locked: too many failed attempts for user readonly_user
+Jan 31 20:47:29 siem-srv-06 sshd[9976]: session opened for user backup_svc by (uid=0)
+Feb 15 23:00:22 cloud-gw-05 sshd[5237]: mfa_fail: MFA invalid OTP for user sysadmin from 1.1.1.1 port 49984
+Mar 29 08:59:36 cloud-gw-05 sshd[8335]: mfa_success: MFA verified for user readonly_user from 192.168.1.50 port 9592 ssh2
+Jan 19 08:10:18 backup-srv-07 sshd[8883]: Accepted publickey for sysadmin from 172.16.0.25 port 33393 ssh2
+Jan 10 12:02:48 web-srv-01 sshd[2110]: session opened for user devops by (uid=0)
+Mar 25 13:52:03 siem-srv-06 sshd[9567]: mfa_fail: MFA invalid OTP for user readonly_user from 185.220.101.5 port 29035
+Feb 21 21:50:46 dlp-agent-08 vpnd[5720]: remote_access_vpn: User jgarcia connected via VPN from 203.0.113.50 (telework session)
+Jan 03 23:52:49 db-srv-02 sudo[2894]: privilege_assign: scanner : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 27 06:18:28 cloud-gw-05 sshd[4439]: Accepted publickey for aruiz from 10.0.1.10 port 46920 ssh2
+Feb 26 06:56:00 auth-srv-03 sudo[3679]: privilege_assign: backup_svc : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 06 19:53:55 backup-srv-07 useradd[5312]: account_created: new user account jgarcia provisioned by admin
+Mar 16 15:31:44 web-srv-01 sshd[1094]: Failed password for invalid user postgres from 185.220.101.5 port 30771 ssh2
+Mar 19 08:08:23 backup-srv-07 sudo[9528]: privilege_assign: mlopez : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 09 01:02:31 web-srv-01 sudo[7042]: privilege_assign: aruiz granted admin role by IAM
+Jan 23 04:28:54 siem-srv-06 sshd[2336]: mfa_success: MFA verified for user mlopez from 10.0.1.10 port 1117 ssh2
+Feb 07 16:37:57 backup-srv-07 sshd[8545]: session opened for user admin by (uid=0)
+Mar 21 01:20:36 dlp-agent-08 sshd[5168]: Accepted publickey for mlopez from 192.168.1.100 port 47173 ssh2
+Mar 11 00:03:54 cloud-gw-05 sshd[3958]: session opened for user mlopez by (uid=0)
+Mar 23 08:53:19 dlp-agent-08 sudo[7500]: privilege_assign: api_svc : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 03 00:20:50 siem-srv-06 sshd[7617]: Accepted publickey for scanner from 10.0.2.5 port 19618 ssh2
+Jan 27 08:36:25 proxy-srv-04 usermod[5757]: role_assigned: user root added to group security-admins
+Jan 28 18:46:09 siem-srv-06 sshd[5684]: Failed password for api_svc from 203.0.113.50 port 64104 ssh2
+Feb 17 14:20:06 proxy-srv-04 sudo[1778]: privilege_assign: jgarcia granted admin role by IAM
+Feb 27 00:49:29 auth-srv-03 useradd[1127]: account_created: new user account readonly_user provisioned by admin
+Mar 29 00:45:48 web-srv-01 sshd[4721]: Accepted publickey for admin from 10.0.2.5 port 55390 ssh2
+Jan 10 14:40:27 auth-srv-03 vpnd[5837]: remote_access_vpn: User root connected via VPN from 203.0.113.50 (telework session)
+Jan 19 11:44:01 backup-srv-07 sshd[8216]: Failed password for invalid user postgres from 198.51.100.20 port 64319 ssh2
+Jan 03 01:45:20 auth-srv-03 sshd[7962]: Failed password for invalid user test from 185.220.101.5 port 9006 ssh2
+Feb 05 16:11:27 web-srv-01 sshd[8791]: Accepted publickey for sysadmin from 192.168.1.100 port 32878 ssh2
+Mar 11 09:46:42 db-srv-02 sshd[5729]: Failed password for invalid user postgres from 198.51.100.20 port 12439 ssh2
+Mar 06 22:29:39 auth-srv-03 sudo[7241]: sudo_unauthorized: admin : command not allowed ; COMMAND=/bin/passwd root
+Jan 20 21:04:28 cloud-gw-05 sshd[7352]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.108.4.12 user=scanner
+Feb 13 18:52:20 proxy-srv-04 sshd[7509]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.50 user=dbadmin
+Mar 30 21:11:08 db-srv-02 vpnd[5008]: remote_access_vpn: User root connected via VPN from 45.33.32.156 (telework session)
+Feb 23 21:19:32 db-srv-02 sshd[9786]: mfa_success: MFA verified for user api_svc from 192.168.1.100 port 2895 ssh2
+Mar 01 18:15:29 backup-srv-07 vpnd[9663]: remote_access_vpn: User readonly_user connected via VPN from 77.88.8.8 (telework session)
+Jan 30 05:16:05 backup-srv-07 sshd[3286]: session opened for user api_svc by (uid=0)
+Jan 22 22:32:35 cloud-gw-05 sudo[3777]: privilege_assign: scanner : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 08 23:17:22 db-srv-02 sudo[2067]: privilege_assign: devops granted admin role by IAM
+Mar 28 05:19:18 auth-srv-03 sshd[4157]: Accepted publickey for admin from 10.0.1.10 port 15005 ssh2
+Jan 24 23:04:08 web-srv-01 useradd[2687]: account_created: new user account scanner provisioned by admin
+Feb 09 09:52:36 cloud-gw-05 sshd[7134]: Accepted publickey for backup_svc from 198.51.100.20 port 26885 ssh2
+Jan 09 09:13:19 siem-srv-06 sshd[3393]: Failed password for api_svc from 104.21.8.9 port 36226 ssh2
+Mar 23 12:46:00 backup-srv-07 vpnd[7296]: remote_access_vpn: User backup_svc connected via VPN from 192.168.1.50 (telework session)
+Jan 26 07:57:47 dlp-agent-08 vpnd[9665]: remote_access_vpn: User sysadmin connected via VPN from 77.88.8.8 (telework session)
+Feb 26 17:00:47 auth-srv-03 sshd[8916]: Failed password for readonly_user from 77.88.8.8 port 56175 ssh2
+Mar 17 16:18:49 auth-srv-03 sudo[5862]: privilege_assign: aruiz granted admin role by IAM
+Mar 22 12:20:17 auth-srv-03 sshd[1026]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.88.8.8 user=root
+Feb 26 13:16:01 web-srv-01 sshd[3918]: Accepted publickey for scanner from 10.0.2.5 port 19864 ssh2
+Feb 20 04:32:14 cloud-gw-05 vpnd[1809]: remote_access_vpn: User dbadmin connected via VPN from 104.21.8.9 (telework session)
+Feb 20 13:07:35 db-srv-02 sshd[6656]: Failed password for dbadmin from 10.0.1.10 port 47522 ssh2
+Feb 08 20:08:59 cloud-gw-05 sshd[8906]: Accepted publickey for root from 10.0.1.20 port 41759 ssh2
+Mar 30 17:53:05 web-srv-01 pam_unix[7744]: authentication failure: brute_force detected from 91.108.4.12
+Mar 18 17:01:12 dlp-agent-08 sshd[5687]: Accepted publickey for jgarcia from 10.0.1.20 port 51139 ssh2
+Mar 30 15:12:29 auth-srv-03 sshd[3916]: Disconnecting invalid user admin 77.88.8.8 port 64526: Too many authentication failures
+Feb 20 12:27:13 siem-srv-06 sshd[2585]: Failed password for invalid user admin123 from 185.220.101.5 port 64479 ssh2
+Mar 15 06:04:32 cloud-gw-05 sudo[4731]: privilege_assign: admin : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 08 10:43:09 dlp-agent-08 useradd[2355]: account_created: new user account aruiz provisioned by admin
+Mar 27 18:35:26 proxy-srv-04 sshd[6107]: Failed password for invalid user oracle from 104.21.8.9 port 10292 ssh2
+Mar 18 13:12:01 auth-srv-03 sshd[8517]: Disconnecting invalid user admin 203.0.113.50 port 35260: Too many authentication failures
+Jan 17 19:06:25 siem-srv-06 pam_unix[1736]: authentication failure: brute_force detected from 104.21.8.9
+Feb 18 07:26:04 siem-srv-06 sshd[2206]: Failed password for invalid user oracle from 185.220.101.5 port 24985 ssh2
+Jan 16 17:56:49 siem-srv-06 sshd[3302]: account locked: too many failed attempts for user aruiz
+Feb 29 06:47:03 dlp-agent-08 useradd[1997]: account_created: new user account backup_svc provisioned by admin
+Jan 24 03:57:27 proxy-srv-04 sshd[4166]: session opened for user jgarcia by (uid=0)
+Mar 28 10:48:03 cloud-gw-05 sudo[6619]: privilege_assign: devops : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 22 08:57:33 cloud-gw-05 sshd[7372]: mfa_fail: MFA invalid OTP for user api_svc from 203.0.113.50 port 55351
+Mar 13 03:41:41 backup-srv-07 sshd[8159]: Accepted publickey for devops from 10.0.2.5 port 2739 ssh2
+Jan 19 03:50:19 dlp-agent-08 useradd[9488]: account_created: new user account aruiz provisioned by admin
+Feb 28 19:36:14 backup-srv-07 vpnd[7291]: remote_access_vpn: User backup_svc connected via VPN from 10.0.2.5 (telework session)
+Mar 06 03:38:14 cloud-gw-05 sshd[5904]: Failed password for scanner from 185.220.101.5 port 54738 ssh2
+Feb 27 16:37:14 backup-srv-07 sshd[6897]: Failed password for aruiz from 10.0.1.10 port 25498 ssh2
+Mar 30 23:19:56 auth-srv-03 sshd[3450]: mfa_success: MFA verified for user sysadmin from 10.0.1.10 port 50142 ssh2
+Feb 06 17:05:41 siem-srv-06 sshd[6299]: Failed password for scanner from 91.108.4.12 port 63110 ssh2
+Jan 03 18:21:51 cloud-gw-05 sshd[6061]: Accepted publickey for mlopez from 10.0.2.5 port 26897 ssh2
+Mar 12 12:47:25 siem-srv-06 sudo[1562]: privilege_assign: root : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 10 17:01:10 siem-srv-06 sudo[5052]: privilege_assign: sysadmin : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 11 22:49:30 backup-srv-07 pam_unix[7612]: authentication failure: brute_force detected from 10.0.1.10
+Feb 02 21:37:08 db-srv-02 vpnd[9558]: remote_access_vpn: User admin connected via VPN from 10.0.2.5 (telework session)
+Feb 10 04:39:26 backup-srv-07 sshd[9042]: session opened for user scanner by (uid=0)
+Jan 27 22:04:53 backup-srv-07 sudo[9030]: privilege_assign: scanner granted admin role by IAM
+Mar 28 17:24:02 dlp-agent-08 sshd[9498]: mfa_success: MFA verified for user aruiz from 172.16.0.25 port 9495 ssh2
+Jan 22 14:12:50 auth-srv-03 sshd[3308]: Disconnecting invalid user backup_svc 45.33.32.156 port 50541: Too many authentication failures
+Mar 18 04:11:43 web-srv-01 sshd[7715]: session opened for user jgarcia by (uid=0)
+Feb 12 14:19:07 auth-srv-03 sshd[5557]: session opened for user dbadmin by (uid=0)
+Feb 01 18:03:12 dlp-agent-08 sshd[1388]: Accepted publickey for dbadmin from 77.88.8.8 port 34414 ssh2
+Feb 09 14:37:44 siem-srv-06 vpnd[9131]: remote_access_vpn: User backup_svc connected via VPN from 91.108.4.12 (telework session)
+Mar 13 11:41:24 cloud-gw-05 sshd[1856]: session opened for user devops by (uid=0)
+Feb 12 02:21:21 dlp-agent-08 sshd[6600]: Disconnecting invalid user dbadmin 77.88.8.8 port 1762: Too many authentication failures
+Mar 22 03:44:55 proxy-srv-04 sshd[5329]: Disconnecting invalid user aruiz 45.33.32.156 port 17527: Too many authentication failures
+Jan 15 22:29:30 proxy-srv-04 sshd[6434]: Failed password for invalid user admin123 from 1.1.1.1 port 55646 ssh2
+Mar 01 13:18:27 web-srv-01 usermod[6642]: role_assigned: user root added to group security-admins
+Mar 06 05:18:39 auth-srv-03 sudo[3011]: privilege_assign: devops : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 12 22:33:58 auth-srv-03 sudo[5630]: privilege_assign: aruiz granted admin role by IAM
+Jan 05 04:11:25 db-srv-02 usermod[8204]: role_assigned: user aruiz added to group security-admins
+Feb 20 03:49:07 siem-srv-06 sshd[1258]: session opened for user mlopez by (uid=0)
+Mar 12 23:53:15 backup-srv-07 useradd[9923]: account_created: new user account jgarcia provisioned by admin
+Mar 24 22:52:47 proxy-srv-04 useradd[7077]: account_created: new user account mlopez provisioned by admin
+Jan 30 02:17:22 proxy-srv-04 vpnd[8230]: remote_access_vpn: User scanner connected via VPN from 45.33.32.156 (telework session)
+Feb 12 03:22:02 dlp-agent-08 sudo[1227]: privilege_assign: sysadmin granted admin role by IAM
+Feb 21 11:03:57 web-srv-01 sshd[8750]: Failed password for api_svc from 192.168.1.100 port 30804 ssh2
+Jan 15 12:32:21 auth-srv-03 useradd[2136]: account_created: new user account sysadmin provisioned by admin
+Feb 29 15:44:28 backup-srv-07 sshd[5679]: Disconnecting invalid user api_svc 185.220.101.5 port 28282: Too many authentication failures
+Mar 13 06:51:18 web-srv-01 sshd[5403]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=77.88.8.8 user=backup_svc
+Feb 26 20:28:24 proxy-srv-04 sshd[9352]: mfa_success: MFA verified for user mlopez from 192.168.1.50 port 17190 ssh2
+Jan 29 20:10:04 auth-srv-03 usermod[1060]: role_assigned: user jgarcia added to group security-admins
+Feb 06 13:39:22 proxy-srv-04 vpnd[9597]: remote_access_vpn: User readonly_user connected via VPN from 45.33.32.156 (telework session)
+Feb 10 04:28:10 dlp-agent-08 sshd[6386]: Accepted publickey for api_svc from 192.168.1.50 port 42936 ssh2
+Jan 31 13:17:46 siem-srv-06 sshd[9488]: Accepted publickey for sysadmin from 198.51.100.20 port 65231 ssh2
+Feb 22 04:28:36 db-srv-02 sshd[6110]: session opened for user mlopez by (uid=0)
+Feb 08 08:58:40 proxy-srv-04 sshd[6627]: Failed password for mlopez from 203.0.113.50 port 19978 ssh2
+Feb 25 11:46:01 dlp-agent-08 sudo[2648]: sudo_unauthorized: devops : command not allowed ; COMMAND=/bin/passwd root
+Jan 02 05:22:47 dlp-agent-08 vpnd[7617]: remote_access_vpn: User mlopez connected via VPN from 77.88.8.8 (telework session)
+Jan 25 15:19:52 db-srv-02 sshd[4115]: mfa_success: MFA verified for user backup_svc from 10.0.1.10 port 25445 ssh2
+Mar 14 22:53:35 proxy-srv-04 sshd[1603]: Accepted publickey for sysadmin from 104.21.8.9 port 28303 ssh2
+Jan 28 19:17:28 auth-srv-03 vpnd[4571]: remote_access_vpn: User admin connected via VPN from 10.0.1.10 (telework session)
+Jan 27 11:40:47 backup-srv-07 vpnd[4631]: remote_access_vpn: User scanner connected via VPN from 203.0.113.50 (telework session)
+Feb 21 08:00:28 auth-srv-03 vpnd[8332]: remote_access_vpn: User root connected via VPN from 104.21.8.9 (telework session)
+Jan 07 23:23:30 dlp-agent-08 sshd[9155]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.108.4.12 user=mlopez
+Feb 25 11:54:38 proxy-srv-04 pam_unix[2840]: authentication failure: brute_force detected from 10.0.1.10
+Feb 15 09:22:05 cloud-gw-05 sshd[3012]: session opened for user devops by (uid=0)
+Mar 05 11:45:34 backup-srv-07 sshd[2259]: mfa_success: MFA verified for user root from 10.0.2.5 port 50996 ssh2
+Feb 14 03:40:15 siem-srv-06 vpnd[9602]: remote_access_vpn: User readonly_user connected via VPN from 1.1.1.1 (telework session)
+Feb 14 16:07:30 siem-srv-06 sshd[2906]: session opened for user api_svc by (uid=0)
+Mar 15 01:19:40 dlp-agent-08 sshd[9255]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.5 user=dbadmin
+Feb 24 20:15:59 dlp-agent-08 sudo[3822]: privilege_assign: mlopez granted admin role by IAM
+Feb 28 16:05:54 proxy-srv-04 sshd[2323]: account locked: too many failed attempts for user devops
+Jan 17 16:11:31 proxy-srv-04 sshd[1797]: account locked: too many failed attempts for user dbadmin
+Mar 31 08:00:54 cloud-gw-05 sshd[7609]: account locked: too many failed attempts for user mlopez
+Feb 14 23:56:52 proxy-srv-04 sshd[6200]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.108.4.12 user=devops
+Jan 20 18:56:20 dlp-agent-08 sshd[5127]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.108.4.12 user=readonly_user
+Feb 04 16:13:55 backup-srv-07 sshd[7298]: mfa_success: MFA verified for user root from 192.168.1.100 port 47375 ssh2
+Mar 15 08:49:13 backup-srv-07 sshd[3220]: Accepted publickey for mlopez from 91.108.4.12 port 56225 ssh2
+Feb 22 10:01:04 backup-srv-07 sudo[2059]: privilege_assign: dbadmin granted admin role by IAM
+Feb 23 09:14:22 auth-srv-03 vpnd[6437]: remote_access_vpn: User root connected via VPN from 192.168.1.100 (telework session)
+Feb 28 12:00:18 siem-srv-06 pam_unix[4322]: authentication failure: brute_force detected from 45.33.32.156
+Mar 18 18:50:48 web-srv-01 useradd[9673]: account_created: new user account admin provisioned by admin
+Feb 21 16:01:03 cloud-gw-05 sshd[8308]: Accepted publickey for mlopez from 192.168.1.100 port 54651 ssh2
+Jan 28 12:54:20 siem-srv-06 sshd[8213]: session opened for user admin by (uid=0)
+Jan 24 13:44:21 backup-srv-07 sshd[6178]: Failed password for invalid user admin123 from 77.88.8.8 port 54650 ssh2
+Feb 20 06:13:28 web-srv-01 pam_unix[7167]: authentication failure: brute_force detected from 185.220.101.5
+Mar 09 08:37:37 cloud-gw-05 sshd[3364]: Failed password for jgarcia from 172.16.0.25 port 57322 ssh2
+Feb 21 18:29:28 dlp-agent-08 sshd[5595]: session opened for user backup_svc by (uid=0)
+Jan 25 09:44:37 web-srv-01 sshd[8459]: Failed password for invalid user postgres from 192.168.1.100 port 54428 ssh2
+Mar 03 20:13:32 db-srv-02 sudo[2427]: privilege_assign: mlopez : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 24 15:29:09 siem-srv-06 sshd[9708]: mfa_success: MFA verified for user dbadmin from 172.16.0.25 port 50780 ssh2
+Jan 22 22:38:27 auth-srv-03 sshd[3602]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.5 user=mlopez
+Feb 11 21:24:39 dlp-agent-08 sshd[8454]: account locked: too many failed attempts for user sysadmin
+Mar 14 07:28:07 web-srv-01 useradd[8594]: account_created: new user account devops provisioned by admin
+Feb 29 06:34:05 backup-srv-07 sshd[6417]: mfa_fail: MFA invalid OTP for user admin from 185.220.101.5 port 26573
+Jan 24 00:04:54 web-srv-01 vpnd[2046]: remote_access_vpn: User admin connected via VPN from 104.21.8.9 (telework session)
+Mar 29 11:19:04 web-srv-01 sshd[4297]: session opened for user dbadmin by (uid=0)
+Mar 20 04:49:52 web-srv-01 sudo[6919]: privilege_assign: scanner : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 19 21:22:43 web-srv-01 useradd[5832]: account_created: new user account mlopez provisioned by admin
+Mar 09 20:31:31 auth-srv-03 sshd[9630]: Accepted publickey for scanner from 192.168.1.50 port 14575 ssh2
+Jan 08 13:09:21 web-srv-01 sshd[1754]: session opened for user jgarcia by (uid=0)
+Feb 12 13:26:33 auth-srv-03 vpnd[8544]: remote_access_vpn: User readonly_user connected via VPN from 77.88.8.8 (telework session)
+Feb 10 19:55:44 backup-srv-07 sshd[5157]: Failed password for invalid user test from 1.1.1.1 port 14209 ssh2
+Feb 27 05:31:25 web-srv-01 sshd[3674]: Disconnecting invalid user jgarcia 77.88.8.8 port 10397: Too many authentication failures
+Jan 29 13:47:20 backup-srv-07 sshd[7543]: mfa_success: MFA verified for user admin from 192.168.1.50 port 40704 ssh2
+Feb 18 08:06:36 dlp-agent-08 sshd[8244]: session opened for user readonly_user by (uid=0)
+Feb 28 13:37:16 backup-srv-07 sshd[4900]: Failed password for invalid user oracle from 10.0.1.20 port 7346 ssh2
+Mar 20 15:23:26 auth-srv-03 sshd[4633]: mfa_fail: MFA invalid OTP for user api_svc from 198.51.100.20 port 31209
+Feb 13 18:29:27 siem-srv-06 sshd[5939]: Failed password for sysadmin from 185.220.101.5 port 48258 ssh2
+Mar 23 12:50:15 cloud-gw-05 sudo[7017]: privilege_assign: mlopez : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 27 16:37:01 auth-srv-03 sshd[4722]: Failed password for sysadmin from 185.220.101.5 port 18753 ssh2
+Feb 03 02:44:55 db-srv-02 sshd[2891]: mfa_success: MFA verified for user backup_svc from 91.108.4.12 port 18098 ssh2
+Jan 27 19:16:19 dlp-agent-08 sshd[8781]: session opened for user dbadmin by (uid=0)
+Feb 21 02:58:39 auth-srv-03 vpnd[7642]: remote_access_vpn: User mlopez connected via VPN from 91.108.4.12 (telework session)
+Mar 10 05:57:05 web-srv-01 sshd[4521]: mfa_success: MFA verified for user aruiz from 104.21.8.9 port 33336 ssh2
+Jan 04 05:14:40 backup-srv-07 vpnd[8935]: remote_access_vpn: User sysadmin connected via VPN from 203.0.113.50 (telework session)
+Mar 18 10:29:34 backup-srv-07 sshd[2517]: Failed password for aruiz from 10.0.1.20 port 4756 ssh2
+Jan 30 05:01:36 web-srv-01 sshd[2628]: mfa_success: MFA verified for user scanner from 172.16.0.25 port 56740 ssh2
+Feb 29 13:02:58 web-srv-01 sshd[8151]: mfa_fail: MFA invalid OTP for user sysadmin from 77.88.8.8 port 43912
+Mar 25 16:11:07 cloud-gw-05 sshd[5744]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=1.1.1.1 user=mlopez
+Feb 04 18:47:14 backup-srv-07 sudo[3950]: sudo_unauthorized: readonly_user : command not allowed ; COMMAND=/bin/passwd root
+Feb 21 01:19:52 db-srv-02 sshd[5685]: mfa_success: MFA verified for user scanner from 172.16.0.25 port 37233 ssh2
+Jan 02 21:22:36 web-srv-01 sshd[6551]: session opened for user admin by (uid=0)
+Jan 12 00:25:23 auth-srv-03 useradd[2353]: account_created: new user account backup_svc provisioned by admin
+Mar 23 18:42:42 auth-srv-03 sudo[4895]: privilege_assign: jgarcia granted admin role by IAM
+Feb 02 18:13:58 cloud-gw-05 sshd[8226]: Disconnecting invalid user readonly_user 91.108.4.12 port 55251: Too many authentication failures
+Mar 29 21:51:09 proxy-srv-04 sshd[4363]: Failed password for devops from 10.0.1.10 port 48365 ssh2
+Mar 03 08:20:00 db-srv-02 sshd[4182]: Disconnecting invalid user scanner 77.88.8.8 port 2884: Too many authentication failures
+Jan 08 11:41:10 dlp-agent-08 vpnd[7890]: remote_access_vpn: User scanner connected via VPN from 185.220.101.5 (telework session)
+Feb 09 12:58:42 backup-srv-07 sshd[5391]: Accepted publickey for sysadmin from 10.0.1.10 port 64813 ssh2
+Jan 13 16:12:45 siem-srv-06 sshd[4759]: Failed password for invalid user admin123 from 1.1.1.1 port 17624 ssh2
+Mar 27 02:01:06 web-srv-01 sshd[5727]: Accepted publickey for devops from 172.16.0.25 port 27832 ssh2
+Feb 06 22:57:50 proxy-srv-04 sudo[5216]: privilege_assign: api_svc : TTY=pts/4 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 17 16:57:53 cloud-gw-05 sshd[4763]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.5 user=sysadmin
+Feb 16 02:00:00 proxy-srv-04 sshd[1047]: Accepted publickey for backup_svc from 172.16.0.25 port 24423 ssh2
+Mar 01 01:42:38 cloud-gw-05 sshd[4269]: Accepted publickey for backup_svc from 198.51.100.20 port 60370 ssh2
+Jan 21 18:00:13 backup-srv-07 sshd[1531]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.21.8.9 user=backup_svc
+Mar 07 06:32:51 db-srv-02 useradd[9779]: account_created: new user account readonly_user provisioned by admin
+Jan 15 16:09:44 db-srv-02 sshd[6966]: mfa_success: MFA verified for user sysadmin from 198.51.100.20 port 41251 ssh2
+Jan 03 12:22:28 web-srv-01 pam_unix[2657]: authentication failure: brute_force detected from 203.0.113.50
+Feb 04 20:24:44 dlp-agent-08 vpnd[8723]: remote_access_vpn: User scanner connected via VPN from 198.51.100.20 (telework session)
+Feb 08 12:21:20 backup-srv-07 sudo[4649]: privilege_assign: scanner granted admin role by IAM
+Jan 08 21:56:38 dlp-agent-08 vpnd[9196]: remote_access_vpn: User admin connected via VPN from 203.0.113.50 (telework session)
+Feb 11 20:31:25 backup-srv-07 sshd[6793]: mfa_fail: MFA invalid OTP for user scanner from 10.0.1.10 port 19495
+Feb 23 11:09:26 dlp-agent-08 sshd[2481]: Accepted publickey for jgarcia from 192.168.1.100 port 59330 ssh2
+Feb 21 20:14:51 dlp-agent-08 useradd[4458]: account_created: new user account root provisioned by admin
+Jan 05 15:39:12 cloud-gw-05 vpnd[3421]: remote_access_vpn: User aruiz connected via VPN from 1.1.1.1 (telework session)
+Mar 15 01:12:36 auth-srv-03 pam_unix[2128]: authentication failure: brute_force detected from 45.33.32.156
+Jan 04 00:53:54 backup-srv-07 sudo[1741]: privilege_assign: aruiz granted admin role by IAM
+Mar 27 02:59:30 siem-srv-06 sshd[4106]: Failed password for invalid user admin123 from 185.220.101.5 port 59485 ssh2
+Feb 06 02:21:14 dlp-agent-08 sudo[6245]: privilege_assign: aruiz : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 31 05:10:33 proxy-srv-04 sudo[2122]: privilege_assign: admin : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 19 11:10:11 proxy-srv-04 sshd[4515]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.108.4.12 user=devops
+Feb 24 01:18:03 auth-srv-03 sshd[8181]: Failed password for root from 172.16.0.25 port 62332 ssh2
+Jan 08 12:38:16 auth-srv-03 sshd[5000]: session opened for user readonly_user by (uid=0)
+Mar 25 08:03:37 backup-srv-07 vpnd[8464]: remote_access_vpn: User dbadmin connected via VPN from 45.33.32.156 (telework session)
+Mar 19 15:47:05 web-srv-01 sudo[6185]: privilege_assign: jgarcia : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 18 18:20:58 dlp-agent-08 sudo[2163]: privilege_assign: aruiz granted admin role by IAM
+Jan 10 00:47:32 cloud-gw-05 sshd[7593]: session opened for user backup_svc by (uid=0)
+Jan 22 15:39:34 siem-srv-06 vpnd[1949]: remote_access_vpn: User mlopez connected via VPN from 192.168.1.100 (telework session)
+Jan 29 05:53:57 siem-srv-06 pam_unix[4862]: authentication failure: brute_force detected from 203.0.113.50
+Mar 03 01:09:18 proxy-srv-04 usermod[8768]: role_assigned: user backup_svc added to group security-admins
+Mar 27 13:52:24 cloud-gw-05 sshd[4216]: mfa_success: MFA verified for user api_svc from 10.0.1.20 port 58024 ssh2
+Feb 01 19:14:57 cloud-gw-05 sshd[4675]: Accepted publickey for scanner from 77.88.8.8 port 26192 ssh2
+Mar 28 16:07:15 web-srv-01 sshd[9228]: account locked: too many failed attempts for user api_svc
+Jan 18 21:11:44 proxy-srv-04 sudo[4480]: privilege_assign: mlopez granted admin role by IAM
+Jan 31 02:24:54 auth-srv-03 sshd[9177]: session opened for user sysadmin by (uid=0)
+Feb 18 08:06:20 backup-srv-07 pam_unix[2253]: authentication failure: brute_force detected from 10.0.1.20
+Jan 24 04:07:19 backup-srv-07 sshd[9194]: session opened for user devops by (uid=0)
+Mar 23 18:23:45 cloud-gw-05 sudo[8860]: privilege_assign: dbadmin : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 10 19:29:50 auth-srv-03 useradd[6805]: account_created: new user account admin provisioned by admin
+Mar 15 08:43:00 cloud-gw-05 sshd[1643]: session opened for user sysadmin by (uid=0)
+Mar 25 13:11:17 backup-srv-07 sshd[3033]: Failed password for api_svc from 10.0.2.5 port 65275 ssh2
+Jan 04 21:53:54 auth-srv-03 sshd[4831]: mfa_success: MFA verified for user aruiz from 192.168.1.50 port 16021 ssh2
+Mar 23 10:17:15 siem-srv-06 sudo[4132]: privilege_assign: jgarcia : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 22 16:25:24 backup-srv-07 sshd[5045]: mfa_fail: MFA invalid OTP for user dbadmin from 104.21.8.9 port 36261
+Jan 08 21:00:27 db-srv-02 sshd[2876]: Failed password for aruiz from 104.21.8.9 port 4129 ssh2
+Feb 25 03:37:27 siem-srv-06 sshd[1916]: Accepted publickey for scanner from 192.168.1.100 port 25237 ssh2
+Jan 24 16:33:00 web-srv-01 sshd[6523]: Failed password for invalid user test from 10.0.1.10 port 33949 ssh2
+Feb 20 13:09:38 dlp-agent-08 sshd[4946]: session opened for user scanner by (uid=0)
+Mar 22 03:11:20 web-srv-01 sudo[7369]: privilege_assign: readonly_user granted admin role by IAM
+Jan 05 23:30:08 web-srv-01 vpnd[5602]: remote_access_vpn: User aruiz connected via VPN from 45.33.32.156 (telework session)
+Jan 14 15:29:17 cloud-gw-05 sshd[5580]: session opened for user backup_svc by (uid=0)
+Mar 12 02:29:24 backup-srv-07 vpnd[1895]: remote_access_vpn: User devops connected via VPN from 198.51.100.20 (telework session)
+Mar 23 11:10:25 proxy-srv-04 usermod[8715]: role_assigned: user backup_svc added to group security-admins
+Mar 08 00:58:13 web-srv-01 sshd[1681]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=104.21.8.9 user=scanner
+Mar 17 06:38:16 web-srv-01 sshd[3848]: Failed password for sysadmin from 10.0.1.20 port 31165 ssh2
+Feb 01 17:34:14 dlp-agent-08 sudo[3257]: privilege_assign: scanner granted admin role by IAM
+Jan 24 16:58:51 dlp-agent-08 sshd[2904]: Failed password for readonly_user from 77.88.8.8 port 58707 ssh2
+Jan 14 10:04:36 backup-srv-07 sudo[4121]: privilege_assign: dbadmin : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 20 03:49:02 auth-srv-03 sshd[4805]: Failed password for invalid user postgres from 198.51.100.20 port 8107 ssh2
+Mar 10 19:36:01 dlp-agent-08 sshd[5930]: Failed password for api_svc from 198.51.100.20 port 60534 ssh2
+Feb 03 08:31:32 auth-srv-03 sshd[6726]: Failed password for invalid user test from 45.33.32.156 port 18395 ssh2
+Mar 24 15:20:22 dlp-agent-08 usermod[6012]: role_assigned: user jgarcia added to group security-admins
+Mar 23 13:14:15 proxy-srv-04 sshd[4943]: Accepted publickey for dbadmin from 10.0.2.5 port 54429 ssh2
+Jan 29 18:33:56 db-srv-02 sudo[2583]: privilege_assign: devops granted admin role by IAM
+Mar 26 04:23:16 cloud-gw-05 useradd[6926]: account_created: new user account mlopez provisioned by admin
+Feb 20 02:05:18 auth-srv-03 sudo[5144]: privilege_assign: admin granted admin role by IAM
+Jan 14 21:19:04 db-srv-02 sshd[1054]: Failed password for invalid user admin123 from 198.51.100.20 port 30430 ssh2
+Feb 14 19:31:07 proxy-srv-04 sshd[5749]: Accepted publickey for api_svc from 198.51.100.20 port 5752 ssh2
+Feb 18 05:57:02 web-srv-01 sudo[8964]: privilege_assign: jgarcia granted admin role by IAM
+Jan 15 11:38:39 cloud-gw-05 sshd[2160]: Accepted publickey for sysadmin from 91.108.4.12 port 13806 ssh2
+Mar 09 08:52:16 proxy-srv-04 sshd[4635]: mfa_success: MFA verified for user readonly_user from 172.16.0.25 port 49169 ssh2
+Jan 05 09:16:00 db-srv-02 sudo[8624]: privilege_assign: backup_svc granted admin role by IAM
+Feb 13 08:35:59 proxy-srv-04 sshd[6522]: Disconnecting invalid user root 1.1.1.1 port 40188: Too many authentication failures
+Mar 04 12:26:28 backup-srv-07 sshd[9039]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.220.101.5 user=sysadmin
+Feb 01 15:17:19 dlp-agent-08 sshd[3200]: Failed password for api_svc from 45.33.32.156 port 38063 ssh2
+Jan 16 06:38:27 cloud-gw-05 sudo[1105]: privilege_assign: root : TTY=pts/5 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 20 12:21:39 siem-srv-06 sshd[5372]: Accepted publickey for scanner from 10.0.2.5 port 21641 ssh2
+Feb 02 07:28:55 web-srv-01 sshd[3890]: Failed password for devops from 10.0.1.10 port 15339 ssh2
+Feb 08 18:12:35 db-srv-02 usermod[7696]: role_assigned: user scanner added to group security-admins
+Jan 11 05:04:58 cloud-gw-05 sshd[9114]: Disconnecting invalid user devops 45.33.32.156 port 4627: Too many authentication failures
+Jan 09 00:53:05 auth-srv-03 sshd[4618]: Disconnecting invalid user jgarcia 1.1.1.1 port 13677: Too many authentication failures
+Feb 15 17:50:02 backup-srv-07 sshd[1809]: Failed password for root from 203.0.113.50 port 1606 ssh2
+Feb 29 16:38:36 proxy-srv-04 usermod[1663]: role_assigned: user backup_svc added to group security-admins
+Feb 28 20:43:42 auth-srv-03 pam_unix[6451]: authentication failure: brute_force detected from 45.33.32.156
+Feb 08 23:36:17 cloud-gw-05 sshd[1666]: mfa_success: MFA verified for user aruiz from 10.0.1.10 port 59736 ssh2
+Feb 16 15:14:54 dlp-agent-08 sudo[3104]: privilege_assign: backup_svc : TTY=pts/4 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Jan 17 05:30:46 web-srv-01 sshd[3775]: Accepted publickey for admin from 10.0.1.20 port 64580 ssh2
+Feb 27 15:15:23 proxy-srv-04 sudo[1172]: privilege_assign: backup_svc granted admin role by IAM
+Feb 15 13:59:42 auth-srv-03 sshd[7823]: Accepted publickey for scanner from 172.16.0.25 port 62889 ssh2
+Feb 18 14:45:50 db-srv-02 sshd[8742]: Accepted publickey for devops from 192.168.1.100 port 55223 ssh2
+Mar 01 21:55:22 proxy-srv-04 sshd[4670]: session opened for user dbadmin by (uid=0)
+Feb 22 03:03:29 db-srv-02 sshd[8443]: session opened for user devops by (uid=0)
+Mar 26 01:51:29 web-srv-01 sudo[8569]: privilege_assign: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Mar 15 23:04:43 cloud-gw-05 vpnd[5202]: remote_access_vpn: User devops connected via VPN from 77.88.8.8 (telework session)
+Jan 11 08:45:40 db-srv-02 sudo[1304]: privilege_assign: devops : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx
+Feb 13 21:52:08 auth-srv-03 usermod[3464]: role_assigned: user root added to group security-admins
+Jan 08 20:01:12 proxy-srv-04 sshd[1274]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=198.51.100.20 user=jgarcia
+Jan 04 08:34:02 db-srv-02 sshd[4452]: Accepted publickey for jgarcia from 172.16.0.25 port 17689 ssh2
+Feb 03 00:27:03 cloud-gw-05 sshd[1797]: Failed password for aruiz from 77.88.8.8 port 64994 ssh2
+Mar 21 11:11:43 cloud-gw-05 sudo[3419]: sudo_unauthorized: root : command not allowed ; COMMAND=/bin/passwd root
+Mar 27 05:12:37 backup-srv-07 sshd[8300]: Failed password for invalid user admin123 from 104.21.8.9 port 12548 ssh2
+Feb 08 06:23:25 web-srv-01 sshd[9438]: mfa_fail: MFA invalid OTP for user devops from 192.168.1.50 port 19068
+Mar 07 23:11:39 web-srv-01 sshd[9315]: account locked: too many failed attempts for user dbadmin
+Mar 18 18:34:45 web-srv-01 vpnd[9473]: remote_access_vpn: User backup_svc connected via VPN from 1.1.1.1 (telework session)
+Feb 08 19:17:51 backup-srv-07 sshd[3933]: authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=91.108.4.12 user=api_svc
+Feb 13 11:22:37 cloud-gw-05 sshd[4951]: Accepted publickey for scanner from 10.0.1.20 port 8593 ssh2
+Feb 21 22:00:37 proxy-srv-04 sshd[3230]: Disconnecting invalid user api_svc 77.88.8.8 port 32694: Too many authentication failures
+Feb 23 04:15:51 backup-srv-07 sshd[9979]: mfa_fail: MFA invalid OTP for user aruiz from 192.168.1.50 port 34822
+Mar 11 02:48:49 web-srv-01 sshd[7752]: mfa_success: MFA verified for user mlopez from 192.168.1.50 port 40205 ssh2
+Feb 17 05:21:10 dlp-agent-08 sshd[1828]: Failed password for jgarcia from 45.33.32.156 port 48466 ssh2
+Jan 13 01:11:07 siem-srv-06 vpnd[5723]: remote_access_vpn: User api_svc connected via VPN from 10.0.2.5 (telework session)
+Mar 26 06:36:25 auth-srv-03 sshd[2714]: Disconnecting invalid user scanner 203.0.113.50 port 24969: Too many authentication failures
+Feb 01 15:44:16 proxy-srv-04 sshd[4649]: Failed password for invalid user oracle from 185.220.101.5 port 32533 ssh2
+Mar 19 20:26:52 cloud-gw-05 sshd[6531]: mfa_success: MFA verified for user scanner from 10.0.2.5 port 42259 ssh2
+Feb 13 10:54:50 db-srv-02 sshd[2943]: mfa_success: MFA verified for user sysadmin from 10.0.1.20 port 49477 ssh2
+Jan 11 15:01:52 dlp-agent-08 sudo[7491]: privilege_assign: backup_svc : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/systemctl restart nginx

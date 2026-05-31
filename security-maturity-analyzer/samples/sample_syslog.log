@@ -1,0 +1,700 @@
+Jan 04 09:24:13 backup-srv-07 systemd[1]: service_start: Started clamav service.
+Jan 25 18:17:23 cloud-gw-05 vuln-scanner[6948]: vulnerability_scan_complet: Scan finished host=45.33.32.156 findings=critical:0,high:7,medium:7
+Mar 10 15:25:58 dlp-agent-08 vuln-scanner[3016]: vulnerability_critical_unpatched: CVE-2023-43673 CRITICAL unpatched on db-srv-02 patch_overdue=45days
+Jan 08 00:53:05 web-srv-01 backup[6588]: backup_ok: Daily backup completed size=104GB duration=62min
+Jan 09 20:34:15 cloud-gw-05 systemd[1]: service_start: Started clamav service.
+Mar 27 23:13:52 db-srv-02 vuln-scanner[9987]: vulnerability_critical_unpatched: CVE-2023-36186 CRITICAL unpatched on proxy-srv-04 patch_overdue=51days
+Jan 13 07:27:35 dlp-agent-08 backup[9802]: backup_ok: Daily backup completed size=273GB duration=51min
+Feb 02 18:56:06 siem-srv-06 mon-agent[3005]: log_collected: Event log forwarded to SIEM events=2561 syslog_ok=true
+Jan 19 22:34:09 siem-srv-06 incident-mgr[5125]: breach_detect: Potential data breach detected user=scanner exfiltration_attempt=true
+Mar 28 05:14:25 siem-srv-06 systemd[1]: service_start: Started postgresql service.
+Mar 06 13:08:14 proxy-srv-04 incident-mgr[1140]: breach_detect: Potential data breach detected user=readonly_user exfiltration_attempt=true
+Feb 04 09:37:45 siem-srv-06 vuln-scanner[4223]: vulnerability_scan_complet: Scan finished host=185.220.101.5 findings=critical:1,high:1,medium:9
+Feb 08 11:57:14 proxy-srv-04 ids-agent[1250]: ids_alert: IDS signature triggered: port_scan detected from 185.220.101.5 ports_scanned=113
+Mar 05 14:08:29 db-srv-02 mon-agent[8740]: log_collected: Event log forwarded to SIEM events=840 syslog_ok=true
+Feb 15 08:36:53 dlp-agent-08 clamav[2890]: malware_quarantine: 185.220.101.5:37725: Eicar-Test-Signature FOUND quarantined
+Jan 22 17:43:46 proxy-srv-04 backup[7039]: backup_ok: Daily backup completed size=432GB duration=134min
+Jan 12 23:13:27 dlp-agent-08 ids-agent[5493]: ids_alert: IDS signature triggered: port_scan detected from 185.220.101.5 ports_scanned=156
+Jan 24 09:41:06 web-srv-01 edr-agent[6737]: edr_detect: Suspicious process injection detected pid=9258 user=aruiz severity=HIGH
+Feb 14 08:55:19 siem-srv-06 config-mgr[8193]: config_baseline: Configuration compliance check passed on cloud-gw-05 hardening_applied=CIS-L2
+Mar 10 04:56:56 web-srv-01 patch-mgr[8096]: patch_applied: CVE-2024-38186 patch_applied successfully on proxy-srv-04
+Feb 25 04:59:37 auth-srv-03 siem-agent[6695]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 45.33.32.156 count=15
+Mar 06 05:09:54 web-srv-01 systemd[1]: service_start: Started sshd service.
+Jan 20 09:59:01 backup-srv-07 mon-agent[3458]: log_collected: Event log forwarded to SIEM events=4392 syslog_ok=true
+Jan 22 15:11:20 web-srv-01 ids-agent[9047]: ids_alert: IDS signature triggered: port_scan detected from 104.21.8.9 ports_scanned=105
+Mar 11 14:32:42 backup-srv-07 backup[3223]: backup_ok: Daily backup completed size=122GB duration=166min
+Feb 12 06:01:11 cloud-gw-05 mon-agent[2467]: log_collected: Event log forwarded to SIEM events=328 syslog_ok=true
+Jan 20 08:32:02 web-srv-01 siem-agent[6167]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 198.51.100.20 count=47
+Jan 25 09:08:16 backup-srv-07 clamav[8750]: malware_quarantine: 185.220.101.5:17226: Eicar-Test-Signature FOUND quarantined
+Mar 24 18:13:52 proxy-srv-04 incident-mgr[8915]: incident_open: Security incident ticket TKT-5179 created severity=LOW
+Jan 08 00:00:32 dlp-agent-08 vuln-scanner[7967]: vulnerability_scan_complet: Scan finished host=172.16.0.25 findings=critical:0,high:6,medium:9
+Jan 16 21:36:33 db-srv-02 vuln-scanner[7875]: vulnerability_scan_complet: Scan finished host=185.220.101.5 findings=critical:2,high:3,medium:4
+Mar 31 06:52:45 auth-srv-03 config-mgr[1005]: config_baseline: Configuration compliance check passed on backup-srv-07 hardening_applied=CIS-L2
+Mar 15 06:42:15 cloud-gw-05 incident-mgr[9715]: incident_open: Security incident ticket TKT-2112 created severity=CRITICAL
+Jan 13 09:05:37 proxy-srv-04 config-mgr[5823]: config_baseline: Configuration compliance check passed on backup-srv-07 hardening_applied=CIS-L2
+Jan 04 20:55:17 cloud-gw-05 edr-agent[5367]: ransomware: Ransomware behavior detected process=svchost.exe blocking=true
+Mar 10 15:48:29 dlp-agent-08 vuln-scanner[1957]: vulnerability_scan_complet: Scan finished host=10.0.1.20 findings=critical:2,high:8,medium:3
+Feb 21 12:37:43 dlp-agent-08 config-mgr[9050]: config_baseline: Configuration compliance check passed on db-srv-02 hardening_applied=CIS-L2
+Feb 17 21:23:45 cloud-gw-05 kernel: [  201648.891441] Out of memory: oom_killer invoked process=java
+Feb 03 04:56:56 web-srv-01 config-mgr[6819]: config_baseline: Configuration compliance check passed on dlp-agent-08 hardening_applied=CIS-L2
+Feb 15 06:52:13 db-srv-02 mon-agent[1646]: log_collected: Event log forwarded to SIEM events=463 syslog_ok=true
+Jan 12 02:25:31 db-srv-02 systemd[1]: service_start: Started postgresql service.
+Mar 03 12:07:21 siem-srv-06 kernel: [  429611.941550] Out of memory: oom_killer invoked process=java
+Jan 27 16:01:11 web-srv-01 edr-agent[8890]: edr_detect: Suspicious process injection detected pid=7344 user=devops severity=HIGH
+Jan 23 19:07:23 auth-srv-03 config-mgr[9063]: config_baseline: Configuration compliance check passed on siem-srv-06 hardening_applied=CIS-L2
+Feb 06 06:15:20 db-srv-02 backup[4619]: backup_ok: Daily backup completed size=315GB duration=123min
+Jan 12 08:40:58 auth-srv-03 config-mgr[3261]: config_drift: Unauthorized configuration change detected on siem-srv-06 param=firewall_ruleset baseline_violat=true
+Jan 17 18:53:41 cloud-gw-05 patch-mgr[9866]: patch_applied: CVE-2023-34972 patch_applied successfully on web-srv-01
+Jan 07 00:54:05 proxy-srv-04 backup[1412]: backup_ok: Daily backup completed size=255GB duration=55min
+Feb 23 03:52:18 auth-srv-03 patch-mgr[5860]: patch_applied: CVE-2022-6956 patch_applied successfully on auth-srv-03
+Jan 10 04:25:17 cloud-gw-05 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Feb 05 23:55:17 auth-srv-03 edr-agent[7986]: edr_detect: Suspicious process injection detected pid=949 user=api_svc severity=HIGH
+Feb 03 19:48:53 siem-srv-06 config-mgr[6265]: config_baseline: Configuration compliance check passed on web-srv-01 hardening_applied=CIS-L2
+Mar 26 10:44:38 dlp-agent-08 cron[8572]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 19 17:04:02 web-srv-01 mon-agent[1361]: log_collected: Event log forwarded to SIEM events=3283 syslog_ok=true
+Feb 14 01:48:16 web-srv-01 config-mgr[7476]: config_drift: Unauthorized configuration change detected on db-srv-02 param=firewall_ruleset baseline_violat=true
+Mar 23 04:21:03 proxy-srv-04 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Feb 10 15:48:27 cloud-gw-05 patch-mgr[5091]: patch_applied: CVE-2023-45052 patch_applied successfully on auth-srv-03
+Mar 07 07:07:08 db-srv-02 config-mgr[2246]: config_baseline: Configuration compliance check passed on siem-srv-06 hardening_applied=CIS-L2
+Mar 29 00:26:00 proxy-srv-04 edr-agent[9582]: ransomware: Ransomware behavior detected process=svchost.exe blocking=true
+Jan 02 02:52:00 dlp-agent-08 config-mgr[9804]: config_drift: Unauthorized configuration change detected on proxy-srv-04 param=firewall_ruleset baseline_violat=true
+Feb 03 10:25:56 db-srv-02 backup[5771]: backup_fail: Backup error: connection timeout to backup-srv-07
+Jan 24 07:12:12 proxy-srv-04 patch-mgr[7777]: patch_applied: CVE-2023-15593 patch_applied successfully on siem-srv-06
+Feb 07 22:09:27 proxy-srv-04 cron[2145]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 15 17:57:06 proxy-srv-04 backup[7711]: backup_fail: Backup error: connection timeout to backup-srv-07
+Jan 07 17:12:55 auth-srv-03 clamav[5055]: malware_quarantine: 203.0.113.50:26080: Eicar-Test-Signature FOUND quarantined
+Feb 07 08:26:48 auth-srv-03 edr-agent[4706]: edr_detect: Suspicious process injection detected pid=1230 user=jgarcia severity=HIGH
+Jan 18 20:14:07 siem-srv-06 edr-agent[1761]: edr_detect: Suspicious process injection detected pid=2547 user=readonly_user severity=HIGH
+Jan 08 20:33:57 proxy-srv-04 backup[8711]: backup_ok: Daily backup completed size=146GB duration=122min
+Mar 01 20:42:16 web-srv-01 mon-agent[4426]: log_collected: Event log forwarded to SIEM events=3791 syslog_ok=true
+Jan 21 00:27:05 db-srv-02 backup[5955]: backup_ok: Daily backup completed size=154GB duration=33min
+Jan 09 19:17:43 web-srv-01 vuln-scanner[1069]: vulnerability_scan_complet: Scan finished host=10.0.1.20 findings=critical:1,high:8,medium:10
+Feb 13 11:28:34 dlp-agent-08 mon-agent[4483]: log_collected: Event log forwarded to SIEM events=1383 syslog_ok=true
+Mar 29 04:42:08 cloud-gw-05 kernel: [  493776.693985] Out of memory: oom_killer invoked process=python
+Feb 07 21:53:55 proxy-srv-04 systemd[1]: service_start: Started backup-agent service.
+Feb 12 03:22:30 proxy-srv-04 backup[2817]: backup_ok: Daily backup completed size=287GB duration=56min
+Mar 21 23:45:07 auth-srv-03 mon-agent[4930]: log_collected: Event log forwarded to SIEM events=310 syslog_ok=true
+Jan 07 22:39:57 cloud-gw-05 backup[5846]: backup_ok: Daily backup completed size=464GB duration=53min
+Mar 19 13:53:16 web-srv-01 kernel: [  870341.794876] Out of memory: oom_killer invoked process=java
+Jan 28 02:07:52 siem-srv-06 cron[7355]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 08 05:56:54 db-srv-02 patch-mgr[8135]: patch_applied: CVE-2023-12746 patch_applied successfully on cloud-gw-05
+Feb 11 16:58:08 db-srv-02 siem-agent[6667]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 203.0.113.50 count=41
+Jan 25 13:18:10 proxy-srv-04 backup[6337]: backup_ok: Daily backup completed size=137GB duration=158min
+Jan 20 01:08:55 auth-srv-03 systemd[1]: service_start: Started sshd service.
+Feb 13 17:58:40 dlp-agent-08 vuln-scanner[5145]: vulnerability_scan_complet: Scan finished host=172.16.0.25 findings=critical:3,high:2,medium:10
+Mar 23 03:48:55 backup-srv-07 config-mgr[1328]: config_drift: Unauthorized configuration change detected on siem-srv-06 param=firewall_ruleset baseline_violat=true
+Jan 20 10:52:26 db-srv-02 systemd[1]: service_start: Started clamav service.
+Mar 07 00:00:44 auth-srv-03 mon-agent[5989]: log_collected: Event log forwarded to SIEM events=760 syslog_ok=true
+Jan 25 16:40:52 proxy-srv-04 mon-agent[6204]: log_collected: Event log forwarded to SIEM events=3742 syslog_ok=true
+Mar 23 10:52:36 web-srv-01 vuln-scanner[3899]: vulnerability_scan_complet: Scan finished host=192.168.1.50 findings=critical:0,high:5,medium:3
+Mar 20 15:32:23 backup-srv-07 patch-mgr[3437]: patch_applied: CVE-2024-28744 patch_applied successfully on dlp-agent-08
+Jan 20 01:07:14 db-srv-02 config-mgr[3507]: config_drift: Unauthorized configuration change detected on cloud-gw-05 param=firewall_ruleset baseline_violat=true
+Mar 05 07:05:34 cloud-gw-05 backup[5670]: backup_ok: Daily backup completed size=392GB duration=117min
+Jan 12 08:14:22 proxy-srv-04 systemd[1]: service_start: Started postgresql service.
+Mar 12 08:38:38 dlp-agent-08 edr-agent[6762]: edr_detect: Suspicious process injection detected pid=2329 user=sysadmin severity=HIGH
+Feb 21 03:35:29 siem-srv-06 siem-agent[1375]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 185.220.101.5 count=12
+Jan 08 14:05:13 db-srv-02 vuln-scanner[8724]: vulnerability_scan_complet: Scan finished host=10.0.1.10 findings=critical:1,high:1,medium:12
+Jan 16 08:32:36 db-srv-02 backup[4770]: backup_ok: Daily backup completed size=439GB duration=37min
+Feb 21 16:42:18 backup-srv-07 backup[4615]: backup_ok: Daily backup completed size=113GB duration=105min
+Feb 16 09:27:17 siem-srv-06 cron[2958]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 20 03:59:31 dlp-agent-08 backup[6769]: backup_ok: Daily backup completed size=282GB duration=166min
+Mar 09 02:53:00 web-srv-01 edr-agent[6895]: ransomware: Ransomware behavior detected process=svchost.exe blocking=true
+Feb 26 23:37:57 db-srv-02 cron[4360]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 29 08:56:41 proxy-srv-04 patch-mgr[8962]: patch_applied: CVE-2022-35798 patch_applied successfully on auth-srv-03
+Mar 18 14:03:17 dlp-agent-08 cron[8625]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 27 06:31:33 web-srv-01 config-mgr[8035]: config_baseline: Configuration compliance check passed on web-srv-01 hardening_applied=CIS-L2
+Feb 04 17:56:28 dlp-agent-08 backup[8415]: backup_ok: Daily backup completed size=370GB duration=108min
+Mar 27 19:32:46 siem-srv-06 systemd[1]: service_start: Started postgresql service.
+Jan 03 17:03:09 cloud-gw-05 config-mgr[2613]: config_baseline: Configuration compliance check passed on auth-srv-03 hardening_applied=CIS-L2
+Jan 22 00:18:31 siem-srv-06 patch-mgr[5847]: patch_applied: CVE-2023-7751 patch_applied successfully on proxy-srv-04
+Mar 26 22:53:00 siem-srv-06 systemd[1]: service_start: Started sshd service.
+Mar 10 07:22:41 web-srv-01 backup[3272]: backup_ok: Daily backup completed size=371GB duration=34min
+Jan 24 19:09:34 siem-srv-06 mon-agent[6841]: log_collected: Event log forwarded to SIEM events=3207 syslog_ok=true
+Jan 27 19:20:41 siem-srv-06 backup[4881]: backup_ok: Daily backup completed size=389GB duration=96min
+Feb 08 09:20:11 web-srv-01 cron[9134]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 14 06:05:50 dlp-agent-08 incident-mgr[1965]: breach_detect: Potential data breach detected user=devops exfiltration_attempt=true
+Mar 03 22:30:17 auth-srv-03 patch-mgr[2894]: patch_applied: CVE-2024-22355 patch_applied successfully on auth-srv-03
+Feb 02 15:37:57 web-srv-01 systemd[1]: service_start: Started nginx service.
+Feb 17 09:04:10 cloud-gw-05 clamav[5439]: malware_quarantine: 10.0.1.10:39048: Eicar-Test-Signature FOUND quarantined
+Jan 08 19:21:05 backup-srv-07 systemd[1]: service_start: Started nginx service.
+Feb 12 14:49:40 auth-srv-03 vuln-scanner[4428]: vulnerability_scan_complet: Scan finished host=45.33.32.156 findings=critical:1,high:6,medium:6
+Jan 05 15:47:21 siem-srv-06 ids-agent[5235]: ids_alert: IDS signature triggered: port_scan detected from 185.220.101.5 ports_scanned=357
+Mar 07 05:33:13 cloud-gw-05 ids-agent[7579]: ids_alert: IDS signature triggered: port_scan detected from 45.33.32.156 ports_scanned=866
+Mar 18 10:56:16 dlp-agent-08 systemd[1]: service_start: Started postgresql service.
+Jan 27 04:25:47 db-srv-02 cron[5713]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 07 02:33:51 dlp-agent-08 backup[2755]: backup_fail: Backup error: connection timeout to backup-srv-07
+Mar 20 19:18:39 cloud-gw-05 systemd[1]: service_start: Started postgresql service.
+Feb 01 02:25:22 proxy-srv-04 mon-agent[3665]: log_collected: Event log forwarded to SIEM events=1722 syslog_ok=true
+Jan 26 22:07:49 siem-srv-06 clamav[8101]: malware_quarantine: 185.220.101.5:32167: Eicar-Test-Signature FOUND quarantined
+Jan 06 09:53:05 auth-srv-03 mon-agent[8901]: log_collected: Event log forwarded to SIEM events=2424 syslog_ok=true
+Feb 09 12:38:24 backup-srv-07 backup[8177]: backup_ok: Daily backup completed size=85GB duration=65min
+Jan 04 10:04:00 siem-srv-06 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Feb 05 13:25:19 db-srv-02 vuln-scanner[5882]: vulnerability_scan_complet: Scan finished host=192.168.1.100 findings=critical:0,high:0,medium:2
+Jan 05 17:32:41 cloud-gw-05 vuln-scanner[1930]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:3,high:7,medium:8
+Mar 02 16:14:58 dlp-agent-08 backup[5590]: backup_ok: Daily backup completed size=57GB duration=103min
+Feb 18 02:54:56 web-srv-01 ids-agent[5596]: ids_alert: IDS signature triggered: port_scan detected from 77.88.8.8 ports_scanned=703
+Jan 26 20:22:50 siem-srv-06 systemd[1]: service_start: Started clamav service.
+Mar 26 13:42:25 auth-srv-03 backup[7633]: backup_ok: Daily backup completed size=459GB duration=139min
+Feb 08 03:16:47 db-srv-02 edr-agent[6216]: edr_detect: Suspicious process injection detected pid=8676 user=jgarcia severity=HIGH
+Jan 20 07:26:27 dlp-agent-08 backup[6661]: backup_ok: Daily backup completed size=59GB duration=68min
+Jan 30 11:29:41 proxy-srv-04 incident-mgr[2362]: incident_open: Security incident ticket TKT-6184 created severity=MEDIUM
+Mar 20 01:32:30 siem-srv-06 cron[9299]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 23 10:05:38 dlp-agent-08 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Jan 19 08:07:34 cloud-gw-05 kernel: [  798372.583333] Out of memory: oom_killer invoked process=java
+Mar 14 08:08:32 db-srv-02 backup[2153]: backup_ok: Daily backup completed size=139GB duration=152min
+Jan 23 16:47:33 backup-srv-07 patch-mgr[5752]: patch_applied: CVE-2023-37513 patch_applied successfully on auth-srv-03
+Feb 15 14:52:55 siem-srv-06 siem-agent[3884]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 1.1.1.1 count=21
+Feb 29 02:12:21 backup-srv-07 cron[3587]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 13 03:27:30 siem-srv-06 edr-agent[9170]: ransomware: Ransomware behavior detected process=svchost.exe blocking=true
+Feb 14 13:19:07 dlp-agent-08 systemd[1]: service_start: Started nginx service.
+Jan 26 13:45:23 cloud-gw-05 systemd[1]: service_start: Started nginx service.
+Mar 28 16:38:51 auth-srv-03 edr-agent[8560]: edr_detect: Suspicious process injection detected pid=7171 user=readonly_user severity=HIGH
+Jan 04 03:28:29 auth-srv-03 mon-agent[9762]: log_collected: Event log forwarded to SIEM events=2127 syslog_ok=true
+Feb 18 19:45:33 db-srv-02 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Mar 21 06:33:25 backup-srv-07 ids-agent[5016]: ids_alert: IDS signature triggered: port_scan detected from 104.21.8.9 ports_scanned=249
+Mar 02 01:00:25 web-srv-01 patch-mgr[9258]: patch_applied: CVE-2023-48914 patch_applied successfully on auth-srv-03
+Jan 17 15:40:20 proxy-srv-04 cron[8504]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 05 20:02:21 web-srv-01 kernel: [  691545.342786] Out of memory: oom_killer invoked process=java
+Feb 22 12:37:45 dlp-agent-08 edr-agent[7232]: edr_detect: Suspicious process injection detected pid=5334 user=scanner severity=HIGH
+Feb 04 02:16:28 auth-srv-03 siem-agent[9903]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 198.51.100.20 count=24
+Feb 26 09:56:09 proxy-srv-04 config-mgr[8954]: config_baseline: Configuration compliance check passed on cloud-gw-05 hardening_applied=CIS-L2
+Feb 15 11:19:13 dlp-agent-08 cron[5742]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 23 01:03:17 siem-srv-06 edr-agent[4580]: edr_detect: Suspicious process injection detected pid=6793 user=jgarcia severity=HIGH
+Feb 19 13:30:00 siem-srv-06 backup[3494]: backup_ok: Daily backup completed size=356GB duration=112min
+Feb 28 15:43:10 dlp-agent-08 ids-agent[1267]: ids_alert: IDS signature triggered: port_scan detected from 91.108.4.12 ports_scanned=761
+Feb 26 03:39:11 dlp-agent-08 systemd[1]: service_start: Started clamav service.
+Feb 21 15:43:55 web-srv-01 patch-mgr[5695]: patch_applied: CVE-2023-16771 patch_applied successfully on backup-srv-07
+Jan 27 15:31:24 db-srv-02 patch-mgr[1708]: patch_applied: CVE-2023-33457 patch_applied successfully on auth-srv-03
+Mar 04 15:50:56 proxy-srv-04 systemd[1]: service_start: Started backup-agent service.
+Feb 03 23:09:23 auth-srv-03 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Feb 16 08:38:23 db-srv-02 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Mar 22 02:06:12 auth-srv-03 siem-agent[4044]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 185.220.101.5 count=24
+Mar 09 20:50:13 auth-srv-03 incident-mgr[4382]: incident_open: Security incident ticket TKT-3501 created severity=HIGH
+Jan 15 20:43:14 proxy-srv-04 systemd[1]: service_start: Started backup-agent service.
+Jan 25 06:21:35 cloud-gw-05 clamav[5709]: malware_quarantine: 10.0.1.10:17020: Eicar-Test-Signature FOUND quarantined
+Mar 02 18:58:09 auth-srv-03 vuln-scanner[2878]: vulnerability_scan_complet: Scan finished host=172.16.0.25 findings=critical:2,high:8,medium:12
+Jan 20 03:13:18 dlp-agent-08 clamav[6442]: malware_quarantine: 172.16.0.25:48474: Eicar-Test-Signature FOUND quarantined
+Jan 13 03:56:25 proxy-srv-04 vuln-scanner[7891]: vulnerability_scan_complet: Scan finished host=172.16.0.25 findings=critical:1,high:5,medium:3
+Mar 10 12:08:14 proxy-srv-04 ids-agent[7002]: ids_alert: IDS signature triggered: port_scan detected from 203.0.113.50 ports_scanned=323
+Jan 17 09:30:58 proxy-srv-04 backup[5078]: backup_ok: Daily backup completed size=425GB duration=135min
+Jan 18 19:40:31 backup-srv-07 mon-agent[8519]: log_collected: Event log forwarded to SIEM events=3027 syslog_ok=true
+Jan 19 06:01:22 auth-srv-03 cron[4437]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 14 23:00:42 web-srv-01 patch-mgr[7875]: patch_applied: CVE-2023-47921 patch_applied successfully on backup-srv-07
+Jan 24 02:19:44 backup-srv-07 ids-agent[4712]: ids_alert: IDS signature triggered: port_scan detected from 198.51.100.20 ports_scanned=350
+Feb 25 07:44:50 auth-srv-03 config-mgr[8382]: config_drift: Unauthorized configuration change detected on proxy-srv-04 param=firewall_ruleset baseline_violat=true
+Mar 09 01:06:27 web-srv-01 incident-mgr[4586]: incident_open: Security incident ticket TKT-3663 created severity=HIGH
+Mar 14 03:38:25 backup-srv-07 backup[2463]: backup_ok: Daily backup completed size=351GB duration=166min
+Jan 30 18:14:06 dlp-agent-08 incident-mgr[6658]: breach_detect: Potential data breach detected user=api_svc exfiltration_attempt=true
+Jan 03 07:52:04 web-srv-01 cron[7520]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 01 17:36:36 siem-srv-06 edr-agent[9601]: edr_detect: Suspicious process injection detected pid=1917 user=readonly_user severity=HIGH
+Mar 01 06:25:51 dlp-agent-08 patch-mgr[9279]: patch_applied: CVE-2022-18778 patch_applied successfully on auth-srv-03
+Mar 23 11:40:03 db-srv-02 vuln-scanner[8679]: vulnerability_scan_complet: Scan finished host=192.168.1.100 findings=critical:0,high:5,medium:7
+Feb 13 23:49:29 db-srv-02 systemd[1]: service_start: Started backup-agent service.
+Feb 05 23:52:36 dlp-agent-08 patch-mgr[4319]: patch_applied: CVE-2023-40961 patch_applied successfully on cloud-gw-05
+Feb 06 08:41:34 backup-srv-07 clamav[4376]: malware_quarantine: 192.168.1.50:49822: Eicar-Test-Signature FOUND quarantined
+Mar 24 05:56:49 auth-srv-03 vuln-scanner[7538]: vulnerability_scan_complet: Scan finished host=10.0.1.20 findings=critical:0,high:3,medium:5
+Mar 29 21:26:19 siem-srv-06 systemd[1]: service_start: Started nginx service.
+Feb 11 14:46:15 siem-srv-06 systemd[1]: service_start: Started nginx service.
+Mar 26 21:33:23 web-srv-01 vuln-scanner[4568]: vulnerability_scan_complet: Scan finished host=10.0.1.10 findings=critical:1,high:0,medium:12
+Feb 04 00:14:00 db-srv-02 backup[1666]: backup_ok: Daily backup completed size=469GB duration=47min
+Jan 19 13:02:53 auth-srv-03 systemd[1]: service_start: Started nginx service.
+Mar 27 00:19:02 db-srv-02 incident-mgr[4963]: incident_open: Security incident ticket TKT-3599 created severity=CRITICAL
+Mar 13 15:48:17 cloud-gw-05 systemd[1]: service_start: Started sshd service.
+Feb 04 10:19:11 dlp-agent-08 backup[7077]: backup_ok: Daily backup completed size=303GB duration=124min
+Mar 29 17:21:33 dlp-agent-08 backup[9414]: backup_ok: Daily backup completed size=35GB duration=154min
+Jan 23 08:34:29 backup-srv-07 kernel: [  644134.61897] Out of memory: oom_killer invoked process=mysqld
+Mar 22 06:30:23 cloud-gw-05 patch-mgr[6356]: patch_applied: CVE-2024-27551 patch_applied successfully on web-srv-01
+Mar 10 08:28:09 backup-srv-07 vuln-scanner[5011]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:3,high:6,medium:14
+Mar 24 18:15:23 backup-srv-07 clamav[7033]: malware_quarantine: 77.88.8.8:56831: Eicar-Test-Signature FOUND quarantined
+Mar 28 00:44:48 proxy-srv-04 backup[2138]: backup_fail: Backup error: connection timeout to backup-srv-07
+Mar 24 08:18:48 auth-srv-03 systemd[1]: service_start: Started sshd service.
+Feb 16 23:09:19 db-srv-02 mon-agent[5682]: log_collected: Event log forwarded to SIEM events=2024 syslog_ok=true
+Jan 18 22:05:52 db-srv-02 config-mgr[5102]: config_drift: Unauthorized configuration change detected on siem-srv-06 param=firewall_ruleset baseline_violat=true
+Mar 15 23:20:40 proxy-srv-04 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Mar 31 03:04:20 db-srv-02 backup[9747]: backup_fail: Backup error: connection timeout to backup-srv-07
+Jan 15 18:09:33 siem-srv-06 cron[6776]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 08 13:21:31 db-srv-02 kernel: [  385046.489993] Out of memory: oom_killer invoked process=java
+Feb 10 12:04:40 db-srv-02 mon-agent[6521]: log_collected: Event log forwarded to SIEM events=3593 syslog_ok=true
+Jan 31 17:52:20 proxy-srv-04 backup[3095]: backup_ok: Daily backup completed size=340GB duration=103min
+Jan 15 22:46:51 cloud-gw-05 kernel: [  195843.272904] Out of memory: oom_killer invoked process=mysqld
+Jan 10 21:48:36 db-srv-02 cron[6253]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 30 16:19:31 web-srv-01 vuln-scanner[6278]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:0,high:1,medium:12
+Feb 22 04:45:42 dlp-agent-08 ids-agent[8234]: ids_alert: IDS signature triggered: port_scan detected from 91.108.4.12 ports_scanned=787
+Jan 26 05:28:41 proxy-srv-04 siem-agent[8281]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 10.0.1.10 count=37
+Feb 25 04:41:08 db-srv-02 patch-mgr[9808]: patch_applied: CVE-2024-43670 patch_applied successfully on siem-srv-06
+Mar 21 01:42:14 web-srv-01 systemd[1]: service_start: Started backup-agent service.
+Feb 05 00:30:40 web-srv-01 cron[7999]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 28 00:17:00 proxy-srv-04 patch-mgr[9504]: patch_applied: CVE-2022-27861 patch_applied successfully on cloud-gw-05
+Feb 22 23:19:02 siem-srv-06 patch-mgr[4760]: patch_applied: CVE-2024-17655 patch_applied successfully on siem-srv-06
+Jan 06 02:42:10 auth-srv-03 systemd[1]: service_start: Started postgresql service.
+Feb 03 02:22:48 siem-srv-06 vuln-scanner[4252]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:0,high:1,medium:4
+Feb 26 00:37:38 siem-srv-06 backup[4111]: backup_ok: Daily backup completed size=177GB duration=48min
+Mar 01 21:55:58 dlp-agent-08 config-mgr[7361]: config_drift: Unauthorized configuration change detected on db-srv-02 param=firewall_ruleset baseline_violat=true
+Jan 03 04:26:18 auth-srv-03 config-mgr[9958]: config_drift: Unauthorized configuration change detected on proxy-srv-04 param=firewall_ruleset baseline_violat=true
+Jan 04 03:04:25 siem-srv-06 incident-mgr[4695]: incident_open: Security incident ticket TKT-7049 created severity=CRITICAL
+Feb 02 05:21:24 proxy-srv-04 config-mgr[1317]: config_baseline: Configuration compliance check passed on dlp-agent-08 hardening_applied=CIS-L2
+Mar 02 23:11:56 web-srv-01 mon-agent[1378]: log_collected: Event log forwarded to SIEM events=1854 syslog_ok=true
+Feb 15 01:09:37 auth-srv-03 mon-agent[2057]: log_collected: Event log forwarded to SIEM events=283 syslog_ok=true
+Mar 12 14:05:01 proxy-srv-04 patch-mgr[9022]: patch_applied: CVE-2024-4431 patch_applied successfully on dlp-agent-08
+Mar 20 23:47:03 backup-srv-07 incident-mgr[1224]: incident_open: Security incident ticket TKT-5424 created severity=LOW
+Mar 23 13:00:36 auth-srv-03 mon-agent[8170]: log_collected: Event log forwarded to SIEM events=2772 syslog_ok=true
+Feb 26 13:48:31 dlp-agent-08 mon-agent[7551]: log_collected: Event log forwarded to SIEM events=2914 syslog_ok=true
+Mar 18 19:47:27 siem-srv-06 config-mgr[8454]: config_drift: Unauthorized configuration change detected on siem-srv-06 param=firewall_ruleset baseline_violat=true
+Feb 25 17:14:55 backup-srv-07 backup[2292]: backup_fail: Backup error: connection timeout to backup-srv-07
+Feb 04 08:01:46 cloud-gw-05 incident-mgr[2749]: incident_open: Security incident ticket TKT-1068 created severity=LOW
+Jan 27 16:56:02 proxy-srv-04 cron[8738]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 21 02:55:57 auth-srv-03 backup[3844]: backup_ok: Daily backup completed size=490GB duration=52min
+Jan 21 21:02:20 dlp-agent-08 backup[3959]: backup_fail: Backup error: connection timeout to backup-srv-07
+Jan 30 09:30:26 web-srv-01 vuln-scanner[5032]: vulnerability_critical_unpatched: CVE-2024-22293 CRITICAL unpatched on db-srv-02 patch_overdue=87days
+Mar 30 07:37:42 dlp-agent-08 clamav[5948]: malware_quarantine: 10.0.1.10:46044: Eicar-Test-Signature FOUND quarantined
+Mar 13 01:41:07 auth-srv-03 config-mgr[1175]: config_baseline: Configuration compliance check passed on backup-srv-07 hardening_applied=CIS-L2
+Jan 23 11:30:58 web-srv-01 patch-mgr[5607]: patch_applied: CVE-2023-28767 patch_applied successfully on proxy-srv-04
+Feb 26 20:12:55 siem-srv-06 config-mgr[1813]: config_drift: Unauthorized configuration change detected on proxy-srv-04 param=firewall_ruleset baseline_violat=true
+Mar 02 00:10:01 backup-srv-07 siem-agent[8668]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 104.21.8.9 count=16
+Feb 07 00:09:34 dlp-agent-08 incident-mgr[1190]: incident_open: Security incident ticket TKT-9095 created severity=LOW
+Mar 21 11:28:31 backup-srv-07 backup[4473]: backup_fail: Backup error: connection timeout to backup-srv-07
+Jan 07 19:36:24 cloud-gw-05 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Feb 17 00:58:29 web-srv-01 edr-agent[4732]: edr_detect: Suspicious process injection detected pid=3384 user=backup_svc severity=HIGH
+Jan 10 23:41:08 cloud-gw-05 patch-mgr[9224]: patch_applied: CVE-2023-48493 patch_applied successfully on dlp-agent-08
+Jan 16 05:20:34 siem-srv-06 vuln-scanner[2054]: vulnerability_scan_complet: Scan finished host=172.16.0.25 findings=critical:2,high:8,medium:11
+Feb 09 09:16:37 web-srv-01 backup[6496]: backup_ok: Daily backup completed size=215GB duration=76min
+Feb 16 07:29:14 auth-srv-03 cron[4606]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 24 20:06:20 auth-srv-03 systemd[1]: service_start: Started backup-agent service.
+Mar 16 16:42:18 db-srv-02 vuln-scanner[6667]: vulnerability_scan_complet: Scan finished host=10.0.1.10 findings=critical:0,high:0,medium:5
+Mar 29 18:03:56 cloud-gw-05 mon-agent[3714]: log_collected: Event log forwarded to SIEM events=2478 syslog_ok=true
+Mar 12 21:36:25 proxy-srv-04 clamav[1795]: malware_quarantine: 185.220.101.5:25752: Eicar-Test-Signature FOUND quarantined
+Mar 08 07:35:03 siem-srv-06 vuln-scanner[6703]: vulnerability_critical_unpatched: CVE-2023-37268 CRITICAL unpatched on cloud-gw-05 patch_overdue=50days
+Mar 14 22:11:57 backup-srv-07 kernel: [  994458.861255] Out of memory: oom_killer invoked process=java
+Jan 13 08:43:43 proxy-srv-04 backup[9625]: backup_ok: Daily backup completed size=346GB duration=161min
+Feb 07 15:38:10 cloud-gw-05 systemd[1]: service_start: Started nginx service.
+Mar 08 03:02:13 web-srv-01 edr-agent[4674]: edr_detect: Suspicious process injection detected pid=2770 user=sysadmin severity=HIGH
+Jan 02 05:23:20 dlp-agent-08 config-mgr[5598]: config_baseline: Configuration compliance check passed on siem-srv-06 hardening_applied=CIS-L2
+Feb 18 08:09:21 cloud-gw-05 mon-agent[5412]: log_collected: Event log forwarded to SIEM events=3677 syslog_ok=true
+Feb 08 05:08:31 web-srv-01 systemd[1]: service_start: Started sshd service.
+Feb 17 00:24:40 proxy-srv-04 systemd[1]: service_start: Started sshd service.
+Jan 27 09:56:27 dlp-agent-08 vuln-scanner[1039]: vulnerability_scan_complet: Scan finished host=10.0.1.20 findings=critical:1,high:4,medium:9
+Mar 23 04:20:13 auth-srv-03 backup[6882]: backup_ok: Daily backup completed size=448GB duration=39min
+Feb 16 09:24:07 db-srv-02 vuln-scanner[2695]: vulnerability_scan_complet: Scan finished host=192.168.1.50 findings=critical:0,high:2,medium:11
+Jan 01 02:19:44 proxy-srv-04 mon-agent[8778]: log_collected: Event log forwarded to SIEM events=905 syslog_ok=true
+Jan 08 22:06:36 dlp-agent-08 patch-mgr[2648]: patch_applied: CVE-2022-43273 patch_applied successfully on dlp-agent-08
+Feb 07 08:43:38 db-srv-02 vuln-scanner[4344]: vulnerability_scan_complet: Scan finished host=91.108.4.12 findings=critical:2,high:3,medium:12
+Mar 29 06:15:39 dlp-agent-08 patch-mgr[9997]: patch_applied: CVE-2024-30237 patch_applied successfully on siem-srv-06
+Feb 21 04:22:41 dlp-agent-08 siem-agent[1347]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 203.0.113.50 count=45
+Feb 05 20:20:00 cloud-gw-05 ids-agent[8938]: ids_alert: IDS signature triggered: port_scan detected from 198.51.100.20 ports_scanned=850
+Feb 12 08:18:59 cloud-gw-05 patch-mgr[9428]: patch_applied: CVE-2022-41080 patch_applied successfully on web-srv-01
+Mar 18 23:46:29 siem-srv-06 backup[5177]: backup_fail: Backup error: connection timeout to backup-srv-07
+Jan 18 02:11:24 web-srv-01 systemd[1]: service_start: Started clamav service.
+Mar 16 10:02:00 backup-srv-07 systemd[1]: service_start: Started clamav service.
+Feb 27 12:47:41 dlp-agent-08 patch-mgr[7145]: patch_applied: CVE-2024-28036 patch_applied successfully on siem-srv-06
+Jan 17 18:52:37 web-srv-01 vuln-scanner[4170]: vulnerability_scan_complet: Scan finished host=203.0.113.50 findings=critical:0,high:4,medium:10
+Feb 11 15:53:58 proxy-srv-04 siem-agent[7356]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 185.220.101.5 count=36
+Mar 19 09:24:42 web-srv-01 systemd[1]: service_start: Started clamav service.
+Mar 14 22:19:37 proxy-srv-04 systemd[1]: service_start: Started postgresql service.
+Jan 09 20:58:24 web-srv-01 config-mgr[8198]: config_baseline: Configuration compliance check passed on dlp-agent-08 hardening_applied=CIS-L2
+Jan 10 10:20:30 siem-srv-06 systemd[1]: service_start: Started sshd service.
+Jan 09 04:45:47 siem-srv-06 cron[6029]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 22 13:00:26 db-srv-02 edr-agent[4532]: ransomware: Ransomware behavior detected process=svchost.exe blocking=true
+Jan 17 15:00:40 proxy-srv-04 mon-agent[7174]: log_collected: Event log forwarded to SIEM events=3245 syslog_ok=true
+Feb 04 23:41:28 auth-srv-03 backup[9124]: backup_ok: Daily backup completed size=367GB duration=163min
+Jan 28 13:15:44 dlp-agent-08 backup[4306]: backup_ok: Daily backup completed size=372GB duration=41min
+Feb 05 20:43:36 cloud-gw-05 config-mgr[9758]: config_baseline: Configuration compliance check passed on siem-srv-06 hardening_applied=CIS-L2
+Jan 16 22:21:27 proxy-srv-04 incident-mgr[6022]: incident_open: Security incident ticket TKT-8465 created severity=HIGH
+Feb 27 08:05:17 db-srv-02 cron[4934]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 07 19:19:55 db-srv-02 config-mgr[9468]: config_baseline: Configuration compliance check passed on auth-srv-03 hardening_applied=CIS-L2
+Mar 06 18:09:32 web-srv-01 siem-agent[6515]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 198.51.100.20 count=27
+Mar 12 17:01:56 auth-srv-03 cron[9937]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 02 14:29:20 siem-srv-06 backup[6576]: backup_ok: Daily backup completed size=302GB duration=179min
+Jan 22 12:37:27 db-srv-02 cron[8877]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 09 08:56:40 proxy-srv-04 cron[6976]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 07 18:55:46 backup-srv-07 kernel: [  946221.878979] Out of memory: oom_killer invoked process=java
+Jan 08 00:00:53 dlp-agent-08 cron[5097]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 13 23:19:18 cloud-gw-05 config-mgr[7014]: config_drift: Unauthorized configuration change detected on siem-srv-06 param=firewall_ruleset baseline_violat=true
+Feb 10 17:28:38 dlp-agent-08 systemd[1]: service_start: Started clamav service.
+Mar 29 02:49:08 auth-srv-03 config-mgr[3324]: config_baseline: Configuration compliance check passed on dlp-agent-08 hardening_applied=CIS-L2
+Feb 25 10:29:15 backup-srv-07 edr-agent[1482]: ransomware: Ransomware behavior detected process=svchost.exe blocking=true
+Feb 10 17:56:05 backup-srv-07 kernel: [  186265.565151] Out of memory: oom_killer invoked process=java
+Feb 06 16:04:52 db-srv-02 systemd[1]: service_start: Started postgresql service.
+Feb 25 15:08:31 cloud-gw-05 patch-mgr[2542]: patch_applied: CVE-2022-15881 patch_applied successfully on cloud-gw-05
+Mar 27 22:09:35 cloud-gw-05 config-mgr[6224]: config_baseline: Configuration compliance check passed on siem-srv-06 hardening_applied=CIS-L2
+Mar 30 21:33:30 web-srv-01 patch-mgr[9724]: patch_applied: CVE-2024-15935 patch_applied successfully on web-srv-01
+Feb 20 19:03:34 proxy-srv-04 vuln-scanner[7112]: vulnerability_scan_complet: Scan finished host=203.0.113.50 findings=critical:2,high:8,medium:9
+Feb 15 11:38:57 siem-srv-06 config-mgr[2609]: config_baseline: Configuration compliance check passed on web-srv-01 hardening_applied=CIS-L2
+Jan 30 04:56:36 db-srv-02 vuln-scanner[9898]: vulnerability_scan_complet: Scan finished host=10.0.1.20 findings=critical:2,high:2,medium:4
+Mar 02 19:05:54 db-srv-02 config-mgr[3112]: config_baseline: Configuration compliance check passed on web-srv-01 hardening_applied=CIS-L2
+Feb 15 08:04:46 proxy-srv-04 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Mar 26 10:48:49 auth-srv-03 clamav[8186]: malware_quarantine: 10.0.2.5:26355: Eicar-Test-Signature FOUND quarantined
+Mar 16 22:00:45 proxy-srv-04 patch-mgr[8151]: patch_applied: CVE-2024-35484 patch_applied successfully on dlp-agent-08
+Feb 07 09:16:49 proxy-srv-04 systemd[1]: service_start: Started backup-agent service.
+Jan 28 22:38:03 siem-srv-06 patch-mgr[3752]: patch_applied: CVE-2023-41907 patch_applied successfully on backup-srv-07
+Jan 15 13:03:44 web-srv-01 backup[7608]: backup_ok: Daily backup completed size=314GB duration=111min
+Jan 21 03:54:45 web-srv-01 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Jan 03 04:42:28 cloud-gw-05 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Mar 05 08:11:23 dlp-agent-08 ids-agent[5761]: ids_alert: IDS signature triggered: port_scan detected from 45.33.32.156 ports_scanned=937
+Feb 28 11:10:14 proxy-srv-04 patch-mgr[6397]: patch_applied: CVE-2024-19864 patch_applied successfully on backup-srv-07
+Mar 28 07:40:57 auth-srv-03 vuln-scanner[4841]: vulnerability_scan_complet: Scan finished host=198.51.100.20 findings=critical:1,high:7,medium:15
+Mar 28 04:08:15 proxy-srv-04 siem-agent[2406]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 10.0.2.5 count=15
+Mar 13 03:29:40 backup-srv-07 systemd[1]: service_start: Started sshd service.
+Mar 25 18:37:12 siem-srv-06 clamav[5791]: malware_quarantine: 45.33.32.156:22605: Eicar-Test-Signature FOUND quarantined
+Feb 18 09:11:42 db-srv-02 incident-mgr[9616]: breach_detect: Potential data breach detected user=mlopez exfiltration_attempt=true
+Jan 24 01:05:41 dlp-agent-08 edr-agent[7704]: edr_detect: Suspicious process injection detected pid=135 user=api_svc severity=HIGH
+Mar 05 15:27:56 db-srv-02 backup[3075]: backup_ok: Daily backup completed size=48GB duration=122min
+Mar 18 22:18:22 proxy-srv-04 incident-mgr[6458]: incident_open: Security incident ticket TKT-2697 created severity=MEDIUM
+Feb 21 14:47:28 dlp-agent-08 edr-agent[3430]: edr_detect: Suspicious process injection detected pid=7920 user=jgarcia severity=HIGH
+Mar 30 12:53:50 siem-srv-06 backup[7640]: backup_ok: Daily backup completed size=413GB duration=53min
+Feb 17 01:18:47 web-srv-01 mon-agent[2363]: log_collected: Event log forwarded to SIEM events=3551 syslog_ok=true
+Jan 25 04:40:49 proxy-srv-04 backup[7915]: backup_ok: Daily backup completed size=106GB duration=148min
+Mar 06 07:16:11 web-srv-01 vuln-scanner[1718]: vulnerability_scan_complet: Scan finished host=10.0.1.10 findings=critical:2,high:5,medium:2
+Jan 30 08:51:13 proxy-srv-04 backup[8240]: backup_ok: Daily backup completed size=11GB duration=94min
+Mar 03 09:12:13 cloud-gw-05 mon-agent[6979]: log_collected: Event log forwarded to SIEM events=2312 syslog_ok=true
+Jan 22 01:43:57 backup-srv-07 mon-agent[1207]: log_collected: Event log forwarded to SIEM events=3493 syslog_ok=true
+Jan 17 23:28:27 dlp-agent-08 incident-mgr[5792]: incident_open: Security incident ticket TKT-1081 created severity=HIGH
+Jan 27 19:41:24 backup-srv-07 cron[3134]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 19 02:33:13 dlp-agent-08 vuln-scanner[9672]: vulnerability_scan_complet: Scan finished host=91.108.4.12 findings=critical:0,high:4,medium:7
+Jan 16 21:51:28 proxy-srv-04 vuln-scanner[8582]: vulnerability_scan_complet: Scan finished host=192.168.1.100 findings=critical:0,high:5,medium:13
+Jan 10 21:05:13 auth-srv-03 systemd[1]: service_start: Started nginx service.
+Mar 12 01:24:46 backup-srv-07 systemd[1]: service_start: Started nginx service.
+Feb 08 02:26:15 auth-srv-03 mon-agent[7217]: log_collected: Event log forwarded to SIEM events=4100 syslog_ok=true
+Mar 01 19:28:57 auth-srv-03 systemd[1]: service_start: Started sshd service.
+Mar 16 05:33:15 dlp-agent-08 edr-agent[4278]: ransomware: Ransomware behavior detected process=svchost.exe blocking=true
+Jan 22 00:56:53 db-srv-02 incident-mgr[7231]: incident_open: Security incident ticket TKT-5189 created severity=HIGH
+Mar 10 16:16:55 cloud-gw-05 config-mgr[3087]: config_baseline: Configuration compliance check passed on db-srv-02 hardening_applied=CIS-L2
+Jan 16 12:22:32 backup-srv-07 systemd[1]: service_start: Started backup-agent service.
+Jan 06 06:21:38 auth-srv-03 incident-mgr[5899]: incident_open: Security incident ticket TKT-3891 created severity=MEDIUM
+Feb 11 04:08:48 web-srv-01 vuln-scanner[6009]: vulnerability_critical_unpatched: CVE-2023-28544 CRITICAL unpatched on siem-srv-06 patch_overdue=37days
+Jan 30 23:13:06 auth-srv-03 config-mgr[6085]: config_drift: Unauthorized configuration change detected on cloud-gw-05 param=firewall_ruleset baseline_violat=true
+Feb 21 23:02:22 dlp-agent-08 systemd[1]: service_start: Started clamav service.
+Feb 15 01:50:28 proxy-srv-04 siem-agent[5628]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 192.168.1.100 count=48
+Mar 07 23:15:30 cloud-gw-05 patch-mgr[8781]: patch_applied: CVE-2022-30828 patch_applied successfully on web-srv-01
+Jan 06 13:36:28 siem-srv-06 patch-mgr[3043]: patch_applied: CVE-2024-15933 patch_applied successfully on web-srv-01
+Mar 29 10:43:33 auth-srv-03 backup[8501]: backup_ok: Daily backup completed size=212GB duration=83min
+Jan 29 17:16:22 backup-srv-07 systemd[1]: service_start: Started backup-agent service.
+Mar 22 22:57:33 cloud-gw-05 config-mgr[4931]: config_baseline: Configuration compliance check passed on dlp-agent-08 hardening_applied=CIS-L2
+Mar 25 02:05:41 proxy-srv-04 incident-mgr[3810]: incident_open: Security incident ticket TKT-6168 created severity=HIGH
+Jan 20 00:35:52 siem-srv-06 incident-mgr[1951]: incident_open: Security incident ticket TKT-4066 created severity=HIGH
+Jan 28 20:55:44 auth-srv-03 vuln-scanner[8277]: vulnerability_scan_complet: Scan finished host=10.0.1.10 findings=critical:3,high:0,medium:12
+Mar 14 16:01:23 dlp-agent-08 systemd[1]: service_start: Started backup-agent service.
+Jan 04 05:24:26 proxy-srv-04 edr-agent[5434]: edr_detect: Suspicious process injection detected pid=2487 user=api_svc severity=HIGH
+Jan 24 15:56:48 web-srv-01 edr-agent[4599]: edr_detect: Suspicious process injection detected pid=9236 user=devops severity=HIGH
+Mar 24 22:09:39 backup-srv-07 backup[5428]: backup_ok: Daily backup completed size=122GB duration=71min
+Feb 13 19:33:54 auth-srv-03 incident-mgr[9057]: breach_detect: Potential data breach detected user=root exfiltration_attempt=true
+Feb 09 04:51:20 proxy-srv-04 vuln-scanner[2256]: vulnerability_scan_complet: Scan finished host=91.108.4.12 findings=critical:3,high:4,medium:4
+Jan 24 14:34:39 siem-srv-06 vuln-scanner[9036]: vulnerability_scan_complet: Scan finished host=192.168.1.50 findings=critical:3,high:7,medium:7
+Mar 19 12:20:56 dlp-agent-08 backup[7439]: backup_ok: Daily backup completed size=351GB duration=51min
+Jan 22 21:35:16 siem-srv-06 patch-mgr[8224]: patch_applied: CVE-2024-44449 patch_applied successfully on cloud-gw-05
+Feb 12 06:55:47 web-srv-01 systemd[1]: service_start: Started postgresql service.
+Jan 27 12:41:19 web-srv-01 siem-agent[3681]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 10.0.1.20 count=42
+Jan 18 23:48:31 dlp-agent-08 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Mar 16 12:13:18 dlp-agent-08 config-mgr[1070]: config_baseline: Configuration compliance check passed on web-srv-01 hardening_applied=CIS-L2
+Mar 16 23:02:11 proxy-srv-04 patch-mgr[8937]: patch_applied: CVE-2023-35071 patch_applied successfully on auth-srv-03
+Feb 21 19:30:10 backup-srv-07 edr-agent[5089]: edr_detect: Suspicious process injection detected pid=3671 user=readonly_user severity=HIGH
+Feb 10 17:12:50 proxy-srv-04 backup[7899]: backup_ok: Daily backup completed size=255GB duration=35min
+Jan 03 21:33:21 dlp-agent-08 systemd[1]: service_start: Started sshd service.
+Feb 08 12:18:06 siem-srv-06 systemd[1]: service_start: Started postgresql service.
+Mar 24 02:47:07 db-srv-02 systemd[1]: service_start: Started sshd service.
+Mar 03 05:25:09 auth-srv-03 patch-mgr[6989]: patch_applied: CVE-2024-36187 patch_applied successfully on backup-srv-07
+Feb 19 23:52:11 db-srv-02 cron[9671]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 07 23:24:05 siem-srv-06 backup[6474]: backup_ok: Daily backup completed size=234GB duration=100min
+Feb 05 07:44:47 dlp-agent-08 cron[4469]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 26 20:11:57 auth-srv-03 config-mgr[4101]: config_baseline: Configuration compliance check passed on web-srv-01 hardening_applied=CIS-L2
+Mar 17 09:56:47 web-srv-01 vuln-scanner[3828]: vulnerability_scan_complet: Scan finished host=10.0.1.20 findings=critical:1,high:8,medium:7
+Jan 22 02:36:43 dlp-agent-08 config-mgr[9537]: config_drift: Unauthorized configuration change detected on cloud-gw-05 param=firewall_ruleset baseline_violat=true
+Mar 24 04:26:06 siem-srv-06 patch-mgr[9700]: patch_applied: CVE-2023-24012 patch_applied successfully on db-srv-02
+Feb 13 15:05:22 cloud-gw-05 backup[4173]: backup_ok: Daily backup completed size=252GB duration=101min
+Mar 11 16:35:31 web-srv-01 siem-agent[7163]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 185.220.101.5 count=12
+Jan 08 12:59:12 auth-srv-03 patch-mgr[5666]: patch_applied: CVE-2024-39311 patch_applied successfully on backup-srv-07
+Jan 18 23:48:40 siem-srv-06 systemd[1]: service_start: Started sshd service.
+Jan 17 05:50:00 auth-srv-03 mon-agent[1963]: log_collected: Event log forwarded to SIEM events=3575 syslog_ok=true
+Mar 05 02:15:55 dlp-agent-08 backup[8135]: backup_ok: Daily backup completed size=116GB duration=55min
+Jan 25 22:16:12 auth-srv-03 backup[9400]: backup_ok: Daily backup completed size=231GB duration=148min
+Jan 23 09:16:05 backup-srv-07 backup[3638]: backup_ok: Daily backup completed size=223GB duration=121min
+Mar 27 13:50:13 siem-srv-06 vuln-scanner[4483]: vulnerability_scan_complet: Scan finished host=172.16.0.25 findings=critical:2,high:6,medium:5
+Feb 01 02:12:52 proxy-srv-04 kernel: [  733826.109963] Out of memory: oom_killer invoked process=mysqld
+Jan 24 04:48:39 backup-srv-07 siem-agent[8938]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 185.220.101.5 count=17
+Jan 30 06:43:37 backup-srv-07 mon-agent[1708]: log_collected: Event log forwarded to SIEM events=4625 syslog_ok=true
+Jan 08 14:53:56 dlp-agent-08 siem-agent[2222]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 1.1.1.1 count=41
+Jan 08 04:42:04 cloud-gw-05 backup[6670]: backup_fail: Backup error: connection timeout to backup-srv-07
+Mar 15 02:15:37 web-srv-01 vuln-scanner[4758]: vulnerability_scan_complet: Scan finished host=192.168.1.50 findings=critical:1,high:8,medium:2
+Mar 07 08:10:09 cloud-gw-05 clamav[1611]: malware_quarantine: 77.88.8.8:39881: Eicar-Test-Signature FOUND quarantined
+Jan 06 02:18:25 cloud-gw-05 backup[6240]: backup_ok: Daily backup completed size=117GB duration=158min
+Feb 10 09:15:13 auth-srv-03 edr-agent[1335]: edr_detect: Suspicious process injection detected pid=6652 user=readonly_user severity=HIGH
+Mar 15 06:53:33 siem-srv-06 ids-agent[7378]: ids_alert: IDS signature triggered: port_scan detected from 10.0.1.20 ports_scanned=696
+Feb 21 10:50:13 web-srv-01 clamav[8125]: malware_quarantine: 91.108.4.12:24026: Eicar-Test-Signature FOUND quarantined
+Feb 23 22:12:48 db-srv-02 clamav[5412]: malware_quarantine: 10.0.1.10:18165: Eicar-Test-Signature FOUND quarantined
+Feb 27 17:55:34 cloud-gw-05 ids-agent[9564]: ids_alert: IDS signature triggered: port_scan detected from 45.33.32.156 ports_scanned=948
+Jan 29 14:40:49 proxy-srv-04 cron[2895]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 10 04:58:14 auth-srv-03 patch-mgr[8563]: patch_applied: CVE-2023-10374 patch_applied successfully on siem-srv-06
+Feb 26 07:48:52 db-srv-02 ids-agent[6120]: ids_alert: IDS signature triggered: port_scan detected from 104.21.8.9 ports_scanned=886
+Jan 31 07:27:06 db-srv-02 incident-mgr[5232]: breach_detect: Potential data breach detected user=dbadmin exfiltration_attempt=true
+Jan 19 22:18:33 siem-srv-06 systemd[1]: service_start: Started backup-agent service.
+Mar 04 08:14:40 db-srv-02 backup[2927]: backup_ok: Daily backup completed size=206GB duration=65min
+Mar 20 02:03:06 dlp-agent-08 incident-mgr[9674]: incident_open: Security incident ticket TKT-1938 created severity=HIGH
+Jan 12 06:42:18 web-srv-01 config-mgr[3787]: config_baseline: Configuration compliance check passed on dlp-agent-08 hardening_applied=CIS-L2
+Feb 25 17:36:02 backup-srv-07 edr-agent[8052]: edr_detect: Suspicious process injection detected pid=3639 user=jgarcia severity=HIGH
+Jan 12 19:16:33 cloud-gw-05 mon-agent[9933]: log_collected: Event log forwarded to SIEM events=3853 syslog_ok=true
+Jan 15 11:48:41 auth-srv-03 backup[1792]: backup_ok: Daily backup completed size=454GB duration=178min
+Feb 01 12:21:31 cloud-gw-05 edr-agent[2611]: edr_detect: Suspicious process injection detected pid=429 user=jgarcia severity=HIGH
+Jan 26 22:20:14 db-srv-02 ids-agent[3041]: ids_alert: IDS signature triggered: port_scan detected from 198.51.100.20 ports_scanned=415
+Jan 03 11:49:27 dlp-agent-08 cron[4455]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 12 10:44:20 dlp-agent-08 siem-agent[3072]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 185.220.101.5 count=41
+Feb 06 22:50:51 dlp-agent-08 mon-agent[8242]: log_collected: Event log forwarded to SIEM events=2337 syslog_ok=true
+Feb 26 22:47:06 siem-srv-06 vuln-scanner[8842]: vulnerability_scan_complet: Scan finished host=192.168.1.50 findings=critical:1,high:8,medium:9
+Jan 03 20:27:37 auth-srv-03 systemd[1]: service_start: Started backup-agent service.
+Mar 09 22:38:34 web-srv-01 edr-agent[5882]: ransomware: Ransomware behavior detected process=svchost.exe blocking=true
+Feb 07 13:14:56 auth-srv-03 vuln-scanner[7675]: vulnerability_scan_complet: Scan finished host=203.0.113.50 findings=critical:2,high:1,medium:7
+Mar 22 03:20:39 cloud-gw-05 clamav[4332]: malware_quarantine: 192.168.1.100:7267: Eicar-Test-Signature FOUND quarantined
+Jan 27 02:59:17 db-srv-02 incident-mgr[5757]: incident_open: Security incident ticket TKT-1722 created severity=MEDIUM
+Feb 12 05:01:20 web-srv-01 mon-agent[6676]: log_collected: Event log forwarded to SIEM events=3706 syslog_ok=true
+Jan 13 00:05:19 backup-srv-07 systemd[1]: service_start: Started clamav service.
+Feb 15 17:50:50 proxy-srv-04 cron[4282]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 23 05:45:29 web-srv-01 systemd[1]: service_start: Started backup-agent service.
+Mar 23 09:18:45 proxy-srv-04 clamav[5286]: malware_quarantine: 172.16.0.25:7678: Eicar-Test-Signature FOUND quarantined
+Jan 06 22:57:22 dlp-agent-08 incident-mgr[4510]: incident_open: Security incident ticket TKT-6012 created severity=HIGH
+Jan 12 20:57:54 dlp-agent-08 patch-mgr[6546]: patch_applied: CVE-2024-3019 patch_applied successfully on proxy-srv-04
+Feb 17 03:54:01 web-srv-01 incident-mgr[8005]: breach_detect: Potential data breach detected user=devops exfiltration_attempt=true
+Feb 29 06:20:50 proxy-srv-04 config-mgr[5095]: config_baseline: Configuration compliance check passed on web-srv-01 hardening_applied=CIS-L2
+Feb 14 03:20:44 backup-srv-07 systemd[1]: service_start: Started clamav service.
+Mar 10 20:54:18 backup-srv-07 config-mgr[3470]: config_baseline: Configuration compliance check passed on db-srv-02 hardening_applied=CIS-L2
+Feb 15 19:22:12 backup-srv-07 vuln-scanner[2251]: vulnerability_scan_complet: Scan finished host=192.168.1.50 findings=critical:3,high:5,medium:3
+Jan 04 13:26:59 web-srv-01 systemd[1]: service_start: Started backup-agent service.
+Mar 04 03:41:48 cloud-gw-05 backup[9596]: backup_ok: Daily backup completed size=445GB duration=123min
+Mar 21 03:20:19 auth-srv-03 backup[4966]: backup_ok: Daily backup completed size=120GB duration=34min
+Mar 03 00:35:37 db-srv-02 vuln-scanner[7654]: vulnerability_critical_unpatched: CVE-2024-6995 CRITICAL unpatched on proxy-srv-04 patch_overdue=41days
+Jan 10 10:11:24 web-srv-01 incident-mgr[3645]: incident_open: Security incident ticket TKT-6993 created severity=MEDIUM
+Feb 19 14:17:04 db-srv-02 siem-agent[8225]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 45.33.32.156 count=33
+Mar 23 11:36:23 cloud-gw-05 systemd[1]: service_start: Started backup-agent service.
+Mar 17 17:49:28 auth-srv-03 ids-agent[3435]: ids_alert: IDS signature triggered: port_scan detected from 45.33.32.156 ports_scanned=436
+Feb 27 11:35:02 proxy-srv-04 cron[5337]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 17 07:57:02 dlp-agent-08 systemd[1]: service_start: Started nginx service.
+Feb 27 04:02:39 cloud-gw-05 backup[1245]: backup_ok: Daily backup completed size=495GB duration=31min
+Feb 20 19:27:48 siem-srv-06 patch-mgr[7593]: patch_applied: CVE-2024-6884 patch_applied successfully on db-srv-02
+Feb 17 03:48:56 dlp-agent-08 incident-mgr[4706]: incident_open: Security incident ticket TKT-2142 created severity=CRITICAL
+Feb 07 18:12:46 db-srv-02 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Jan 26 21:45:54 web-srv-01 vuln-scanner[5265]: vulnerability_scan_complet: Scan finished host=172.16.0.25 findings=critical:3,high:8,medium:13
+Feb 08 16:36:24 db-srv-02 ids-agent[2760]: ids_alert: IDS signature triggered: port_scan detected from 203.0.113.50 ports_scanned=199
+Jan 28 21:44:09 dlp-agent-08 systemd[1]: service_start: Started nginx service.
+Mar 15 21:26:56 db-srv-02 ids-agent[3877]: ids_alert: IDS signature triggered: port_scan detected from 1.1.1.1 ports_scanned=436
+Mar 16 21:17:11 auth-srv-03 incident-mgr[3620]: incident_open: Security incident ticket TKT-5452 created severity=MEDIUM
+Jan 08 22:26:46 web-srv-01 config-mgr[6712]: config_drift: Unauthorized configuration change detected on backup-srv-07 param=firewall_ruleset baseline_violat=true
+Jan 17 09:10:20 dlp-agent-08 patch-mgr[4356]: patch_applied: CVE-2023-39354 patch_applied successfully on siem-srv-06
+Jan 08 17:22:05 proxy-srv-04 vuln-scanner[2424]: vulnerability_scan_complet: Scan finished host=172.16.0.25 findings=critical:3,high:6,medium:7
+Feb 27 10:00:24 db-srv-02 patch-mgr[6389]: patch_applied: CVE-2023-28144 patch_applied successfully on proxy-srv-04
+Mar 16 17:30:01 db-srv-02 ids-agent[4858]: ids_alert: IDS signature triggered: port_scan detected from 203.0.113.50 ports_scanned=739
+Mar 03 20:19:16 db-srv-02 cron[3712]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 30 09:50:51 db-srv-02 mon-agent[6899]: log_collected: Event log forwarded to SIEM events=3541 syslog_ok=true
+Feb 08 23:44:42 dlp-agent-08 vuln-scanner[3700]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:3,high:4,medium:5
+Mar 27 19:29:57 backup-srv-07 config-mgr[8946]: config_baseline: Configuration compliance check passed on siem-srv-06 hardening_applied=CIS-L2
+Jan 27 00:52:12 siem-srv-06 backup[2186]: backup_ok: Daily backup completed size=193GB duration=174min
+Feb 22 14:56:47 proxy-srv-04 vuln-scanner[5203]: vulnerability_critical_unpatched: CVE-2024-14484 CRITICAL unpatched on proxy-srv-04 patch_overdue=34days
+Jan 03 02:03:47 siem-srv-06 incident-mgr[2418]: breach_detect: Potential data breach detected user=api_svc exfiltration_attempt=true
+Mar 21 17:28:34 cloud-gw-05 mon-agent[3451]: log_collected: Event log forwarded to SIEM events=4952 syslog_ok=true
+Jan 26 23:09:36 proxy-srv-04 cron[1097]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 14 19:09:46 cloud-gw-05 backup[5729]: backup_ok: Daily backup completed size=110GB duration=31min
+Feb 17 01:47:36 dlp-agent-08 mon-agent[4090]: log_collected: Event log forwarded to SIEM events=988 syslog_ok=true
+Feb 17 08:50:53 siem-srv-06 patch-mgr[1919]: patch_applied: CVE-2022-9645 patch_applied successfully on siem-srv-06
+Mar 25 09:40:32 auth-srv-03 patch-mgr[6772]: patch_applied: CVE-2023-7636 patch_applied successfully on proxy-srv-04
+Mar 03 05:24:59 web-srv-01 incident-mgr[4635]: incident_open: Security incident ticket TKT-8518 created severity=LOW
+Mar 20 09:57:48 siem-srv-06 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Mar 27 22:45:25 web-srv-01 incident-mgr[1198]: incident_open: Security incident ticket TKT-1718 created severity=MEDIUM
+Mar 06 01:30:57 dlp-agent-08 config-mgr[3017]: config_drift: Unauthorized configuration change detected on db-srv-02 param=firewall_ruleset baseline_violat=true
+Mar 03 10:04:53 cloud-gw-05 patch-mgr[4536]: patch_applied: CVE-2022-4323 patch_applied successfully on backup-srv-07
+Mar 17 04:22:42 web-srv-01 incident-mgr[2537]: breach_detect: Potential data breach detected user=devops exfiltration_attempt=true
+Jan 29 23:02:56 web-srv-01 backup[4267]: backup_ok: Daily backup completed size=270GB duration=175min
+Mar 03 14:33:46 auth-srv-03 patch-mgr[5262]: patch_applied: CVE-2023-36112 patch_applied successfully on backup-srv-07
+Feb 13 02:04:12 web-srv-01 vuln-scanner[6749]: vulnerability_critical_unpatched: CVE-2024-27512 CRITICAL unpatched on dlp-agent-08 patch_overdue=32days
+Mar 04 22:21:56 backup-srv-07 vuln-scanner[5454]: vulnerability_scan_complet: Scan finished host=172.16.0.25 findings=critical:3,high:5,medium:5
+Mar 10 17:27:31 auth-srv-03 cron[7867]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 05 16:44:56 auth-srv-03 ids-agent[7505]: ids_alert: IDS signature triggered: port_scan detected from 172.16.0.25 ports_scanned=395
+Mar 22 05:42:40 proxy-srv-04 kernel: [  225077.109183] Out of memory: oom_killer invoked process=mysqld
+Jan 02 05:26:38 cloud-gw-05 incident-mgr[8418]: incident_open: Security incident ticket TKT-4761 created severity=MEDIUM
+Mar 18 07:02:46 db-srv-02 vuln-scanner[7074]: vulnerability_critical_unpatched: CVE-2024-40693 CRITICAL unpatched on cloud-gw-05 patch_overdue=36days
+Mar 29 15:00:54 db-srv-02 siem-agent[2532]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 10.0.1.10 count=29
+Feb 01 03:33:23 auth-srv-03 ids-agent[1076]: ids_alert: IDS signature triggered: port_scan detected from 192.168.1.50 ports_scanned=109
+Mar 04 08:25:12 dlp-agent-08 mon-agent[6735]: log_collected: Event log forwarded to SIEM events=124 syslog_ok=true
+Feb 24 05:04:57 auth-srv-03 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Jan 06 02:16:06 cloud-gw-05 systemd[1]: service_start: Started postgresql service.
+Jan 29 06:45:09 dlp-agent-08 vuln-scanner[5742]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:0,high:5,medium:14
+Jan 24 14:55:54 proxy-srv-04 kernel: [  305707.116952] Out of memory: oom_killer invoked process=mysqld
+Feb 22 17:51:03 proxy-srv-04 mon-agent[5870]: log_collected: Event log forwarded to SIEM events=1838 syslog_ok=true
+Mar 25 14:29:51 cloud-gw-05 incident-mgr[4666]: incident_open: Security incident ticket TKT-7808 created severity=CRITICAL
+Feb 20 23:24:05 db-srv-02 backup[9090]: backup_ok: Daily backup completed size=174GB duration=57min
+Jan 04 01:37:21 auth-srv-03 clamav[4096]: malware_quarantine: 91.108.4.12:30152: Eicar-Test-Signature FOUND quarantined
+Jan 31 01:52:21 siem-srv-06 backup[3552]: backup_ok: Daily backup completed size=105GB duration=104min
+Mar 19 23:14:21 web-srv-01 backup[1968]: backup_fail: Backup error: connection timeout to backup-srv-07
+Jan 16 10:27:35 web-srv-01 siem-agent[8729]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 1.1.1.1 count=14
+Feb 09 18:38:14 siem-srv-06 mon-agent[8226]: log_collected: Event log forwarded to SIEM events=3059 syslog_ok=true
+Mar 02 17:21:52 db-srv-02 vuln-scanner[8121]: vulnerability_scan_complet: Scan finished host=192.168.1.100 findings=critical:1,high:7,medium:15
+Mar 17 01:07:18 web-srv-01 backup[2489]: backup_fail: Backup error: connection timeout to backup-srv-07
+Mar 15 16:15:44 cloud-gw-05 systemd[1]: service_start: Started clamav service.
+Mar 23 03:44:20 backup-srv-07 backup[5019]: backup_fail: Backup error: connection timeout to backup-srv-07
+Mar 11 23:39:16 backup-srv-07 patch-mgr[8591]: patch_applied: CVE-2023-45287 patch_applied successfully on proxy-srv-04
+Jan 02 03:43:01 proxy-srv-04 edr-agent[2091]: edr_detect: Suspicious process injection detected pid=3872 user=devops severity=HIGH
+Jan 23 01:40:18 siem-srv-06 config-mgr[9405]: config_baseline: Configuration compliance check passed on db-srv-02 hardening_applied=CIS-L2
+Mar 23 21:43:47 siem-srv-06 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Feb 11 17:49:31 db-srv-02 patch-mgr[1038]: patch_applied: CVE-2022-7814 patch_applied successfully on web-srv-01
+Mar 14 16:58:30 proxy-srv-04 systemd[1]: service_start: Started sshd service.
+Feb 10 17:43:40 backup-srv-07 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Feb 08 15:31:59 web-srv-01 config-mgr[9248]: config_drift: Unauthorized configuration change detected on cloud-gw-05 param=firewall_ruleset baseline_violat=true
+Mar 21 05:34:59 web-srv-01 backup[4197]: backup_ok: Daily backup completed size=188GB duration=92min
+Mar 17 10:06:02 auth-srv-03 vuln-scanner[3649]: vulnerability_critical_unpatched: CVE-2022-12265 CRITICAL unpatched on backup-srv-07 patch_overdue=37days
+Mar 17 14:26:00 backup-srv-07 kernel: [  296874.170668] Out of memory: oom_killer invoked process=python
+Mar 24 22:57:51 siem-srv-06 systemd[1]: service_start: Started clamav service.
+Mar 10 01:46:25 auth-srv-03 siem-agent[1171]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 203.0.113.50 count=37
+Jan 24 13:02:15 web-srv-01 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Mar 20 22:38:53 db-srv-02 ids-agent[7054]: ids_alert: IDS signature triggered: port_scan detected from 91.108.4.12 ports_scanned=922
+Mar 27 21:30:48 cloud-gw-05 ids-agent[7726]: ids_alert: IDS signature triggered: port_scan detected from 91.108.4.12 ports_scanned=649
+Feb 24 04:50:43 backup-srv-07 siem-agent[5329]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 77.88.8.8 count=19
+Mar 21 16:58:43 proxy-srv-04 clamav[8904]: malware_quarantine: 77.88.8.8:43556: Eicar-Test-Signature FOUND quarantined
+Feb 07 11:19:53 auth-srv-03 systemd[1]: service_start: Started postgresql service.
+Feb 01 22:16:17 web-srv-01 backup[2985]: backup_ok: Daily backup completed size=486GB duration=117min
+Feb 05 15:00:30 db-srv-02 siem-agent[6830]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 1.1.1.1 count=28
+Mar 18 01:05:17 auth-srv-03 mon-agent[7859]: log_collected: Event log forwarded to SIEM events=1383 syslog_ok=true
+Feb 03 09:42:50 siem-srv-06 clamav[4110]: malware_quarantine: 172.16.0.25:62617: Eicar-Test-Signature FOUND quarantined
+Feb 20 14:12:15 web-srv-01 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Feb 13 05:43:38 dlp-agent-08 systemd[1]: service_start: Started postgresql service.
+Mar 25 21:43:05 dlp-agent-08 siem-agent[4433]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 1.1.1.1 count=22
+Mar 26 19:30:10 web-srv-01 patch-mgr[2612]: patch_applied: CVE-2022-19823 patch_applied successfully on backup-srv-07
+Feb 05 22:27:08 dlp-agent-08 systemd[1]: service_start: Started nginx service.
+Jan 13 13:34:56 web-srv-01 systemd[1]: service_start: Started backup-agent service.
+Mar 02 09:45:26 auth-srv-03 incident-mgr[1736]: incident_open: Security incident ticket TKT-4175 created severity=HIGH
+Mar 08 04:56:07 auth-srv-03 backup[6552]: backup_ok: Daily backup completed size=369GB duration=144min
+Jan 06 13:53:36 siem-srv-06 siem-agent[9378]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 198.51.100.20 count=40
+Feb 09 19:29:07 dlp-agent-08 backup[8355]: backup_ok: Daily backup completed size=400GB duration=113min
+Feb 14 03:33:07 backup-srv-07 config-mgr[7211]: config_drift: Unauthorized configuration change detected on web-srv-01 param=firewall_ruleset baseline_violat=true
+Feb 21 15:46:45 siem-srv-06 siem-agent[1700]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 104.21.8.9 count=33
+Jan 13 01:01:11 dlp-agent-08 patch-mgr[7079]: patch_applied: CVE-2023-13739 patch_applied successfully on backup-srv-07
+Feb 29 23:39:18 web-srv-01 ids-agent[8522]: ids_alert: IDS signature triggered: port_scan detected from 203.0.113.50 ports_scanned=736
+Jan 03 08:45:55 backup-srv-07 siem-agent[1942]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 104.21.8.9 count=38
+Mar 29 21:39:56 siem-srv-06 config-mgr[6208]: config_drift: Unauthorized configuration change detected on cloud-gw-05 param=firewall_ruleset baseline_violat=true
+Mar 30 02:17:40 siem-srv-06 edr-agent[1998]: edr_detect: Suspicious process injection detected pid=1240 user=mlopez severity=HIGH
+Feb 11 06:16:18 db-srv-02 backup[9241]: backup_ok: Daily backup completed size=30GB duration=64min
+Mar 30 20:52:03 backup-srv-07 patch-mgr[2429]: patch_applied: CVE-2024-7355 patch_applied successfully on web-srv-01
+Jan 13 05:06:11 backup-srv-07 incident-mgr[5588]: incident_open: Security incident ticket TKT-9023 created severity=LOW
+Jan 26 16:26:32 cloud-gw-05 systemd[1]: service_start: Started backup-agent service.
+Feb 26 17:29:17 proxy-srv-04 mon-agent[8813]: log_collected: Event log forwarded to SIEM events=1530 syslog_ok=true
+Jan 21 18:40:42 siem-srv-06 incident-mgr[8065]: incident_open: Security incident ticket TKT-4017 created severity=LOW
+Feb 17 12:35:57 proxy-srv-04 config-mgr[8937]: config_drift: Unauthorized configuration change detected on dlp-agent-08 param=firewall_ruleset baseline_violat=true
+Feb 14 18:48:35 backup-srv-07 systemd[1]: service_start: Started sshd service.
+Jan 07 15:28:37 proxy-srv-04 incident-mgr[7517]: incident_open: Security incident ticket TKT-5147 created severity=MEDIUM
+Feb 09 01:38:59 siem-srv-06 cron[9745]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 25 21:28:08 backup-srv-07 kernel: [  360489.251882] Out of memory: oom_killer invoked process=java
+Feb 01 22:17:59 db-srv-02 config-mgr[1893]: config_drift: Unauthorized configuration change detected on backup-srv-07 param=firewall_ruleset baseline_violat=true
+Jan 28 10:56:23 dlp-agent-08 siem-agent[4683]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 45.33.32.156 count=39
+Mar 05 08:50:08 auth-srv-03 mon-agent[2325]: log_collected: Event log forwarded to SIEM events=3024 syslog_ok=true
+Feb 28 09:23:11 auth-srv-03 backup[7494]: backup_ok: Daily backup completed size=335GB duration=101min
+Mar 15 15:31:01 auth-srv-03 incident-mgr[5089]: breach_detect: Potential data breach detected user=api_svc exfiltration_attempt=true
+Jan 08 09:00:13 siem-srv-06 cron[3933]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 12 23:41:45 siem-srv-06 siem-agent[5900]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 104.21.8.9 count=13
+Jan 07 20:55:22 proxy-srv-04 mon-agent[4172]: log_collected: Event log forwarded to SIEM events=220 syslog_ok=true
+Mar 13 12:19:28 backup-srv-07 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Feb 27 11:00:23 web-srv-01 siem-agent[9393]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 203.0.113.50 count=48
+Jan 22 19:42:51 auth-srv-03 backup[3065]: backup_fail: Backup error: connection timeout to backup-srv-07
+Mar 04 13:21:39 backup-srv-07 clamav[2570]: malware_quarantine: 10.0.1.10:40939: Eicar-Test-Signature FOUND quarantined
+Feb 12 08:04:05 db-srv-02 backup[9536]: backup_ok: Daily backup completed size=482GB duration=118min
+Feb 05 23:15:43 cloud-gw-05 backup[8640]: backup_ok: Daily backup completed size=37GB duration=127min
+Mar 19 21:55:08 proxy-srv-04 patch-mgr[5489]: patch_applied: CVE-2023-42253 patch_applied successfully on dlp-agent-08
+Feb 02 13:50:36 dlp-agent-08 cron[8529]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 13 10:27:47 cloud-gw-05 cron[3872]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 29 01:44:45 db-srv-02 vuln-scanner[6175]: vulnerability_scan_complet: Scan finished host=192.168.1.100 findings=critical:0,high:0,medium:8
+Feb 19 23:51:55 auth-srv-03 systemd[1]: service_start: Started backup-agent service.
+Jan 20 07:35:53 siem-srv-06 ids-agent[8817]: ids_alert: IDS signature triggered: port_scan detected from 185.220.101.5 ports_scanned=636
+Feb 13 07:49:24 proxy-srv-04 config-mgr[2241]: config_baseline: Configuration compliance check passed on dlp-agent-08 hardening_applied=CIS-L2
+Mar 16 01:02:39 web-srv-01 incident-mgr[2172]: incident_open: Security incident ticket TKT-9463 created severity=MEDIUM
+Jan 09 02:28:11 db-srv-02 mon-agent[9791]: log_collected: Event log forwarded to SIEM events=4954 syslog_ok=true
+Mar 23 22:02:48 db-srv-02 backup[7352]: backup_fail: Backup error: connection timeout to backup-srv-07
+Jan 24 00:41:26 auth-srv-03 edr-agent[4759]: edr_detect: Suspicious process injection detected pid=7892 user=mlopez severity=HIGH
+Jan 07 07:45:00 siem-srv-06 patch-mgr[6920]: patch_applied: CVE-2022-35729 patch_applied successfully on db-srv-02
+Jan 30 04:34:33 db-srv-02 vuln-scanner[1040]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:1,high:1,medium:12
+Mar 02 07:34:43 dlp-agent-08 siem-agent[8917]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 192.168.1.50 count=25
+Mar 23 11:37:11 auth-srv-03 vuln-scanner[7042]: vulnerability_critical_unpatched: CVE-2024-3526 CRITICAL unpatched on dlp-agent-08 patch_overdue=53days
+Jan 30 16:42:47 dlp-agent-08 mon-agent[3972]: log_collected: Event log forwarded to SIEM events=2195 syslog_ok=true
+Mar 27 20:04:15 proxy-srv-04 siem-agent[3709]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 10.0.1.10 count=12
+Jan 12 23:17:08 auth-srv-03 systemd[1]: service_start: Started sshd service.
+Mar 22 11:27:57 db-srv-02 clamav[7432]: malware_quarantine: 203.0.113.50:1449: Eicar-Test-Signature FOUND quarantined
+Feb 01 16:24:06 dlp-agent-08 backup[6418]: backup_ok: Daily backup completed size=475GB duration=161min
+Mar 09 23:41:13 web-srv-01 mon-agent[4788]: log_collected: Event log forwarded to SIEM events=264 syslog_ok=true
+Feb 12 05:55:45 dlp-agent-08 backup[6527]: backup_ok: Daily backup completed size=139GB duration=33min
+Feb 26 15:36:24 web-srv-01 mon-agent[4740]: log_collected: Event log forwarded to SIEM events=2142 syslog_ok=true
+Feb 28 14:21:07 auth-srv-03 patch-mgr[4089]: patch_applied: CVE-2022-22338 patch_applied successfully on db-srv-02
+Feb 18 21:38:25 cloud-gw-05 systemd[1]: service_start: Started clamav service.
+Mar 21 03:05:48 proxy-srv-04 incident-mgr[6847]: incident_open: Security incident ticket TKT-4823 created severity=LOW
+Mar 18 02:13:33 siem-srv-06 clamav[8195]: malware_quarantine: 77.88.8.8:62591: Eicar-Test-Signature FOUND quarantined
+Mar 25 18:59:07 db-srv-02 patch-mgr[9238]: patch_applied: CVE-2024-2140 patch_applied successfully on db-srv-02
+Feb 12 01:36:03 db-srv-02 siem-agent[5576]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 77.88.8.8 count=14
+Jan 30 23:21:22 backup-srv-07 siem-agent[6018]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 185.220.101.5 count=11
+Mar 22 08:04:32 siem-srv-06 patch-mgr[1404]: patch_applied: CVE-2022-27595 patch_applied successfully on auth-srv-03
+Feb 09 21:45:04 cloud-gw-05 systemd[1]: service_start: Started nginx service.
+Jan 21 12:13:15 siem-srv-06 siem-agent[6973]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 77.88.8.8 count=40
+Jan 20 04:38:22 db-srv-02 vuln-scanner[6813]: vulnerability_critical_unpatched: CVE-2022-46736 CRITICAL unpatched on proxy-srv-04 patch_overdue=37days
+Jan 26 10:58:35 siem-srv-06 cron[1433]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 15 08:28:27 proxy-srv-04 systemd[1]: service_start: Started nginx service.
+Mar 05 14:14:06 proxy-srv-04 vuln-scanner[1963]: vulnerability_critical_unpatched: CVE-2022-46192 CRITICAL unpatched on db-srv-02 patch_overdue=52days
+Jan 24 10:21:43 auth-srv-03 config-mgr[2233]: config_baseline: Configuration compliance check passed on auth-srv-03 hardening_applied=CIS-L2
+Mar 09 01:17:09 cloud-gw-05 patch-mgr[4613]: patch_applied: CVE-2022-14096 patch_applied successfully on cloud-gw-05
+Feb 13 20:06:29 dlp-agent-08 config-mgr[9466]: config_baseline: Configuration compliance check passed on web-srv-01 hardening_applied=CIS-L2
+Jan 27 04:03:23 backup-srv-07 vuln-scanner[9542]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:3,high:4,medium:10
+Feb 04 03:29:30 dlp-agent-08 systemd[1]: service_start: Started postgresql service.
+Jan 26 03:35:39 db-srv-02 config-mgr[5309]: config_baseline: Configuration compliance check passed on web-srv-01 hardening_applied=CIS-L2
+Jan 04 12:12:38 db-srv-02 config-mgr[9991]: config_baseline: Configuration compliance check passed on db-srv-02 hardening_applied=CIS-L2
+Feb 18 23:18:10 proxy-srv-04 backup[9049]: backup_fail: Backup error: connection timeout to backup-srv-07
+Jan 31 11:44:37 web-srv-01 siem-agent[4571]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 10.0.2.5 count=23
+Mar 19 04:17:45 backup-srv-07 cron[5213]: (root) CMD (backup --incremental --dest /backup/daily/)
+Jan 28 01:57:04 proxy-srv-04 config-mgr[9259]: config_baseline: Configuration compliance check passed on backup-srv-07 hardening_applied=CIS-L2
+Mar 28 22:31:03 web-srv-01 systemd[1]: service_start: Started nginx service.
+Jan 05 19:31:55 siem-srv-06 backup[1418]: backup_ok: Daily backup completed size=279GB duration=62min
+Feb 11 10:40:29 cloud-gw-05 kernel: [  750212.454835] Out of memory: oom_killer invoked process=mysqld
+Feb 13 11:39:08 siem-srv-06 cron[4674]: (root) CMD (backup --incremental --dest /backup/daily/)
+Feb 27 18:11:01 proxy-srv-04 vuln-scanner[3998]: vulnerability_critical_unpatched: CVE-2023-19175 CRITICAL unpatched on siem-srv-06 patch_overdue=78days
+Jan 15 17:08:18 auth-srv-03 ids-agent[7809]: ids_alert: IDS signature triggered: port_scan detected from 198.51.100.20 ports_scanned=116
+Mar 08 13:49:25 proxy-srv-04 vuln-scanner[6266]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:0,high:6,medium:5
+Feb 12 17:39:24 siem-srv-06 backup[3788]: backup_ok: Daily backup completed size=73GB duration=151min
+Mar 03 09:47:24 auth-srv-03 mon-agent[3502]: log_collected: Event log forwarded to SIEM events=3599 syslog_ok=true
+Feb 12 21:40:50 siem-srv-06 backup[8057]: backup_fail: Backup error: connection timeout to backup-srv-07
+Feb 25 07:30:40 siem-srv-06 config-mgr[7307]: config_baseline: Configuration compliance check passed on backup-srv-07 hardening_applied=CIS-L2
+Jan 09 18:41:51 cloud-gw-05 incident-mgr[1580]: incident_open: Security incident ticket TKT-6597 created severity=CRITICAL
+Mar 05 15:06:48 db-srv-02 systemd[1]: service_down: Failed to start nginx.service - A high performance web server. Status=failed
+Jan 10 14:09:28 db-srv-02 backup[3734]: backup_ok: Daily backup completed size=409GB duration=106min
+Mar 01 08:18:58 cloud-gw-05 config-mgr[6740]: config_drift: Unauthorized configuration change detected on db-srv-02 param=firewall_ruleset baseline_violat=true
+Jan 27 08:35:21 auth-srv-03 incident-mgr[8204]: incident_open: Security incident ticket TKT-5475 created severity=HIGH
+Mar 16 01:46:13 proxy-srv-04 backup[8873]: backup_ok: Daily backup completed size=420GB duration=36min
+Feb 02 07:19:33 auth-srv-03 ids-agent[7528]: ids_alert: IDS signature triggered: port_scan detected from 203.0.113.50 ports_scanned=896
+Jan 22 06:27:41 proxy-srv-04 config-mgr[1028]: config_baseline: Configuration compliance check passed on cloud-gw-05 hardening_applied=CIS-L2
+Jan 05 23:03:48 web-srv-01 edr-agent[7963]: edr_detect: Suspicious process injection detected pid=1945 user=jgarcia severity=HIGH
+Jan 29 12:50:36 proxy-srv-04 backup[3919]: backup_ok: Daily backup completed size=164GB duration=173min
+Feb 13 08:10:33 cloud-gw-05 incident-mgr[5502]: breach_detect: Potential data breach detected user=dbadmin exfiltration_attempt=true
+Jan 04 06:16:15 siem-srv-06 backup[3800]: backup_ok: Daily backup completed size=37GB duration=57min
+Feb 27 12:07:13 dlp-agent-08 systemd[1]: service_start: Started clamav service.
+Jan 18 10:24:46 cloud-gw-05 vuln-scanner[1292]: vulnerability_critical_unpatched: CVE-2022-18206 CRITICAL unpatched on cloud-gw-05 patch_overdue=85days
+Mar 25 14:28:43 proxy-srv-04 mon-agent[3000]: log_collected: Event log forwarded to SIEM events=874 syslog_ok=true
+Jan 29 02:26:13 backup-srv-07 edr-agent[9811]: edr_detect: Suspicious process injection detected pid=8524 user=jgarcia severity=HIGH
+Mar 14 19:05:32 siem-srv-06 patch-mgr[5400]: patch_applied: CVE-2023-15202 patch_applied successfully on siem-srv-06
+Jan 09 04:33:00 auth-srv-03 incident-mgr[9774]: incident_open: Security incident ticket TKT-3334 created severity=CRITICAL
+Feb 13 03:37:58 backup-srv-07 vuln-scanner[6244]: vulnerability_scan_complet: Scan finished host=10.0.2.5 findings=critical:0,high:3,medium:9
+Feb 02 14:21:47 backup-srv-07 mon-agent[2951]: log_collected: Event log forwarded to SIEM events=4739 syslog_ok=true
+Jan 02 21:29:19 db-srv-02 systemd[1]: service_start: Started sshd service.
+Feb 06 03:35:00 db-srv-02 backup[3802]: backup_fail: Backup error: connection timeout to backup-srv-07
+Feb 12 17:56:26 cloud-gw-05 vuln-scanner[5139]: vulnerability_scan_complet: Scan finished host=77.88.8.8 findings=critical:2,high:7,medium:12
+Jan 23 05:08:54 web-srv-01 clamav[1039]: malware_quarantine: 91.108.4.12:23195: Eicar-Test-Signature FOUND quarantined
+Jan 10 16:08:22 siem-srv-06 vuln-scanner[1499]: vulnerability_scan_complet: Scan finished host=192.168.1.100 findings=critical:3,high:8,medium:4
+Jan 09 06:24:25 web-srv-01 vuln-scanner[7633]: vulnerability_scan_complet: Scan finished host=45.33.32.156 findings=critical:3,high:1,medium:2
+Feb 14 15:43:17 backup-srv-07 mon-agent[6975]: log_collected: Event log forwarded to SIEM events=983 syslog_ok=true
+Jan 11 12:11:30 db-srv-02 config-mgr[2251]: config_drift: Unauthorized configuration change detected on backup-srv-07 param=firewall_ruleset baseline_violat=true
+Jan 13 16:15:31 siem-srv-06 edr-agent[5252]: edr_detect: Suspicious process injection detected pid=3903 user=readonly_user severity=HIGH
+Mar 21 09:58:55 siem-srv-06 config-mgr[5134]: config_baseline: Configuration compliance check passed on auth-srv-03 hardening_applied=CIS-L2
+Mar 28 04:10:32 cloud-gw-05 vuln-scanner[3873]: vulnerability_scan_complet: Scan finished host=45.33.32.156 findings=critical:3,high:5,medium:12
+Mar 31 01:53:45 auth-srv-03 patch-mgr[4237]: patch_applied: CVE-2024-23210 patch_applied successfully on siem-srv-06
+Mar 16 17:35:51 dlp-agent-08 clamav[4957]: malware_quarantine: 198.51.100.20:47490: Eicar-Test-Signature FOUND quarantined
+Feb 27 02:59:24 auth-srv-03 backup[6261]: backup_ok: Daily backup completed size=311GB duration=61min
+Mar 11 13:44:19 db-srv-02 edr-agent[8317]: edr_detect: Suspicious process injection detected pid=4556 user=aruiz severity=HIGH
+Feb 22 19:53:55 siem-srv-06 backup[7084]: backup_ok: Daily backup completed size=402GB duration=65min
+Jan 15 15:29:05 auth-srv-03 siem-agent[5170]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 45.33.32.156 count=34
+Jan 02 18:20:01 siem-srv-06 config-mgr[9144]: config_baseline: Configuration compliance check passed on db-srv-02 hardening_applied=CIS-L2
+Jan 20 16:29:41 cloud-gw-05 backup[3264]: backup_ok: Daily backup completed size=383GB duration=37min
+Jan 24 22:09:15 siem-srv-06 patch-mgr[4096]: patch_applied: CVE-2024-3189 patch_applied successfully on cloud-gw-05
+Feb 20 18:02:01 db-srv-02 ids-agent[6530]: ids_alert: IDS signature triggered: port_scan detected from 77.88.8.8 ports_scanned=293
+Mar 06 08:34:01 db-srv-02 siem-agent[7480]: siem_alert: SIEM correlation rule triggered: Multiple failed logins from 1.1.1.1 count=39
+Mar 30 01:50:16 db-srv-02 cron[1308]: (root) CMD (backup --incremental --dest /backup/daily/)
+Mar 07 18:39:58 db-srv-02 systemd[1]: service_start: Started nginx service.
+Jan 28 04:56:59 siem-srv-06 backup[1601]: backup_ok: Daily backup completed size=179GB duration=153min
+Jan 16 01:29:19 backup-srv-07 ids-agent[9471]: ids_alert: IDS signature triggered: port_scan detected from 91.108.4.12 ports_scanned=512
+Jan 14 19:25:42 db-srv-02 systemd[1]: service_start: Started clamav service.
+Feb 29 11:23:31 siem-srv-06 systemd[1]: service_start: Started nginx service.
