@@ -565,7 +565,7 @@ with st.container():
                     legend=dict(orientation="h", y=-0.15, x=0.5, xanchor="center", font=dict(color="#9a958a",size=10)),
                     height=480, margin=dict(l=80,r=80,t=80,b=100),
                     paper_bgcolor="#0b0a08",
-                    title=dict(text="<b>Comparativa de Perfiles de Madurez</b>", x=0.5, font=dict(size=13,color="#f0ede4")),
+                    title_text="<b>Comparativa de Perfiles de Madurez</b>", title_font=dict(size=13,color="#f0ede4"), title_x=0.5,
                 )
                 st.plotly_chart(fig_compare, use_container_width=True)
         elif compare_files and len(compare_files) < 2:
@@ -851,8 +851,7 @@ with col_rad2:
         legend=dict(orientation="h", y=-0.18, x=0.5, xanchor="center", font=dict(color="#9a958a",size=11)),
         height=540, margin=dict(l=90,r=90,t=100,b=120),
         paper_bgcolor="#0b0a08",
-        title=dict(text=f"<b>Perfil de Madurez — Nivel {lvl} · {result.overall_score:.1f}/100</b>",
-                   x=0.5, font=dict(size=13, color="#f0ede4")),
+        title_text=f"<b>Perfil de Madurez — Nivel {lvl} · {result.overall_score:.1f}/100</b>", title_font=dict(size=13, color="#f0ede4"), title_x=0.5,
     )
     st.plotly_chart(fig_rad2, use_container_width=True)
 
@@ -879,7 +878,7 @@ with col_bars:
         legend=dict(orientation="h", y=-0.35, x=0.5, xanchor="center"),
         yaxis=dict(title="N° eventos", **PLOTLY_AXIS_DARK),
         xaxis=dict(tickangle=-20, **PLOTLY_AXIS_DARK),
-        title=dict(text="Riesgo vs Seguros por Dominio", font=dict(color="#9a958a",size=11)),
+        title_text="Riesgo vs Seguros por Dominio", title_font=dict(color="#9a958a",size=11),
     )
     st.plotly_chart(fig_bar, use_container_width=True)
 
@@ -903,7 +902,7 @@ with col_bars:
         xaxis=dict(range=[0,110], title="Score (0–100)", **PLOTLY_AXIS_DARK),
         yaxis=dict(**PLOTLY_AXIS_DARK),
         showlegend=False,
-        title=dict(text="Score por Dominio", font=dict(color="#9a958a",size=11)),
+        title_text="Score por Dominio", title_font=dict(color="#9a958a",size=11),
     )
     st.plotly_chart(fig_h, use_container_width=True)
 
@@ -945,7 +944,7 @@ with col_pie:
         annotations=[dict(text=f"<b style='color:#f0ede4'>{result.total_events:,}</b>", x=0.5, y=0.5,
                           font=dict(size=11,color="#f0ede4"), showarrow=False)],
         showlegend=False,
-        title=dict(text="Distribución por Dominio", font=dict(color="#9a958a",size=11)),
+        title_text="Distribución por Dominio", title_font=dict(color="#9a958a",size=11),
     )
     st.plotly_chart(fig_pie, use_container_width=True)
 
@@ -974,7 +973,7 @@ with col_sun:
     ))
     fig_sun.update_layout(
         height=300, margin=dict(l=0,r=0,t=30,b=10), paper_bgcolor="#0b0a08",
-        title=dict(text="Jerarquía de Eventos", font=dict(color="#9a958a",size=11)),
+        title_text="Jerarquía de Eventos", title_font=dict(color="#9a958a",size=11),
     )
     st.plotly_chart(fig_sun, use_container_width=True)
 
@@ -1005,7 +1004,7 @@ with col_heat:
         height=300, margin=dict(l=10,r=10,t=30,b=10), **PLOTLY_DARK,
         xaxis=dict(tickangle=-15, tickfont=dict(color="#9a958a",size=9)),
         yaxis=dict(tickfont=dict(color="#9a958a",size=9)),
-        title=dict(text="Mapa de Calor de Riesgo", font=dict(color="#9a958a",size=11)),
+        title_text="Mapa de Calor de Riesgo", title_font=dict(color="#9a958a",size=11),
     )
     st.plotly_chart(fig_heat, use_container_width=True)
 
@@ -1324,7 +1323,7 @@ if run_dl or "dl_result" in st.session_state:
             fig.add_annotation(text="Modelo no entrenado",
                                xref="paper", yref="paper", x=0.5, y=0.5,
                                showarrow=False, font=dict(size=12, color="#9a958a"))
-            fig.update_layout(height=220, **PLOTLY_DARK, title=dict(text=title, font=dict(size=11,color=color)))
+            fig.update_layout(height=220, **PLOTLY_DARK, title_text=title, title_font=dict(size=11,color=color))
             return fig
         eps = list(range(1, len(train_loss)+1))
         fig = go.Figure()
@@ -1339,7 +1338,7 @@ if run_dl or "dl_result" in st.session_state:
                 mode="lines", yaxis="y2"))
         y_min = min(train_loss)*0.9; y_max = max(train_loss)*1.1
         layout = dict(
-            title=dict(text=title, font=dict(size=11, color=color)),
+            title_text=title, title_font=dict(size=11, color=color),
             height=220, margin=dict(l=40,r=40,t=40,b=30), **PLOTLY_DARK,
             legend=dict(orientation="h", y=-0.3, font=dict(size=8)),
             xaxis=dict(title="Época", **PLOTLY_AXIS_DARK),
@@ -1485,7 +1484,7 @@ if run_dl or "dl_result" in st.session_state:
             yaxis=dict(title="Probabilidad (%)", range=[0,115], **PLOTLY_AXIS_DARK),
             xaxis=dict(tickfont=dict(color="#9a958a",size=8), tickangle=-25),
             showlegend=False,
-            title=dict(text="Probabilidades MLP por Nivel", font=dict(color="#9a958a",size=11)))
+            title_text="Probabilidades MLP por Nivel", title_font=dict(color="#9a958a",size=11))
         st.plotly_chart(fig_mlp, use_container_width=True)
 
     with ml2:
@@ -1505,7 +1504,7 @@ if run_dl or "dl_result" in st.session_state:
             yaxis=dict(title="Score / Confianza (%)", range=[0,115], **PLOTLY_AXIS_DARK),
             xaxis=dict(tickfont=dict(color="#9a958a",size=9)),
             showlegend=False,
-            title=dict(text="Reglas vs Deep Learning", font=dict(color="#9a958a",size=11)),
+            title_text="Reglas vs Deep Learning", title_font=dict(color="#9a958a",size=11),
             annotations=[dict(text=f"<span style='color:{acuerdo_color}'>{acuerdo_txt}</span>",
                               x=0.5, y=-0.22, xref="paper", yref="paper",
                               font=dict(color=acuerdo_color,size=11), showarrow=False)],
