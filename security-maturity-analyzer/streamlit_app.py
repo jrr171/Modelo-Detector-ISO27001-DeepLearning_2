@@ -113,9 +113,30 @@ DOSSIER_CSS = """
   --mono:   'JetBrains Mono', monospace;
 }
 
-/* === Reset Streamlit === */
-html, body { margin:0; padding:0; background:var(--ink) !important; color:var(--bone) !important; font-family:var(--grotesk) !important; -webkit-font-smoothing:antialiased; }
-.stApp,[data-testid="stAppViewContainer"],[data-testid="block-container"],.main,.main>div { background:var(--ink) !important; }
+/* === Reset Streamlit — fondo papel forzado === */
+html, body,
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stAppViewBlockContainer"],
+[data-testid="block-container"],
+[data-testid="stMainBlockContainer"],
+[data-testid="stMain"],
+[data-testid="stBottom"],
+[data-testid="stHeader"],
+[data-testid="stDecoration"],
+[data-testid="stToolbar"],
+section.main,
+.main, .main > div,
+div[class*="appview"], div[class*="main"] {
+  background: #f0ede4 !important;
+  background-color: #f0ede4 !important;
+}
+html, body {
+  margin:0; padding:0;
+  color: #1a1814 !important;
+  font-family:var(--grotesk) !important;
+  -webkit-font-smoothing:antialiased;
+}
 .block-container,[data-testid="block-container"] { padding:0 !important; max-width:100% !important; }
 p,span,div,li { color:var(--bone); }
 ::selection { background:var(--signal); color:#fff; }
@@ -304,15 +325,18 @@ textarea::placeholder { color:var(--bone-faint) !important; }
 
 st.markdown(DOSSIER_CSS, unsafe_allow_html=True)
 
+# Pintar el fondo papel inmediatamente via JS
+st.markdown("""<script>(function(){var s=document.createElement("style");s.textContent="html,body,.stApp,[data-testid]{background:#f0ede4!important;background-color:#f0ede4!important;}";document.head.appendChild(s);document.documentElement.style.setProperty("background","#f0ede4","important");})();</script>""", unsafe_allow_html=True)
+
 # ────────────────────────────────────────────────────────────────────────────
 # Sidebar compacta (referencia)
 # ────────────────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown(f"""
-    <div style='font-family:var(--serif);font-weight:800;font-size:1.4rem;color:#f0ede4;margin-bottom:16px'>
-    Dossier <span style='color:#ff4d00;font-style:italic'>27001</span>
+    <div style='font-family:var(--serif);font-weight:800;font-size:1.4rem;color:#1a1814;margin-bottom:16px'>
+    Dossier <span style='color:#c43a00;font-style:italic'>27001</span>
     </div>
-    <div style='font-family:var(--mono);font-size:0.64rem;color:#67635b;letter-spacing:0.16em;text-transform:uppercase;margin-bottom:18px'>
+    <div style='font-family:var(--mono);font-size:0.64rem;color:#7a7570;letter-spacing:0.16em;text-transform:uppercase;margin-bottom:18px'>
     ISO/IEC 27001:2022 · COBIT 5
     </div>
     """, unsafe_allow_html=True)
@@ -514,14 +538,14 @@ with st.container():
                 fig_compare.update_layout(
                     polar=dict(
                         radialaxis=dict(visible=True, range=[0,100], tickfont=dict(color="#9a958a",size=9),
-                                        gridcolor="#2a2823", tickvals=[20,40,60,80,100]),
+                                        gridcolor="#c8c4b8", tickvals=[20,40,60,80,100]),
                         angularaxis=dict(tickfont=dict(color="#f0ede4",size=11)),
-                        bgcolor="#070605",
+                        bgcolor="#ddd9cc",
                     ),
                     showlegend=True,
                     legend=dict(orientation="h", y=-0.15, x=0.5, xanchor="center", font=dict(color="#9a958a",size=10)),
                     height=480, margin=dict(l=80,r=80,t=80,b=100),
-                    paper_bgcolor="#0b0a08",
+                    paper_bgcolor="#f0ede4",
                 )
                 st.plotly_chart(fig_compare, use_container_width=True)
         elif compare_files and len(compare_files) < 2:
@@ -668,13 +692,13 @@ with col_gauge:
         title={"text": f"<b>Nivel {lvl} — {lvl_info['name']}</b>", "font": {"size": 13, "color": "#9a958a"}},
         number={"suffix": "/100", "font": {"size": 34, "color": lc}},
         gauge={
-            "axis": {"range": [0, 100], "tickwidth": 1, "tickcolor": "#2a2823",
+            "axis": {"range": [0, 100], "tickwidth": 1, "tickcolor": "#c8c4b8",
                      "tickvals": [0,20,40,60,80,100],
                      "ticktext": ["0","20","40","60","80","100"],
                      "tickfont": {"color": "#9a958a", "size": 9}},
             "bar":  {"color": lc, "thickness": 0.28},
-            "bgcolor": "#070605",
-            "borderwidth": 1, "bordercolor": "#2a2823",
+            "bgcolor": "#ddd9cc",
+            "borderwidth": 1, "bordercolor": "#c8c4b8",
             "steps": [
                 {"range": [0, 20],  "color": "#1a0a08"},
                 {"range": [20, 40], "color": "#1a110a"},
@@ -685,7 +709,7 @@ with col_gauge:
             "threshold": {"line": {"color": lc, "width": 3}, "thickness": 0.75, "value": result.overall_score},
         }
     ))
-    fig_gauge.update_layout(height=300, margin=dict(l=20,r=20,t=50,b=10), paper_bgcolor="#131210", font=dict(color="#f0ede4"))
+    fig_gauge.update_layout(height=300, margin=dict(l=20,r=20,t=50,b=10), paper_bgcolor="#e8e4d9", font=dict(color="#1a1814"))
     st.plotly_chart(fig_gauge, use_container_width=True)
     st.markdown(f"<div style='font-family:var(--mono);font-size:0.74rem;color:var(--bone-dim);line-height:1.6;padding:10px 0'>{lvl_info['description']}</div>", unsafe_allow_html=True)
     st.markdown("</div></div></div>", unsafe_allow_html=True)
@@ -707,13 +731,13 @@ with col_radar:
     fig_radar.update_layout(
         polar=dict(
             radialaxis=dict(visible=True, range=[0,100], tickfont=dict(color="#9a958a",size=9),
-                            gridcolor="#2a2823", tickvals=[20,40,60,80,100]),
+                            gridcolor="#c8c4b8", tickvals=[20,40,60,80,100]),
             angularaxis=dict(tickfont=dict(color="#f0ede4",size=11)),
-            bgcolor="#070605",
+            bgcolor="#ddd9cc",
         ),
         showlegend=True,
         legend=dict(orientation="h", y=-0.12, x=0.5, xanchor="center", font=dict(color="#9a958a",size=10)),
-        height=360, margin=dict(l=60,r=60,t=30,b=60), paper_bgcolor="#131210",
+        height=360, margin=dict(l=60,r=60,t=30,b=60), paper_bgcolor="#e8e4d9",
     )
     st.plotly_chart(fig_radar, use_container_width=True)
     if hasattr(gap, "weakest_domain_id"):
@@ -791,7 +815,7 @@ with col_rad2:
     ))
     fig_rad2.add_trace(go.Scatterpolar(
         r=scores_radar, theta=labels_radar, mode="markers+text",
-        marker=dict(color=[C["domains"][i] for i in range(len(scores_radar))], size=10, line=dict(color="#0b0a08",width=2)),
+        marker=dict(color=[C["domains"][i] for i in range(len(scores_radar))], size=10, line=dict(color="#c8c4b8",width=2)),
         text=[f"<b>{s:.0f}</b>" for s in scores_radar], textposition="top center",
         textfont=dict(size=11, color="#f0ede4"), showlegend=False,
     ))
@@ -799,14 +823,14 @@ with col_rad2:
         polar=dict(
             domain=dict(x=[0.06,0.94], y=[0.06,0.90]),
             radialaxis=dict(visible=True, range=[0,110], tickfont=dict(color="#9a958a",size=10),
-                            gridcolor="#2a2823", tickvals=[20,40,60,80,100]),
+                            gridcolor="#c8c4b8", tickvals=[20,40,60,80,100]),
             angularaxis=dict(tickfont=dict(color="#f0ede4",size=13, family="Bodoni Moda,Georgia,serif")),
-            bgcolor="#070605",
+            bgcolor="#ddd9cc",
         ),
         showlegend=True,
         legend=dict(orientation="h", y=-0.18, x=0.5, xanchor="center", font=dict(color="#9a958a",size=11)),
         height=540, margin=dict(l=90,r=90,t=100,b=120),
-        paper_bgcolor="#0b0a08",
+        paper_bgcolor="#f0ede4",
     )
     st.plotly_chart(fig_rad2, use_container_width=True)
 
@@ -886,13 +910,13 @@ with col_pie:
     pie_names = [DOMAIN_SHORT.get(d.domain_key, d.domain_name[:18]) for d in domains]
     fig_pie = go.Figure(go.Pie(
         labels=pie_names, values=pie_vals,
-        marker=dict(colors=C["domains"], line=dict(color="#0b0a08",width=2)),
+        marker=dict(colors=C["domains"], line=dict(color="#c8c4b8",width=2)),
         hole=0.45, textinfo="percent+label", textfont=dict(size=9, color="#f0ede4"),
         hovertemplate="<b>%{label}</b><br>Eventos: %{value:,}<br>%{percent}<extra></extra>",
         pull=[0.06 if domain_stats[d.domain_key].risk_events/max(domain_stats[d.domain_key].total_events,1) > 0.3 else 0 for d in domains],
     ))
     fig_pie.update_layout(
-        height=300, margin=dict(l=10,r=10,t=30,b=10), paper_bgcolor="#0b0a08",
+        height=300, margin=dict(l=10,r=10,t=30,b=10), paper_bgcolor="#f0ede4",
         annotations=[dict(text=f"<b style='color:#f0ede4'>{result.total_events:,}</b>", x=0.5, y=0.5,
                           font=dict(size=11,color="#f0ede4"), showarrow=False)],
         showlegend=False,
@@ -916,14 +940,14 @@ with col_sun:
             sun_parents.append(did); sun_vals.append(ds.risk_events); sun_colors.append(C["risk"])
     fig_sun = go.Figure(go.Sunburst(
         ids=sun_ids, labels=sun_labels, parents=sun_parents, values=sun_vals,
-        marker=dict(colors=sun_colors, line=dict(width=1.5, color="#0b0a08")),
+        marker=dict(colors=sun_colors, line=dict(width=1.5, color="#c8c4b8")),
         branchvalues="total",
         hovertemplate="<b>%{label}</b><br>%{value:,} eventos<br>%{percentParent:.1%}<extra></extra>",
         textfont=dict(size=9, color="#f0ede4"),
         insidetextorientation="radial",
     ))
     fig_sun.update_layout(
-        height=300, margin=dict(l=0,r=0,t=30,b=10), paper_bgcolor="#0b0a08",
+        height=300, margin=dict(l=0,r=0,t=30,b=10), paper_bgcolor="#f0ede4",
     )
     st.plotly_chart(fig_sun, use_container_width=True)
 
@@ -974,7 +998,7 @@ if events_with_ts:
         fig_tl.add_trace(go.Scatter(
             x=grp["ts"], y=grp["y"], mode="markers", name=nivel,
             marker=dict(color=lvl_colors_tl.get(nivel,"#9a958a"), size=grp["size"].tolist(), opacity=0.8,
-                        line=dict(color="#0b0a08", width=0.5)),
+                        line=dict(color="#c8c4b8", width=0.5)),
             hovertemplate="<b>%{x|%d/%m %H:%M}</b><br>" + nivel + "<br>%{customdata}<extra></extra>",
             customdata=grp["msg"].tolist(),
         ))
@@ -1188,7 +1212,7 @@ with st.expander("Ver arquitectura de los modelos"):
             for i, lyr in enumerate(layers_list):
                 is_key = any(k in lyr for k in ["8","sigmoid","Softmax"])
                 bg = color if is_key else color+"22"
-                fc = "#0b0a08" if is_key else color
+                fc = "#f0ede4" if is_key else color
                 st.markdown(f'<div style="background:{bg};color:{fc};border:1px solid {color};border-radius:0;padding:4px 8px;text-align:center;margin-bottom:3px;font-family:var(--mono);font-size:0.72rem;font-weight:600">{lyr}</div>', unsafe_allow_html=True)
                 if i < len(layers_list)-1:
                     st.markdown(f'<div style="text-align:center;color:{color};font-size:0.7rem">▼</div>', unsafe_allow_html=True)
@@ -1390,12 +1414,12 @@ if run_dl or "dl_result" in st.session_state:
         labels_t = ["Bajo (<50%)", "Medio (50–75%)", "Alto (>75%)"]
         fig_donut = go.Figure(go.Pie(
             labels=labels_t, values=vals_t,
-            marker=dict(colors=[C["safe"],C["warn"],C["risk"]], line=dict(color="#0b0a08",width=2)),
+            marker=dict(colors=[C["safe"],C["warn"],C["risk"]], line=dict(color="#c8c4b8",width=2)),
             hole=0.5, hovertemplate="%{label}<br>%{value:.1f}%<extra></extra>",
             textfont=dict(size=10,color="#f0ede4"),
         ))
         fig_donut.update_layout(
-            height=250, margin=dict(l=10,r=10,t=10,b=30), paper_bgcolor="#0b0a08", showlegend=True,
+            height=250, margin=dict(l=10,r=10,t=10,b=30), paper_bgcolor="#f0ede4", showlegend=True,
             legend=dict(font=dict(color="#9a958a",size=9)),
             annotations=[dict(text=f"{tl.get('mean_threat_prob',0.0):.1%}", x=0.5, y=0.5,
                               font=dict(size=13,color="#f0ede4",family="Bodoni Moda,serif"), showarrow=False)],
