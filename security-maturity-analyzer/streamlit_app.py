@@ -51,23 +51,23 @@ def hex_rgba(hex_color: str, alpha: float = 1.0) -> str:
     r, g, b = int(h[0:2],16), int(h[2:4],16), int(h[4:6],16)
     return f"rgba({r},{g},{b},{alpha})"
 
-PLOTLY_FONT = dict(family="'JetBrains Mono', 'Courier New', monospace", size=11, color="#f0ede4")
+PLOTLY_FONT = dict(family="'JetBrains Mono', 'Courier New', monospace", size=11, color="#1a1814")
 PLOTLY_DARK = dict(
-    paper_bgcolor="#0b0a08",
-    plot_bgcolor="#131210",
+    paper_bgcolor="#f0ede4",
+    plot_bgcolor="#e8e4d9",
     font=PLOTLY_FONT,
 )
 PLOTLY_AXIS_DARK = dict(
-    gridcolor="#2a2823",
-    tickfont=dict(color="#9a958a", size=10),
+    gridcolor="#c8c4b8",
+    tickfont=dict(color="#4a4640", size=10),
 )
 
 def apply_dossier_theme(fig, polar=False):
     fig.update_layout(
-        paper_bgcolor="#0b0a08",
-        plot_bgcolor="#131210",
+        paper_bgcolor="#f0ede4",
+        plot_bgcolor="#e8e4d9",
         font=PLOTLY_FONT,
-        legend=dict(font=dict(color="#9a958a", size=10), bgcolor="rgba(0,0,0,0)"),
+        legend=dict(font=dict(color="#4a4640", size=10), bgcolor="rgba(0,0,0,0)"),
     )
     if not polar:
         try:
@@ -100,14 +100,14 @@ DOSSIER_CSS = """
    ============================================================ */
 
 :root {
-  --ink:        #0b0a08;  --ink-panel:  #131210;
-  --ink-raise:  #1c1a16;  --ink-sink:   #070605;
-  --bone:       #f0ede4;  --bone-dim:   #9a958a;  --bone-faint: #67635b;
-  --line:       #2a2823;  --line-soft:  #1e1c18;
-  --signal:      #ff4d00; --signal-deep: #c43a00; --signal-glow: rgba(255,77,0,0.20);
-  --lvl-0: #b5321f; --lvl-1: #d6541f; --lvl-2: #e08a1e;
-  --lvl-3: #c9a83a; --lvl-4: #7fa84e; --lvl-5: #4e8c4a;
-  --risk: #d6451f;  --safe: #7fa84e;  --warn: #e0a01e;
+  --ink:        #f0ede4;  --ink-panel:  #e8e4d9;
+  --ink-raise:  #ddd9cc;  --ink-sink:   #f5f2eb;
+  --bone:       #1a1814;  --bone-dim:   #4a4640;  --bone-faint: #7a7570;
+  --line:       #c8c4b8;  --line-soft:  #d8d4c8;
+  --signal:      #c43a00; --signal-deep: #9e2e00; --signal-glow: rgba(196,58,0,0.20);
+  --lvl-0: #b5321f; --lvl-1: #d6541f; --lvl-2: #c8860a;
+  --lvl-3: #a08820; --lvl-4: #4a7830; --lvl-5: #2e6028;
+  --risk: #b5321f;  --safe: #4a7830;  --warn: #c8860a;
   --serif:  'Bodoni Moda', Georgia, serif;
   --grotesk:'Archivo', system-ui, sans-serif;
   --mono:   'JetBrains Mono', monospace;
@@ -210,11 +210,11 @@ textarea::placeholder { color:var(--bone-faint) !important; }
 /* ════════════ COMPONENTES DOSSIER ════════════ */
 
 /* Efecto grano de película (del Dossier-27001.html original) */
-.grain { position:fixed; inset:0; z-index:9000; pointer-events:none; opacity:0.32; mix-blend-mode:overlay; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
-.vignette { position:fixed; inset:0; z-index:8999; pointer-events:none; background:radial-gradient(130% 90% at 50% 0%, transparent 55%, rgba(0,0,0,0.45) 100%); }
+.grain { position:fixed; inset:0; z-index:9000; pointer-events:none; opacity:0.18; mix-blend-mode:multiply; background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+.vignette { position:fixed; inset:0; z-index:8999; pointer-events:none; background:radial-gradient(130% 90% at 50% 0%, transparent 60%, rgba(180,170,150,0.25) 100%); }
 
 /* Masthead editorial */
-.dossier-masthead { border-bottom:2px solid var(--bone); background:rgba(11,10,8,0.97); backdrop-filter:blur(20px); }
+.dossier-masthead { border-bottom:2px solid var(--bone); background:rgba(240,237,228,0.97); backdrop-filter:blur(20px); }
 .dossier-masthead-top { display:flex; align-items:stretch; justify-content:space-between; border-bottom:1px solid var(--line); font-family:var(--mono); font-size:0.65rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--bone-dim); }
 .dossier-masthead-top>div { padding:9px 48px; }
 .dossier-masthead-top .mt-mid { flex:1; text-align:center; border-left:1px solid var(--line); border-right:1px solid var(--line); display:flex; align-items:center; justify-content:center; gap:14px; }
@@ -348,6 +348,50 @@ st.markdown("""
     <h1 class="dossier-title">Dossier <span class="iso">27001</span></h1>
     <div style="font-family:var(--mono);font-size:0.62rem;color:var(--bone-faint);letter-spacing:0.14em;text-transform:uppercase">
       Evaluador de Madurez en Seguridad de la Información
+    </div>
+  </div>
+</div>
+""", unsafe_allow_html=True)
+
+# ────────────────────────────────────────────────────────────────────────────
+# DESCRIPCIÓN + KPI STRIP (entre masthead y fuente de datos)
+# ────────────────────────────────────────────────────────────────────────────
+st.markdown("""
+<div style="padding:0 48px; border-bottom:1px solid var(--line);">
+  <div style="display:grid; grid-template-columns:1fr auto; gap:40px; align-items:stretch; padding:32px 0;">
+
+    <!-- Descripción izquierda -->
+    <div style="display:flex; flex-direction:column; justify-content:center; max-width:58ch;">
+      <p style="font-family:var(--grotesk); font-size:1.05rem; line-height:1.7; color:var(--bone-dim); margin:0;">
+        Un instrumento de evaluación que clasifica eventos de log
+        según los <b style="color:var(--bone)">4 temas del Anexo A</b> de ISO/IEC 27001:2022 y
+        calcula el nivel de madurez COBIT con apoyo de <b style="color:var(--bone)">Deep Learning</b>.
+      </p>
+    </div>
+
+    <!-- KPI cells derecha -->
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); border-left:1px solid var(--line);">
+
+      <div style="border-right:1px solid var(--line); padding:24px 28px 20px;">
+        <div style="font-family:var(--serif); font-weight:800; font-size:clamp(1.8rem,2.5vw,2.6rem); line-height:1; color:var(--bone); letter-spacing:-0.02em;">93</div>
+        <div style="font-family:var(--mono); font-size:0.56rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--bone-faint); margin-top:10px;">Controles</div>
+      </div>
+
+      <div style="border-right:1px solid var(--line); padding:24px 28px 20px;">
+        <div style="font-family:var(--serif); font-weight:800; font-size:clamp(1.8rem,2.5vw,2.6rem); line-height:1; color:var(--bone); letter-spacing:-0.02em;">4</div>
+        <div style="font-family:var(--mono); font-size:0.56rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--bone-faint); margin-top:10px;">Temas Anexo A</div>
+      </div>
+
+      <div style="border-right:1px solid var(--line); padding:24px 28px 20px;">
+        <div style="font-family:var(--serif); font-weight:800; font-size:clamp(1.8rem,2.5vw,2.6rem); line-height:1; color:var(--bone); letter-spacing:-0.02em;">0–5</div>
+        <div style="font-family:var(--mono); font-size:0.56rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--bone-faint); margin-top:10px;">Niveles COBIT</div>
+      </div>
+
+      <div style="padding:24px 28px 20px;">
+        <div style="font-family:var(--serif); font-weight:800; font-size:clamp(1.8rem,2.5vw,2.6rem); line-height:1; color:var(--bone); letter-spacing:-0.02em;">3</div>
+        <div style="font-family:var(--mono); font-size:0.56rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--bone-faint); margin-top:10px;">Modelos DL</div>
+      </div>
+
     </div>
   </div>
 </div>
